@@ -8,7 +8,7 @@ import { faDiscord, faGithub, faTwitter } from '@fortawesome/fontawesome-free-br
 import { faBell, faCalculator, faGavel, faMap } from '@fortawesome/fontawesome-free-solid';
 import fontawesome from '@fortawesome/fontawesome';
 import { catchError, delay, distinctUntilChanged, filter, first, map, mapTo, shareReplay, startWith, switchMap, tap } from 'rxjs/operators';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, combineLatest, fromEvent, Observable, of, Subject } from 'rxjs';
 import { AuthFacade } from './+state/auth.facade';
 import { Character } from '@xivapi/angular-client';
 import { NzIconService } from 'ng-zorro-antd/icon';
@@ -27,7 +27,6 @@ import { AbstractNotification } from './core/notification/abstract-notification'
 import { RotationsFacade } from './modules/rotations/+state/rotations.facade';
 import { PlatformService } from './core/tools/platform.service';
 import { SettingsPopupService } from './modules/settings/settings-popup.service';
-import { BehaviorSubject, combineLatest, fromEvent, of, Subject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { DomSanitizer } from '@angular/platform-browser';
 import { CustomLinksFacade } from './modules/custom-links/+state/custom-links.facade';
@@ -59,6 +58,7 @@ import { RemoveAdsPopupComponent } from './modules/ads/remove-ads-popup/remove-a
 import { FreeCompanyWorkshopFacade } from './modules/free-company-workshops/+state/free-company-workshop.facade';
 import { Language } from './core/data/language';
 import { InventoryService } from './modules/inventory/inventory.service';
+import { DataService } from './core/api/data.service';
 
 @Component({
   selector: 'app-root',
@@ -181,17 +181,20 @@ export class AppComponent implements OnInit {
               private quickSearch: QuickSearchService, public mappy: MappyReporterService,
               apollo: Apollo, httpLink: HttpLink, private tutorialService: TutorialService,
               private playerMetricsService: PlayerMetricsService, private patreonService: PatreonService,
-              private freeCompanyWorkshopFacade: FreeCompanyWorkshopFacade, private cd: ChangeDetectorRef) {
+              private freeCompanyWorkshopFacade: FreeCompanyWorkshopFacade, private cd: ChangeDetectorRef,
+              private data: DataService) {
 
     fromEvent(document, 'keydown').subscribe((event: KeyboardEvent) => {
       this.handleKeypressShortcuts(event);
     });
 
-    const link = httpLink.create({ uri: 'https://us-central1-ffxivteamcraft.cloudfunctions.net/gubal-proxy' });
+    const link = httpLink.create({ uri: 'https://gubal.hasura.app/v1/graphql' });
 
     apollo.create({
       link: link,
-      cache: new InMemoryCache()
+      cache: new InMemoryCache({
+        addTypename: false
+      })
     });
 
     this.showGiveaway = false;
@@ -436,7 +439,7 @@ export class AppComponent implements OnInit {
       if (!this.overlay) {
         this.lazyData.data$
           .pipe(
-            filter(data => data !== undefined),
+            filter(d => d !== undefined),
             first(),
             delay(5000)
           )
@@ -734,6 +737,7 @@ export class AppComponent implements OnInit {
       lang = 'en';
     }
     this.locale = lang;
+    this.data.setSearchLang(lang as Language);
     if (!skipStorage) {
       localStorage.setItem('locale', lang);
     }

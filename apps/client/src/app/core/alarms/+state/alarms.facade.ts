@@ -30,7 +30,6 @@ import { AlarmGroup } from '../alarm-group';
 import { SettingsService } from '../../../modules/settings/settings.service';
 import { WeatherService } from '../../eorzea/weather.service';
 import { NextSpawn } from '../next-spawn';
-import { weatherIndex } from '../../data/sources/weather-index';
 import { mapIds } from '../../data/sources/map-ids';
 import { LazyDataService } from '../../data/lazy-data.service';
 import { GatheringNode } from '../../data/model/gathering-node';
@@ -56,7 +55,7 @@ export class AlarmsFacade {
       if (this.regenerating) {
         return [null];
       }
-      if (alarms[0] && semver.ltr(alarms[0].appVersion || '6.0.0', '7.999.999')) {
+      if (environment.production && alarms[0] && semver.ltr(alarms[0].appVersion || '6.0.0', '8.5.2')) {
         this.regenerateAlarms(alarms);
         return [null];
       }
@@ -309,8 +308,13 @@ export class AlarmsFacade {
         return timeBeforeA < timeBeforeB ? -1 : 1;
       });
       if (alarm.weathers && alarm.weathers?.length > 0) {
+        const spawn = this.findWeatherSpawnCombination(alarm, sortedSpawns, etime.getTime());
+        if (spawn === null) {
+          console.error('No spawn found for alarm');
+          console.log(alarm);
+        }
         this.nextSpawnCache[cacheKey] = {
-          spawn: this.findWeatherSpawnCombination(alarm, sortedSpawns, etime.getTime()),
+          spawn: spawn,
           expires: this.etime.toEarthDate(etime)
         };
       } else {
@@ -333,10 +337,11 @@ export class AlarmsFacade {
         if (alarm.weathersFrom !== undefined && alarm.weathersFrom.length > 0) {
           return {
             weather: weather,
-            spawn: this.weatherService.getNextWeatherTransition(alarm.mapId, alarm.weathersFrom, weather, iteration, weatherIndex[mapIds.find(m => m.id === alarm.mapId).weatherRate])
+            spawn: this.weatherService.getNextWeatherTransition(alarm.mapId, alarm.weathersFrom, weather, iteration,
+              alarm.spawns, alarm.duration)
           };
         }
-        return { weather: weather, spawn: this.weatherService.getNextWeatherStart(alarm.mapId, weather, iteration) };
+        return { weather: weather, spawn: this.weatherService.getNextWeatherStart(alarm.mapId, weather, iteration, false, alarm.spawns, alarm.duration) };
       })
       .filter(spawn => spawn.spawn !== null)
       .sort((a, b) => a.spawn.getTime() - b.spawn.getTime());
@@ -344,7 +349,9 @@ export class AlarmsFacade {
       for (const spawn of sortedSpawns) {
         const despawn = (spawn + alarm.duration) % 24;
         const weatherStart = weatherSpawn.spawn.getUTCHours();
-        const weatherStop = new Date(this.weatherService.nextWeatherTime(weatherSpawn.spawn.getTime())).getUTCHours() || 24;
+        const normalWeatherStop = new Date(this.weatherService.getNextDiffWeatherTime(weatherSpawn.spawn.getTime(), weatherSpawn.weather, alarm.mapId)).getUTCHours() || 24;
+        const transitionWeatherStop = new Date(this.weatherService.nextWeatherTime(weatherSpawn.spawn.getTime())).getUTCHours() || 24;
+        const weatherStop = alarm.weathersFrom ? transitionWeatherStop : normalWeatherStop;
         const range = TimeUtils.getIntersection([spawn, despawn], [weatherStart, weatherStop % 24]);
         if (range) {
           const intersectSpawn = range[0];
@@ -383,7 +390,13 @@ export class AlarmsFacade {
         weather: weatherSpawn.weather
       };
     }
-    return this.findWeatherSpawnCombination(alarm, sortedSpawns, time, this.weatherService.nextWeatherTime(weatherSpawns[0].spawn.getTime()));
+
+    try {
+      return this.findWeatherSpawnCombination(alarm, sortedSpawns, time, this.weatherService.nextWeatherTime(weatherSpawns[0].spawn.getTime()));
+    } catch (e) {
+      console.error(e);
+      return null;
+    }
   }
 
   /**
@@ -480,6 +493,7 @@ export class AlarmsFacade {
       regenerated.userId = alarm.userId;
       regenerated.$key = alarm.$key;
       regenerated.appVersion = environment.version;
+      regenerated.enabled = alarm.enabled;
       return regenerated;
     }
   }
@@ -499,6 +513,7 @@ export class AlarmsFacade {
           clone.alarms = group.alarms;
           clone.$key = group.$key;
           clone.appVersion = environment.version;
+          clone.enabled = group.enabled;
           return clone;
         });
         const newAlarms = alarms.map(alarm => {

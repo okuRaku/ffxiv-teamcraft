@@ -23,6 +23,7 @@
   "Change_character": "Персонаж",
   "Check_guides": "Check our guides",
   "Guides_links": "Teamcraft Guides",
+  "Db_ban": "You do not have permission to post comments on database due to your previous activity in database comments. If you would like to discuss this ban, please DM Miu#1568 on Discord.",
   "AUTH_ERRORS": {
     "auth/credential-already-in-use": "Аккаунт уже существует",
     "auth/email-already-in-use": "Этот адрес уже используется",
@@ -387,6 +388,7 @@
     "Always_on_top": "Всегда cверху",
     "Start_minimized": "Запускать в свёрнутом виде",
     "Always_quit": "Выйти при нажатии на кнопку закрытия (вместо сворачивания)",
+    "Enable_minimize_reduction": "Minimize to tray when clicking on reduce button (instead of reducing to taskbar)",
     "Check_for_update": "Проверить обновления",
     "Downloading_update": "Загрузка обновления",
     "No_update_available": "Нет доступных обновлений",
@@ -451,6 +453,7 @@
     "Enable_metrics_capture_explain": "(позволяет собирать аналитику по вашим доходам/расходам gil и предметов, никогда не загружается на сервер, это только для вас)",
     "Metrics_capture_tooltip": "Эта функция будет добавлена в будущем обновлении, но включение захвата данных сейчас означает, что, как только она будет, у вас данные будут с текущего момента вместо того, когда функция только заработает.",
     "Metrics_capture_folder": "Папка логов с метрикой",
+    "Enable_local_fishing_dump": "Enable local fishing reports dump",
     "Char_data_folder": "Папка с данными персонажа (где расположены папки CHRXXXXXXX)",
     "Maximum_vendor_price": "Максимальная цена продавца",
     "Maximum_vendor_price_explain": "Максимальная цена товара для фильтра раскладки CAN_BE_BOUGHT (0 = без максимальной цены)",
@@ -625,6 +628,8 @@
     "Can_skip_buying_entirely": "Можно полностью пропустить",
     "Can_skip_tooltip": "Another item you're buying requires this item, meaning that you can buy less of this one or skip it entirely if you're planning on buying everything in this panel",
     "Requirements_ignored": "Requirements ignored",
+    "Mark_whole_panel_nq": "Remove manual HQ flags",
+    "Mark_whole_panel_hq": "Mark whole panel HQ",
     "SCROLLING": {
       "Default": "По умолчанию",
       "Only_large": "Только крупные списки",
@@ -1705,7 +1710,8 @@
       "Show_more": "Показать еще {{amount}} комментариев",
       "No_comments": "Нет комментариев",
       "Post": "Разместить",
-      "Editor_tip": "Введите <тип страницы>:\"<Название Контента>\" чтоб создать ссылку на другую страницу. Например: item:\"Curtana\", action:\"Basic Synthesis\", map:\"The Crystarium\". Поддерживаемые типы страниц: item (предмет), map (карта), mob (монстр), achievement (достижение), leve (ливквест), npc, instance (инстанс), quest (квест), trait (пассивный эффект), action (действие), status (эффект)"
+      "Editor_tip": "Введите <тип страницы>:\"<Название Контента>\" чтоб создать ссылку на другую страницу. Например: item:\"Curtana\", action:\"Basic Synthesis\", map:\"The Crystarium\". Поддерживаемые типы страниц: item (предмет), map (карта), mob (монстр), achievement (достижение), leve (ливквест), npc, instance (инстанс), quest (квест), trait (пассивный эффект), action (действие), status (эффект)",
+      "Disclaimer": "Database comments are meant to be useful additional informations, using them to complain about the game or its content may result in a restriction to post comments."
     },
     "PATCH": {
       "Open_patch_page": "Нажмите здесь чтобы открыть полный список изменений патча",
@@ -2145,9 +2151,7 @@
       "Fill_with_inventory": "Вы можете добавить всё, что есть в вашем инвентаре внутри этого списка.",
       "Pricing_mode_button": "Легко подготавливать и прогнозировать свои выгоды для этого списка, используя режим ценообразования.",
       "More_actions_button": "Эта кнопка открывает меню с множеством различных действий для текущей строки списка. Вы можете преобразовать эти действия в кнопки с помощью редактора макетов.",
-      "Alarm_button": "Нажмите здесь чтобы создать оповещение для этого предмета, который будет предупреждать о появлении.",
-      "Mark_whole_panel_nq": "Remove manual HQ flags",
-      "Mark_whole_panel_hq": "Mark whole panel HQ"
+      "Alarm_button": "Нажмите здесь чтобы создать оповещение для этого предмета, который будет предупреждать о появлении."
     },
     "LISTS": {
       "Merge": "Вы можете объединить два списка, используя кнопку объединения.",

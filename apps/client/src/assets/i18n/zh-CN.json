@@ -23,6 +23,7 @@
   "Change_character": "角色",
   "Check_guides": "查阅我们的指南",
   "Guides_links": "TC引导手册",
+  "Db_ban": "You do not have permission to post comments on database due to your previous activity in database comments. If you would like to discuss this ban, please DM Miu#1568 on Discord.",
   "AUTH_ERRORS": {
     "auth/credential-already-in-use": "该用户已被其它帐号绑定",
     "auth/email-already-in-use": "电子邮箱已被使用",
@@ -387,6 +388,7 @@
     "Always_on_top": "总在最上层",
     "Start_minimized": "启动时最小化到托盘",
     "Always_quit": "关闭窗口时退出 (而不是最小化)",
+    "Enable_minimize_reduction": "点击最小化按钮时最小化到托盘 (将不会在任务栏显示)",
     "Check_for_update": "检查更新",
     "Downloading_update": "正在下载更新",
     "No_update_available": "已是最新版本",
@@ -451,6 +453,7 @@
     "Enable_metrics_capture_explain": "（通过金币和物品收入进行捕获和统计，此信息仅供您查看，不会上传至服务器）",
     "Metrics_capture_tooltip": "此功能将在未来的更新中添加，但现在启用数据捕获即意味着更新后您可以查看更多的数据。",
     "Metrics_capture_folder": "计量日志文件夹",
+    "Enable_local_fishing_dump": "Enable local fishing reports dump",
     "Char_data_folder": "角色数据文件夹 （CHRXXXXXXX 所在位置）",
     "Maximum_vendor_price": "最大商店购买价格",
     "Maximum_vendor_price_explain": "单个物品可被 CAN_BE_BOUGHT 布局捕获的最大价格（0 = 无限制）",
@@ -625,6 +628,8 @@
     "Can_skip_buying_entirely": "可以全部跳过",
     "Can_skip_tooltip": "其他可以购买的物品需要此物品。这意味着如果你计划购买面板中所有的其他物品，就可以少购买或直接忽略此物品。",
     "Requirements_ignored": "已忽略素材",
+    "Mark_whole_panel_nq": "Remove manual HQ flags",
+    "Mark_whole_panel_hq": "Mark whole panel HQ",
     "SCROLLING": {
       "Default": "默认",
       "Only_large": "仅限超长清单",
@@ -1705,7 +1710,8 @@
       "Show_more": "查看其他{{amount}} 个评论",
       "No_comments": "暂无评论",
       "Post": "发布",
-      "Editor_tip": "输入 <页面类型>:\"<页面标题>\" 以链接到其它页面。例如， item:\"无锋剑柯塔纳\"、action:\"制作\"、map:\"魔晶堂\" 。支持的页面类型有：item(物品), map(地图), mob(怪物), achievement(成就), leve(理符), npc, instance(副本), quest(任务), trait(特性), action(技能), status(状态)"
+      "Editor_tip": "输入 <页面类型>:\"<页面标题>\" 以链接到其它页面。例如， item:\"无锋剑柯塔纳\"、action:\"制作\"、map:\"魔晶堂\" 。支持的页面类型有：item(物品), map(地图), mob(怪物), achievement(成就), leve(理符), npc, instance(副本), quest(任务), trait(特性), action(技能), status(状态)",
+      "Disclaimer": "Database comments are meant to be useful additional informations, using them to complain about the game or its content may result in a restriction to post comments."
     },
     "PATCH": {
       "Open_patch_page": "点击此处在数据库中打开新版本的全部改动",
@@ -2145,9 +2151,7 @@
       "Fill_with_inventory": "你可以将物品栏中已有的物品填充至清单",
       "Pricing_mode_button": "使用定价模式可以轻松进行准备并预测清单的收益",
       "More_actions_button": "点击此按钮可以打开菜单并对此物品进行一系列操作。你可以在布局编辑器中修改菜单内容",
-      "Alarm_button": "点击这里为此物品设置闹钟，这样可以在其刷新时收到通知",
-      "Mark_whole_panel_nq": "移除所有手动添加的HQ标志",
-      "Mark_whole_panel_hq": "标记整个面板为HQ"
+      "Alarm_button": "点击这里为此物品设置闹钟，这样可以在其刷新时收到通知"
     },
     "LISTS": {
       "Merge": "可以使用“合并清单”按钮合并两个清单",

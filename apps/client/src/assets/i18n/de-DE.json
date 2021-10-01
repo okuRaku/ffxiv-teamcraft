@@ -21,8 +21,9 @@
   "Patch_notes_footer": "Gefallen dir die neuen Funktionen? Dann ziehe doch in Betracht das Projekt auf Patreon zu unterstützen.",
   "Selection": "Auswahl",
   "Change_character": "Charakter",
-  "Check_guides": "Check our guides",
+  "Check_guides": "Schau dir unsere Guides an",
   "Guides_links": "Teamcraft Guides",
+  "Db_ban": "Du hast aufgrund deiner vorherigen Aktivitäten keine Berechtigung, Kommentare in den Datenbank zu veröffentlichen. Wenn du die Sperre diskutieren möchtest, schreibe Miu#1568 auf Discord eine Nachricht.",
   "AUTH_ERRORS": {
     "auth/credential-already-in-use": "Account wird bereits benutzt",
     "auth/email-already-in-use": "Email wird bereits benutzt",
@@ -213,7 +214,7 @@
     "Regenerate": "Alle Alarme neu generieren",
     "Group_outdated": "Diese Gruppe ist veraltet, bitte den Besitzer, sich mit einem neuen Update anzumelden und es wird aktualisiert",
     "Remove_from_group": "Von dieser Gruppe entfernen",
-    "No_folder": "No folder",
+    "No_folder": "Kein Ordner",
     "REALTIME": {
       "Reset_timers": "Timer-Zurücksetzung",
       "WEEKLY_RESETS": "Wöchentliche",
@@ -387,6 +388,7 @@
     "Always_on_top": "Immer im Vordergrund",
     "Start_minimized": "Minimiert im Tray starten",
     "Always_quit": "Beim Klicken auf den Schließen-Button beenden anstatt zu minimieren",
+    "Enable_minimize_reduction": "Minimize to tray when clicking on reduce button (instead of reducing to taskbar)",
     "Check_for_update": "Neues Update verfügbar?",
     "Downloading_update": "Lade Update herunter",
     "No_update_available": "Kein Update verfügbar",
@@ -451,6 +453,7 @@
     "Enable_metrics_capture_explain": "(Erlaubt das Erfassen und Analysieren deiner Gil und Einnahmen. Dies wird niemals auf dem Server gespeichert und dient nur für dich selbst)",
     "Metrics_capture_tooltip": "Diese Funktion wird zwar erst in einem künftigen Update hinzugefügt, die Datenerfassung jetzt schon zu aktivieren bedeutet aber, dass Daten bereits gesammelt werden können und nicht erst, wenn die Funktion zur App hinzugefügt wird.",
     "Metrics_capture_folder": "Metrik-Logordner",
+    "Enable_local_fishing_dump": "Enable local fishing reports dump",
     "Char_data_folder": "Charakterdatenordner (wo sich die CHRXXXXXXX-Ordner befinden)",
     "Maximum_vendor_price": "Maximaler Händlerpreis",
     "Maximum_vendor_price_explain": "Maximaler Preis für einen Artikel, der vom Layoutfilter CAN_BE_BOUGHT berücksichtigt werden soll (0 = kein maximaler Preis)",
@@ -513,7 +516,7 @@
       "Autofill_completion": "Auto-Vervollständigung",
       "Retainer_tracker": "Gehilfen-Tracker",
       "Voyage_tracker": "Erkundungs-Tracker",
-      "Reset_timer": "Reset timer"
+      "Reset_timer": "Timer-Zurücksetzung"
     }
   },
   "PROFILE": {
@@ -532,7 +535,7 @@
     "User_not_verified": "Benutzer nicht verifiziert, klicke zum Verifizieren.",
     "More_than_100_lists_created": "Mehr als 100 Listen erzeugt",
     "Veteran": "Veteran",
-    "Autofill_from_packets": "Autofill stats using packet capture (will take food stats into account too)",
+    "Autofill_from_packets": "Werte automatisch mit Paketerfassung ausfüllen (berücksichtigt auch Nahrungseffekte)",
     "Autofill_stats_explain": "Wechsel zum gewünschten Job, um diesen zu aktualisieren. Schließe diese Einblendung, wenn du damit fertig bist. Bitte achte darauf, dass du kein aktives Bufffood hast, ansonsten werden deine Werte mit diesem gespeichert und dadurch verfälscht.",
     "Open_public_profile": "Öffentliches Profil öffnen",
     "Community_contributions": "Community-Beiträge",
@@ -625,6 +628,8 @@
     "Can_skip_buying_entirely": "Kann vollständig übersprungen werden",
     "Can_skip_tooltip": "Ein anderer Gegenstand, den du kaufst, benötigt diesen Gegenstand, bedeutet, dass du weniger von diesem kaufen kannst oder es komplett überspringen kannst, wenn du alles in diesem Panel kaufen möchtest",
     "Requirements_ignored": "Requirements ignored",
+    "Mark_whole_panel_nq": "Remove manual HQ flags",
+    "Mark_whole_panel_hq": "Mark whole panel HQ",
     "SCROLLING": {
       "Default": "Standard",
       "Only_large": "Nur große Listen",
@@ -1705,7 +1710,8 @@
       "Show_more": "{{amount}} weitere Kommentare anzeigen",
       "No_comments": "Keine Kommentare",
       "Post": "Abschicken",
-      "Editor_tip": "Schreibe <Seitentyp>:\"<Name>\" um auf eine andere Seite zu verweisen. Beispiele: item:\"Curtana\", action:\"Bearbeiten\", map:\"Crystarium\". Unterstützte Seitentypen: item (Gegenstände), map (Karten), mob (Monster), achievement (Errungenschaften), leve (Freibriefe), npc, instance (Inhalte), quest (Aufgaben), trait (Eigenschaften), action (Kommandos), status (Statuseffekte)"
+      "Editor_tip": "Schreibe <Seitentyp>:\"<Name>\" um auf eine andere Seite zu verweisen. Beispiele: item:\"Curtana\", action:\"Bearbeiten\", map:\"Crystarium\". Unterstützte Seitentypen: item (Gegenstände), map (Karten), mob (Monster), achievement (Errungenschaften), leve (Freibriefe), npc, instance (Inhalte), quest (Aufgaben), trait (Eigenschaften), action (Kommandos), status (Statuseffekte)",
+      "Disclaimer": "Database comments are meant to be useful additional informations, using them to complain about the game or its content may result in a restriction to post comments."
     },
     "PATCH": {
       "Open_patch_page": "Hier klicken, um die vollständigen Patchnotes in der Datenbank anzuzeigen",
@@ -2145,9 +2151,7 @@
       "Fill_with_inventory": "Du kannst alles, was in deinem Inventar ist, zu dieser Liste hinzufügen.",
       "Pricing_mode_button": "Du kannst den Nutzen einer Liste einfach über den Preismodus einsehen.",
       "More_actions_button": "Dies öffnet ein Menü mit vielen verschiedenen Aktionen für die aktuelle Listenzeile. Du kannst diese Aktionen mit Hilfe des Layout-Editors in Schaltflächen umwandeln.",
-      "Alarm_button": "Klicke hier, um einen Alarm für dieses Element zu erstellen, der dich benachrichtigt, wenn es auftritt.",
-      "Mark_whole_panel_nq": "Remove manual HQ flags",
-      "Mark_whole_panel_hq": "Mark whole panel HQ"
+      "Alarm_button": "Klicke hier, um einen Alarm für dieses Element zu erstellen, der dich benachrichtigt, wenn es auftritt."
     },
     "LISTS": {
       "Merge": "Du kannst zwei Listen mit \"Zusammenfassen\" kombinieren.",

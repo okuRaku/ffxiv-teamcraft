@@ -23,6 +23,7 @@
   "Change_character": "キャラクター",
   "Check_guides": "ガイドを確認してください",
   "Guides_links": "Teamcraft ガイド",
+  "Db_ban": "You do not have permission to post comments on database due to your previous activity in database comments. If you would like to discuss this ban, please DM Miu#1568 on Discord.",
   "AUTH_ERRORS": {
     "auth/credential-already-in-use": "このアカウントは既に使われています",
     "auth/email-already-in-use": "このメールアドレスは既に使われています",
@@ -387,6 +388,7 @@
     "Always_on_top": "常に最前面",
     "Start_minimized": "起動時に最小化",
     "Always_quit": "閉じるボタンをクリックすると最小化せず終了します",
+    "Enable_minimize_reduction": "Minimize to tray when clicking on reduce button (instead of reducing to taskbar)",
     "Check_for_update": "アップデートを確認する",
     "Downloading_update": "アップデートがダウンロード中",
     "No_update_available": "利用可能な更新はありません",
@@ -451,6 +453,7 @@
     "Enable_metrics_capture_explain": "（これはあなたのためのものなので、ギルとアイテム収入の分析結果をサーバーにアップロードすることはありません）",
     "Metrics_capture_tooltip": "この機能は今後のアップデートで追加されます。ただ、データキャプチャを有効にする状態だったら、その時点からデータが記録されます。",
     "Metrics_capture_folder": "メトリックログフォルダ",
+    "Enable_local_fishing_dump": "Enable local fishing reports dump",
     "Char_data_folder": "キャラクターデータフォルダ(CHRXXXXXXXフォルダがある所)",
     "Maximum_vendor_price": "ショップ購入価格最大値",
     "Maximum_vendor_price_explain": "CAN_BE_BOUGHT レイアウトフィルターで使用される価格最大値(0=最大値なし)",
@@ -625,6 +628,8 @@
     "Can_skip_buying_entirely": "全部スキップ可能",
     "Can_skip_tooltip": "他のアイテムを買うには該当アイテムが必要になります。つまり、該当パネルにある全てを買う計画でしたらアイテムを少なめに買うか、完全に飛ばされる事ができます",
     "Requirements_ignored": "除外した素材",
+    "Mark_whole_panel_nq": "Remove manual HQ flags",
+    "Mark_whole_panel_hq": "Mark whole panel HQ",
     "SCROLLING": {
       "Default": "デフォルト",
       "Only_large": "超過された時のみ",
@@ -1705,7 +1710,8 @@
       "Show_more": "{{amount}} 件のコメントを見る",
       "No_comments": "コメントなし",
       "Post": "投稿",
-      "Editor_tip": "他のページへのリンクを作成するため<page type>：\"<Content Name>\"を入力してください。例：item：\"Curtana\"、action：\"Basic Synthesis\"、map：\"The Crystarium\"サポートしているページの種類：item、map、mob、achievement、leve、npc、instance、quest、trait、action、status"
+      "Editor_tip": "他のページへのリンクを作成するため<page type>：\"<Content Name>\"を入力してください。例：item：\"Curtana\"、action：\"Basic Synthesis\"、map：\"The Crystarium\"サポートしているページの種類：item、map、mob、achievement、leve、npc、instance、quest、trait、action、status",
+      "Disclaimer": "Database comments are meant to be useful additional informations, using them to complain about the game or its content may result in a restriction to post comments."
     },
     "PATCH": {
       "Open_patch_page": "データベースのパッチ変更点はこちらをクリックしてください",
@@ -2145,9 +2151,7 @@
       "Fill_with_inventory": "You can add everything that's inside your inventory inside this list.",
       "Pricing_mode_button": "価格設定モードを使用して、このリストの利益を簡単に予測できます。",
       "More_actions_button": "This button opens a menu with a lot of different actions for the current list row. You can convert these actions to buttons using the layout editor.",
-      "Alarm_button": "Click here to create an alarm for this item, to be alerted when it spawns.",
-      "Mark_whole_panel_nq": "Remove manual HQ flags",
-      "Mark_whole_panel_hq": "Mark whole panel HQ"
+      "Alarm_button": "Click here to create an alarm for this item, to be alerted when it spawns."
     },
     "LISTS": {
       "Merge": "マージボタンを使用して、2つのリストをマージできます。",

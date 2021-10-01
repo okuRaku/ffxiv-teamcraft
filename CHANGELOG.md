@@ -2,6 +2,125 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.5.9"></a>
+## [8.5.9](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.8...v8.5.9) (2021-09-22)
+
+
+### Bug Fixes
+
+* **alarms:** fixed weather + time alarms not being accurate with twice the same weather in a row ([e19af24](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/e19af24))
+* **marketboard:** fixed server MB data fetching not working at all ([0f6d553](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/0f6d553))
+
+
+
+<a name="8.5.8"></a>
+## [8.5.8](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.7...v8.5.8) (2021-09-21)
+
+
+### Bug Fixes
+
+* **alarms:** fixed alarms with same weather transition crashing the system ([dd66b45](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/dd66b45))
+* **currency-spending:** now using server prices only for price checking ([01bb025](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/01bb025))
+* **leveling-equipment:** cannot wear the same unique ring twice anymore ([1e44ccd](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/1e44ccd))
+
+
+
+<a name="8.5.7"></a>
+## [8.5.7](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.6...v8.5.7) (2021-09-19)
+
+
+### Bug Fixes
+
+* **alarms:** better fix for weather transition detection ([4aadc5f](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/4aadc5f))
+* **profile:** hotfix for profile and marketboard popup not loading at all ([63bb72e](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/63bb72e))
+
+
+
+<a name="8.5.6"></a>
+## [8.5.6](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.5...v8.5.6) (2021-09-19)
+
+
+### Bug Fixes
+
+* **alarms:** better weather and transitions system ([0d26154](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/0d26154))
+* **baits:** removed undefined tugs ([b74b1c0](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/b74b1c0))
+* **db:** removed giant snagging icon that could sometimes appear on fishing maps ([700f14f](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/700f14f))
+* **list-details:** fixed missing tooltip translation ([0116c9d](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/0116c9d))
+* **log-tracker:** use correct hookset string for tooltip ([b275b5c](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/b275b5c))
+
+
+
+<a name="8.5.5"></a>
+## [8.5.5](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.4...v8.5.5) (2021-09-16)
+
+
+### Bug Fixes
+
+* **alarms:** fixed an issue with weather + time combination lasting more than 8 hours ([88a8c97](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/88a8c97))
+* **gearset:** fixed anb issue with lower level crafting and gathering items not showing ([8dfc511](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/8dfc511))
+* **icons:** fixed middle click not opening the db page in new tab anymore ([3be76b9](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/3be76b9))
+* **pricing-mode:** fixed final items not handling unmarketable items properly ([31d1dc3](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/31d1dc3))
+
+
+### Features
+
+* **db:** support for korean v5.5 update ([2646401](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/2646401))
+
+
+
+<a name="8.5.4"></a>
+## [8.5.4](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.3...v8.5.4) (2021-09-11)
+
+
+### Bug Fixes
+
+* **alarms:** fixed regeneration not keeping the enabled flag on groups and alarms ([011afb5](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/011afb5))
+* **db:** fixed reduction details showing a "show more" button even when not needed ([aee8480](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/aee8480))
+* **fishing:** fixed local dump breaking fishing reporter entirely ([92fa781](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/92fa781))
+
+
+
+<a name="8.5.3"></a>
+## [8.5.3](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.2...v8.5.3) (2021-09-10)
+
+
+### Bug Fixes
+
+* **log-tracker:** fixed duplicate displays in fishing log tracker ([99bbb8a](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/99bbb8a))
+* **log-tracker:** fixed wrong tooltip for powerful and precision hooksets ([d051fb4](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/d051fb4))
+
+
+### Features
+
+* **fishing:** added local dump setting for fishing reports ([e1187ff](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/e1187ff))
+
+
+
+<a name="8.5.2"></a>
+## [8.5.2](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.1...v8.5.2) (2021-09-09)
+
+
+### Bug Fixes
+
+* **alarms:** fixed weather transition and spawns intersection sometimes not optimal ([c1d7192](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/c1d7192))
+* **leveling-equipment:** fixed secondary stat not accurate with tank gear above lvl 50 ([dfc6fbb](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/dfc6fbb))
+* **levequests:** fixed gamerescape link not working on desktop app ([ef802c2](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/ef802c2))
+* **list:** fixed list name display in half 1080p screen size ([30ae908](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/30ae908))
+* **metrics:** retainer gil obtained from marketboard should now be tagged as marketboard income ([a4fced9](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/a4fced9))
+* **simulator:** actions are now disabled even on first step if you can't use them ([f136a86](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/f136a86))
+* **ux:** moved universalis link to the top of the marketboard info popup ([9394bc8](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/9394bc8))
+
+
+### Features
+
+* **desktop:** clicking an item icon in overlay now opens db page in main window ([c867303](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/c867303))
+* **fishing:** add fish, bait icons to fishing-spot-bite-times box plot ([adce65a](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/adce65a))
+* **fishing:** added tug information to bait chains display when needed ([459b14a](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/459b14a))
+* **fishing:** migrate to new gubal with Hasura Cloud 2.0 ([bb2f87f](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/bb2f87f))
+* **ux:** added tug label next to fish name in bite times chart ([0fe0891](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/commit/0fe0891))
+
+
+
 <a name="8.5.1"></a>
 ## [8.5.1](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/compare/v8.5.0...v8.5.1) (2021-09-01)
 
