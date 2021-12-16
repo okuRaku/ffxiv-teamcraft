@@ -5,6 +5,7 @@ import { filter, first, map, switchMap, tap } from 'rxjs/operators';
 import { ListsFacade } from '../../../modules/list/+state/lists.facade';
 import { ListTemplate } from '../../../core/database/custom-links/list-template';
 import { List } from '../../../modules/list/model/list';
+import { ListController } from '../../../modules/list/list-controller';
 
 @Component({
   selector: 'app-template',
@@ -49,13 +50,13 @@ export class TemplateComponent {
           filter(l => !l.notFound),
           tap(() => this.status = 'Copying'),
           map(original => {
-            const clone = original.clone();
+            const clone = ListController.clone(original);
             this.listsFacade.addList(clone);
             return clone;
           }),
           switchMap(clone => {
             return this.listsFacade.myLists$.pipe(
-              map((lists: List[]) => lists.find(l => l.createdAt.toMillis() === clone.createdAt.toMillis() && l.$key !== undefined)),
+              map((lists: List[]) => lists.find(l => l.createdAt.seconds === clone.createdAt.seconds && l.$key !== undefined)),
               filter(l => l !== undefined)
             );
           })

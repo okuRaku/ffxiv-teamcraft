@@ -68,7 +68,7 @@ export class ItemsExtractor extends AbstractExtractor {
           if (item.IsUntradable === 0) {
             tradeFlags[item.ID] = 1;
           }
-          if (item.ItemSearchCategoryTargetID > 9) {
+          if (item.ItemSearchCategoryTargetID >= 9) {
             marketItems.push(item.ID);
           }
           if ([30, 46].includes(item.ItemSearchCategoryTargetID)) {
@@ -86,14 +86,14 @@ export class ItemsExtractor extends AbstractExtractor {
                   {
                     ID: 12,
                     NQ: item.DamagePhys,
-                    HQ: item.DamagePhys + item.BaseParamValueSpecial0
+                    HQ: item.DamagePhys + (+item.BaseParamValueSpecial0)
                   });
               } else {
                 itemMainAttributes[item.ID].push(
                   {
                     ID: 13,
                     NQ: item.DamageMag,
-                    HQ: item.DamageMag + item.BaseParamValueSpecial1
+                    HQ: item.DamageMag + (+item.BaseParamValueSpecial1)
                   });
               }
             }
@@ -101,12 +101,12 @@ export class ItemsExtractor extends AbstractExtractor {
               itemMainAttributes[item.ID].push({
                   ID: 21,
                   NQ: item.DefensePhys,
-                  HQ: item.DefensePhys + item.BaseParamValueSpecial0
+                  HQ: item.DefensePhys + (+item.BaseParamValueSpecial0)
                 },
                 {
                   ID: 24,
                   NQ: item.DefenseMag,
-                  HQ: item.DefenseMag + item.BaseParamValueSpecial1
+                  HQ: item.DefenseMag + (+item.BaseParamValueSpecial1)
                 });
             }
             if (itemMainAttributes[item.ID].length === 0) {
@@ -156,6 +156,7 @@ export class ItemsExtractor extends AbstractExtractor {
         this.persistToJsonAsset('item-main-attributes', itemMainAttributes);
         this.persistToJsonAsset('item-melding-data', itemMeldingData);
         this.persistToJsonAsset('hq-flags', hqFlags);
+        this.persistToTypescript('sync-hq-flags', 'syncHqFlags', hqFlags);
         this.persistToJsonAsset('trade-flags', tradeFlags);
         this.persistToJsonAsset('item-equip-slot-category', equipSlotCategoryId);
         this.persistToJsonAsset('item-patch', itemPatch);

@@ -578,9 +578,9 @@ export const stats = [
   {
     "id": 73,
     "en": "Perception",
-    "de": "Wahrnehmung",
-    "ja": "識質力",
-    "fr": "Discernement",
+    "de": "Expertise",
+    "ja": "技術力",
+    "fr": "Savoir-faire",
     "filterName": "Perception"
   }
 ];

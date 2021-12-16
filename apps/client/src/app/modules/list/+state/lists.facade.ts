@@ -24,6 +24,7 @@ import {
   ToggleAutocompletion,
   ToggleCompletionNotification,
   UnLoadArchivedLists,
+  UnloadListDetails,
   UnPinList,
   UpdateItem,
   UpdateList,
@@ -56,15 +57,15 @@ declare const gtag: Function;
 })
 export class ListsFacade {
   loadingMyLists$ = this.store.select(listsQuery.getListsLoading);
+
   connectedTeams$ = this.store.select(listsQuery.getConnectedTeams);
+
   allListDetails$ = this.store.select(listsQuery.getAllListDetails)
     .pipe(
       map(lists => {
         return lists.filter(list => {
           return list.finalItems !== undefined
-            && list.items !== undefined
-            && list.isOutDated
-            && typeof list.isOutDated === 'function';
+            && list.items !== undefined;
         });
       })
     );
@@ -264,6 +265,7 @@ export class ListsFacade {
     this.loadMyLists();
     const list = this.newListWithName(itemName);
     list.ephemeral = true;
+    list.offline = this.settings.makeQuickListsOffline;
     return list;
   }
 
@@ -342,6 +344,7 @@ export class ListsFacade {
 
   unload(key: string): void {
     this.store.dispatch(new SelectList(undefined));
+    this.store.dispatch(new UnloadListDetails(key));
   }
 
   toggleAutocomplete(newValue: boolean): void {
@@ -483,7 +486,7 @@ export class ListsFacade {
         return this.progress.showProgress(
           combineLatest([this.myLists$, this.listsWithWriteAccess$]).pipe(
             map(([myLists, listsICanWrite]) => [...myLists, ...listsICanWrite]),
-            map(lists => lists.find(l => l.createdAt.toMillis() === updatedList.createdAt.toMillis() && l.$key !== undefined)),
+            map(lists => lists.find(l => l.createdAt.seconds === updatedList.createdAt.seconds && l.$key !== undefined)),
             filter(l => l !== undefined),
             first()
           ), 1, 'Saving_in_database');

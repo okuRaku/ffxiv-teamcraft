@@ -464,8 +464,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 84,
-        "MaxHQ": 105,
+        "Max": 70,
+        "MaxHQ": 87,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -479,8 +479,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 84,
-        "MaxHQ": 105,
+        "Max": 70,
+        "MaxHQ": 87,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -494,8 +494,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 82,
-        "MaxHQ": 103,
+        "Max": 71,
+        "MaxHQ": 89,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -509,8 +509,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 84,
-        "MaxHQ": 105,
+        "Max": 70,
+        "MaxHQ": 87,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -524,8 +524,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 84,
-        "MaxHQ": 105,
+        "Max": 70,
+        "MaxHQ": 87,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -539,8 +539,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 102,
-        "MaxHQ": 127,
+        "Max": 76,
+        "MaxHQ": 95,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -554,8 +554,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 102,
-        "MaxHQ": 127,
+        "Max": 76,
+        "MaxHQ": 95,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -569,8 +569,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 102,
-        "MaxHQ": 127,
+        "Max": 75,
+        "MaxHQ": 94,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -584,8 +584,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 102,
-        "MaxHQ": 127,
+        "Max": 76,
+        "MaxHQ": 95,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -599,8 +599,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 102,
-        "MaxHQ": 127,
+        "Max": 76,
+        "MaxHQ": 95,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -614,8 +614,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 123,
-        "MaxHQ": 154,
+        "Max": 81,
+        "MaxHQ": 101,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -629,8 +629,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 123,
-        "MaxHQ": 154,
+        "Max": 81,
+        "MaxHQ": 101,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -644,8 +644,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 126,
-        "MaxHQ": 158,
+        "Max": 82,
+        "MaxHQ": 102,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -659,8 +659,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 123,
-        "MaxHQ": 154,
+        "Max": 81,
+        "MaxHQ": 101,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -674,8 +674,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 123,
-        "MaxHQ": 154,
+        "Max": 81,
+        "MaxHQ": 101,
         "Relative": true,
         "Value": 16,
         "ValueHQ": 20
@@ -747,8 +747,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 110,
-        "MaxHQ": 137,
+        "Max": 79,
+        "MaxHQ": 99,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -762,8 +762,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 110,
-        "MaxHQ": 137,
+        "Max": 79,
+        "MaxHQ": 99,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -777,8 +777,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 112,
-        "MaxHQ": 140,
+        "Max": 78,
+        "MaxHQ": 98,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -792,8 +792,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 110,
-        "MaxHQ": 137,
+        "Max": 79,
+        "MaxHQ": 99,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -807,8 +807,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 110,
-        "MaxHQ": 137,
+        "Max": 79,
+        "MaxHQ": 99,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -822,8 +822,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 132,
-        "MaxHQ": 165,
+        "Max": 82,
+        "MaxHQ": 103,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -837,8 +837,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 132,
-        "MaxHQ": 165,
+        "Max": 82,
+        "MaxHQ": 103,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -852,8 +852,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 138,
-        "MaxHQ": 172,
+        "Max": 82,
+        "MaxHQ": 103,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -867,8 +867,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 132,
-        "MaxHQ": 165,
+        "Max": 82,
+        "MaxHQ": 103,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -882,8 +882,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 132,
-        "MaxHQ": 165,
+        "Max": 82,
+        "MaxHQ": 103,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -897,8 +897,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 180,
-        "MaxHQ": 225,
+        "Max": 89,
+        "MaxHQ": 111,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -912,8 +912,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 180,
-        "MaxHQ": 225,
+        "Max": 89,
+        "MaxHQ": 111,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -927,8 +927,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 193,
-        "MaxHQ": 241,
+        "Max": 90,
+        "MaxHQ": 113,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -942,8 +942,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 180,
-        "MaxHQ": 225,
+        "Max": 89,
+        "MaxHQ": 111,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -957,8 +957,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 180,
-        "MaxHQ": 225,
+        "Max": 89,
+        "MaxHQ": 111,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -972,8 +972,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 250,
-        "MaxHQ": 312,
+        "Max": 94,
+        "MaxHQ": 117,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -987,8 +987,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 250,
-        "MaxHQ": 312,
+        "Max": 94,
+        "MaxHQ": 117,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1002,8 +1002,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 262,
-        "MaxHQ": 328,
+        "Max": 95,
+        "MaxHQ": 119,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1017,8 +1017,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 250,
-        "MaxHQ": 312,
+        "Max": 94,
+        "MaxHQ": 117,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1032,8 +1032,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 250,
-        "MaxHQ": 312,
+        "Max": 94,
+        "MaxHQ": 117,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1105,8 +1105,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 271,
-        "MaxHQ": 339,
+        "Max": 99,
+        "MaxHQ": 124,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1120,8 +1120,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 271,
-        "MaxHQ": 339,
+        "Max": 99,
+        "MaxHQ": 124,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1135,8 +1135,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 282,
-        "MaxHQ": 353,
+        "Max": 99,
+        "MaxHQ": 124,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1150,8 +1150,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 271,
-        "MaxHQ": 339,
+        "Max": 99,
+        "MaxHQ": 124,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1165,8 +1165,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 271,
-        "MaxHQ": 339,
+        "Max": 99,
+        "MaxHQ": 124,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1180,8 +1180,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 318,
-        "MaxHQ": 398,
+        "Max": 106,
+        "MaxHQ": 133,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1195,8 +1195,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 318,
-        "MaxHQ": 398,
+        "Max": 106,
+        "MaxHQ": 133,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1210,8 +1210,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 344,
-        "MaxHQ": 430,
+        "Max": 109,
+        "MaxHQ": 136,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1225,8 +1225,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 318,
-        "MaxHQ": 398,
+        "Max": 106,
+        "MaxHQ": 133,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1240,8 +1240,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 318,
-        "MaxHQ": 398,
+        "Max": 106,
+        "MaxHQ": 133,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1255,8 +1255,8 @@
     "Bonuses": {
       "Strength": {
         "ID": 1,
-        "Max": 371,
-        "MaxHQ": 464,
+        "Max": 115,
+        "MaxHQ": 144,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1270,8 +1270,8 @@
     "Bonuses": {
       "Dexterity": {
         "ID": 2,
-        "Max": 371,
-        "MaxHQ": 464,
+        "Max": 115,
+        "MaxHQ": 144,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1285,8 +1285,8 @@
     "Bonuses": {
       "Vitality": {
         "ID": 3,
-        "Max": 417,
-        "MaxHQ": 521,
+        "Max": 119,
+        "MaxHQ": 149,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1300,8 +1300,8 @@
     "Bonuses": {
       "Intelligence": {
         "ID": 4,
-        "Max": 371,
-        "MaxHQ": 464,
+        "Max": 115,
+        "MaxHQ": 144,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1315,8 +1315,8 @@
     "Bonuses": {
       "Mind": {
         "ID": 5,
-        "Max": 371,
-        "MaxHQ": 464,
+        "Max": 115,
+        "MaxHQ": 144,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -1325,5 +1325,125 @@
     "ID": 31897,
     "LevelEquip": 1,
     "LevelItem": 510
+  },
+  {
+    "Bonuses": {
+      "Strength": {
+        "ID": 1,
+        "Max": 137,
+        "MaxHQ": 172,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36104,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Dexterity": {
+        "ID": 2,
+        "Max": 137,
+        "MaxHQ": 172,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36105,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Vitality": {
+        "ID": 3,
+        "Max": 136,
+        "MaxHQ": 171,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36106,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Intelligence": {
+        "ID": 4,
+        "Max": 137,
+        "MaxHQ": 172,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36107,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Mind": {
+        "ID": 5,
+        "Max": 137,
+        "MaxHQ": 172,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36108,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Craftsmanship": {
+        "ID": 70,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 2,
+        "ValueHQ": 3
+      }
+    },
+    "ID": 36114,
+    "LevelEquip": 1,
+    "LevelItem": 527
+  },
+  {
+    "Bonuses": {
+      "Control": {
+        "ID": 71,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 2,
+        "ValueHQ": 3
+      }
+    },
+    "ID": 36115,
+    "LevelEquip": 1,
+    "LevelItem": 540
+  },
+  {
+    "Bonuses": {
+      "CP": {
+        "ID": 11,
+        "Max": 17,
+        "MaxHQ": 21,
+        "Relative": true,
+        "Value": 5,
+        "ValueHQ": 6
+      }
+    },
+    "ID": 36116,
+    "LevelEquip": 1,
+    "LevelItem": 554
   }
 ]

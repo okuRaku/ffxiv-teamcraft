@@ -5,15 +5,16 @@ import { combineLatest, from, Observable, of, throwError } from 'rxjs';
 import { NgSerializerService } from '@kaiu/ng-serializer';
 import { PendingChangesService } from '../../pending-changes/pending-changes.service';
 import { catchError, filter, first, map, switchMap, takeUntil, tap } from 'rxjs/operators';
-import { AngularFirestore, DocumentChangeAction, Query, QueryFn } from '@angular/fire/firestore';
-import { LazyDataService } from '../../../data/lazy-data.service';
+import { AngularFirestore, DocumentChangeAction, Query, QueryFn } from '@angular/fire/compat/firestore';
 import { ListRow } from '../../../../modules/list/model/list-row';
 import { FirestoreRelationalStorage } from '../firestore/firestore-relational-storage';
 import { ListTag } from '../../../../modules/list/model/list-tag.enum';
 import { Class } from '@kaiu/serializer';
-import firebase from 'firebase/app';
+import firebase from 'firebase/compat/app';
 import { PermissionLevel } from '../../permissions/permission-level.enum';
 import { applyPatch, compare, getValueByPointer } from 'fast-json-patch';
+import { LazyDataFacade } from '../../../../lazy-data/+state/lazy-data.facade';
+import { ListController } from '../../../../modules/list/list-controller';
 
 @Injectable({
   providedIn: 'root'
@@ -41,7 +42,7 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
   ];
 
   constructor(protected af: AngularFirestore, protected serializer: NgSerializerService, protected zone: NgZone,
-              protected pendingChangesService: PendingChangesService, private lazyData: LazyDataService) {
+              protected pendingChangesService: PendingChangesService, private lazyData: LazyDataFacade) {
     super(af, serializer, zone, pendingChangesService);
   }
 
@@ -66,6 +67,7 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
     if (typeof clone.createdAt === 'string') {
       clone.createdAt = firebase.firestore.Timestamp.fromDate(new Date(clone.createdAt));
     }
+    clone.createdAt = new firebase.firestore.Timestamp(clone.createdAt.seconds, 0);
     clone.items = (clone.items || [])
       .filter(item => !item.finalItem)
       .map(item => {
@@ -94,8 +96,11 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
   }
 
   public completeListData(list: List): Observable<List> {
-    return this.lazyData.extracts$.pipe(
-      map(extracts => {
+    return combineLatest([
+      this.lazyData.getEntry('extracts'),
+      this.lazyData.getEntry('ilvls')
+    ]).pipe(
+      map(([extracts, ilvls]) => {
         list.items = list.items.map(item => {
           if (!(item.requires instanceof Array)) {
             item.requires = [];
@@ -108,22 +113,15 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
           }
           return Object.assign(item, extracts[item.id]);
         });
-        list.afterDeserialized();
+        ListController.afterDeserialized(list);
         if (list.modificationsHistory.length > 25) {
           const popped = list.modificationsHistory.slice(26);
-          list.contributionStats = list.getContributionStats(popped, this.lazyData);
+          list.contributionStats = ListController.getContributionStats(list, popped, ilvls);
           list.modificationsHistory = list.modificationsHistory.slice(0, 25);
         }
         return list;
       })
     );
-  }
-
-  private completeLists(lists: List[]): Observable<List[]> {
-    if (lists.length === 0) {
-      return of([]);
-    }
-    return combineLatest(lists.filter(list => list.name !== undefined && list.finalItems !== undefined).map(list => this.completeListData(list)));
   }
 
   public getByForeignKey(foreignEntityClass: Class, foreignKeyValue: string, queryModifier?: (query: Query) => Query, cacheSuffix = ''): Observable<List[]> {
@@ -165,7 +163,7 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
   }
 
   public getCommunityLists(tags: string[], name: string): Observable<List[]> {
-    if (tags.length === 0 && name.length < 3) {
+    if (tags.length === 0 && name.length < 10) {
       return of([]);
     }
     const query: QueryFn = ref => {
@@ -262,6 +260,13 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
     return List;
   }
 
+  private completeLists(lists: List[]): Observable<List[]> {
+    if (lists.length === 0) {
+      return of([]);
+    }
+    return combineLatest(lists.filter(list => list.name !== undefined && list.finalItems !== undefined).map(list => this.completeListData(list)));
+  }
+
   private listsByAuthorRef(uid: string): Observable<List[]> {
     return this.firestore
       .collection(this.getBaseUri(), ref => ref.where('authorId', '==', uid).orderBy('createdAt', 'desc'))
@@ -292,23 +297,27 @@ export class FirestoreListStorage extends FirestoreRelationalStorage<List> imple
                                before: List, after: List, serverList: List): void {
     // Get diff between local backup and new version
     const diff = compare(before, after);
-    // Update the diff so the values are applied to the server list instead
-    const transactionDiff = diff.map(change => {
-      if (change.op === 'replace' && typeof change.value === 'number') {
-        try {
-          const currentServerValue = getValueByPointer(serverList, change.path);
-          const currentLocalValue = getValueByPointer(before, change.path);
-          change.value = change.value - currentLocalValue + currentServerValue;
-        } catch (e) {
-          console.warn(e);
+    if (diff.length > 20) {
+      transaction.set(ref, after);
+    } else {
+      // Update the diff so the values are applied to the server list instead
+      const transactionDiff = diff.map(change => {
+        if (change.op === 'replace' && typeof change.value === 'number' && !change.path.includes('createdAt')) {
+          try {
+            const currentServerValue = getValueByPointer(serverList, change.path);
+            const currentLocalValue = getValueByPointer(before, change.path);
+            change.value = change.value - currentLocalValue + currentServerValue;
+          } catch (e) {
+            console.warn(e);
+          }
         }
-      }
-      return change;
-    });
-    // Apply patch to the server list
-    const patched = applyPatch(serverList, transactionDiff).newDocument;
-    // Save inside Database
-    transaction.set(ref, patched);
+        return change;
+      });
+      // Apply patch to the server list
+      const patched = applyPatch(serverList, transactionDiff).newDocument;
+      // Save inside Database
+      transaction.set(ref, patched);
+    }
     this.recordOperation('write', before.$key);
   }
 }

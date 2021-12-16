@@ -31,10 +31,10 @@
       "DirectHitRate": {
         "ID": 22,
         "Max": 2,
-        "MaxHQ": 2,
+        "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
@@ -49,8 +49,8 @@
         "Max": 2,
         "MaxHQ": 2,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4640,
@@ -62,10 +62,10 @@
       "CriticalHit": {
         "ID": 27,
         "Max": 2,
-        "MaxHQ": 2,
+        "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
@@ -80,8 +80,8 @@
         "Max": 2,
         "MaxHQ": 3,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4641,
@@ -101,18 +101,18 @@
       "Tenacity": {
         "ID": 19,
         "Max": 2,
-        "MaxHQ": 2,
+        "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 2,
         "MaxHQ": 3,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4642,
@@ -123,11 +123,11 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
@@ -142,8 +142,8 @@
         "Max": 3,
         "MaxHQ": 4,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4643,
@@ -154,27 +154,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 2,
-        "MaxHQ": 2,
+        "Max": 4,
+        "MaxHQ": 5,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 8,
         "MaxHQ": 10,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 5,
         "MaxHQ": 6,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4644,
@@ -185,27 +185,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 4,
-        "MaxHQ": 5,
+        "Max": 5,
+        "MaxHQ": 6,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 10,
         "MaxHQ": 12,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 6,
         "MaxHQ": 8,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4645,
@@ -216,27 +216,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 6,
-        "MaxHQ": 7,
+        "Max": 7,
+        "MaxHQ": 9,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 14,
         "MaxHQ": 18,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 9,
         "MaxHQ": 11,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4646,
@@ -247,27 +247,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 8,
-        "MaxHQ": 10,
+        "Max": 10,
+        "MaxHQ": 13,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 21,
         "MaxHQ": 26,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 12,
         "MaxHQ": 15,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4647,
@@ -278,27 +278,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 22,
         "MaxHQ": 27,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4648,
@@ -312,16 +312,16 @@
         "Max": 7,
         "MaxHQ": 9,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4649,
@@ -376,8 +376,8 @@
         "Max": 2,
         "MaxHQ": 3,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4651,
@@ -391,24 +391,24 @@
         "Max": 6,
         "MaxHQ": 8,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4652,
@@ -422,24 +422,24 @@
         "Max": 8,
         "MaxHQ": 10,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 2,
-        "MaxHQ": 2,
+        "Max": 4,
+        "MaxHQ": 5,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 5,
         "MaxHQ": 6,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4653,
@@ -453,24 +453,24 @@
         "Max": 10,
         "MaxHQ": 13,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 4,
-        "MaxHQ": 5,
+        "Max": 6,
+        "MaxHQ": 7,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 6,
         "MaxHQ": 8,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4654,
@@ -484,24 +484,24 @@
         "Max": 19,
         "MaxHQ": 24,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 8,
-        "MaxHQ": 10,
+        "Max": 10,
+        "MaxHQ": 12,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 11,
         "MaxHQ": 14,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4655,
@@ -515,24 +515,24 @@
         "Max": 22,
         "MaxHQ": 27,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4656,
@@ -614,8 +614,8 @@
         "Max": 2,
         "MaxHQ": 2,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4659,
@@ -643,8 +643,8 @@
         "Max": 2,
         "MaxHQ": 2,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4660,
@@ -664,18 +664,18 @@
       "SkillSpeed": {
         "ID": 45,
         "Max": 2,
-        "MaxHQ": 2,
+        "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 2,
         "MaxHQ": 3,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4661,
@@ -686,27 +686,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
         "Max": 7,
         "MaxHQ": 9,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4662,
@@ -717,27 +717,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 5,
-        "MaxHQ": 6,
+        "Max": 6,
+        "MaxHQ": 8,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
         "Max": 13,
         "MaxHQ": 16,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 8,
         "MaxHQ": 10,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4663,
@@ -748,27 +748,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 7,
-        "MaxHQ": 9,
+        "Max": 9,
+        "MaxHQ": 11,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
         "Max": 17,
         "MaxHQ": 21,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 10,
         "MaxHQ": 13,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4664,
@@ -779,27 +779,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
         "Max": 22,
         "MaxHQ": 27,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4665,
@@ -1306,19 +1306,19 @@
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 3,
         "MaxHQ": 4,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4690,
@@ -1332,24 +1332,24 @@
         "Max": 6,
         "MaxHQ": 7,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 4,
-        "MaxHQ": 5,
+        "Max": 5,
+        "MaxHQ": 6,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 6,
         "MaxHQ": 7,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4691,
@@ -1363,24 +1363,24 @@
         "Max": 8,
         "MaxHQ": 10,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 6,
-        "MaxHQ": 7,
+        "Max": 7,
+        "MaxHQ": 9,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 9,
         "MaxHQ": 11,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4692,
@@ -1394,24 +1394,24 @@
         "Max": 10,
         "MaxHQ": 13,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 6,
-        "MaxHQ": 8,
+        "Max": 9,
+        "MaxHQ": 11,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 10,
         "MaxHQ": 13,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4693,
@@ -1422,27 +1422,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 8,
-        "MaxHQ": 10,
+        "Max": 10,
+        "MaxHQ": 13,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
         "Max": 13,
         "MaxHQ": 16,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 12,
         "MaxHQ": 15,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4694,
@@ -1453,27 +1453,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
         "Max": 14,
         "MaxHQ": 17,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4695,
@@ -1514,8 +1514,8 @@
         "Max": 2,
         "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
@@ -1530,8 +1530,8 @@
         "Max": 3,
         "MaxHQ": 4,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4697,
@@ -1542,27 +1542,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 6,
         "MaxHQ": 8,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4698,
@@ -1573,27 +1573,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 7,
         "MaxHQ": 9,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4699,
@@ -1604,27 +1604,27 @@
     "Bonuses": {
       "SkillSpeed": {
         "ID": 45,
-        "Max": 4,
-        "MaxHQ": 5,
+        "Max": 5,
+        "MaxHQ": 6,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 10,
         "MaxHQ": 12,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 6,
         "MaxHQ": 7,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4700,
@@ -1635,27 +1635,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 4,
-        "MaxHQ": 5,
+        "Max": 6,
+        "MaxHQ": 7,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 10,
         "MaxHQ": 13,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 6,
         "MaxHQ": 8,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4701,
@@ -1666,27 +1666,27 @@
     "Bonuses": {
       "SkillSpeed": {
         "ID": 45,
-        "Max": 5,
-        "MaxHQ": 6,
+        "Max": 6,
+        "MaxHQ": 8,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 13,
         "MaxHQ": 16,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 8,
         "MaxHQ": 10,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4702,
@@ -1697,27 +1697,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 7,
-        "MaxHQ": 9,
+        "Max": 10,
+        "MaxHQ": 12,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 18,
         "MaxHQ": 23,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 11,
         "MaxHQ": 14,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4703,
@@ -1728,27 +1728,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 22,
         "MaxHQ": 27,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4704,
@@ -2204,27 +2204,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 6,
         "MaxHQ": 8,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4730,
@@ -2235,27 +2235,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 2,
-        "MaxHQ": 2,
+        "Max": 4,
+        "MaxHQ": 5,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 7,
         "MaxHQ": 9,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 5,
         "MaxHQ": 6,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4731,
@@ -2266,27 +2266,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 2,
-        "MaxHQ": 2,
+        "Max": 4,
+        "MaxHQ": 5,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 9,
         "MaxHQ": 11,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 6,
         "MaxHQ": 7,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4732,
@@ -2297,27 +2297,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 3,
-        "MaxHQ": 4,
+        "Max": 7,
+        "MaxHQ": 9,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 14,
         "MaxHQ": 17,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 9,
         "MaxHQ": 11,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4733,
@@ -2328,27 +2328,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 6,
-        "MaxHQ": 7,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 22,
         "MaxHQ": 27,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4734,
@@ -2360,10 +2360,10 @@
       "DirectHitRate": {
         "ID": 22,
         "Max": 2,
-        "MaxHQ": 2,
+        "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
@@ -2378,8 +2378,8 @@
         "Max": 2,
         "MaxHQ": 2,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4735,
@@ -2391,10 +2391,10 @@
       "CriticalHit": {
         "ID": 27,
         "Max": 2,
-        "MaxHQ": 2,
+        "MaxHQ": 3,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
@@ -2409,8 +2409,8 @@
         "Max": 2,
         "MaxHQ": 3,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4736,
@@ -2570,19 +2570,19 @@
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 3,
         "MaxHQ": 4,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4746,
@@ -2596,24 +2596,24 @@
         "Max": 8,
         "MaxHQ": 10,
         "Relative": true,
-        "Value": 6,
-        "ValueHQ": 7
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 6,
-        "MaxHQ": 7,
+        "Max": 7,
+        "MaxHQ": 9,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 9,
         "MaxHQ": 11,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4747,
@@ -2627,24 +2627,24 @@
         "Max": 14,
         "MaxHQ": 17,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 11,
+        "MaxHQ": 14,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 15,
         "MaxHQ": 19,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4748,
@@ -2658,24 +2658,24 @@
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 3,
-        "MaxHQ": 4,
+        "Max": 4,
+        "MaxHQ": 5,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 4,
         "MaxHQ": 5,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4749,
@@ -2689,24 +2689,24 @@
         "Max": 11,
         "MaxHQ": 14,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 8,
-        "MaxHQ": 10,
+        "Max": 10,
+        "MaxHQ": 13,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 12,
         "MaxHQ": 15,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 4750,
@@ -2720,24 +2720,24 @@
         "Max": 6,
         "MaxHQ": 7,
         "Relative": true,
-        "Value": 7,
-        "ValueHQ": 9
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 2,
-        "MaxHQ": 3,
+        "Max": 3,
+        "MaxHQ": 4,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 3,
         "MaxHQ": 4,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 6142,
@@ -2751,24 +2751,24 @@
         "Max": 14,
         "MaxHQ": 17,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 6,
-        "MaxHQ": 7,
+        "Max": 7,
+        "MaxHQ": 9,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 9,
         "MaxHQ": 11,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 6143,
@@ -2898,27 +2898,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 10,
-        "MaxHQ": 12,
+        "Max": 13,
+        "MaxHQ": 16,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
         "Max": 24,
         "MaxHQ": 30,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 18,
         "MaxHQ": 23,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 7570,
@@ -2929,27 +2929,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 10,
-        "MaxHQ": 12,
+        "Max": 13,
+        "MaxHQ": 16,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 24,
         "MaxHQ": 30,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 18,
         "MaxHQ": 23,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 7571,
@@ -2960,27 +2960,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 6,
-        "MaxHQ": 8,
+        "Max": 13,
+        "MaxHQ": 16,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 24,
         "MaxHQ": 30,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 18,
         "MaxHQ": 23,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 7572,
@@ -2991,27 +2991,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 6,
-        "MaxHQ": 8,
+        "Max": 13,
+        "MaxHQ": 16,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 24,
         "MaxHQ": 30,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 18,
         "MaxHQ": 23,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 7573,
@@ -3068,27 +3068,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 14,
+        "MaxHQ": 17,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
         "Max": 18,
         "MaxHQ": 22,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 20,
         "MaxHQ": 25,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 9330,
@@ -3099,27 +3099,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 14,
+        "MaxHQ": 17,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 26,
         "MaxHQ": 33,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 22,
         "MaxHQ": 28,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 9331,
@@ -3133,24 +3133,24 @@
         "Max": 26,
         "MaxHQ": 33,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 14,
+        "MaxHQ": 17,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 22,
         "MaxHQ": 28,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 9332,
@@ -3283,24 +3283,24 @@
         "Max": 19,
         "MaxHQ": 24,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 11,
-        "MaxHQ": 14,
+        "Max": 15,
+        "MaxHQ": 19,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 26,
         "MaxHQ": 33,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12842,
@@ -3311,27 +3311,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 9,
-        "MaxHQ": 11,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 21,
-        "MaxHQ": 26,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 27,
-        "MaxHQ": 34,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12843,
@@ -3342,27 +3342,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 24,
-        "MaxHQ": 30,
+        "Max": 30,
+        "MaxHQ": 38,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 18,
+        "MaxHQ": 23,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12844,
@@ -3373,27 +3373,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 11,
-        "MaxHQ": 14,
+        "Max": 14,
+        "MaxHQ": 18,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 27,
         "MaxHQ": 34,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 24,
         "MaxHQ": 30,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12845,
@@ -3404,27 +3404,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 11,
-        "MaxHQ": 14,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 29,
         "MaxHQ": 36,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12846,
@@ -3435,27 +3435,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 12,
-        "MaxHQ": 15,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
         "Max": 30,
         "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 28,
         "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12847,
@@ -3466,27 +3466,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 10,
-        "MaxHQ": 13,
+        "Max": 18,
+        "MaxHQ": 23,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 32,
-        "MaxHQ": 40,
+        "Max": 30,
+        "MaxHQ": 38,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12848,
@@ -3497,27 +3497,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 27,
         "MaxHQ": 34,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12849,
@@ -3528,27 +3528,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 11,
-        "MaxHQ": 14,
+        "Max": 15,
+        "MaxHQ": 19,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 28,
         "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 26,
         "MaxHQ": 33,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12850,
@@ -3559,27 +3559,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 12,
-        "MaxHQ": 15,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
         "Max": 30,
         "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 28,
         "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12851,
@@ -3590,27 +3590,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 14,
-        "MaxHQ": 17,
+        "Max": 18,
+        "MaxHQ": 23,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 32,
-        "MaxHQ": 40,
+        "Max": 30,
+        "MaxHQ": 38,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12852,
@@ -3624,24 +3624,24 @@
         "Max": 18,
         "MaxHQ": 23,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 11,
-        "MaxHQ": 14,
+        "Max": 15,
+        "MaxHQ": 19,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 26,
         "MaxHQ": 32,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12853,
@@ -3652,27 +3652,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 24,
-        "MaxHQ": 30,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 12,
-        "MaxHQ": 15,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 28,
         "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12854,
@@ -3683,27 +3683,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 11,
-        "MaxHQ": 14,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
         "Max": 29,
         "MaxHQ": 36,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12855,
@@ -3717,24 +3717,24 @@
         "Max": 30,
         "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 14,
-        "MaxHQ": 18,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 27,
-        "MaxHQ": 34,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12856,
@@ -3745,27 +3745,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 10,
-        "MaxHQ": 13,
+        "Max": 18,
+        "MaxHQ": 23,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 32,
-        "MaxHQ": 40,
+        "Max": 30,
+        "MaxHQ": 38,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12857,
@@ -3776,27 +3776,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 12,
-        "MaxHQ": 15,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 28,
-        "MaxHQ": 35,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 25,
-        "MaxHQ": 31,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12858,
@@ -3807,27 +3807,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 8,
-        "MaxHQ": 10,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 22,
-        "MaxHQ": 27,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12859,
@@ -3838,27 +3838,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 10,
-        "MaxHQ": 12,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
         "Max": 30,
-        "MaxHQ": 38,
+        "MaxHQ": 37,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 28,
         "MaxHQ": 35,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 12860,
@@ -4099,27 +4099,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 32,
-        "MaxHQ": 40,
+        "Max": 30,
+        "MaxHQ": 38,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 18,
+        "MaxHQ": 23,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 5,
-        "ValueHQ": 6
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 13742,
@@ -4130,27 +4130,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 8,
-        "MaxHQ": 10,
+        "Max": 18,
+        "MaxHQ": 22,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 30,
-        "MaxHQ": 37,
+        "Max": 29,
+        "MaxHQ": 36,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
         "Max": 27,
         "MaxHQ": 34,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 13743,
@@ -4161,27 +4161,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 14,
-        "MaxHQ": 18,
+        "Max": 19,
+        "MaxHQ": 24,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 14134,
@@ -4192,27 +4192,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 18,
-        "MaxHQ": 22,
+        "Max": 19,
+        "MaxHQ": 24,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 38,
-        "MaxHQ": 48,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 14135,
@@ -4223,27 +4223,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 14,
-        "MaxHQ": 18,
+        "Max": 19,
+        "MaxHQ": 24,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 38,
-        "MaxHQ": 48,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 14136,
@@ -4254,27 +4254,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 29,
-        "MaxHQ": 36,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 18,
-        "MaxHQ": 22,
+        "Max": 19,
+        "MaxHQ": 24,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 14137,
@@ -4285,27 +4285,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 18,
-        "MaxHQ": 22,
+        "Max": 19,
+        "MaxHQ": 24,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 14138,
@@ -4362,19 +4362,19 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 28,
-        "MaxHQ": 35,
+        "Max": 31,
+        "MaxHQ": 39,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 21,
-        "MaxHQ": 26,
+        "Max": 30,
+        "MaxHQ": 38,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 14141,
@@ -4460,27 +4460,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 39,
-        "MaxHQ": 49,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 19,
-        "MaxHQ": 24,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16709,
@@ -4491,27 +4491,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 19,
-        "MaxHQ": 24,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 42,
-        "MaxHQ": 53,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16710,
@@ -4522,27 +4522,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 19,
-        "MaxHQ": 24,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 42,
-        "MaxHQ": 53,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16711,
@@ -4553,27 +4553,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 19,
-        "MaxHQ": 24,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16712,
@@ -4584,27 +4584,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 17,
-        "MaxHQ": 21,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 42,
-        "MaxHQ": 53,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16713,
@@ -4615,27 +4615,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 17,
-        "MaxHQ": 21,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 42,
-        "MaxHQ": 53,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16714,
@@ -4646,27 +4646,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 42,
-        "MaxHQ": 53,
+        "Max": 34,
+        "MaxHQ": 42,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 19,
-        "MaxHQ": 24,
+        "Max": 20,
+        "MaxHQ": 25,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 44,
-        "MaxHQ": 55,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 16715,
@@ -4677,27 +4677,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 14,
-        "MaxHQ": 18,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 53,
-        "MaxHQ": 66,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 51,
-        "MaxHQ": 64,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19807,
@@ -4708,19 +4708,19 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19808,
@@ -4731,19 +4731,19 @@
     "Bonuses": {
       "SkillSpeed": {
         "ID": 45,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 42,
-        "MaxHQ": 52,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19809,
@@ -4754,27 +4754,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 66,
-        "MaxHQ": 82,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 70,
-        "MaxHQ": 87,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19810,
@@ -4785,19 +4785,19 @@
     "Bonuses": {
       "SpellSpeed": {
         "ID": 46,
-        "Max": 39,
-        "MaxHQ": 49,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19811,
@@ -4808,27 +4808,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 26,
-        "MaxHQ": 32,
+        "Max": 22,
+        "MaxHQ": 27,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 63,
-        "MaxHQ": 79,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 62,
-        "MaxHQ": 77,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19812,
@@ -4839,27 +4839,27 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 51,
-        "MaxHQ": 64,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 52,
-        "MaxHQ": 65,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19813,
@@ -4870,27 +4870,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 15,
-        "MaxHQ": 19,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 59,
-        "MaxHQ": 74,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 52,
-        "MaxHQ": 65,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19814,
@@ -4901,27 +4901,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 66,
-        "MaxHQ": 82,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 26,
-        "MaxHQ": 32,
+        "Max": 22,
+        "MaxHQ": 27,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 62,
-        "MaxHQ": 77,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19815,
@@ -4932,19 +4932,19 @@
     "Bonuses": {
       "Tenacity": {
         "ID": 19,
-        "Max": 41,
-        "MaxHQ": 51,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 43,
-        "MaxHQ": 54,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19816,
@@ -4955,27 +4955,27 @@
     "Bonuses": {
       "SkillSpeed": {
         "ID": 45,
-        "Max": 45,
-        "MaxHQ": 56,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 12,
-        "MaxHQ": 15,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 48,
-        "MaxHQ": 60,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19817,
@@ -4986,27 +4986,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 68,
-        "MaxHQ": 85,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 70,
-        "MaxHQ": 87,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19818,
@@ -5017,27 +5017,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 18,
-        "MaxHQ": 22,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 59,
-        "MaxHQ": 74,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 57,
-        "MaxHQ": 71,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19819,
@@ -5048,27 +5048,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 51,
-        "MaxHQ": 64,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 14,
-        "MaxHQ": 17,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 50,
-        "MaxHQ": 62,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19820,
@@ -5079,27 +5079,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 14,
-        "MaxHQ": 18,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 55,
-        "MaxHQ": 69,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 51,
-        "MaxHQ": 64,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19821,
@@ -5110,19 +5110,19 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 41,
-        "MaxHQ": 51,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 43,
-        "MaxHQ": 54,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19822,
@@ -5133,27 +5133,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 17,
-        "MaxHQ": 21,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 55,
-        "MaxHQ": 69,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 56,
-        "MaxHQ": 70,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19823,
@@ -5187,19 +5187,19 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 45,
-        "MaxHQ": 56,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 46,
-        "MaxHQ": 57,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19825,
@@ -5233,27 +5233,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 62,
-        "MaxHQ": 77,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 20,
-        "MaxHQ": 25,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 54,
-        "MaxHQ": 68,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19827,
@@ -5264,19 +5264,19 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 35,
-        "MaxHQ": 44,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 42,
-        "MaxHQ": 52,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19828,
@@ -5287,27 +5287,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 59,
-        "MaxHQ": 74,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 18,
-        "MaxHQ": 23,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 54,
-        "MaxHQ": 67,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19829,
@@ -5364,27 +5364,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 13,
-        "MaxHQ": 16,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 48,
-        "MaxHQ": 60,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 51,
-        "MaxHQ": 64,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19832,
@@ -5395,19 +5395,19 @@
     "Bonuses": {
       "SpellSpeed": {
         "ID": 46,
-        "Max": 42,
-        "MaxHQ": 52,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 47,
-        "MaxHQ": 59,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19833,
@@ -5441,27 +5441,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 49,
-        "MaxHQ": 61,
+        "Max": 35,
+        "MaxHQ": 44,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 14,
-        "MaxHQ": 17,
+        "Max": 21,
+        "MaxHQ": 26,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 50,
-        "MaxHQ": 62,
+        "Max": 36,
+        "MaxHQ": 45,
         "Relative": true,
-        "Value": 3,
-        "ValueHQ": 4
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19835,
@@ -5472,27 +5472,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 68,
-        "MaxHQ": 85,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 70,
-        "MaxHQ": 87,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 19836,
@@ -5572,27 +5572,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 68,
-        "MaxHQ": 85,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 70,
-        "MaxHQ": 87,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 21087,
@@ -5603,27 +5603,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 26,
-        "MaxHQ": 33,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 68,
-        "MaxHQ": 85,
+        "Max": 37,
+        "MaxHQ": 46,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 70,
-        "MaxHQ": 87,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 21088,
@@ -5634,27 +5634,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 68,
-        "MaxHQ": 85,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22432,
@@ -5665,27 +5665,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22433,
@@ -5696,27 +5696,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22434,
@@ -5727,27 +5727,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22435,
@@ -5758,27 +5758,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22436,
@@ -5789,27 +5789,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22437,
@@ -5820,27 +5820,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 36,
-        "MaxHQ": 45,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 68,
-        "MaxHQ": 85,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 22445,
@@ -5874,27 +5874,27 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 23186,
@@ -5928,27 +5928,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 38,
+        "MaxHQ": 47,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 37,
-        "MaxHQ": 46,
+        "Max": 22,
+        "MaxHQ": 28,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 3
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 78,
-        "MaxHQ": 98,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 23188,
@@ -5959,27 +5959,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24274,
@@ -5990,27 +5990,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24275,
@@ -6021,27 +6021,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24276,
@@ -6052,27 +6052,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24277,
@@ -6083,27 +6083,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24278,
@@ -6114,27 +6114,27 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24279,
@@ -6145,27 +6145,27 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 89,
-        "MaxHQ": 111,
+        "Max": 38,
+        "MaxHQ": 48,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 40,
-        "MaxHQ": 50,
+        "Max": 23,
+        "MaxHQ": 29,
         "Relative": true,
-        "Value": 2,
-        "ValueHQ": 2
+        "Value": 8,
+        "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
-        "Value": 4,
-        "ValueHQ": 5
+        "Value": 8,
+        "ValueHQ": 10
       }
     },
     "ID": 24280,
@@ -6176,16 +6176,16 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 96,
-        "MaxHQ": 120,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 122,
-        "MaxHQ": 152,
+        "Max": 43,
+        "MaxHQ": 54,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6199,16 +6199,16 @@
     "Bonuses": {
       "SkillSpeed": {
         "ID": 45,
-        "Max": 96,
-        "MaxHQ": 120,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 122,
-        "MaxHQ": 152,
+        "Max": 43,
+        "MaxHQ": 54,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6222,16 +6222,16 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 98,
-        "MaxHQ": 122,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 125,
-        "MaxHQ": 156,
+        "Max": 44,
+        "MaxHQ": 55,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6245,16 +6245,16 @@
     "Bonuses": {
       "Tenacity": {
         "ID": 19,
-        "Max": 98,
-        "MaxHQ": 122,
+        "Max": 40,
+        "MaxHQ": 50,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 125,
-        "MaxHQ": 156,
+        "Max": 44,
+        "MaxHQ": 55,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6268,16 +6268,16 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 99,
-        "MaxHQ": 124,
+        "Max": 41,
+        "MaxHQ": 51,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 129,
-        "MaxHQ": 161,
+        "Max": 46,
+        "MaxHQ": 57,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6291,16 +6291,16 @@
     "Bonuses": {
       "SpellSpeed": {
         "ID": 46,
-        "Max": 99,
-        "MaxHQ": 124,
+        "Max": 41,
+        "MaxHQ": 51,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 129,
-        "MaxHQ": 161,
+        "Max": 46,
+        "MaxHQ": 57,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6314,16 +6314,16 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 99,
-        "MaxHQ": 124,
+        "Max": 41,
+        "MaxHQ": 51,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 129,
-        "MaxHQ": 161,
+        "Max": 46,
+        "MaxHQ": 57,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6337,16 +6337,16 @@
     "Bonuses": {
       "Tenacity": {
         "ID": 19,
-        "Max": 101,
-        "MaxHQ": 126,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 57,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6360,16 +6360,16 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 101,
-        "MaxHQ": 126,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 57,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6383,16 +6383,16 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 101,
-        "MaxHQ": 126,
+        "Max": 42,
+        "MaxHQ": 52,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 57,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6406,16 +6406,16 @@
     "Bonuses": {
       "SpellSpeed": {
         "ID": 46,
-        "Max": 102,
-        "MaxHQ": 128,
+        "Max": 42,
+        "MaxHQ": 53,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6475,24 +6475,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 63,
-        "MaxHQ": 79,
+        "Max": 26,
+        "MaxHQ": 32,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 106,
-        "MaxHQ": 132,
+        "Max": 42,
+        "MaxHQ": 53,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6506,24 +6506,24 @@
     "Bonuses": {
       "SkillSpeed": {
         "ID": 45,
-        "Max": 106,
-        "MaxHQ": 132,
+        "Max": 42,
+        "MaxHQ": 53,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 63,
-        "MaxHQ": 79,
+        "Max": 26,
+        "MaxHQ": 32,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6537,24 +6537,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 63,
-        "MaxHQ": 79,
+        "Max": 26,
+        "MaxHQ": 32,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 106,
-        "MaxHQ": 132,
+        "Max": 42,
+        "MaxHQ": 53,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6568,24 +6568,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 106,
-        "MaxHQ": 132,
+        "Max": 42,
+        "MaxHQ": 53,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 63,
-        "MaxHQ": 79,
+        "Max": 26,
+        "MaxHQ": 32,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6645,24 +6645,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 65,
-        "MaxHQ": 81,
+        "Max": 26,
+        "MaxHQ": 33,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 108,
-        "MaxHQ": 135,
+        "Max": 43,
+        "MaxHQ": 54,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 162,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6676,24 +6676,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 111,
-        "MaxHQ": 139,
+        "Max": 44,
+        "MaxHQ": 55,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 66,
-        "MaxHQ": 83,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 163,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6707,24 +6707,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 66,
-        "MaxHQ": 83,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 111,
-        "MaxHQ": 139,
+        "Max": 44,
+        "MaxHQ": 55,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 163,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6738,24 +6738,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 66,
-        "MaxHQ": 83,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 111,
-        "MaxHQ": 139,
+        "Max": 44,
+        "MaxHQ": 55,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 163,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6792,24 +6792,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 69,
-        "MaxHQ": 86,
+        "Max": 27,
+        "MaxHQ": 34,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 114,
-        "MaxHQ": 142,
+        "Max": 45,
+        "MaxHQ": 56,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 130,
-        "MaxHQ": 163,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6846,24 +6846,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 118,
-        "MaxHQ": 147,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 131,
-        "MaxHQ": 164,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6877,24 +6877,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 118,
-        "MaxHQ": 147,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 131,
-        "MaxHQ": 164,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6908,24 +6908,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 118,
-        "MaxHQ": 147,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 131,
-        "MaxHQ": 164,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6939,24 +6939,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 70,
-        "MaxHQ": 88,
+        "Max": 28,
+        "MaxHQ": 35,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 118,
-        "MaxHQ": 147,
+        "Max": 46,
+        "MaxHQ": 58,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 131,
-        "MaxHQ": 164,
+        "Max": 47,
+        "MaxHQ": 59,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -6970,24 +6970,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7001,24 +7001,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7032,24 +7032,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7063,24 +7063,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7094,24 +7094,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7125,24 +7125,24 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7156,24 +7156,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7187,24 +7187,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7218,24 +7218,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7249,24 +7249,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 124,
-        "MaxHQ": 155,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 74,
-        "MaxHQ": 93,
+        "Max": 30,
+        "MaxHQ": 37,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 141,
-        "MaxHQ": 176,
+        "Max": 50,
+        "MaxHQ": 62,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7326,24 +7326,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7357,24 +7357,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7388,24 +7388,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7419,24 +7419,24 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7450,24 +7450,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7481,24 +7481,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7512,24 +7512,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7543,24 +7543,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7574,24 +7574,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7605,24 +7605,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 134,
-        "MaxHQ": 168,
+        "Max": 53,
+        "MaxHQ": 66,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 81,
-        "MaxHQ": 101,
+        "Max": 32,
+        "MaxHQ": 40,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 172,
-        "MaxHQ": 215,
+        "Max": 54,
+        "MaxHQ": 68,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7682,24 +7682,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "DirectHitRate": {
         "ID": 22,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7713,24 +7713,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7744,24 +7744,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SkillSpeed": {
         "ID": 45,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7775,24 +7775,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Determination": {
         "ID": 44,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7806,24 +7806,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Piety": {
         "ID": 6,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7837,24 +7837,24 @@
     "Bonuses": {
       "Piety": {
         "ID": 6,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7868,24 +7868,24 @@
     "Bonuses": {
       "DirectHitRate": {
         "ID": 22,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7899,24 +7899,24 @@
     "Bonuses": {
       "CriticalHit": {
         "ID": 27,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "SpellSpeed": {
         "ID": 46,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7930,24 +7930,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7961,24 +7961,24 @@
     "Bonuses": {
       "Determination": {
         "ID": 44,
-        "Max": 143,
-        "MaxHQ": 179,
+        "Max": 56,
+        "MaxHQ": 70,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Tenacity": {
         "ID": 19,
-        "Max": 86,
-        "MaxHQ": 108,
+        "Max": 34,
+        "MaxHQ": 43,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
       },
       "Vitality": {
         "ID": 3,
-        "Max": 208,
-        "MaxHQ": 260,
+        "Max": 59,
+        "MaxHQ": 74,
         "Relative": true,
         "Value": 8,
         "ValueHQ": 10
@@ -7987,5 +7987,838 @@
     "ID": 31907,
     "LevelEquip": 1,
     "LevelItem": 510
+  },
+  {
+    "Bonuses": {
+      "SkillSpeed": {
+        "ID": 45,
+        "Max": 58,
+        "MaxHQ": 72,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 62,
+        "MaxHQ": 77,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36036,
+    "LevelEquip": 1,
+    "LevelItem": 520
+  },
+  {
+    "Bonuses": {
+      "Piety": {
+        "ID": 6,
+        "Max": 58,
+        "MaxHQ": 72,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 62,
+        "MaxHQ": 77,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36037,
+    "LevelEquip": 1,
+    "LevelItem": 520
+  },
+  {
+    "Bonuses": {
+      "Tenacity": {
+        "ID": 19,
+        "Max": 58,
+        "MaxHQ": 73,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 62,
+        "MaxHQ": 78,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36038,
+    "LevelEquip": 1,
+    "LevelItem": 525
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 58,
+        "MaxHQ": 73,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 62,
+        "MaxHQ": 78,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36039,
+    "LevelEquip": 1,
+    "LevelItem": 525
+  },
+  {
+    "Bonuses": {
+      "SpellSpeed": {
+        "ID": 46,
+        "Max": 58,
+        "MaxHQ": 73,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 62,
+        "MaxHQ": 78,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36040,
+    "LevelEquip": 1,
+    "LevelItem": 525
+  },
+  {
+    "Bonuses": {
+      "CriticalHit": {
+        "ID": 27,
+        "Max": 59,
+        "MaxHQ": 74,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 64,
+        "MaxHQ": 80,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36041,
+    "LevelEquip": 1,
+    "LevelItem": 530
+  },
+  {
+    "Bonuses": {
+      "Tenacity": {
+        "ID": 19,
+        "Max": 59,
+        "MaxHQ": 74,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 64,
+        "MaxHQ": 80,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36042,
+    "LevelEquip": 1,
+    "LevelItem": 530
+  },
+  {
+    "Bonuses": {
+      "DirectHitRate": {
+        "ID": 22,
+        "Max": 59,
+        "MaxHQ": 74,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 64,
+        "MaxHQ": 80,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36043,
+    "LevelEquip": 1,
+    "LevelItem": 530
+  },
+  {
+    "Bonuses": {
+      "Piety": {
+        "ID": 6,
+        "Max": 59,
+        "MaxHQ": 74,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 64,
+        "MaxHQ": 80,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36044,
+    "LevelEquip": 1,
+    "LevelItem": 533
+  },
+  {
+    "Bonuses": {
+      "SpellSpeed": {
+        "ID": 46,
+        "Max": 59,
+        "MaxHQ": 74,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 64,
+        "MaxHQ": 80,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36045,
+    "LevelEquip": 1,
+    "LevelItem": 533
+  },
+  {
+    "Bonuses": {
+      "CP": {
+        "ID": 11,
+        "Max": 26,
+        "MaxHQ": 32,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Craftsmanship": {
+        "ID": 70,
+        "Max": 146,
+        "MaxHQ": 183,
+        "Relative": true,
+        "Value": 7,
+        "ValueHQ": 9
+      }
+    },
+    "ID": 36046,
+    "LevelEquip": 1,
+    "LevelItem": 527
+  },
+  {
+    "Bonuses": {
+      "Gathering": {
+        "ID": 72,
+        "Max": 76,
+        "MaxHQ": 95,
+        "Relative": true,
+        "Value": 6,
+        "ValueHQ": 7
+      },
+      "Perception": {
+        "ID": 73,
+        "Max": 39,
+        "MaxHQ": 49,
+        "Relative": true,
+        "Value": 2,
+        "ValueHQ": 3
+      }
+    },
+    "ID": 36047,
+    "LevelEquip": 1,
+    "LevelItem": 527
+  },
+  {
+    "Bonuses": {
+      "CriticalHit": {
+        "ID": 27,
+        "Max": 36,
+        "MaxHQ": 45,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Tenacity": {
+        "ID": 19,
+        "Max": 60,
+        "MaxHQ": 75,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 65,
+        "MaxHQ": 81,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36048,
+    "LevelEquip": 1,
+    "LevelItem": 539
+  },
+  {
+    "Bonuses": {
+      "SkillSpeed": {
+        "ID": 45,
+        "Max": 60,
+        "MaxHQ": 75,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Tenacity": {
+        "ID": 19,
+        "Max": 36,
+        "MaxHQ": 45,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 65,
+        "MaxHQ": 81,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36049,
+    "LevelEquip": 1,
+    "LevelItem": 539
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 36,
+        "MaxHQ": 45,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "SpellSpeed": {
+        "ID": 46,
+        "Max": 60,
+        "MaxHQ": 75,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 65,
+        "MaxHQ": 81,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36050,
+    "LevelEquip": 1,
+    "LevelItem": 539
+  },
+  {
+    "Bonuses": {
+      "CriticalHit": {
+        "ID": 27,
+        "Max": 60,
+        "MaxHQ": 75,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "SpellSpeed": {
+        "ID": 46,
+        "Max": 36,
+        "MaxHQ": 45,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 65,
+        "MaxHQ": 81,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36051,
+    "LevelEquip": 1,
+    "LevelItem": 539
+  },
+  {
+    "Bonuses": {
+      "CriticalHit": {
+        "ID": 27,
+        "Max": 36,
+        "MaxHQ": 45,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Piety": {
+        "ID": 6,
+        "Max": 60,
+        "MaxHQ": 75,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 65,
+        "MaxHQ": 81,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36052,
+    "LevelEquip": 1,
+    "LevelItem": 539
+  },
+  {
+    "Bonuses": {
+      "Control": {
+        "ID": 71,
+        "Max": 132,
+        "MaxHQ": 165,
+        "Relative": true,
+        "Value": 7,
+        "ValueHQ": 9
+      },
+      "Craftsmanship": {
+        "ID": 70,
+        "Max": 62,
+        "MaxHQ": 77,
+        "Relative": true,
+        "Value": 4,
+        "ValueHQ": 5
+      }
+    },
+    "ID": 36053,
+    "LevelEquip": 1,
+    "LevelItem": 540
+  },
+  {
+    "Bonuses": {
+      "GP": {
+        "ID": 10,
+        "Max": 38,
+        "MaxHQ": 48,
+        "Relative": true,
+        "Value": 23,
+        "ValueHQ": 29
+      },
+      "Gathering": {
+        "ID": 72,
+        "Max": 48,
+        "MaxHQ": 60,
+        "Relative": true,
+        "Value": 2,
+        "ValueHQ": 3
+      }
+    },
+    "ID": 36054,
+    "LevelEquip": 1,
+    "LevelItem": 540
+  },
+  {
+    "Bonuses": {
+      "DirectHitRate": {
+        "ID": 22,
+        "Max": 37,
+        "MaxHQ": 46,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "SpellSpeed": {
+        "ID": 46,
+        "Max": 61,
+        "MaxHQ": 76,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36055,
+    "LevelEquip": 1,
+    "LevelItem": 545
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 37,
+        "MaxHQ": 46,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Piety": {
+        "ID": 6,
+        "Max": 61,
+        "MaxHQ": 76,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36056,
+    "LevelEquip": 1,
+    "LevelItem": 545
+  },
+  {
+    "Bonuses": {
+      "CriticalHit": {
+        "ID": 27,
+        "Max": 37,
+        "MaxHQ": 46,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Determination": {
+        "ID": 44,
+        "Max": 61,
+        "MaxHQ": 76,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36057,
+    "LevelEquip": 1,
+    "LevelItem": 545
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 37,
+        "MaxHQ": 46,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "DirectHitRate": {
+        "ID": 22,
+        "Max": 61,
+        "MaxHQ": 76,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36058,
+    "LevelEquip": 1,
+    "LevelItem": 545
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 37,
+        "MaxHQ": 46,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Tenacity": {
+        "ID": 19,
+        "Max": 61,
+        "MaxHQ": 76,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36059,
+    "LevelEquip": 1,
+    "LevelItem": 545
+  },
+  {
+    "Bonuses": {
+      "CP": {
+        "ID": 11,
+        "Max": 62,
+        "MaxHQ": 78,
+        "Relative": true,
+        "Value": 21,
+        "ValueHQ": 26
+      },
+      "Control": {
+        "ID": 71,
+        "Max": 61,
+        "MaxHQ": 76,
+        "Relative": true,
+        "Value": 4,
+        "ValueHQ": 5
+      }
+    },
+    "ID": 36060,
+    "LevelEquip": 1,
+    "LevelItem": 554
+  },
+  {
+    "Bonuses": {
+      "GP": {
+        "ID": 10,
+        "Max": 24,
+        "MaxHQ": 30,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Perception": {
+        "ID": 73,
+        "Max": 81,
+        "MaxHQ": 101,
+        "Relative": true,
+        "Value": 6,
+        "ValueHQ": 7
+      }
+    },
+    "ID": 36061,
+    "LevelEquip": 1,
+    "LevelItem": 554
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Tenacity": {
+        "ID": 19,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 68,
+        "MaxHQ": 85,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36062,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "DirectHitRate": {
+        "ID": 22,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "SkillSpeed": {
+        "ID": 45,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 68,
+        "MaxHQ": 85,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36063,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "DirectHitRate": {
+        "ID": 22,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "SpellSpeed": {
+        "ID": 46,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 68,
+        "MaxHQ": 85,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36064,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Piety": {
+        "ID": 6,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 68,
+        "MaxHQ": 85,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36065,
+    "LevelEquip": 1,
+    "LevelItem": 560
+  },
+  {
+    "Bonuses": {
+      "Determination": {
+        "ID": 44,
+        "Max": 40,
+        "MaxHQ": 50,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "DirectHitRate": {
+        "ID": 22,
+        "Max": 66,
+        "MaxHQ": 82,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      },
+      "Vitality": {
+        "ID": 3,
+        "Max": 68,
+        "MaxHQ": 85,
+        "Relative": true,
+        "Value": 8,
+        "ValueHQ": 10
+      }
+    },
+    "ID": 36066,
+    "LevelEquip": 1,
+    "LevelItem": 560
   }
 ]

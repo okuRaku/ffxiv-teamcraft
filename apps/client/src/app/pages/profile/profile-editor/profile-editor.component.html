@@ -17,11 +17,10 @@
       </div>
       <div fxLayout="row" fxLayoutGap="5px">
         <ng-container *ngIf="userId$ | async as userId">
-          <button (click)="verifyCharacter(userId, mainCharacter.character.ID)" *ngIf="!mainCharacter.verified && mainCharacter.character.ID > 0" [nzTooltipTitle]="'PROFILE.VERIFICATION.Title' | translate"
-                  nz-button nz-tooltip
+          <button (click)="verifyCharacter(userId, mainCharacter.character.ID)" *ngIf="!mainCharacter.verified && mainCharacter.character.ID > 0" nz-button
                   nzShape="circle" nzSize="small"
                   nzType="primary">
-            <i nz-icon nzType="check"></i>
+            {{'PROFILE.VERIFICATION.Button' | translate}}
           </button>
         </ng-container>
 
@@ -42,11 +41,6 @@
       <nz-tag *ngIf="user.admin" [nzColor]="'magenta'">{{'COMMON.Admin' | translate}}</nz-tag>
       <nz-tag *ngIf="user.moderator" [nzColor]="'volcano'">{{'COMMON.Moderator' | translate}}</nz-tag>
       <nz-tag *ngIf="user.patron" [nzColor]="'purple'">{{'PROFILE.Patreon_supporter' | translate}}</nz-tag>
-      <nz-tag *ngIf="user.stats?.listsCreated > 100"
-              [nzColor]="'orange'">{{'PROFILE.More_than_100_lists_created' | translate}}</nz-tag>
-      <!-- Yup, this is one year in seconds-->
-      <nz-tag *ngIf="now - user.createdAt.toMillis()/1000 > 365.25 * 86400"
-              [nzColor]="'geekblue'">{{'PROFILE.Veteran' | translate}}</nz-tag>
     </div>
     <div [nzGutter]="10" nz-row>
       <div [nzXXl]="12" [nzXs]="24" class="profile-card" nz-col>
@@ -79,8 +73,8 @@
                   </div>
                 </ng-template>
                 <nz-list-item-meta
-                  [nzAvatar]="'./assets/icons/classjob/'+ ((set.jobId | jobName)?.en | async)?.toLowerCase()+'.png' | ifMobile: null"
-                  [nzTitle]="set.jobId | jobName | i18n"
+                  [nzAvatar]="'./assets/icons/classjob/'+ ((set.jobId | i18nRow:'jobName' | async)?.en)?.toLowerCase()+'.png' | ifMobile: null"
+                  [nzTitle]="set.jobId | i18nRow:'jobName' | i18n"
                   nzDescription="lvl {{set.level}}"></nz-list-item-meta>
                 <ng-template #masterbooks>
                   <button (click)="editMasterbooks(set.jobId)" [nzTooltipTitle]="'PROFILE.Masterbooks' | translate" nz-button nz-tooltip

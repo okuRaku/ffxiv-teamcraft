@@ -1,17 +1,14 @@
 import { Component, OnDestroy, TemplateRef, ViewChild } from '@angular/core';
-import { LazyDataService } from '../../../core/data/lazy-data.service';
 import { BehaviorSubject, combineLatest, concat, from, Observable, of, Subject } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { I18nToolsService } from '../../../core/tools/i18n-tools.service';
 import { I18nName } from '../../../model/common/i18n-name';
-import { debounceTime, filter, first, map, mergeMap, shareReplay, startWith, switchMap, tap, withLatestFrom } from 'rxjs/operators';
+import { debounceTime, filter, first, map, mergeMap, shareReplay, startWith, switchMap, tap } from 'rxjs/operators';
 import * as _ from 'lodash';
-import { LazyRecipe } from '../../../core/data/lazy-recipe';
 import { ListsFacade } from '../../../modules/list/+state/lists.facade';
 import { ListManagerService } from '../../../modules/list/list-manager.service';
 import { ProgressPopupService } from '../../../modules/progress-popup/progress-popup.service';
 import { Router } from '@angular/router';
-import { LocalizedDataService } from '../../../core/data/localized-data.service';
 import { ListPickerService } from '../../../modules/list-picker/list-picker.service';
 import { List } from '../../../modules/list/model/list';
 import { NzMessageService } from 'ng-zorro-antd/message';
@@ -23,8 +20,12 @@ import { InventoryImportPopupComponent } from '../inventory-import-popup/invento
 import { InventoryItem } from '../../../model/user/inventory/inventory-item';
 import { PlatformService } from '../../../core/tools/platform.service';
 import { SettingsService } from '../../../modules/settings/settings.service';
-import { environment } from '../../../../environments/environment';
 import { LogTracking } from '../../../model/user/log-tracking';
+import { LazyDataFacade } from '../../../lazy-data/+state/lazy-data.facade';
+import { withLazyData } from '../../../core/rxjs/with-lazy-data';
+import { safeCombineLatest } from '../../../core/rxjs/safe-combine-latest';
+import { LazyRecipe } from '../../../lazy-data/model/lazy-recipe';
+import { EnvironmentService } from '../../../core/environment.service';
 
 @Component({
   selector: 'app-recipe-finder',
@@ -33,79 +34,63 @@ import { LogTracking } from '../../../model/user/log-tracking';
 })
 export class RecipeFinderComponent implements OnDestroy {
 
-  public maxLevel = environment.maxLevel;
-
-  private tipKey = 'recipe-finder:tip';
-
+  public maxLevel = this.environmentService.maxLevel;
   public query: string;
-
   public onlyCraftable$ = new BehaviorSubject(this.settings.showOnlyCraftableInRecipeFinder);
   public onlyNotCompleted$ = new BehaviorSubject(this.settings.showOnlyNotCompletedInRecipeFinder);
   public onlyCollectables$ = new BehaviorSubject(this.settings.showOnlyCollectablesInRecipeFinder);
   public onlyLeveItems$ = new BehaviorSubject(this.settings.showOnlyLeveItemsInRecipeFinder);
-
   public clvlMin$ = new BehaviorSubject(0);
-  public clvlMax$ = new BehaviorSubject(environment.maxLevel);
-
-  public input$: Subject<string> = new Subject<string>();
-
+  public clvlMax$ = new BehaviorSubject(this.environmentService.maxLevel);
+  public input$: Subject<string> = new BehaviorSubject<string>('');
+  public pool: { id: number, amount: number }[] = [];
+  public search$: Subject<void> = new Subject<void>();
+  public results$: Observable<any[]>;
+  public highlight$: BehaviorSubject<number[]> = new BehaviorSubject<number[]>([]);
+  public basket: { entry: any, amount: number, ingredients: { id: number, amount: number }[] }[] = [];
+  public editingAmount: number;
+  public page$: BehaviorSubject<number> = new BehaviorSubject<number>(1);
+  public pageSize = 25;
+  public totalItems: number;
+  @ViewChild('notificationRef', { static: true })
+  notification: TemplateRef<any>;
+  // Notification data
+  itemsAdded = 0;
+  modifiedList: List;
+  private tipKey = 'recipe-finder:tip';
+  public showTip = localStorage.getItem(this.tipKey) === null;
+  private items$ = this.lazyData.getSearchIndex('items');
   public completion$: Observable<{ id: number, name: I18nName }[]> = this.input$.pipe(
     debounceTime(500),
-    map(value => {
+    switchMap(value => {
       if (value.length < 2) {
-        return [];
+        return of([]);
       } else {
-        return this.items.filter(i => this.i18n.getName(i.name).toLowerCase().indexOf(value.toLowerCase()) > -1);
+        return this.items$.pipe(
+          map(items => {
+            return items.filter(i => this.i18n.getName(i.name).toLowerCase().indexOf(value.toLowerCase()) > -1);
+          })
+        );
       }
     })
   );
 
-  private items: { id: number, name: I18nName }[] = [];
+  public amount$ = new BehaviorSubject<number>(0);
 
-  public pool: { id: number, amount: number }[] = [];
+  public isButtonDisabled$ = combineLatest([this.items$, this.input$, this.amount$]).pipe(
+    map(([items, input, amount]) => {
+      return amount <= 0 || !items.some(i => this.i18n.getName(i.name).toLowerCase() === input.toLowerCase());
+    }),
+    shareReplay(1)
+  );
 
-  public search$: Subject<void> = new Subject<void>();
-
-  public results$: Observable<any[]>;
-
-  public highlight$: BehaviorSubject<number[]> = new BehaviorSubject<number[]>([]);
-
-  public basket: { entry: any, amount: number, ingredients: { id: number, amount: number }[] }[] = [];
-
-  public editingAmount: number;
-
-  public showTip = localStorage.getItem(this.tipKey) === null;
-
-  public page$: BehaviorSubject<number> = new BehaviorSubject<number>(1);
-
-  public pageSize = 25;
-
-  public totalItems: number;
-
-  @ViewChild('notificationRef', { static: true })
-  notification: TemplateRef<any>;
-
-  // Notification data
-  itemsAdded = 0;
-
-  modifiedList: List;
-
-  constructor(private lazyData: LazyDataService, private translate: TranslateService,
+  constructor(private lazyData: LazyDataFacade, private translate: TranslateService,
               private i18n: I18nToolsService, private listsFacade: ListsFacade,
               private listManager: ListManagerService, private progressService: ProgressPopupService,
-              private router: Router, private l12n: LocalizedDataService, private listPicker: ListPickerService,
+              private router: Router, private listPicker: ListPickerService, private environmentService: EnvironmentService,
               private notificationService: NzNotificationService, private message: NzMessageService,
               private dialog: NzModalService, private authFacade: AuthFacade,
               public platform: PlatformService, public settings: SettingsService) {
-    const allItems = this.lazyData.allItems;
-    this.items = Object.keys(this.lazyData.data.items)
-      .filter(key => +key > 19)
-      .map(key => {
-        return {
-          id: +key,
-          name: allItems[key]
-        };
-      });
     this.pool = JSON.parse(localStorage.getItem('recipe-finder:pool') || '[]');
     const results$ = this.search$.pipe(
       switchMap(() => {
@@ -116,19 +101,21 @@ export class RecipeFinderComponent implements OnDestroy {
           this.onlyNotCompleted$,
           this.onlyLeveItems$,
           this.clvlMin$,
-          this.clvlMax$
+          this.clvlMax$,
+          this.authFacade.logTracking$.pipe(startWith(<LogTracking>null)),
+          this.lazyData.getEntry('recipesIngredientLookup'),
+          this.lazyData.getEntry('collectables')
         ]);
       }),
-      withLatestFrom(this.authFacade.logTracking$.pipe(startWith(<LogTracking>null))),
-      map(([[sets, onlyCraftable, onlyCollectables, onlyNotCompleted, onlyLeveItems, clvlMin, clvlMax], logTracking]: any[]) => {
+      map(([sets, onlyCraftable, onlyCollectables, onlyNotCompleted, onlyLeveItems, clvlMin, clvlMax, logTracking, recipesIngredientLookup, collectables]: any[]) => {
         this.settings.showOnlyCraftableInRecipeFinder = onlyCraftable;
         this.settings.showOnlyCollectablesInRecipeFinder = onlyCollectables;
         this.settings.showOnlyNotCompletedInRecipeFinder = onlyNotCompleted;
         this.settings.showOnlyLeveItemsInRecipeFinder = onlyLeveItems;
         const possibleEntries = [];
         for (const item of this.pool) {
-          possibleEntries.push(...(this.lazyData.data.recipesIngredientLookup.searchIndex[item.id] || [])
-            .map(id => this.lazyData.data.recipesIngredientLookup.recipes[id])
+          possibleEntries.push(...(recipesIngredientLookup.searchIndex[item.id] || [])
+            .map(id => recipesIngredientLookup.recipes[id])
             .filter(entry => {
               let canBeAdded = true;
               if (onlyNotCompleted) {
@@ -146,16 +133,24 @@ export class RecipeFinderComponent implements OnDestroy {
           entry.missing = entry.ingredients
             // Ignore crystals
             .filter(i => i.id > 19)
-            .filter(i => {
+            .map(i => {
               const poolItem = this.pool.find(item => item.id === i.id);
-              return !poolItem || poolItem.amount < i.amount;
-            });
+              if (!poolItem) {
+                return i;
+              } else {
+                return {
+                  ...i,
+                  amount: i.amount - poolItem.amount
+                };
+              }
+            })
+            .filter(e => e.amount > 0);
           entry.possibleAmount = entry.yields;
           while (this.canCraft(entry, entry.possibleAmount)) {
             entry.possibleAmount += entry.yields;
           }
           // Remove the final iteration check
-          entry.possibleAmount -= entry.yields;
+          entry.possibleAmount = Math.max(entry.possibleAmount - entry.yields, 1);
           return entry;
         });
         return [
@@ -163,7 +158,7 @@ export class RecipeFinderComponent implements OnDestroy {
             .filter(entry => {
               let match = !onlyCraftable || !entry.missingLevel;
               if (onlyCollectables) {
-                match = match && this.lazyData.data.collectables[entry.itemId]?.collectable === 1;
+                match = match && collectables[entry.itemId]?.collectable === 1;
               }
               return match && (entry.lvl >= clvlMin && entry.lvl <= clvlMax);
             })
@@ -190,9 +185,14 @@ export class RecipeFinderComponent implements OnDestroy {
       tap(([entries]) => {
         this.totalItems = entries.length;
       }),
-      map(([entries, onlyLeveItems]) => {
+      withLazyData(this.lazyData, 'leves'),
+      map(([[entries, onlyLeveItems], leves]) => {
         const withLeves = entries.map(entry => {
-          entry.leves = this.lazyData.getItemLeveIds(entry.itemId);
+          entry.leves = Object.entries(leves)
+            .filter(([, leve]) => {
+              return leve.items.some(i => i.itemId === entry.itemId);
+            })
+            .map(([id]) => +id);
           return entry;
         });
         if (onlyLeveItems) {
@@ -225,10 +225,6 @@ export class RecipeFinderComponent implements OnDestroy {
       const poolItem = this.pool.find(item => item.id === i.id);
       return poolItem.amount < i.amount;
     });
-  }
-
-  public isButtonDisabled(name: string, amount: number): boolean {
-    return amount <= 0 || !this.items.some(i => this.i18n.getName(i.name).toLowerCase() === name.toLowerCase());
   }
 
   public importFromClipboard(): void {
@@ -287,9 +283,16 @@ export class RecipeFinderComponent implements OnDestroy {
   };
 
   public sortPool(): void {
-    this.pool = this.pool.sort((a, b) => {
-      return this.i18n.getName(this.l12n.getItem(a.id)) > this.i18n.getName(this.l12n.getItem(b.id)) ? 1 : -1;
-    });
+    safeCombineLatest(this.pool.map(row => {
+      return this.i18n.getNameObservable('items', row.id).pipe(
+        map(name => ({ ...row, name }))
+      );
+    })).pipe(
+      map(poolWithNames => {
+        return poolWithNames.sort((a, b) => a.name > b.name ? 1 : -1)
+          .map(row => ({ id: row.id, amount: row.amount }));
+      })
+    ).subscribe(pool => this.pool = pool);
   }
 
   closedTip(): void {
@@ -323,31 +326,45 @@ export class RecipeFinderComponent implements OnDestroy {
   }
 
   addToPool(input: string | number, amount: number, cumulative = false): void {
-    let item;
+    let item$: Observable<{ id: number, name: I18nName }>;
     if (input.toString() === input) {
-      item = this.items.find(i => this.i18n.getName(i.name).toLowerCase() === input.toLowerCase());
+      item$ = this.items$.pipe(
+        map(items => {
+          return items.find(i => this.i18n.getName(i.name).toLowerCase() === input.toLowerCase());
+        })
+      );
     } else {
-      item = this.items.find(i => i.id === input);
+      item$ = this.items$.pipe(
+        map(items => {
+          return items.find(i => i.id === input);
+        })
+      );
     }
-    if (!item || (!cumulative && this.pool.some(i => i.id === item.id))) {
-      return;
-    }
-    const poolEntry = this.pool.find(i => i.id === item.id);
-    if (poolEntry === undefined) {
-      this.pool = [
-        { id: item.id, amount: amount },
-        ...this.pool
-      ];
-    } else {
-      poolEntry.amount += amount;
-      this.pool = this.pool.map(i => {
-        if (i.id === item.id) {
-          return poolEntry;
+    item$.pipe(
+      map(item => {
+        if(!item || (!cumulative && this.pool.some(i => i.id === item.id))){
+          return null;
         }
-        return i;
-      });
-    }
-    this.savePool();
+        const poolEntry = this.pool.find(i => i.id === item.id);
+        if (poolEntry === undefined) {
+          this.pool = [
+            { id: item.id, amount: amount },
+            ...this.pool
+          ];
+        } else {
+          poolEntry.amount += amount;
+          this.pool = this.pool.map(i => {
+            if (i.id === item.id) {
+              return poolEntry;
+            }
+            return i;
+          });
+        }
+      }),
+      first()
+    ).subscribe(() => {
+      this.savePool();
+    });
   }
 
   removeFromPool(itemId: number, amount: number, save = false): void {
@@ -402,7 +419,7 @@ export class RecipeFinderComponent implements OnDestroy {
         return this.progressService.showProgress(
           combineLatest([this.listsFacade.myLists$, this.listsFacade.listsWithWriteAccess$]).pipe(
             map(([myLists, listsICanWrite]) => [...myLists, ...listsICanWrite]),
-            map(lists => lists.find(l => l.createdAt.toMillis() === list.createdAt.toMillis() && l.$key !== undefined)),
+            map(lists => lists.find(l => l.createdAt.seconds === list.createdAt.seconds && l.$key !== undefined)),
             filter(l => l !== undefined),
             first()
           ), 1, 'Saving_in_database');
@@ -468,12 +485,12 @@ export class RecipeFinderComponent implements OnDestroy {
     }
   }
 
-  private savePool(): void {
-    localStorage.setItem('recipe-finder:pool', JSON.stringify(this.pool));
-  }
-
   ngOnDestroy(): void {
     this.savePool();
+  }
+
+  private savePool(): void {
+    localStorage.setItem('recipe-finder:pool', JSON.stringify(this.pool));
   }
 
 }

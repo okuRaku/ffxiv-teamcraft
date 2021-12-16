@@ -5,7 +5,6 @@ import {
   ComponentFactoryResolver,
   EventEmitter,
   Input,
-  OnInit,
   Output,
   ViewChild,
   ViewContainerRef
@@ -21,11 +20,12 @@ import { PermissionLevel } from '../../../../core/database/permissions/permissio
 import { CraftingRotation } from '../../../../model/other/crafting-rotation';
 import { BehaviorSubject, Observable, ReplaySubject } from 'rxjs';
 import { RotationsFacade } from '../../../rotations/+state/rotations.facade';
-import { LazyDataService } from '../../../../core/data/lazy-data.service';
 import { IpcService } from '../../../../core/electron/ipc.service';
 import { PlatformService } from '../../../../core/tools/platform.service';
 import { ItemRowMenuComponent } from '../item-row-menu/item-row-menu.component';
 import { NzContextMenuService } from 'ng-zorro-antd/dropdown';
+import { LazyDataFacade } from '../../../../lazy-data/+state/lazy-data.facade';
+import { observeInput } from '../../../../core/rxjs/observe-input';
 
 @Component({
   selector: 'app-item-row-buttons',
@@ -33,10 +33,10 @@ import { NzContextMenuService } from 'ng-zorro-antd/dropdown';
   styleUrls: ['./item-row-buttons.component.less'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ItemRowButtonsComponent extends TeamcraftComponent implements OnInit {
+export class ItemRowButtonsComponent extends TeamcraftComponent {
 
   @Input()
-  buttonsCache: { [key: string]: boolean };
+  buttonsCache: { [key: string]: boolean } = {};
 
   @Input()
   finalItem: boolean;
@@ -185,14 +185,17 @@ export class ItemRowButtonsComponent extends TeamcraftComponent implements OnIni
 
   notFavoriteCopyMode = this.settings.preferredCopyType === 'classic' ? 'isearch' : 'classic';
 
-  collectable = false;
+  collectable$ = observeInput(this, 'itemId').pipe(
+    switchMap(itemId => this.lazyData.getRow('collectables', itemId)),
+    map(res => res.collectable !== 0)
+  );
 
   @ViewChild('menuHost', { read: ViewContainerRef })
   contextMenuHost: ViewContainerRef;
 
   constructor(private messageService: NzMessageService, private translate: TranslateService,
               public settings: SettingsService, private cd: ChangeDetectorRef,
-              private rotationsFacade: RotationsFacade, private lazyData: LazyDataService,
+              private rotationsFacade: RotationsFacade, private lazyData: LazyDataFacade,
               private ipc: IpcService, public platform: PlatformService,
               private componentFactoryResolver: ComponentFactoryResolver,
               private nzContextMenuService: NzContextMenuService) {
@@ -204,10 +207,6 @@ export class ItemRowButtonsComponent extends TeamcraftComponent implements OnIni
     });
   }
 
-  ngOnInit(): void {
-    this.collectable = this.lazyData.data.collectables[this.itemId] !== undefined;
-  }
-
   openMenu(event: MouseEvent): void {
     const componentFactory = this.componentFactoryResolver.resolveComponentFactory(ItemRowMenuComponent);
     const viewContainerRef = this.contextMenuHost;
@@ -216,7 +215,7 @@ export class ItemRowButtonsComponent extends TeamcraftComponent implements OnIni
     componentRef.instance.buttonsComponentRef = this;
     componentRef.instance.menu$.subscribe(menu => {
       this.nzContextMenuService.create(event, menu);
-    })
+    });
   }
 
   isButton(element: ItemRowMenuElement): boolean {

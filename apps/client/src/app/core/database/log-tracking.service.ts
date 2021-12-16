@@ -1,16 +1,16 @@
 import { Injectable, NgZone } from '@angular/core';
 import { NgSerializerService } from '@kaiu/ng-serializer';
 import { PendingChangesService } from './pending-changes/pending-changes.service';
-import { AngularFirestore } from '@angular/fire/firestore';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { FirestoreStorage } from './storage/firestore/firestore-storage';
 import { LogTracking } from '../../model/user/log-tracking';
 import { concat, from, Observable } from 'rxjs';
-import firebase from 'firebase/app';
+import firebase from 'firebase/compat/app';
 import { chunk } from 'lodash';
 
 interface MarkAsDoneEntry {
   itemId: number;
-  log: keyof LogTracking;
+  log: keyof Extract<LogTracking, number[]>;
   done: boolean;
 }
 
@@ -20,6 +20,10 @@ export class LogTrackingService extends FirestoreStorage<LogTracking> {
   constructor(protected firestore: AngularFirestore, protected serializer: NgSerializerService, protected zone: NgZone,
               protected pendingChangesService: PendingChangesService) {
     super(firestore, serializer, zone, pendingChangesService);
+  }
+
+  get(uid: string, uriParams?: any): Observable<LogTracking> {
+    return super.get(uid, uriParams);
   }
 
   public markAsDone(uid: string, entries: MarkAsDoneEntry[]): Observable<any> {
@@ -40,7 +44,7 @@ export class LogTrackingService extends FirestoreStorage<LogTracking> {
                     newLog[entry.log].push(entry.itemId);
                     transaction.set(docRef, newLog);
                   } else {
-                    if (entry.done && (doc.get(entry.log) || []).indexOf(entry.itemId) === -1) {
+                    if (entry.done && (doc.get(entry.log.toString()) || []).indexOf(entry.itemId) === -1) {
                       transaction.update(docRef, {
                         [entry.log]: firebase.firestore.FieldValue.arrayUnion(entry.itemId)
                       });

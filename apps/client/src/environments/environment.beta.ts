@@ -3,12 +3,14 @@ import { gameEnv } from './game-env';
 import { patchNotes } from './patch-notes';
 
 export const environment = {
-  production: false,
+  production: true,
+  beta: true,
   version: version,
   patchNotes: patchNotes,
   ssrHost: 'https://beta.ffxivteamcraft.com',
   startTimestamp: Date.now(),
   noAnimations: false,
+  verboseOperations: false,
   ...gameEnv,
   firebase: {
     apiKey: 'AIzaSyCkrNPf7XlyuxQeqNtynvDFDnQ-XigG3WA',

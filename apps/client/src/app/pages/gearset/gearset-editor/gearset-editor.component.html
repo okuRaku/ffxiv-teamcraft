@@ -48,7 +48,7 @@
           <form (ngSubmit)="submitFilters()" [formGroup]="itemFiltersform" nz-form nzLayout="inline" fxLayout="row" fxLayoutAlign="center center">
             <!--Ilvl filter-->
             <nz-form-item fxLayout="row" fxLayoutAlign="center center">
-              <nz-form-label nzFor="ilvl">{{'filters/ilvl' | translate}}</nz-form-label>
+              <nz-form-label nzFor="ilvl">{{'TOOLTIP.Ilvl' | translate}}</nz-form-label>
               <nz-form-control>
                 <nz-input-group fxLayout="row" class="input-min-max">
                   <nz-input-number [nzMax]="999" [nzMin]="0" [nzPrecision]="0" formControlName="ilvlMin"
@@ -61,7 +61,7 @@
             </nz-form-item>
             <!--Elvl filter (equipment level)-->
             <nz-form-item fxLayout="row" fxLayoutAlign="center center">
-              <nz-form-label nzFor="elvl">{{'filters/lvl' | translate}}</nz-form-label>
+              <nz-form-label nzFor="elvl">{{'SEARCH_FILTERS.Level' | translate}}</nz-form-label>
               <nz-form-control>
                 <nz-input-group fxLayout="row" class="input-min-max">
                   <nz-input-number [nzMax]="gearset.level" [nzMin]="0" [nzPrecision]="0" formControlName="elvlMin"
@@ -94,13 +94,13 @@
                   <div nz-col [nzMd]="24 - stats.length * (stats.length > 3 ? 2 : 4)" fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="flex-start center">
                     <div>{{('GEARSETS.SLOT.' + category.name) | translate}}</div>
                     <i nz-icon nzType="warning" nzTheme="twotone" nzTwotoneColor="#f5222d"
-                       *ngIf="!gearset[category.property] && category.name !== 'SoulCrystal' && canEquipSlot(category.name, gearset.chest?.itemId, gearset.legs?.itemId)"></i>
-                    <nz-tag *ngIf="!canEquipSlot(category.name, gearset.chest?.itemId, gearset.legs?.itemId)">
+                       *ngIf="!gearset[category.property] && category.name !== 'SoulCrystal' && canEquipSlot(category.name, gearset.chest?.itemId, gearset.legs?.itemId) | async"></i>
+                    <nz-tag *ngIf="!(canEquipSlot(category.name, gearset.chest?.itemId, gearset.legs?.itemId) | async)">
                       {{'GEARSETS.Unavailable_slot' | translate}}
                     </nz-tag>
                   </div>
                   <div nz-col [nzMd]="stats.length > 3 ? 2 : 4" *ngFor="let stat of stats;let lastStat = last" class="item-stat-row" [class.last]="lastStat">
-                    <b>{{stat.id | baseParamName | i18n}}</b>
+                    <b>{{stat.id | i18nRow:'baseParams' | i18n}}</b>
                   </div>
                 </div>
               </ng-template>
@@ -108,7 +108,7 @@
                 <ng-container *ngFor="let row of category.items;let last=last; let odd = odd; trackBy: trackByItemId">
                   <app-gearset-editor-row [property]="category.property"
                                           [equipmentPiece]="row.equipmentPiece"
-                                          [canEquip]="canEquipSlot(category.name, gearset.chest?.itemId, gearset.legs?.itemId)"
+                                          [canEquip]="canEquipSlot(category.name, gearset.chest?.itemId, gearset.legs?.itemId) | async"
                                           [item]="row.item"
                                           [gearset]="gearset"
                                           [materias]="row.equipmentPiece.materias"
@@ -133,18 +133,18 @@
         <nz-select [ngModel]="food$ | async" (ngModelChange)="setGearsetPiece(gearset, 'food', $event)" [style.width.px]="250"
                    [nzPlaceHolder]="'GEARSETS.No_food_selected' | translate" nzShowSearch nzAllowClear nzSize="small" [compareWith]="foodComparator">
           <nz-option *ngFor="let food of foods$ | async" [nzValue]="food"
-                     [nzLabel]="(food.ID | itemName | i18n) + (food.HQ ? ('('+( 'COMMON.Hq' | translate )+')') : '') + ' / ' + (food | foodBonuses:true)"
+                     [nzLabel]="(food.ID | itemName | i18n) + (food.HQ ? ('('+( 'COMMON.Hq' | translate )+')') : '') + ' / ' + (food | foodBonuses:true | async)"
                      nzCustomContent>
             <b>{{food.ID | itemName | i18n}} <span *ngIf="food.HQ">{{'COMMON.Hq' | translate}}</span></b>
-            <div class="food-bonus" *ngFor="let bonus of food | foodBonuses">
+            <div class="food-bonus" *ngFor="let bonus of food | foodBonuses | async">
               {{bonus}}
             </div>
           </nz-option>
         </nz-select>
         <div fxLayout="row" fxLayoutAlign="flex-start bottom" fxLayoutGap="5px" *ngIf="gearset.job < 8 || gearset.job > 18">
           <nz-select [ngModel]="tribe$ | async" (ngModelChange)="tribe$.next($event)" [style.width.px]="100" nzSize="small">
-            <nz-option-group *ngFor="let row of tribesMenu" [nzLabel]="row.race | raceName | i18n">
-              <nz-option *ngFor="let tribe of row.tribes" [nzValue]="tribe" [nzLabel]="tribe | tribeName | i18n"></nz-option>
+            <nz-option-group *ngFor="let row of tribesMenu" [nzLabel]="row.race | i18nRow:'races' | i18n">
+              <nz-option *ngFor="let tribe of row.tribes" [nzValue]="tribe" [nzLabel]="tribe | i18nRow:'tribes' | i18n"></nz-option>
             </nz-option-group>
           </nz-select>
           <nz-input-number [nzMin]="1" [nzMax]="maxLevel" [ngModel]="level$ | async" (ngModelChange)="level$.next($event)" nzSize="small"></nz-input-number>
@@ -158,10 +158,10 @@
           <i nzIconfont="icon-dollar" nz-icon></i>
         </button>
       </div>
-      <div nz-col [nzMd]="2" fxLayout="row" fxLayoutAlign="flex-end center" class="avg-ilvl">{{'GEARSETS.STAT_DISPLAY.Ilvl' | translate}}
-        : {{(gearset | statDisplay:(level$ | async):(tribe$ | async):(food$ | async):0)[0].value}}</div>
+      <div nz-col [nzMd]="2" fxLayout="row" fxLayoutAlign="flex-end center" class="avg-ilvl" *ngIf="(gearset | statDisplay:(level$ | async):(tribe$ | async):(food$ | async):0 | async) as computed">{{'GEARSETS.STAT_DISPLAY.Ilvl' | translate}}
+        : {{computed[0].value }}</div>
       <div nz-col [nzMd]="2" *ngFor="let stat of stats;let lastStat = last" class="item-stat-row" [class.last]="lastStat">
-        <ng-container *ngIf="(gearset | statDisplay:(level$ | async):(tribe$ | async):(food$ | async):stat.id) as statDisplays">
+        <ng-container *ngIf="(gearset | statDisplay:(level$ | async):(tribe$ | async):(food$ | async):stat.id | async) as statDisplays">
           <b>{{stat.value | number:'1.0-0':translate.currentLang}}
             <span *ngFor="let statDisplay of statDisplays"
                   nz-tooltip [nzTooltipTitle]="tooltip"

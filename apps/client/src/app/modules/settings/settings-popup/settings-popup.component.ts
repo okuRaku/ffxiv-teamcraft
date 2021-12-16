@@ -3,10 +3,10 @@ import { SettingsService } from '../settings.service';
 import { TranslateService } from '@ngx-translate/core';
 import { PlatformService } from '../../../core/tools/platform.service';
 import { AuthFacade } from '../../../+state/auth.facade';
-import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalService } from 'ng-zorro-antd/modal';
-import { filter, first, map, switchMap } from 'rxjs/operators';
+import { filter, first, map, shareReplay, switchMap } from 'rxjs/operators';
 import { IpcService } from '../../../core/electron/ipc.service';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
@@ -17,7 +17,6 @@ import { CustomLink } from '../../../core/database/custom-links/custom-link';
 import { Theme } from '../theme';
 import { NameQuestionPopupComponent } from '../../name-question-popup/name-question-popup/name-question-popup.component';
 import { uniq } from 'lodash';
-import { LazyDataService } from '../../../core/data/lazy-data.service';
 import { MappyReporterService } from '../../../core/electron/mappy/mappy-reporter';
 import { from, Observable, Subject } from 'rxjs';
 import { NavigationSidebarService } from '../../navigation-sidebar/navigation-sidebar.service';
@@ -28,6 +27,7 @@ import { InventoryService } from '../../inventory/inventory.service';
 import { NotificationSettings } from '../notification-settings';
 import { SoundNotificationType } from '../../../core/sound-notification/sound-notification-type';
 import { SoundNotificationService } from '../../../core/sound-notification/sound-notification.service';
+import { LazyDataFacade } from '../../../lazy-data/+state/lazy-data.facade';
 
 @Component({
   selector: 'app-settings-popup',
@@ -102,12 +102,27 @@ export class SettingsPopupComponent {
     {
       id: 134,
       placenameId: 517
+    },
+    {
+      id: 218,
+      placenameId: 512
+    },
+    {
+      id: 182,
+      placenameId: 3706
+    },
+    {
+      id: 183,
+      placenameId: 3707
     }
   ];
 
   public sidebarItems$: Observable<SidebarItem[]> = this.navigationSidebarService.allLinks$.pipe(first());
 
-  public allAetherytes = this.lazyData.data.aetherytes.filter(a => a.nameid !== 0);
+  public allAetherytes$ = this.lazyData.getEntry('aetherytes').pipe(
+    map(aetherytes => aetherytes.filter(a => a.nameid !== 0)),
+    shareReplay(1)
+  );
 
   public sidebarFavorites = [...this.settings.sidebarFavorites];
 
@@ -167,7 +182,7 @@ export class SettingsPopupComponent {
               public ipc: IpcService, private router: Router, private http: HttpClient,
               private userService: UserService, private customLinksFacade: CustomLinksFacade,
               private dialog: NzModalService, private inventoryFacade: InventoryService,
-              private lazyData: LazyDataService, private mappy: MappyReporterService,
+              private lazyData: LazyDataFacade, private mappy: MappyReporterService,
               private navigationSidebarService: NavigationSidebarService, private patreonService: PatreonService,
               private soundNotificationService: SoundNotificationService) {
     this.ipc.once('always-on-top:value', (event, value) => {
@@ -286,6 +301,12 @@ export class SettingsPopupComponent {
         this.setProxy({ rule: `${this.proxyType}://${this.proxyValue}` });
         break;
     }
+  }
+
+  reloadGubalToken(): void {
+    this.authFacade.reloadGubalToken().subscribe(() => {
+      this.message.success('Gubal token reloaded successfully');
+    });
   }
 
   alwaysOnTopChange(value: boolean): void {
@@ -466,9 +487,11 @@ export class SettingsPopupComponent {
   }
 
   public setNotificationSound(type: SoundNotificationType, sound: string): void {
-    this.notificationSettings[type].sound = sound;
-    this.settings.setNotificationSettings(type, this.notificationSettings[type]);
-    this.previewSound(type);
+    if(['.mp3','.wav','.ogg','.m4a','.flac','.mp4','.wma','.aac'].some(ext => sound.endsWith(ext)) || this.sounds.includes(sound)){
+      this.notificationSettings[type].sound = sound;
+      this.settings.setNotificationSettings(type, this.notificationSettings[type]);
+      this.previewSound(type);
+    }
   }
 
   public onMappyEnableChange(enabled: boolean): void {

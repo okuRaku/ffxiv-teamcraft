@@ -16,6 +16,8 @@ export class LayoutRowFilter {
 
   static IS_CRYSTAL = new LayoutRowFilter(row => row.id > 1 && row.id < 20, 'IS_CRYSTAL');
 
+  static IS_FINAL_ITEM = new LayoutRowFilter(row => row.finalItem === true, 'IS_FINAL_ITEM');
+
   static IS_GATHERING = new LayoutRowFilter(row => getItemSource(row, DataType.GATHERED_BY, true).type !== undefined, 'IS_GATHERING');
 
   static IS_TRADE = new LayoutRowFilter(row => getItemSource(row, DataType.TRADE_SOURCES).length > 0, 'IS_TRADE');
@@ -24,6 +26,9 @@ export class LayoutRowFilter {
     let vendors = getItemSource<Vendor[]>(row, DataType.VENDORS);
     if (settings.maximumVendorPrice > 0) {
       vendors = vendors.filter(vendor => vendor.price <= settings.maximumVendorPrice);
+    }
+    if (settings.maximumTotalVendorPrice > 0) {
+      vendors = vendors.filter(vendor => vendor.price * row.amount <= settings.maximumTotalVendorPrice);
     }
     return vendors.length > 0;
   }, 'CAN_BE_BOUGHT');
@@ -102,6 +107,8 @@ export class LayoutRowFilter {
       39,
       40,
       41,
+      42,
+      43,
       7811,
       9383,
       14298,
@@ -130,7 +137,9 @@ export class LayoutRowFilter {
       17833,
       17834,
       25199,
-      25200
+      25200,
+      33913,
+      33914
     ];
 
     for (const tokenId of scripIds) {
@@ -189,56 +198,56 @@ export class LayoutRowFilter {
   static IS_CRAFTED_BY_ALC = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('alchemist') > -1;
+        return craftedByRow.job === 14;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_ALC'));
 
   static IS_CRAFTED_BY_ARM = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('armorer') > -1;
+        return craftedByRow.job === 10;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_ARM'));
 
   static IS_CRAFTED_BY_BSM = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('blacksmith') > -1;
+        return craftedByRow.job === 9;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_BSM'));
 
   static IS_CRAFTED_BY_CRP = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('carpenter') > -1;
+        return craftedByRow.job === 8;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_CRP'));
 
   static IS_CRAFTED_BY_CUL = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('culinarian') > -1;
+        return craftedByRow.job === 15;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_CUL'));
 
   static IS_CRAFTED_BY_GSM = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('goldsmith') > -1;
+        return craftedByRow.job === 11;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_GSM'));
 
   static IS_CRAFTED_BY_LTW = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('leatherworker') > -1;
+        return craftedByRow.job === 12;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_LTW'));
 
   static IS_CRAFTED_BY_WVR = LayoutRowFilter.IS_CRAFT
     ._and(new LayoutRowFilter((row: ListRow) => {
       return getItemSource(row, DataType.CRAFTED_BY).find((craftedByRow: CraftedBy) => {
-        return craftedByRow.icon.toLowerCase().indexOf('weaver') > -1;
+        return craftedByRow.job === 13;
       }) !== undefined;
     }, 'IS_CRAFTED_BY_WVR'));
 

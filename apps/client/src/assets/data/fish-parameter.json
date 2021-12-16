@@ -2957,6 +2957,61 @@
       "fr": "Lacs et marais"
     }
   },
+  "6688": {
+    "id": 1137,
+    "itemId": 6688,
+    "level": 36,
+    "icon": "/i/025000/025930.png",
+    "mapId": 15,
+    "zoneId": 30,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "6689": {
+    "id": 1138,
+    "itemId": 6689,
+    "level": 41,
+    "icon": "/i/025000/025930.png",
+    "mapId": 15,
+    "zoneId": 30,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "6690": {
+    "id": 1139,
+    "itemId": 6690,
+    "level": 46,
+    "icon": "/i/025000/025930.png",
+    "mapId": 15,
+    "zoneId": 30,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "6691": {
+    "id": 1140,
+    "itemId": 6691,
+    "level": 50,
+    "icon": "/i/025000/025930.png",
+    "mapId": 15,
+    "zoneId": 30,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "6692": {
+    "id": 1141,
+    "itemId": 6692,
+    "level": 50,
+    "icon": "/i/025000/025930.png",
+    "mapId": 15,
+    "zoneId": 30,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
   "7678": {
     "id": 187,
     "itemId": 7678,
@@ -4806,6 +4861,39 @@
       "fr": "Pleine mer"
     }
   },
+  "12241": {
+    "id": 1145,
+    "itemId": 12241,
+    "level": 55,
+    "icon": "/i/025000/025930.png",
+    "mapId": 211,
+    "zoneId": 2200,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "12242": {
+    "id": 1146,
+    "itemId": 12242,
+    "level": 60,
+    "icon": "/i/025000/025930.png",
+    "mapId": 211,
+    "zoneId": 2200,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "12243": {
+    "id": 1147,
+    "itemId": 12243,
+    "level": 60,
+    "icon": "/i/025000/025930.png",
+    "mapId": 211,
+    "zoneId": 2200,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
   "12713": {
     "id": 300,
     "itemId": 12713,
@@ -5820,7 +5908,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -5854,7 +5942,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -5871,7 +5959,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -5905,7 +5993,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6075,7 +6163,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6296,7 +6384,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6398,7 +6486,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6483,7 +6571,7 @@
     "weathered": 1,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6534,7 +6622,7 @@
     "weathered": 1,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6551,7 +6639,7 @@
     "weathered": 0,
     "stars": 0,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6741,7 +6829,7 @@
     "stars": 1,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -6921,6 +7009,17 @@
       "fr": "Lacs et marais"
     }
   },
+  "13631": {
+    "id": 1151,
+    "itemId": 13631,
+    "level": 60,
+    "icon": "/i/025000/025951.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
   "13727": {
     "id": 424,
     "itemId": 13727,
@@ -6933,7 +7032,7 @@
     "stars": 1,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -7027,6 +7126,83 @@
       "ja": "河川",
       "fr": "Rivières"
     }
+  },
+  "13733": {
+    "id": 1149,
+    "itemId": 13733,
+    "level": 60,
+    "icon": "/i/029000/029724.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "13734": {
+    "id": 1150,
+    "itemId": 13734,
+    "level": 60,
+    "icon": "/i/029000/029727.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
+  "13736": {
+    "id": 1152,
+    "itemId": 13736,
+    "level": 60,
+    "icon": "/i/029000/029316.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "13737": {
+    "id": 1153,
+    "itemId": 13737,
+    "level": 60,
+    "icon": "/i/029000/029266.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "13738": {
+    "id": 1154,
+    "itemId": 13738,
+    "level": 60,
+    "icon": "/i/029000/029302.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "13739": {
+    "id": 1155,
+    "itemId": 13739,
+    "level": 60,
+    "icon": "/i/029000/029238.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
+  "13740": {
+    "id": 1156,
+    "itemId": 13740,
+    "level": 60,
+    "icon": "/i/029000/029420.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
   },
   "14211": {
     "id": 431,
@@ -7166,7 +7342,7 @@
     "stars": 1,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -7432,7 +7608,7 @@
     "weathered": 0,
     "stars": 1,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -7504,7 +7680,7 @@
     "stars": 2,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -7646,7 +7822,7 @@
     "stars": 2,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -7856,7 +8032,7 @@
     "stars": 3,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -8018,7 +8194,7 @@
     "stars": 3,
     "folklore": 12703,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
@@ -8095,6 +8271,72 @@
       "ja": "浮島",
       "fr": "Îles célestes"
     }
+  },
+  "17594": {
+    "id": 1157,
+    "itemId": 17594,
+    "level": 60,
+    "icon": "/i/029000/029729.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 2
+  },
+  "17835": {
+    "id": 1161,
+    "itemId": 17835,
+    "level": 70,
+    "icon": "/i/025000/025930.png",
+    "mapId": 367,
+    "zoneId": 2406,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "17836": {
+    "id": 1162,
+    "itemId": 17836,
+    "level": 70,
+    "icon": "/i/025000/025930.png",
+    "mapId": 367,
+    "zoneId": 2406,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "17949": {
+    "id": 1158,
+    "itemId": 17949,
+    "level": 64,
+    "icon": "/i/029000/029210.png",
+    "mapId": 367,
+    "zoneId": 2406,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "17950": {
+    "id": 1159,
+    "itemId": 17950,
+    "level": 68,
+    "icon": "/i/029000/029139.png",
+    "mapId": 371,
+    "zoneId": 2409,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "17952": {
+    "id": 1160,
+    "itemId": 17952,
+    "level": 70,
+    "icon": "/i/029000/029115.png",
+    "mapId": 371,
+    "zoneId": 2409,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
   },
   "20018": {
     "id": 596,
@@ -10572,6 +10814,292 @@
       "fr": "Rivières"
     }
   },
+  "22668": {
+    "id": 1166,
+    "itemId": 22668,
+    "level": 60,
+    "icon": "/i/029000/029107.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22669": {
+    "id": 1167,
+    "itemId": 22669,
+    "level": 60,
+    "icon": "/i/029000/029495.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22670": {
+    "id": 1168,
+    "itemId": 22670,
+    "level": 60,
+    "icon": "/i/029000/029047.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22671": {
+    "id": 1169,
+    "itemId": 22671,
+    "level": 60,
+    "icon": "/i/029000/029101.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22672": {
+    "id": 1170,
+    "itemId": 22672,
+    "level": 60,
+    "icon": "/i/029000/029405.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22673": {
+    "id": 1171,
+    "itemId": 22673,
+    "level": 60,
+    "icon": "/i/029000/029235.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22674": {
+    "id": 1172,
+    "itemId": 22674,
+    "level": 60,
+    "icon": "/i/029000/029395.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22675": {
+    "id": 1173,
+    "itemId": 22675,
+    "level": 60,
+    "icon": "/i/029000/029215.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22676": {
+    "id": 1174,
+    "itemId": 22676,
+    "level": 60,
+    "icon": "/i/029000/029314.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22677": {
+    "id": 1175,
+    "itemId": 22677,
+    "level": 60,
+    "icon": "/i/029000/029310.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22678": {
+    "id": 1176,
+    "itemId": 22678,
+    "level": 60,
+    "icon": "/i/029000/029217.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22679": {
+    "id": 1177,
+    "itemId": 22679,
+    "level": 60,
+    "icon": "/i/029000/029444.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22680": {
+    "id": 1178,
+    "itemId": 22680,
+    "level": 60,
+    "icon": "/i/029000/029500.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22681": {
+    "id": 1179,
+    "itemId": 22681,
+    "level": 60,
+    "icon": "/i/029000/029205.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22682": {
+    "id": 1180,
+    "itemId": 22682,
+    "level": 60,
+    "icon": "/i/029000/029008.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22683": {
+    "id": 1181,
+    "itemId": 22683,
+    "level": 60,
+    "icon": "/i/029000/029031.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22684": {
+    "id": 1182,
+    "itemId": 22684,
+    "level": 60,
+    "icon": "/i/029000/029059.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22685": {
+    "id": 1183,
+    "itemId": 22685,
+    "level": 60,
+    "icon": "/i/029000/029475.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22686": {
+    "id": 1184,
+    "itemId": 22686,
+    "level": 60,
+    "icon": "/i/029000/029419.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22687": {
+    "id": 1185,
+    "itemId": 22687,
+    "level": 60,
+    "icon": "/i/029000/029501.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22688": {
+    "id": 1186,
+    "itemId": 22688,
+    "level": 60,
+    "icon": "/i/029000/029015.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22689": {
+    "id": 1187,
+    "itemId": 22689,
+    "level": 60,
+    "icon": "/i/029000/029418.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22690": {
+    "id": 1188,
+    "itemId": 22690,
+    "level": 60,
+    "icon": "/i/029000/029267.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22691": {
+    "id": 1189,
+    "itemId": 22691,
+    "level": 60,
+    "icon": "/i/029000/029245.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22692": {
+    "id": 1190,
+    "itemId": 22692,
+    "level": 60,
+    "icon": "/i/029000/029490.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "22693": {
+    "id": 1191,
+    "itemId": 22693,
+    "level": 60,
+    "icon": "/i/029000/029491.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
   "23054": {
     "id": 636,
     "itemId": 23054,
@@ -10956,6 +11484,17 @@
       "ja": "湖沼",
       "fr": "Lacs et marais"
     }
+  },
+  "23171": {
+    "id": 1192,
+    "itemId": 23171,
+    "level": 60,
+    "icon": "/i/029000/029239.png",
+    "mapId": 372,
+    "zoneId": 2411,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
   },
   "24203": {
     "id": 658,
@@ -11666,6 +12205,28 @@
       "fr": "Lacs et marais"
     }
   },
+  "26744": {
+    "id": 1193,
+    "itemId": 26744,
+    "level": 80,
+    "icon": "/i/025000/025930.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "26745": {
+    "id": 1194,
+    "itemId": 26745,
+    "level": 80,
+    "icon": "/i/025000/025930.png",
+    "mapId": 496,
+    "zoneId": 2958,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
   "26746": {
     "id": 698,
     "itemId": 26746,
@@ -11727,6 +12288,28 @@
       "ja": "砂海",
       "fr": "Oasis"
     }
+  },
+  "26750": {
+    "id": 1164,
+    "itemId": 26750,
+    "level": 75,
+    "icon": "/i/029000/029300.png",
+    "mapId": 494,
+    "zoneId": 2956,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "26751": {
+    "id": 1165,
+    "itemId": 26751,
+    "level": 80,
+    "icon": "/i/029000/029205.png",
+    "mapId": 496,
+    "zoneId": 2958,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
   },
   "27410": {
     "id": 720,
@@ -13915,6 +14498,226 @@
       "fr": "Pleine mer"
     }
   },
+  "29564": {
+    "id": 1196,
+    "itemId": 29564,
+    "level": 70,
+    "icon": "/i/029000/029726.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29565": {
+    "id": 1197,
+    "itemId": 29565,
+    "level": 70,
+    "icon": "/i/022000/022263.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29566": {
+    "id": 1198,
+    "itemId": 29566,
+    "level": 70,
+    "icon": "/i/029000/029209.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29567": {
+    "id": 1199,
+    "itemId": 29567,
+    "level": 70,
+    "icon": "/i/029000/029263.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29568": {
+    "id": 1200,
+    "itemId": 29568,
+    "level": 70,
+    "icon": "/i/029000/029231.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29569": {
+    "id": 1201,
+    "itemId": 29569,
+    "level": 70,
+    "icon": "/i/029000/029588.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29570": {
+    "id": 1202,
+    "itemId": 29570,
+    "level": 70,
+    "icon": "/i/029000/029204.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29571": {
+    "id": 1203,
+    "itemId": 29571,
+    "level": 70,
+    "icon": "/i/029000/029593.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29572": {
+    "id": 1204,
+    "itemId": 29572,
+    "level": 70,
+    "icon": "/i/029000/029590.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29575": {
+    "id": 1205,
+    "itemId": 29575,
+    "level": 70,
+    "icon": "/i/029000/029217.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29576": {
+    "id": 1206,
+    "itemId": 29576,
+    "level": 70,
+    "icon": "/i/029000/029063.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29577": {
+    "id": 1207,
+    "itemId": 29577,
+    "level": 70,
+    "icon": "/i/028000/028456.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29580": {
+    "id": 1208,
+    "itemId": 29580,
+    "level": 70,
+    "icon": "/i/029000/029595.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29582": {
+    "id": 1209,
+    "itemId": 29582,
+    "level": 70,
+    "icon": "/i/029000/029853.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29583": {
+    "id": 1210,
+    "itemId": 29583,
+    "level": 70,
+    "icon": "/i/029000/029503.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29584": {
+    "id": 1211,
+    "itemId": 29584,
+    "level": 70,
+    "icon": "/i/029000/029591.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29585": {
+    "id": 1212,
+    "itemId": 29585,
+    "level": 70,
+    "icon": "/i/022000/022253.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29586": {
+    "id": 1213,
+    "itemId": 29586,
+    "level": 70,
+    "icon": "/i/029000/029204.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29587": {
+    "id": 1214,
+    "itemId": 29587,
+    "level": 70,
+    "icon": "/i/028000/028464.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29588": {
+    "id": 1215,
+    "itemId": 29588,
+    "level": 70,
+    "icon": "/i/027000/027038.png",
+    "mapId": 495,
+    "zoneId": 2957,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
   "29673": {
     "id": 908,
     "itemId": 29673,
@@ -15207,6 +16010,226 @@
       "fr": "Pleine mer"
     }
   },
+  "29994": {
+    "id": 1218,
+    "itemId": 29994,
+    "level": 1,
+    "icon": "/i/029000/029473.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29995": {
+    "id": 1219,
+    "itemId": 29995,
+    "level": 1,
+    "icon": "/i/029000/029400.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29996": {
+    "id": 1220,
+    "itemId": 29996,
+    "level": 1,
+    "icon": "/i/029000/029261.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29997": {
+    "id": 1221,
+    "itemId": 29997,
+    "level": 1,
+    "icon": "/i/029000/029511.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29998": {
+    "id": 1222,
+    "itemId": 29998,
+    "level": 60,
+    "icon": "/i/029000/029224.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "29999": {
+    "id": 1223,
+    "itemId": 29999,
+    "level": 60,
+    "icon": "/i/029000/029232.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30000": {
+    "id": 1224,
+    "itemId": 30000,
+    "level": 70,
+    "icon": "/i/029000/029596.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30001": {
+    "id": 1225,
+    "itemId": 30001,
+    "level": 70,
+    "icon": "/i/029000/029415.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30002": {
+    "id": 1226,
+    "itemId": 30002,
+    "level": 80,
+    "icon": "/i/029000/029655.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30003": {
+    "id": 1227,
+    "itemId": 30003,
+    "level": 80,
+    "icon": "/i/029000/029701.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30004": {
+    "id": 1228,
+    "itemId": 30004,
+    "level": 80,
+    "icon": "/i/029000/029709.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30005": {
+    "id": 1229,
+    "itemId": 30005,
+    "level": 80,
+    "icon": "/i/029000/029130.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "30006": {
+    "id": 1230,
+    "itemId": 30006,
+    "level": 80,
+    "icon": "/i/029000/029116.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
+  "30007": {
+    "id": 1231,
+    "itemId": 30007,
+    "level": 80,
+    "icon": "/i/029000/029708.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
+  "30008": {
+    "id": 1232,
+    "itemId": 30008,
+    "level": 80,
+    "icon": "/i/029000/029724.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
+  "30009": {
+    "id": 1233,
+    "itemId": 30009,
+    "level": 80,
+    "icon": "/i/029000/029653.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 1
+  },
+  "30010": {
+    "id": 1234,
+    "itemId": 30010,
+    "level": 80,
+    "icon": "/i/029000/029865.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1
+  },
+  "30011": {
+    "id": 1235,
+    "itemId": 30011,
+    "level": 80,
+    "icon": "/i/029000/029658.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1
+  },
+  "30012": {
+    "id": 1236,
+    "itemId": 30012,
+    "level": 80,
+    "icon": "/i/029000/029660.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1
+  },
+  "30013": {
+    "id": 1237,
+    "itemId": 30013,
+    "level": 80,
+    "icon": "/i/029000/029074.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1
+  },
   "30432": {
     "id": 912,
     "itemId": 30432,
@@ -15493,11 +16516,297 @@
     "weathered": 0,
     "stars": 2,
     "recordType": {
-      "en": "Aetherochemical Spills",
+      "en": "Aetherochemical Pools",
       "de": "Ätherquellen",
       "ja": "魔泉",
       "fr": "Fuites magismologiques"
     }
+  },
+  "31578": {
+    "id": 1238,
+    "itemId": 31578,
+    "level": 10,
+    "icon": "/i/029000/029303.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31579": {
+    "id": 1239,
+    "itemId": 31579,
+    "level": 10,
+    "icon": "/i/029000/029519.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31580": {
+    "id": 1240,
+    "itemId": 31580,
+    "level": 10,
+    "icon": "/i/029000/029243.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31581": {
+    "id": 1241,
+    "itemId": 31581,
+    "level": 10,
+    "icon": "/i/029000/029493.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31582": {
+    "id": 1242,
+    "itemId": 31582,
+    "level": 60,
+    "icon": "/i/029000/029291.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31583": {
+    "id": 1243,
+    "itemId": 31583,
+    "level": 60,
+    "icon": "/i/029000/029443.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31584": {
+    "id": 1244,
+    "itemId": 31584,
+    "level": 60,
+    "icon": "/i/029000/029258.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31585": {
+    "id": 1245,
+    "itemId": 31585,
+    "level": 60,
+    "icon": "/i/029000/029268.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31586": {
+    "id": 1246,
+    "itemId": 31586,
+    "level": 60,
+    "icon": "/i/029000/029227.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31587": {
+    "id": 1247,
+    "itemId": 31587,
+    "level": 60,
+    "icon": "/i/029000/029316.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31588": {
+    "id": 1248,
+    "itemId": 31588,
+    "level": 60,
+    "icon": "/i/029000/029217.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31589": {
+    "id": 1249,
+    "itemId": 31589,
+    "level": 60,
+    "icon": "/i/029000/029484.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31590": {
+    "id": 1250,
+    "itemId": 31590,
+    "level": 80,
+    "icon": "/i/029000/029721.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31591": {
+    "id": 1251,
+    "itemId": 31591,
+    "level": 80,
+    "icon": "/i/029000/029719.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31592": {
+    "id": 1252,
+    "itemId": 31592,
+    "level": 80,
+    "icon": "/i/029000/029707.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31593": {
+    "id": 1253,
+    "itemId": 31593,
+    "level": 80,
+    "icon": "/i/029000/029910.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31594": {
+    "id": 1254,
+    "itemId": 31594,
+    "level": 80,
+    "icon": "/i/029000/029711.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31595": {
+    "id": 1255,
+    "itemId": 31595,
+    "level": 80,
+    "icon": "/i/029000/029720.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "31596": {
+    "id": 1256,
+    "itemId": 31596,
+    "level": 80,
+    "icon": "/i/029000/029403.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 2
+  },
+  "31597": {
+    "id": 1257,
+    "itemId": 31597,
+    "level": 80,
+    "icon": "/i/029000/029651.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 2
+  },
+  "31598": {
+    "id": 1258,
+    "itemId": 31598,
+    "level": 80,
+    "icon": "/i/029000/029904.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 2
+  },
+  "31599": {
+    "id": 1259,
+    "itemId": 31599,
+    "level": 80,
+    "icon": "/i/029000/029712.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 2
+  },
+  "31600": {
+    "id": 1260,
+    "itemId": 31600,
+    "level": 80,
+    "icon": "/i/029000/029737.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 2
+  },
+  "31601": {
+    "id": 1261,
+    "itemId": 31601,
+    "level": 80,
+    "icon": "/i/029000/029738.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 2
+  },
+  "31602": {
+    "id": 1262,
+    "itemId": 31602,
+    "level": 80,
+    "icon": "/i/029000/029739.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 2
+  },
+  "31603": {
+    "id": 1263,
+    "itemId": 31603,
+    "level": 80,
+    "icon": "/i/029000/029740.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 2
   },
   "31770": {
     "id": 994,
@@ -16655,6 +17964,292 @@
       "fr": "Pleine mer"
     }
   },
+  "32882": {
+    "id": 1264,
+    "itemId": 32882,
+    "level": 10,
+    "icon": "/i/029000/029310.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32883": {
+    "id": 1265,
+    "itemId": 32883,
+    "level": 10,
+    "icon": "/i/029000/029420.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32884": {
+    "id": 1266,
+    "itemId": 32884,
+    "level": 10,
+    "icon": "/i/029000/029467.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32885": {
+    "id": 1267,
+    "itemId": 32885,
+    "level": 10,
+    "icon": "/i/029000/029501.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32886": {
+    "id": 1268,
+    "itemId": 32886,
+    "level": 60,
+    "icon": "/i/029000/029706.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32887": {
+    "id": 1269,
+    "itemId": 32887,
+    "level": 60,
+    "icon": "/i/029000/029410.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32888": {
+    "id": 1270,
+    "itemId": 32888,
+    "level": 60,
+    "icon": "/i/029000/029514.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32889": {
+    "id": 1271,
+    "itemId": 32889,
+    "level": 60,
+    "icon": "/i/029000/029704.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32890": {
+    "id": 1272,
+    "itemId": 32890,
+    "level": 60,
+    "icon": "/i/029000/029715.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32891": {
+    "id": 1273,
+    "itemId": 32891,
+    "level": 60,
+    "icon": "/i/028000/028463.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32892": {
+    "id": 1274,
+    "itemId": 32892,
+    "level": 60,
+    "icon": "/i/029000/029129.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32893": {
+    "id": 1275,
+    "itemId": 32893,
+    "level": 60,
+    "icon": "/i/029000/029758.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32894": {
+    "id": 1276,
+    "itemId": 32894,
+    "level": 80,
+    "icon": "/i/029000/029716.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32895": {
+    "id": 1277,
+    "itemId": 32895,
+    "level": 80,
+    "icon": "/i/029000/029915.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32896": {
+    "id": 1278,
+    "itemId": 32896,
+    "level": 80,
+    "icon": "/i/029000/029906.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32897": {
+    "id": 1279,
+    "itemId": 32897,
+    "level": 80,
+    "icon": "/i/029000/029005.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32898": {
+    "id": 1280,
+    "itemId": 32898,
+    "level": 80,
+    "icon": "/i/029000/029105.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32899": {
+    "id": 1281,
+    "itemId": 32899,
+    "level": 80,
+    "icon": "/i/029000/029021.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "32900": {
+    "id": 1282,
+    "itemId": 32900,
+    "level": 80,
+    "icon": "/i/029000/029447.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 3
+  },
+  "32901": {
+    "id": 1283,
+    "itemId": 32901,
+    "level": 80,
+    "icon": "/i/029000/029922.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 3
+  },
+  "32902": {
+    "id": 1284,
+    "itemId": 32902,
+    "level": 80,
+    "icon": "/i/029000/029054.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 3
+  },
+  "32903": {
+    "id": 1285,
+    "itemId": 32903,
+    "level": 80,
+    "icon": "/i/028000/028459.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 3
+  },
+  "32904": {
+    "id": 1286,
+    "itemId": 32904,
+    "level": 80,
+    "icon": "/i/029000/029748.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 3
+  },
+  "32905": {
+    "id": 1287,
+    "itemId": 32905,
+    "level": 80,
+    "icon": "/i/029000/029950.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 3
+  },
+  "32906": {
+    "id": 1288,
+    "itemId": 32906,
+    "level": 80,
+    "icon": "/i/029000/029747.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 3
+  },
+  "32907": {
+    "id": 1289,
+    "itemId": 32907,
+    "level": 80,
+    "icon": "/i/029000/029749.png",
+    "mapId": 215,
+    "zoneId": 2100,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 3
+  },
   "33219": {
     "id": 1006,
     "itemId": 33219,
@@ -17027,5 +18622,2043 @@
       "ja": "沖合",
       "fr": "Pleine mer"
     }
+  },
+  "35604": {
+    "id": 1032,
+    "itemId": 35604,
+    "level": 80,
+    "icon": "/i/028000/028407.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "35605": {
+    "id": 1055,
+    "itemId": 35605,
+    "level": 81,
+    "icon": "/i/028000/028048.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "35606": {
+    "id": 1078,
+    "itemId": 35606,
+    "level": 84,
+    "icon": "/i/029000/029058.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "35607": {
+    "id": 1104,
+    "itemId": 35607,
+    "level": 87,
+    "icon": "/i/028000/028527.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "35849": {
+    "id": 1290,
+    "itemId": 35849,
+    "level": 85,
+    "icon": "/i/029000/029282.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "35850": {
+    "id": 1291,
+    "itemId": 35850,
+    "level": 90,
+    "icon": "/i/029000/029767.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36385": {
+    "id": 1017,
+    "itemId": 36385,
+    "level": 80,
+    "icon": "/i/029000/029047.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36386": {
+    "id": 1018,
+    "itemId": 36386,
+    "level": 81,
+    "icon": "/i/029000/029010.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36387": {
+    "id": 1019,
+    "itemId": 36387,
+    "level": 81,
+    "icon": "/i/028000/028039.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36388": {
+    "id": 1020,
+    "itemId": 36388,
+    "level": 82,
+    "icon": "/i/028000/028040.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36389": {
+    "id": 1021,
+    "itemId": 36389,
+    "level": 83,
+    "icon": "/i/028000/028041.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36390": {
+    "id": 1022,
+    "itemId": 36390,
+    "level": 80,
+    "icon": "/i/029000/029208.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36392": {
+    "id": 1023,
+    "itemId": 36392,
+    "level": 81,
+    "icon": "/i/028000/028401.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36393": {
+    "id": 1024,
+    "itemId": 36393,
+    "level": 81,
+    "icon": "/i/029000/029043.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36394": {
+    "id": 1025,
+    "itemId": 36394,
+    "level": 82,
+    "icon": "/i/028000/028402.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36395": {
+    "id": 1026,
+    "itemId": 36395,
+    "level": 80,
+    "icon": "/i/028000/028403.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36396": {
+    "id": 1027,
+    "itemId": 36396,
+    "level": 81,
+    "icon": "/i/028000/028404.png",
+    "mapId": 693,
+    "zoneId": 3706,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36397": {
+    "id": 1028,
+    "itemId": 36397,
+    "level": 81,
+    "icon": "/i/029000/029401.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36398": {
+    "id": 1029,
+    "itemId": 36398,
+    "level": 81,
+    "icon": "/i/029000/029407.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36399": {
+    "id": 1030,
+    "itemId": 36399,
+    "level": 80,
+    "icon": "/i/028000/028405.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36400": {
+    "id": 1031,
+    "itemId": 36400,
+    "level": 82,
+    "icon": "/i/028000/028406.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36402": {
+    "id": 1033,
+    "itemId": 36402,
+    "level": 83,
+    "icon": "/i/028000/028408.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36403": {
+    "id": 1034,
+    "itemId": 36403,
+    "level": 82,
+    "icon": "/i/028000/028409.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36404": {
+    "id": 1035,
+    "itemId": 36404,
+    "level": 82,
+    "icon": "/i/028000/028410.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36405": {
+    "id": 1036,
+    "itemId": 36405,
+    "level": 83,
+    "icon": "/i/028000/028411.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36407": {
+    "id": 1037,
+    "itemId": 36407,
+    "level": 83,
+    "icon": "/i/028000/028412.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36408": {
+    "id": 1038,
+    "itemId": 36408,
+    "level": 85,
+    "icon": "/i/028000/028413.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36409": {
+    "id": 1039,
+    "itemId": 36409,
+    "level": 82,
+    "icon": "/i/028000/028414.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36410": {
+    "id": 1040,
+    "itemId": 36410,
+    "level": 83,
+    "icon": "/i/028000/028415.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36411": {
+    "id": 1041,
+    "itemId": 36411,
+    "level": 84,
+    "icon": "/i/028000/028416.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36412": {
+    "id": 1042,
+    "itemId": 36412,
+    "level": 83,
+    "icon": "/i/028000/028417.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36414": {
+    "id": 1043,
+    "itemId": 36414,
+    "level": 90,
+    "icon": "/i/028000/028418.png",
+    "mapId": 695,
+    "zoneId": 3708,
+    "timed": 1,
+    "weathered": 1,
+    "stars": 1,
+    "folklore": 36606,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36415": {
+    "id": 1044,
+    "itemId": 36415,
+    "level": 82,
+    "icon": "/i/029000/029613.png",
+    "mapId": 694,
+    "zoneId": 3707,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36417": {
+    "id": 1045,
+    "itemId": 36417,
+    "level": 82,
+    "icon": "/i/028000/028419.png",
+    "mapId": 694,
+    "zoneId": 3707,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36418": {
+    "id": 1046,
+    "itemId": 36418,
+    "level": 83,
+    "icon": "/i/028000/028420.png",
+    "mapId": 694,
+    "zoneId": 3707,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36419": {
+    "id": 1047,
+    "itemId": 36419,
+    "level": 84,
+    "icon": "/i/028000/028421.png",
+    "mapId": 694,
+    "zoneId": 3707,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36420": {
+    "id": 1048,
+    "itemId": 36420,
+    "level": 81,
+    "icon": "/i/028000/028042.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36421": {
+    "id": 1049,
+    "itemId": 36421,
+    "level": 82,
+    "icon": "/i/029000/029014.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36422": {
+    "id": 1050,
+    "itemId": 36422,
+    "level": 83,
+    "icon": "/i/028000/028043.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36423": {
+    "id": 1051,
+    "itemId": 36423,
+    "level": 84,
+    "icon": "/i/028000/028044.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36425": {
+    "id": 1052,
+    "itemId": 36425,
+    "level": 83,
+    "icon": "/i/028000/028045.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36426": {
+    "id": 1053,
+    "itemId": 36426,
+    "level": 83,
+    "icon": "/i/028000/028046.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36427": {
+    "id": 1054,
+    "itemId": 36427,
+    "level": 84,
+    "icon": "/i/028000/028047.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36430": {
+    "id": 1056,
+    "itemId": 36430,
+    "level": 85,
+    "icon": "/i/028000/028049.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36431": {
+    "id": 1057,
+    "itemId": 36431,
+    "level": 82,
+    "icon": "/i/029000/029252.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36432": {
+    "id": 1058,
+    "itemId": 36432,
+    "level": 83,
+    "icon": "/i/028000/028422.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36434": {
+    "id": 1059,
+    "itemId": 36434,
+    "level": 84,
+    "icon": "/i/028000/028423.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36435": {
+    "id": 1060,
+    "itemId": 36435,
+    "level": 85,
+    "icon": "/i/028000/028424.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36436": {
+    "id": 1061,
+    "itemId": 36436,
+    "level": 85,
+    "icon": "/i/028000/028500.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36438": {
+    "id": 1062,
+    "itemId": 36438,
+    "level": 86,
+    "icon": "/i/028000/028501.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36439": {
+    "id": 1063,
+    "itemId": 36439,
+    "level": 87,
+    "icon": "/i/028000/028502.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36440": {
+    "id": 1064,
+    "itemId": 36440,
+    "level": 90,
+    "icon": "/i/028000/028503.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 1,
+    "weathered": 1,
+    "stars": 1,
+    "folklore": 36606,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36441": {
+    "id": 1065,
+    "itemId": 36441,
+    "level": 86,
+    "icon": "/i/028000/028504.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36442": {
+    "id": 1066,
+    "itemId": 36442,
+    "level": 87,
+    "icon": "/i/028000/028505.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36443": {
+    "id": 1067,
+    "itemId": 36443,
+    "level": 86,
+    "icon": "/i/028000/028506.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36444": {
+    "id": 1068,
+    "itemId": 36444,
+    "level": 87,
+    "icon": "/i/028000/028507.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36446": {
+    "id": 1069,
+    "itemId": 36446,
+    "level": 88,
+    "icon": "/i/028000/028508.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36447": {
+    "id": 1070,
+    "itemId": 36447,
+    "level": 87,
+    "icon": "/i/028000/028509.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36448": {
+    "id": 1071,
+    "itemId": 36448,
+    "level": 86,
+    "icon": "/i/028000/028510.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36449": {
+    "id": 1072,
+    "itemId": 36449,
+    "level": 88,
+    "icon": "/i/028000/028511.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36450": {
+    "id": 1073,
+    "itemId": 36450,
+    "level": 86,
+    "icon": "/i/028000/028050.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Deep Sea",
+      "de": "Hochsee",
+      "ja": "沖合",
+      "fr": "Pleine mer"
+    }
+  },
+  "36451": {
+    "id": 1074,
+    "itemId": 36451,
+    "level": 85,
+    "icon": "/i/029000/029582.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Deep Sea",
+      "de": "Hochsee",
+      "ja": "沖合",
+      "fr": "Pleine mer"
+    }
+  },
+  "36452": {
+    "id": 1075,
+    "itemId": 36452,
+    "level": 87,
+    "icon": "/i/029000/029023.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Deep Sea",
+      "de": "Hochsee",
+      "ja": "沖合",
+      "fr": "Pleine mer"
+    }
+  },
+  "36453": {
+    "id": 1076,
+    "itemId": 36453,
+    "level": 88,
+    "icon": "/i/028000/028051.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Deep Sea",
+      "de": "Hochsee",
+      "ja": "沖合",
+      "fr": "Pleine mer"
+    }
+  },
+  "36454": {
+    "id": 1077,
+    "itemId": 36454,
+    "level": 90,
+    "icon": "/i/028000/028052.png",
+    "mapId": 696,
+    "zoneId": 3709,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1,
+    "folklore": 36606,
+    "recordType": {
+      "en": "Deep Sea",
+      "de": "Hochsee",
+      "ja": "沖合",
+      "fr": "Pleine mer"
+    }
+  },
+  "36456": {
+    "id": 1079,
+    "itemId": 36456,
+    "level": 84,
+    "icon": "/i/029000/029057.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36457": {
+    "id": 1080,
+    "itemId": 36457,
+    "level": 84,
+    "icon": "/i/028000/028512.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36458": {
+    "id": 1081,
+    "itemId": 36458,
+    "level": 85,
+    "icon": "/i/028000/028513.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36459": {
+    "id": 1082,
+    "itemId": 36459,
+    "level": 83,
+    "icon": "/i/028000/028514.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36460": {
+    "id": 1083,
+    "itemId": 36460,
+    "level": 83,
+    "icon": "/i/028000/028515.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36461": {
+    "id": 1084,
+    "itemId": 36461,
+    "level": 84,
+    "icon": "/i/028000/028516.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36462": {
+    "id": 1085,
+    "itemId": 36462,
+    "level": 85,
+    "icon": "/i/028000/028517.png",
+    "mapId": 697,
+    "zoneId": 3710,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36463": {
+    "id": 1086,
+    "itemId": 36463,
+    "level": 84,
+    "icon": "/i/028000/028518.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36465": {
+    "id": 1087,
+    "itemId": 36465,
+    "level": 85,
+    "icon": "/i/028000/028519.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36466": {
+    "id": 1088,
+    "itemId": 36466,
+    "level": 85,
+    "icon": "/i/029000/029501.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36467": {
+    "id": 1089,
+    "itemId": 36467,
+    "level": 86,
+    "icon": "/i/028000/028520.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36468": {
+    "id": 1090,
+    "itemId": 36468,
+    "level": 85,
+    "icon": "/i/029000/029315.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36470": {
+    "id": 1091,
+    "itemId": 36470,
+    "level": 86,
+    "icon": "/i/029000/029763.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36471": {
+    "id": 1092,
+    "itemId": 36471,
+    "level": 86,
+    "icon": "/i/029000/029764.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36472": {
+    "id": 1093,
+    "itemId": 36472,
+    "level": 90,
+    "icon": "/i/029000/029765.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1,
+    "folklore": 36608,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36473": {
+    "id": 1094,
+    "itemId": 36473,
+    "level": 86,
+    "icon": "/i/029000/029766.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36475": {
+    "id": 1095,
+    "itemId": 36475,
+    "level": 87,
+    "icon": "/i/029000/029768.png",
+    "mapId": 698,
+    "zoneId": 3711,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36476": {
+    "id": 1096,
+    "itemId": 36476,
+    "level": 86,
+    "icon": "/i/029000/029306.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36477": {
+    "id": 1097,
+    "itemId": 36477,
+    "level": 86,
+    "icon": "/i/029000/029482.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36478": {
+    "id": 1098,
+    "itemId": 36478,
+    "level": 87,
+    "icon": "/i/028000/028521.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36479": {
+    "id": 1099,
+    "itemId": 36479,
+    "level": 87,
+    "icon": "/i/028000/028522.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36480": {
+    "id": 1100,
+    "itemId": 36480,
+    "level": 90,
+    "icon": "/i/028000/028523.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 1,
+    "stars": 1,
+    "folklore": 36609,
+    "recordType": {
+      "en": "Rivers",
+      "de": "Flüsse",
+      "ja": "河川",
+      "fr": "Rivières"
+    }
+  },
+  "36481": {
+    "id": 1101,
+    "itemId": 36481,
+    "level": 87,
+    "icon": "/i/028000/028524.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36484": {
+    "id": 1102,
+    "itemId": 36484,
+    "level": 87,
+    "icon": "/i/028000/028525.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36485": {
+    "id": 1103,
+    "itemId": 36485,
+    "level": 88,
+    "icon": "/i/028000/028526.png",
+    "mapId": 700,
+    "zoneId": 3713,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36487": {
+    "id": 1105,
+    "itemId": 36487,
+    "level": 88,
+    "icon": "/i/029000/029711.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36488": {
+    "id": 1106,
+    "itemId": 36488,
+    "level": 89,
+    "icon": "/i/029000/029096.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36489": {
+    "id": 1107,
+    "itemId": 36489,
+    "level": 88,
+    "icon": "/i/029000/029769.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36491": {
+    "id": 1108,
+    "itemId": 36491,
+    "level": 89,
+    "icon": "/i/029000/029770.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36492": {
+    "id": 1109,
+    "itemId": 36492,
+    "level": 89,
+    "icon": "/i/029000/029771.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36494": {
+    "id": 1110,
+    "itemId": 36494,
+    "level": 90,
+    "icon": "/i/029000/029772.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36495": {
+    "id": 1111,
+    "itemId": 36495,
+    "level": 89,
+    "icon": "/i/029000/029773.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36496": {
+    "id": 1112,
+    "itemId": 36496,
+    "level": 90,
+    "icon": "/i/029000/029774.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36497": {
+    "id": 1113,
+    "itemId": 36497,
+    "level": 90,
+    "icon": "/i/029000/029775.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Aetherochemical Pools",
+      "de": "Ätherquellen",
+      "ja": "魔泉",
+      "fr": "Fuites magismologiques"
+    }
+  },
+  "36499": {
+    "id": 1114,
+    "itemId": 36499,
+    "level": 90,
+    "icon": "/i/029000/029254.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36501": {
+    "id": 1115,
+    "itemId": 36501,
+    "level": 90,
+    "icon": "/i/028000/028528.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36502": {
+    "id": 1116,
+    "itemId": 36502,
+    "level": 90,
+    "icon": "/i/028000/028529.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36503": {
+    "id": 1117,
+    "itemId": 36503,
+    "level": 90,
+    "icon": "/i/028000/028530.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36505": {
+    "id": 1118,
+    "itemId": 36505,
+    "level": 90,
+    "icon": "/i/028000/028531.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Lakes",
+      "de": "Seen",
+      "ja": "湖沼",
+      "fr": "Lacs et marais"
+    }
+  },
+  "36506": {
+    "id": 1119,
+    "itemId": 36506,
+    "level": 89,
+    "icon": "/i/028000/028951.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36507": {
+    "id": 1120,
+    "itemId": 36507,
+    "level": 89,
+    "icon": "/i/029000/029031.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36508": {
+    "id": 1121,
+    "itemId": 36508,
+    "level": 90,
+    "icon": "/i/028000/028952.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36509": {
+    "id": 1122,
+    "itemId": 36509,
+    "level": 90,
+    "icon": "/i/028000/028953.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36510": {
+    "id": 1123,
+    "itemId": 36510,
+    "level": 89,
+    "icon": "/i/028000/028954.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36511": {
+    "id": 1124,
+    "itemId": 36511,
+    "level": 90,
+    "icon": "/i/028000/028955.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36512": {
+    "id": 1125,
+    "itemId": 36512,
+    "level": 90,
+    "icon": "/i/028000/028956.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36513": {
+    "id": 1126,
+    "itemId": 36513,
+    "level": 90,
+    "icon": "/i/028000/028957.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36514": {
+    "id": 1127,
+    "itemId": 36514,
+    "level": 90,
+    "icon": "/i/028000/028958.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36515": {
+    "id": 1128,
+    "itemId": 36515,
+    "level": 90,
+    "icon": "/i/028000/028959.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36516": {
+    "id": 1129,
+    "itemId": 36516,
+    "level": 90,
+    "icon": "/i/028000/028960.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36517": {
+    "id": 1130,
+    "itemId": 36517,
+    "level": 90,
+    "icon": "/i/028000/028961.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36518": {
+    "id": 1131,
+    "itemId": 36518,
+    "level": 90,
+    "icon": "/i/028000/028962.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36519": {
+    "id": 1132,
+    "itemId": 36519,
+    "level": 90,
+    "icon": "/i/028000/028963.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36520": {
+    "id": 1133,
+    "itemId": 36520,
+    "level": 90,
+    "icon": "/i/028000/028964.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36521": {
+    "id": 1134,
+    "itemId": 36521,
+    "level": 90,
+    "icon": "/i/028000/028965.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 1,
+    "weathered": 0,
+    "stars": 1,
+    "folklore": 36608,
+    "recordType": {
+      "en": "Space",
+      "de": "Sternenfischen",
+      "ja": "宙泉",
+      "fr": "Espace"
+    }
+  },
+  "36611": {
+    "id": 1292,
+    "itemId": 36611,
+    "level": 90,
+    "icon": "/i/025000/025930.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "36612": {
+    "id": 1293,
+    "itemId": 36612,
+    "level": 90,
+    "icon": "/i/025000/025930.png",
+    "mapId": 699,
+    "zoneId": 3712,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "2001398": {
+    "id": 1142,
+    "itemId": 2001398,
+    "level": 2,
+    "icon": "/i/029000/029210.png",
+    "mapId": 53,
+    "zoneId": 63,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "2001410": {
+    "id": 1143,
+    "itemId": 2001410,
+    "level": 2,
+    "icon": "/i/029000/029295.png",
+    "mapId": 25,
+    "zoneId": 67,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "2001422": {
+    "id": 1144,
+    "itemId": 2001422,
+    "level": 2,
+    "icon": "/i/029000/029310.png",
+    "mapId": 53,
+    "zoneId": 63,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "2001889": {
+    "id": 1148,
+    "itemId": 2001889,
+    "level": 5,
+    "icon": "/i/029000/029012.png",
+    "mapId": 17,
+    "zoneId": 32,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "2002390": {
+    "id": 1163,
+    "itemId": 2002390,
+    "level": 5,
+    "icon": "/i/029000/029012.png",
+    "mapId": 17,
+    "zoneId": 32,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
+  },
+  "2002869": {
+    "id": 1195,
+    "itemId": 2002869,
+    "level": 5,
+    "icon": "/i/029000/029012.png",
+    "mapId": 17,
+    "zoneId": 32,
+    "timed": 0,
+    "weathered": 0,
+    "stars": 0
   }
 }

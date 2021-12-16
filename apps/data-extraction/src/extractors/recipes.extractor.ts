@@ -3,15 +3,17 @@ import { AbstractExtractor } from '../abstract-extractor';
 
 export class RecipesExtractor extends AbstractExtractor {
   protected doExtract(): any {
+    const hqFlags = this.requireLazyFile('hq-flags');
     // We're maintaining two formats, that's bad but migrating all the usages of the current recipe model isn't possible, sadly.
     const recipes = [];
     const rlookup = {
       searchIndex: {},
       recipes: {}
     };
+    const recipesPerItem = {};
     combineLatest([
       this.getAllEntries('https://xivapi.com/CompanyCraftSequence'),
-      this.aggregateAllPages('https://xivapi.com/Recipe?columns=ID,ClassJob.ID,MaterialQualityFactor,DurabilityFactor,QualityFactor,DifficultyFactor,RequiredControl,RequiredCraftsmanship,CanQuickSynth,RecipeLevelTable,AmountResult,ItemResultTargetID,ItemIngredient0,ItemIngredient1,ItemIngredient2,ItemIngredient3,ItemIngredient4,ItemIngredient5,ItemIngredient6,ItemIngredient7,ItemIngredient8,ItemIngredient9,AmountIngredient0,AmountIngredient1,AmountIngredient2,AmountIngredient3,AmountIngredient4,AmountIngredient5,AmountIngredient6,AmountIngredient7,AmountIngredient8,AmountIngredient9,IsExpert')
+      this.aggregateAllPages('https://xivapi.com/Recipe?columns=ID,ClassJob.ID,MaterialQualityFactor,DurabilityFactor,QualityFactor,DifficultyFactor,RequiredControl,RequiredCraftsmanship,CanQuickSynth,RecipeLevelTable,AmountResult,ItemResultTargetID,ItemIngredient0,ItemIngredient1,ItemIngredient2,ItemIngredient3,ItemIngredient4,ItemIngredient5,ItemIngredient6,ItemIngredient7,ItemIngredient8,ItemIngredient9,AmountIngredient0,AmountIngredient1,AmountIngredient2,AmountIngredient3,AmountIngredient4,AmountIngredient5,AmountIngredient6,AmountIngredient7,AmountIngredient8,AmountIngredient9,IsExpert,SecretRecipeBook')
     ]).subscribe(([companyCrafts, xivapiRecipes]) => {
       xivapiRecipes.forEach(recipe => {
         if (recipe.RecipeLevelTable === null) {
@@ -31,8 +33,8 @@ export class RecipesExtractor extends AbstractExtractor {
             };
           });
         const totalContrib = maxQuality * recipe.MaterialQualityFactor / 100;
-        const totalIlvl = ingredients.filter(i => i.id > 19).reduce((acc, cur) => acc + cur.ilvl * cur.amount, 0);
-        recipes.push({
+        const totalIlvl = ingredients.filter(i => i.id > 19 && hqFlags[i.id] === 1).reduce((acc, cur) => acc + cur.ilvl * cur.amount, 0);
+        const lazyRecipeRow = {
           id: recipe.ID,
           job: recipe.ClassJob.ID,
           lvl: recipe.RecipeLevelTable.ClassJobLevel,
@@ -46,20 +48,28 @@ export class RecipesExtractor extends AbstractExtractor {
           progress: Math.floor(recipe.RecipeLevelTable.Difficulty * recipe.DifficultyFactor / 100),
           suggestedControl: recipe.RecipeLevelTable.SuggestedControl,
           suggestedCraftsmanship: recipe.RecipeLevelTable.SuggestedCraftsmanship,
+          progressDivider: recipe.RecipeLevelTable.ProgressDivider,
+          qualityDivider: recipe.RecipeLevelTable.QualityDivider,
+          progressModifier: recipe.RecipeLevelTable.ProgressModifier,
+          qualityModifier: recipe.RecipeLevelTable.QualityModifier,
           controlReq: recipe.RequiredControl,
           craftsmanshipReq: recipe.RequiredCraftsmanship,
           rlvl: recipe.RecipeLevelTable.ID,
+          masterbook: recipe.SecretRecipeBook?.ItemTargetID,
           ingredients: ingredients
             .map(ingredient => {
               return {
                 id: ingredient.id,
                 amount: ingredient.amount,
-                quality: ingredient.id > 19 ? (ingredient.ilvl / totalIlvl) * totalContrib : 0
+                quality: ingredient.ilvl / totalIlvl * totalContrib * hqFlags[ingredient.id]
               };
             }),
           expert: recipe.IsExpert === 1,
           conditionsFlag: recipe.RecipeLevelTable.ConditionsFlag
-        });
+        };
+
+        recipes.push(lazyRecipeRow);
+        recipesPerItem[lazyRecipeRow.result] = [...(recipesPerItem[lazyRecipeRow.result] || []), lazyRecipeRow];
       });
 
       recipes.forEach(recipe => {
@@ -74,7 +84,7 @@ export class RecipesExtractor extends AbstractExtractor {
             lvl: recipe.lvl,
             job: recipe.job,
             stars: recipe.stars
-          }
+          };
         });
       });
 
@@ -93,7 +103,12 @@ export class RecipesExtractor extends AbstractExtractor {
         if (companyCraftSequence.CompanyCraftDraftTargetID > 0) {
           recipe.masterbook = {
             id: `draft${companyCraftSequence.CompanyCraftDraftTargetID}`,
-            name: companyCraftSequence.CompanyCraftDraft && companyCraftSequence.CompanyCraftDraft.Name_en
+            name: {
+              en: companyCraftSequence.CompanyCraftDraft?.Name_en || '???',
+              ja: companyCraftSequence.CompanyCraftDraft?.Name_ja || '???',
+              de: companyCraftSequence.CompanyCraftDraft?.Name_de || '???',
+              fr: companyCraftSequence.CompanyCraftDraft?.Name_fr || '???'
+            }
           };
         }
         for (let partIndex = 0; partIndex < 8; partIndex++) {
@@ -123,6 +138,7 @@ export class RecipesExtractor extends AbstractExtractor {
 
       this.persistToJsonAsset('recipes', recipes);
       this.persistToJsonAsset('recipes-ingredient-lookup', rlookup);
+      this.persistToJsonAsset('recipes-per-item', recipesPerItem);
       this.done();
     });
   }

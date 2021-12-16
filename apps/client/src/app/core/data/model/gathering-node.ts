@@ -1,33 +1,41 @@
 import { FishingBait } from './fishing-bait';
+import { SpearfishingShadowSize } from './spearfishing-shadow-size';
+import { SpearfishingSpeed } from './spearfishing-speed';
 
 export interface GatheringNode {
   id: number;
   items: number[];
   hiddenItems?: number[];
-  limited: boolean;
+  limited?: boolean;
   level: number;
   type: number;
-  legendary: boolean;
-  ephemeral: boolean;
+  legendary?: boolean;
+  ephemeral?: boolean;
   spawns?: number[];
   duration?: number;
   zoneId: number;
-  map: number;
-  x: number;
-  y: number;
-  z: number;
+  map?: number;
+  x?: number;
+  y?: number;
+  z?: number;
   folklore?: number;
   /**
    * Fishing stuff
    */
   predators?: { id: number, amount: number }[];
-  hookset?: 'powerful' | 'precision';
+  hookset?: number;
   baits?: FishingBait[];
   weathers?: number[];
   weathersFrom?: number[];
   snagging?: boolean;
-  gig?: 'Small' | 'Normal' | 'Large';
   tug?: number;
+  oceanFishingTime?: number;
+
+  /**
+   * Spearfishing stuff
+   */
+  speed?: SpearfishingSpeed;
+  shadowSize?: SpearfishingShadowSize;
 
   /**
    * Search stuff

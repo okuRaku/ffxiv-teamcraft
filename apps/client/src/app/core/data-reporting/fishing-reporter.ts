@@ -1,45 +1,24 @@
 import { DataReporter } from './data-reporter';
 import { BehaviorSubject, combineLatest, merge, Observable } from 'rxjs';
 import { ofMessageType } from '../rxjs/of-message-type';
-import { delay, distinctUntilChanged, filter, map, mapTo, shareReplay, startWith, tap, withLatestFrom } from 'rxjs/operators';
+import { delay, distinctUntilChanged, filter, map, mapTo, shareReplay, startWith, switchMap, tap, withLatestFrom } from 'rxjs/operators';
 import { EorzeaFacade } from '../../modules/eorzea/+state/eorzea.facade';
-import { LazyDataService } from '../data/lazy-data.service';
 import { EorzeanTimeService } from '../eorzea/eorzean-time.service';
 import { IpcService } from '../electron/ipc.service';
 import { toIpcData } from '../rxjs/to-ipc-data';
 import { Tug } from '../data/model/tug';
 import { Hookset } from '../data/model/hookset';
 import { SettingsService } from '../../modules/settings/settings.service';
+import { LazyDataFacade } from '../../lazy-data/+state/lazy-data.facade';
 
 
 export class FishingReporter implements DataReporter {
 
   private state: any = {};
 
-  constructor(private eorzea: EorzeaFacade, private lazyData: LazyDataService,
+  constructor(private eorzea: EorzeaFacade, private lazyData: LazyDataFacade,
               private etime: EorzeanTimeService, private ipc: IpcService,
               private settings: SettingsService) {
-  }
-
-  private setState(newState: any): void {
-    this.state = {
-      ...this.state,
-      ...newState
-    };
-    this.ipc.send('fishing-state:set', this.state);
-  }
-
-  private getTug(value: number): Tug {
-    switch (value) {
-      case 292:
-        return Tug.LIGHT;
-      case 293:
-        return Tug.MEDIUM;
-      case 294:
-        return Tug.BIG;
-      default:
-        return null;
-    }
   }
 
   getDataReports(packets$: Observable<any>): Observable<any[]> {
@@ -60,18 +39,22 @@ export class FishingReporter implements DataReporter {
       })
     );
 
-    const spot$ = packets$.pipe(
-      ofMessageType('someDirectorUnk4'),
-      toIpcData(),
-      map((packet) => {
-        return this.lazyData.data.fishingSpots.find(spot => spot.zoneId === packet.param3);
-      }),
-      filter(spot => spot !== undefined),
-      tap(spot => {
-        this.eorzea.setZone(spot.zoneId);
-        this.eorzea.setMap(spot.mapId);
-      }),
-      shareReplay(1)
+    const spot$ = this.lazyData.getEntry('fishingSpots').pipe(
+      switchMap(fishingSpots => {
+        return packets$.pipe(
+          ofMessageType('someDirectorUnk4'),
+          toIpcData(),
+          map((packet) => {
+            return fishingSpots.find(spot => spot.zoneId === packet.param3);
+          }),
+          filter(spot => spot !== undefined),
+          tap(spot => {
+            this.eorzea.setZone(spot.zoneId);
+            this.eorzea.setMap(spot.mapId);
+          }),
+          shareReplay(1)
+        );
+      })
     );
 
     const isFishing$ = merge(
@@ -135,13 +118,17 @@ export class FishingReporter implements DataReporter {
       })
     );
 
-    const actionTimeline$ = packets$.pipe(
-      ofMessageType('eventPlay4'),
-      toIpcData(),
-      map(packet => {
-        return this.lazyData.data?.actionTimeline[packet.params[0].toString()];
-      }),
-      filter(key => key !== undefined)
+    const actionTimeline$ = this.lazyData.getEntry('actionTimeline').pipe(
+      switchMap(actionTimeline => {
+        return packets$.pipe(
+          ofMessageType('eventPlay4'),
+          toIpcData(),
+          map((packet) => {
+            return actionTimeline[packet.params[0].toString()];
+          }),
+          filter(key => key !== undefined)
+        );
+      })
     );
 
     const mooch$ = packets$.pipe(
@@ -287,10 +274,11 @@ export class FishingReporter implements DataReporter {
           previousWeatherId: throwData.previousWeatherId,
           baitId,
           biteTime: Math.floor((biteData.timestamp - throwData.timestamp) / 100),
-          fishEyes: throwData.statuses.indexOf(762) > -1,
-          snagging: throwData.statuses.indexOf(761) > -1,
-          chum: throwData.statuses.indexOf(763) > -1,
-          patience: throwData.statuses.indexOf(850) > -1,
+          fishEyes: throwData.statuses.includes(762),
+          snagging: throwData.statuses.includes(761),
+          chum: throwData.statuses.includes(763),
+          patience: throwData.statuses.includes(850),
+          intuition: throwData.statuses.includes(735),
           mooch: mooch,
           tug: biteData.tug,
           hookset,
@@ -319,6 +307,27 @@ export class FishingReporter implements DataReporter {
 
   getDataType(): string {
     return 'fishingresults';
+  }
+
+  private setState(newState: any): void {
+    this.state = {
+      ...this.state,
+      ...newState
+    };
+    this.ipc.send('fishing-state:set', this.state);
+  }
+
+  private getTug(value: number): Tug {
+    switch (value) {
+      case 292:
+        return Tug.LIGHT;
+      case 293:
+        return Tug.MEDIUM;
+      case 294:
+        return Tug.BIG;
+      default:
+        return null;
+    }
   }
 
 }

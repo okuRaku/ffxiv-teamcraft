@@ -20,21 +20,14 @@ import { requestsWithDelay } from '../../../core/rxjs/requests-with-delay';
 })
 export class GcSupplyComponent {
 
-  private sets$: Observable<GearSet[]> = this.authFacade.gearSets$.pipe(first());
-
   public form$: Observable<FormGroup>;
-
   public items$: Observable<{ job: number, items: { count: number, itemId: number, icon: string, reward: { xp: number, seals: number } }[] }[]>;
-
-  private levels$: Subject<any> = new Subject<any>();
-
-  private idToIndex = [8, 15, 14, 10, 12, 11, 13, 9, 16, 17, 18];
-
   public selection = [];
-
   public pristine = true;
-
   public loading = false;
+  private sets$: Observable<GearSet[]> = this.authFacade.gearSets$.pipe(first());
+  private levels$: Subject<any> = new Subject<any>();
+  private idToIndex = [8, 15, 14, 10, 12, 11, 13, 9, 16, 17, 18];
 
   constructor(private authFacade: AuthFacade, private fb: FormBuilder, private xivapi: XivapiService,
               private listPicker: ListPickerService, private listsFacade: ListsFacade, private progressService: ProgressPopupService,
@@ -148,7 +141,7 @@ export class GcSupplyComponent {
           return this.progressService.showProgress(
             combineLatest([this.listsFacade.myLists$, this.listsFacade.listsWithWriteAccess$]).pipe(
               map(([myLists, listsICanWrite]) => [...myLists, ...listsICanWrite]),
-              map(lists => lists.find(l => l.createdAt.toMillis() === list.createdAt.toMillis() && l.$key !== undefined)),
+              map(lists => lists.find(l => l.createdAt.seconds === list.createdAt.seconds && l.$key !== undefined)),
               filter(l => l !== undefined),
               first()
             ), 1, 'Saving_in_database');

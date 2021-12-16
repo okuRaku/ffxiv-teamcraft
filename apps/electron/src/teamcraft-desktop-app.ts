@@ -1,5 +1,4 @@
 import { app, BrowserWindow, ipcMain, protocol } from 'electron';
-import { createServer } from 'net';
 import { createServer as createHttpServer, Server } from 'http';
 import * as request from 'request';
 import { MainWindow } from './window/main-window';
@@ -9,6 +8,7 @@ import { PacketCapture } from './pcap/packet-capture';
 import * as log from 'electron-log';
 import { Constants } from './constants';
 import { join } from 'path';
+import { parse } from 'url';
 
 export class TeamcraftDesktopApp {
 
@@ -21,7 +21,7 @@ export class TeamcraftDesktopApp {
   }
 
   start(): void {
-    app.releaseSingleInstanceLock();
+    // app.releaseSingleInstanceLock();
     app.setAsDefaultProtocolClient('teamcraft');
     let deepLink = this.store.get('deepLink', '');
 
@@ -44,18 +44,19 @@ export class TeamcraftDesktopApp {
         deepLink = '';
       }
 
-      this.isPortTaken(TeamcraftDesktopApp.MAIN_WINDOW_PORT).then(taken => {
-        if (taken) {
-          this.sendToAlreadyOpenedTC((this.argv[0] || '').replace('teamcraft://', ''));
-        } else {
+      request(`http://localhost:${TeamcraftDesktopApp.MAIN_WINDOW_PORT}${(this.argv[0] || '').replace('teamcraft://', '')}`, (err, res) => {
+        if (err) {
           this.bootApp();
+        } else {
+          (<any>app).isQuitting = true;
+          app.quit();
+          process.exit(0);
         }
       });
     });
 
     // Quit when all windows are closed.
     app.on('window-all-closed', () => {
-
       // On macOS specific close process
       if (process.platform !== 'darwin') {
         (<any>app).isQuitting = true;
@@ -73,30 +74,14 @@ export class TeamcraftDesktopApp {
     this.mainWindow.closed$.subscribe(() => {
       this.store.set('router:uri', deepLink);
     });
-  }
 
-  private isPortTaken(port: number): Promise<boolean> {
-    return new Promise((resolve, reject) => {
-      const tester = createServer()
-        .once('error', (err) => {
-          if ((<any>err).code !== 'EADDRINUSE') return reject(err);
-          resolve(true);
-        })
-        .once('listening', () => {
-          tester.once('close', () => {
-            resolve(false);
-          })
-            .close();
-        })
-        .listen(port, 'localhost');
+    app.on('before-quit', () => {
+      if (this.httpServer) {
+        this.httpServer.close(() => {
+          process.exit(0);
+        });
+      }
     });
-  }
-
-  private sendToAlreadyOpenedTC(url: string): void {
-    request(`http://localhost:${TeamcraftDesktopApp.MAIN_WINDOW_PORT}${url}`);
-    (<any>app).isQuitting = true;
-    app.quit();
-    process.exit(0);
   }
 
   private bootApp(): void {
@@ -112,7 +97,8 @@ export class TeamcraftDesktopApp {
       }
     });
 
-    loaderWindow.once('show', () => {
+    loaderWindow.once('ready-to-show', () => {
+      loaderWindow.show();
       this.mainWindow.createWindow();
       this.tray.createTray();
       this.httpServer = createHttpServer((req, res) => {
@@ -127,10 +113,14 @@ export class TeamcraftDesktopApp {
         }
         this.mainWindow.win.focus();
         this.mainWindow.win.show();
-        if (req.url.length > 1) {
+        console.log(req.url);
+        res.writeHead(200);
+        if (req.url.startsWith('/oauth')) {
+          this.mainWindow.win.webContents.send('oauth-reply', parse(req.url, true).query.code);
+          res.write('<script>window.close();</script>You can now close this tab.')
+        } else if (req.url.length > 1) {
           this.mainWindow.win.webContents.send('navigate', req.url);
         }
-        res.writeHead(200);
         res.end();
       }).listen(TeamcraftDesktopApp.MAIN_WINDOW_PORT, 'localhost');
 
@@ -141,10 +131,13 @@ export class TeamcraftDesktopApp {
         loaderWindow.hide();
         loaderWindow.close();
         this.mainWindow.show();
+        setTimeout(() => {
+          this.mainWindow.win.focus();
+          this.mainWindow.win.webContents.send('displayed', true);
+        }, 200);
       });
     });
 
     loaderWindow.loadURL(join(__dirname, 'loader.html'));
-    loaderWindow.show();
   }
 }

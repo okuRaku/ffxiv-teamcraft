@@ -1,4 +1,5 @@
 {
+  "Mogstation": "Mogstation",
   "Quests": "Quests",
   "Facebook_notice": "Facebook login is no longer available, you can add a password to your account using the \"reset password\" system, or by asking Miu on discord.",
   "Pick_a_list": "Escolha uma lista",
@@ -14,7 +15,7 @@
   "See_on_map": "Ver no mapa",
   "No_known_coordinates": "No known coordinates",
   "Edit_amount": "Editar a quantidade",
-  "List_fork_in_progress": "A copiar a lista para a sua conta...",
+  "List_fork_in_progress": "Copying the list to your account…",
   "Network_error_logged_out": "Foi detectado um erro de ligação, portanto foi desligado. Se o problema persistir contacte Miu no Discord.",
   "Hide_zone_duplicates": "Hide zone duplicates (items that are in multiple zones are shown only once)",
   "Patch_notes": "{{version}} changes",
@@ -104,7 +105,7 @@
     "Patreon_supporters": "Apoiantes de Patreon",
     "Contributors": "Colaboradores"
   },
-  "Patreon_login_success": "Login com Patreon feito com sucesso!",
+  "Patreon_login_success": "Patreon login success!",
   "Hide_if_empty": "Esconder se estiver vazio",
   "No_favorites": "Não favorito",
   "Ephemeral_list": "Será eliminado assim que completo",
@@ -147,12 +148,15 @@
     "Copy_to_clipboard": "Copiar para área de transferência",
     "Language": "Lingua",
     "Opened_in_desktop": "Esta página foi aberta na app do desktop, pode agora fecha-la.",
+    "Opened_in_desktop_setting": "You can disable this behavior inside the Settings",
+    "Opened_in_desktop_button": "Or by clicking this button",
     "Open_in_desktop": "Abrir na app do desktop",
     "Admin": "Administrador",
     "Moderator": "Moderador",
     "Minutes_duration": "{{amount}} minutos",
     "Seconds_duration": "{{amount}} segundos",
     "None": "Nenhum",
+    "Any": "Any",
     "Top": "Topo",
     "Bottom": "Inferior",
     "Amount": "Quantidade",
@@ -180,7 +184,15 @@
     "Back": "Back",
     "Support_us_remove_ads": "Support us on patreon to remove ads",
     "Support_us": "Support us",
-    "Show_more": "Show more"
+    "Show_more": "Show more",
+    "Item": "Item",
+    "Venture": "Venture",
+    "Monster": "Monster",
+    "Airship": "Airship",
+    "Submarine": "Submarine",
+    "Voyage": "Voyage",
+    "Instance": "Instance",
+    "Fate": "Fate"
   },
   "ALARMS": {
     "Title": "Alarmes",
@@ -201,7 +213,7 @@
     "Macro_copied": "Macro copiado para a área de transferência",
     "Open_overlay": "Toggle overlay",
     "Open_alarms_overlay": "Toggle alarms overlay",
-    "More_available": "e mais {{amount}}...",
+    "More_available": "and {{amount}} more…",
     "Node_content": "Conteúdo do node",
     "Toggle_collapse": "Alternar fecho dos grupos",
     "Add_alarms_to_group": "Adicionar alarmes a este grupo",
@@ -210,11 +222,12 @@
     "Add_group_and_alarms": "Add this group and all its alarms to your alarms",
     "Delete_all": "Delete all your alarms",
     "Delete_alarm": "Delete this alarm",
-    "Regenerating_alarms": "Regenerating your alarms...",
+    "Regenerating_alarms": "Regenerating your alarms…",
     "Regenerate": "Regenerate alarms",
     "Group_outdated": "This group is outdated, ask the owner to log in with new update and it'll be updated",
     "Remove_from_group": "Remove from this group",
     "No_folder": "No folder",
+    "Click_to_show_all_alarms": "Click to show all alarms",
     "REALTIME": {
       "Reset_timers": "Repor temporizadores",
       "WEEKLY_RESETS": "Semanais",
@@ -251,6 +264,7 @@
   "Item_name": "Nome do Item",
   "No_items_found": "Nenhum item encontrado",
   "No_instances_found": "Nenhuma instância encontrada",
+  "No_fishing_spot_found": "No fishing spots found",
   "No_quests_found": "Nenhuma quest encontrada",
   "No_npcs_found": "Nenhum NPC encontrado",
   "No_mobs_found": "Nenhum monstro encontrado",
@@ -268,6 +282,7 @@
   "No": "Não",
   "Crystals": "Cristais",
   "Gathering": "Colher",
+  "Perception": "Perception",
   "Drops_or_GC": "Dungeon/Drops ou GC",
   "Other": "Outro",
   "Pre_crafts": "Pré-crafts",
@@ -351,7 +366,7 @@
   "Email_not_found": "Email não encontrado",
   "Email_sent": "Um email foi enviado com as instruções para trocar sua senha.",
   "ALARM": {
-    "Spawned": "{{itemName}} vai aparecer!",
+    "Spawned": "{{itemName}} will spawn!",
     "See_on_map": "Localização",
     "Note": "Nota"
   },
@@ -424,6 +439,7 @@
     "Disable_cross_world_prices": "Usar apenas o mundo próprio para preços do mercado",
     "Clear_search_history": "Limpar histórico de pesquisa",
     "Auto_mark_as_done_in_log": "Mark items as done in log when they are done in a list",
+    "Make_quick_lists_offline": "Make quick lists offline by default",
     "Db_comments_position": "Database comments position",
     "Always_HQ_leves": "Always count leves exp with HQ items",
     "Always_all_deliveries": "Have the 'All 3 deliveries' button on the levequests page checked by default",
@@ -457,6 +473,8 @@
     "Char_data_folder": "Character data folder (where the CHRXXXXXXX folders are)",
     "Maximum_vendor_price": "Maximum vendor price",
     "Maximum_vendor_price_explain": "Maximum price for an item to be caught by the CAN_BE_BOUGHT layout filter (0 = no maximum price)",
+    "Maximum_total_vendor_price": "Maximum total vendor price",
+    "Maximum_total_vendor_price_explain": "Maximum price for an entire row (unit price * quantity) for it to be caught by the CAN_BE_BOUGHT layout filter (0 = no maximum)",
     "Rawsock_flag": "Use RawSocket for packet capture",
     "Rawsock_details": "Using RawSocket captures the traffic without npcap, can help with VPNs. However, it's overall less reliable and you need to manually start TC as admin everytime",
     "Favorite_features": "Favorite features",
@@ -477,6 +495,7 @@
     "Has_access_to_housing_vendor": "Prioritize housing vendor",
     "Has_access_to_housing_vendor_explain": "Prioritize housing vendor in npc breakdown system, useful if you have access to one.",
     "Hide_back_button": "Hide back button in sidebar",
+    "Reload_auth_token": "Reload auth token",
     "COLORS": {
       "Background": "Cor de fundo",
       "Primary": "Cor principal",
@@ -545,21 +564,22 @@
     "Gearset_priority": "Priority",
     "Gearset_priority_explain": "Used to decide which recipe to pick for items that can be crafted by multiple jobs like ingots, nuggets and other airship repair materials.",
     "VERIFICATION": {
+      "Button": "Verify",
       "Title": "Verificação da personagem",
       "Guide": "To verify your account, paste this code: \"{{userId}}\" inside your Lodestone profile biography and click the button below. More informations on the <a href=\"https://wiki.ffxivteamcraft.com/guides/verify-your-character\">wiki</a>",
-      "Success": "Personagem verificada! Pode fechar este pop-up. Pode remover o código do seu perfil, visto que já não é necessário.",
+      "Success": "Character verified! You can now close this popup. Feel free to remove the code from your profile, it isn't needed anymore.",
       "Error": "Não foi possível encontrar o código na biografia da personagem, por favor certifique-se que o código foi aplicado e espere cerca de 30s para tentar novamente.",
       "Validate": "Validar"
     }
   },
   "LISTS": {
     "Load_archived": "Load archived lists",
-    "Needs_verification": "Por favor, verifique a sua personagem para ter acesso às listas partilhadas á sua FC",
+    "Needs_verification": "Please verify your character to have access to the lists shared to your FC (https://wiki.ffxivteamcraft.com/guides/verify-your-character)",
     "Regenerate_all": "Regenerar todas as listas",
     "Regenerated_all": "As suas listas estão agora actualizadas",
     "Merge_lists": "Juntar listas",
     "Merge_lists_warning": "Listas grandes não estão aqui listadas, porque não é possível juntar listas que são muito grandes devido às limitações da base de dados.",
-    "Lists_merged": "Listas juntadas com sucesso!",
+    "Lists_merged": "Lists merged with success!",
     "Shared_lists": "Listas partilhadas consigo",
     "Add_selection": "Adicionar selecção a uma lista",
     "Reset_selection": "Reset selection",
@@ -567,7 +587,7 @@
     "Your_lists": "As suas listas",
     "Outdated_tag": "Desactualizado",
     "No_lists": "Não tem nenhuma lista",
-    "Lists_search_placeholder": "Pesquisar uma lista...",
+    "Lists_search_placeholder": "Search for a list…",
     "Add_to_a_list": "Adicionar a uma lista",
     "Please_pick_recipe": "Escolha uma fórmula para este item",
     "Import_description": "Escolha uma fórmula que queira utilizar para os itens que consegue criar e seleccione uma lista, esses itens serão adicionados à lista e será então redireccionado a essa lista.",
@@ -709,6 +729,8 @@
     "Autofill_notification": "Completion notification",
     "Autofill_notification_title": "Item completed",
     "Autofill_notification_body": "{{itemName}} is now completed for list {{listName}}",
+    "Autofill_crafting_gathering_title": "Crafting or gathering detected",
+    "Autofill_crafting_gathering_message": "Autofill is on slow mode until you are done crafting (stand up ingame) or gathering (close the UI) in order to prevent database issues with autofilling too fast.",
     "Fill_with_inventory": "Fill with inventory (only accounts what you have in personal inventory)",
     "Filter_items_done": "Ignore completed items",
     "Inventory_synthesis": "Inventory synthesis (items per inventory)",
@@ -728,7 +750,7 @@
       "Import_layout": "Importar um layout",
       "Export_layout": "Export this layout",
       "Import_string": "Código de importação do layout",
-      "Import_string_copied": "Layout code copied !",
+      "Import_string_copied": "Layout code copied!",
       "Layout_name": "Nome do layout",
       "Invalid_import": "Código de importação inválido",
       "Global_options": "Opções gerais",
@@ -745,6 +767,7 @@
       "Layouts": "Layouts",
       "Want_to_learn_more": "Want to learn more about layouts and how they work?",
       "Open_wiki_page": "Open the layouts system wiki page",
+      "Filter_using_level": "Use crafting and gathering level in corresponding filters",
       "ITEMS": {
         "COMMENTS": "Comentários",
         "COPY_NAME_NOT_FAVORITE": "Modo de cópia não-favorita",
@@ -784,6 +807,7 @@
     "HEAVENSWARD": "Heavensward",
     "STORMBLOOD": "Stormblood",
     "SHADOWBRINGERS": "Shadowbringers",
+    "ENDWALKER": "Endwalker",
     "OUTDATED": "Desactualizado",
     "GEAR": "Equipamento",
     "CONSUMABLE": "Consumível",
@@ -810,10 +834,12 @@
     "WHM": "WHM",
     "SCH": "SCH",
     "AST": "AST",
+    "SGE": "SGE",
     "MNK": "MNK",
     "DRG": "DRG",
     "NIN": "NIN",
     "SAM": "SAM",
+    "RPR": "RPR",
     "BRD": "BRD",
     "MCH": "MCH",
     "DNC": "DNC",
@@ -837,7 +863,7 @@
     "Title": "Tradutor de macro",
     "Macro_language": "Idioma do Macro",
     "Macro_to_translate": "Macro para traduzir",
-    "Do_translate": "Traduzir !",
+    "Do_translate": "Translate!",
     "Invalid_macro_or_language": "Macro ou idioma inválido."
   },
   "CUSTOM_LINKS": {
@@ -870,7 +896,7 @@
     "No_items": "Nenhum node de colheita encontrado",
     "Gathering_name": "Escreva o nome do item",
     "Ephemeral_node": "Node temporária, pode reaparecer",
-    "Intro": "A localização de colheita tanto-lhe permite facilmente encontrar um item colhível, como informações sobre o mesmo, e criar um alarme para um determinado node. Basta inserir um nome no campo acima e deixe-o encontrar o que está á procura!",
+    "Intro": "Gathering location allows you to easily search for a gatherable item and see details about it, where to find it and create an alarm for a given node. Just input a name in the field above and let it find what you're looking for!",
     "Hidden_item": "Escondido",
     "Fish_eyes": "Requires fish eyes to only care about weather requirement",
     "Add_alarm": "Add alarm",
@@ -1011,7 +1037,7 @@
     "Current_control_bonus": "Current bonus",
     "Macrolock": "Include macro lock",
     "Find_rotation": "Community rotation finder",
-    "Searching_for_rotation": "Searching for community rotations...",
+    "Searching_for_rotation": "Searching for community rotations…",
     "No_matching_rotations": "No community rotation found that match your needs",
     "Click_on_rotation": "Click on a rotation to select it",
     "Recipe_picker_placeholder": "Enter the name of the recipe you want to craft",
@@ -1053,7 +1079,7 @@
       "Min_cp_filter_placeholder": "Min. CP",
       "Difficulty_filter_placeholder": "Difficulty",
       "Quality_filter_placeholder": "Quality",
-      "Intro": "Input some filters to get started",
+      "Intro": "Input a recipe lvl to get started",
       "Result_tooltip": "Result of a simulation run using this rotation and your stats",
       "Fail": "Falha",
       "Success": "Success: {{HQ}}% HQ",
@@ -1294,20 +1320,20 @@
     "Lists_created_counter": "Foram criadas {{amount}} listas usando FFXIV Teamcraft",
     "Donation_button": "Faça uma doação singular",
     "Buy_merch": "Get Teamcraft merch",
-    "Features_header": "Começar!",
+    "Features_header": "Get started!",
     "DESCRIPTION": {
-      "Lists": "Create lists to get informations about all materials, share them with your friends, everything starts here ! Just search for an item, expand filters to get specific items, and start crafting things.",
+      "Lists": "Create lists to get informations about all materials, share them with your friends, everything starts here! Just search for an item, expand filters to get specific items, and start crafting things.",
       "Public_lists": "Clone lists created by the community that help you building things, levekits, log completion, airships, BiS gear, everything can be found here.",
       "Alarms": "Crie alarmes para garantir que não perca um aparecimento de um node, organize-os em grupos, importe-os para o jogo, tudo é possível.",
-      "Gathering_location": "Encontre informações sobre qualquer item de colheita, crie um alarme, obtenha coordenadas instantâneas, aetheryte mais próximo, livro necessário e muito mais !",
-      "Rotations": "Create crafting rotations, test them inside the simulator, or theorycraft rotations using the custom simulator !",
+      "Gathering_location": "Find informations about any gathering item, create an alarm, get instant coordinates, closest aetheryte, required book, and more!",
+      "Rotations": "Create crafting rotations, test them inside the simulator, or theorycraft rotations using the custom simulator!",
       "Levequests": "Find some levequests for a given job and/or level range, see instant benefit on them and create lists for them.",
-      "Macro_translation": "Got some macros but not in your language? Go to macro translator and translate it back to your language so it works in your ffxiv !"
+      "Macro_translation": "Got some macros but not in your language? Go to macro translator and translate it back to your language so it works in your FFXIV game language!"
     }
   },
   "UPDATE": {
-    "New_update_available": "A new update is available ! ",
-    "New_update_available_desktop": "A new update is available !\nClick here to download and install it.",
+    "New_update_available": "A new update is available!",
+    "New_update_available_desktop": "A new update is available!\nClick here to download and install it.",
     "Web_instructions": "Please reload the page to get the latest version.",
     "Downloading_update": "Downloading the update, you'll be prompted to install once the download is done",
     "Possible_update_issue": "It seems like your download is having an issue, please click this icon to download latest setup."
@@ -1328,6 +1354,7 @@
     "Required_for_achievement": "Required for the achievements",
     "Select_spot": "Select a spot to see its details",
     "Hide_completed": "Ocultar fórmulas concluídas",
+    "Show_not_required": "Show items not required for achievement",
     "Hide_completed_items": "Hide completed items",
     "MIN_optimized_path": "Optimized path for all MIN nodes",
     "BTN_optimized_path": "Optimized path for all BTN nodes",
@@ -1348,7 +1375,7 @@
     }
   },
   "LOADING_SCREEN": {
-    "Loading_data": "Loading items, actions, and more !"
+    "Loading_data": "Loading items, actions, and more!"
   },
   "CUSTOM_ITEMS": {
     "Title": "Custom items",
@@ -1413,7 +1440,7 @@
       "Format": "Formato",
       "Folder": "Pasta",
       "No_folder": "Sem pasta",
-      "Parsing_file": "Analisando o conteúdo do arquivo...",
+      "Parsing_file": "Parsing file content…",
       "Saving_items": "A salvar os itens ({{done}}/{{todo}})"
     }
   },
@@ -1433,7 +1460,7 @@
     "Job": "Job",
     "Level": "Desynth level",
     "Intro": "Select a job and input a level to find best items to level up your desynth",
-    "Loading_message": "Loading...",
+    "Loading_message": "Loading…",
     "TAGS": {
       "Higher_chances": "Higher chances",
       "Lower_exp": "Lower exp",
@@ -1524,7 +1551,9 @@
       "Required_control": "Req. Control",
       "Mark_as_done_in_gathering_log": "Mark as done in log",
       "X_Equipped": "{{amount}} Equipped:",
-      "Item_series": "Set details"
+      "Item_series": "Set details",
+      "Requires_fate_rank": "Requires FATE rank {{rank}}",
+      "Requires_gc_rank": "Requires Grand Company rank {{rank}}"
     },
     "FISH": {
       "Hour": "Hour of the day",
@@ -1557,6 +1586,7 @@
       "Top_users": "Top rankings",
       "Your_ranking": "Your ranking",
       "Include_fisheyes_data": "Include reports using Fish Eyes",
+      "Not_enough_data_points": "Not enough data points to display this chart",
       "TUG": {
         "Light": "Light (!)",
         "Medium": "Medium (!!)",
@@ -1594,7 +1624,9 @@
       "Available_fishes": "Available fishes",
       "Fish_per_weather": "Fish per weather",
       "Fish_per_bait": "Fish per bait",
-      "Fish_per_tug": "Fish per tug"
+      "Fish_per_tug": "Fish per tug",
+      "Include_misses": "Include misses",
+      "Miss": "Miss"
     },
     "NODE": {
       "Items": "Items",
@@ -1795,7 +1827,7 @@
   },
   "CURRENCY_SPENDING": {
     "Title": "Currency Spending guide",
-    "Description": "Got too much of a currency? Select your currency, set an amount, a server and find which item is the best to buy to get gil from your currencies !",
+    "Description": "Got too much of a currency? Select your currency, set an amount, a server and find which item is the best to buy to get gil from your currencies!",
     "Pick_currency": "Pick a currency",
     "You_can_buy": "You can buy {{amount}}",
     "Disabled": "The currency spending guide isn't working anymore",
@@ -1806,7 +1838,7 @@
   },
   "FOOD_PICKER": {
     "Title": "Food Picker",
-    "Description": "You want to know which food will give the stats you want ? Look no further, you're where you need to be!",
+    "Description": "You want to know which food will give the stats you want? Look no further, you're where you need to be!",
     "Pick_stat": "Choose an attribute"
   },
   "BLOG": {
@@ -1897,7 +1929,9 @@
     "Disable_pcap": "Disable packet capture",
     "Install_npcap": "Npcap is missing from your system",
     "Install_npcap_description": "In order to have Teamcraft capture packet with its default npcap mode, you need to install npcap. Teamcraft can install it for you and restart the app once it's done.",
-    "Install_npcap_button": "Install npcap and restart Teamcraft"
+    "Install_npcap_button": "Install npcap and restart Teamcraft",
+    "Not_as_anonymous": "Packet capture won't work properly as anonymous",
+    "Not_as_anonymous_description": "Please register by hovering the \"Anonymous\" label in the top-right corner and clicking \"Register\" or disable packet capture inside the settings."
   },
   "SUGGESTED_REGION": {
     "Banner_title": "Suggest changing region to {{region}}",
@@ -1947,8 +1981,11 @@
     "Unhide_optimizer": "Don't hide this optimizer anymore",
     "Remove_ignore_container": "Don't ignore this tip for this container anymore",
     "Show_ignored": "Show ignored items",
+    "Hide_empty": "Hide empty optimizers",
     "Show_hidden": "Show hidden optimizers",
     "No_optimizations": "No optimizations available",
+    "Optimization_copied": "Optimization copied to clipboard as JSON",
+    "Pause_tracking": "Pause inventory tracking",
     "CAN_BE_BOUGHT": {
       "Title": "Items that can be bought with gil",
       "Message": "This item can be bought from NPCs with gil and does not require beast tribe reputation.",
@@ -2078,7 +2115,7 @@
       "Wrists": "Wrists"
     },
     "COMPARISON": {
-      "Compare_popup_title": "Compare {{setName}} with...",
+      "Compare_popup_title": "Compare {{setName}} with…",
       "Error_title": "Could not compare gearsets",
       "Error_description": "Please make sure the gearset you entered exists and is the same type as the current one (same main stat)",
       "Type": "Gearset type",
@@ -2108,7 +2145,7 @@
       "Tag_tooltip": "This gearset is from a synchronization operated using packet capture, it'll be updated if you synchronize again for this job.",
       "Importing_gearset": "Importing set for {{name}}",
       "Imported_gearset": "Imported set for {{name}}",
-      "Syncing_gearsets": "Synchronizing gearsets..."
+      "Syncing_gearsets": "Synchronizing gearsets…"
     }
   },
   "FOLDERS": {
@@ -2163,7 +2200,7 @@
     "DESYNTH": {
       "Job": "Select the job you want to level",
       "Level": "Input the desynth level (not the actual job level)",
-      "Search": "Click search, and it's done !"
+      "Search": "Click search, and it's done!"
     },
     "RESET_TIMERS": {
       "Toggle": "Enable alarms for a given timer by setting this switch to ON."
@@ -2205,7 +2242,7 @@
         "Welcome_add_column": "Welcome to the dashboard layout editor, you can add columns using this button (up to 5 columns).",
         "Save": "Don't forget to save your modifications after you edited your dashboard.",
         "Revert": "Or if you don't like what you did, use this to go back to the original layout you had before editing it.",
-        "Delete_column": "Want to remove a column? Here it is !",
+        "Delete_column": "Want to remove a column? Here it is!",
         "Add_panel": "Click here to add a new panel.",
         "Reorder": "You can use drag and drop to move panels anywhere you want.",
         "Data_type": "First of all, select the metric type you want to use.",
@@ -2544,7 +2581,12 @@
     "Task_completed_notification_title": "{{name}} has finished its venture",
     "Task_completed_notification_content": "{{name}} has finished task {{taskName}}",
     "Task_completion_alarm": "Task completion alarm",
-    "Reset_retainers": "Reset retainers"
+    "Reset_retainers": "Reset retainers",
+    "Check_prices": "Check selling prices against Marketboard (2h cooldown)",
+    "Cannot_fetch": "Price check is on 2h cooldown, last price check: {{date}}",
+    "X%_above": "Your price is {{diff}}% above the current lowest price",
+    "X%_below": "Your price is {{diff}}% below the current lowest price",
+    "Lowest_price": "Lowest price"
   },
   "RETAINER_VENTURES": {
     "Title": "Retainer ventures",
@@ -2576,7 +2618,7 @@
       "Profile_badge": "Special badge on your Teamcraft profile (${{price}})",
       "Custom_theme": "Better theme customization, with custom color input (${{price}})",
       "Pins_badge": "Exclusive Teamcraft pins badge sent to you (${{price}}) (needs you to fill out shipment details on Patreon)",
-      "Loading_screen_message": "Add a new entry inside the \"Brought to you by ...\" loading message, with your name, your FC name, LS name, whatever you want to add ! (${{price}})"
+      "Loading_screen_message": "Add a new entry inside the \"Brought to you by…\" loading message, with your name, your FC name, LS name, whatever you want to add! (${{price}})"
     },
     "Select_retainer": "Pick one of your retainers"
   },
@@ -2639,7 +2681,7 @@
         "Abbreviation": "E"
       },
       "INVINCIBLE_II": {
-        "Abbreviation": "i2"
+        "Abbreviation": "J"
       },
       "ODYSSEY": {
         "Abbreviation": "O"
@@ -2697,5 +2739,122 @@
   "GARDENING": {
     "Growth_time": "Growth time",
     "Cross_breeds": "Cross breeds"
+  },
+  "ALLAGAN_REPORTS": {
+    "Feature_banner_title": "New feature: Allagan Reports",
+    "Feature_banner_description": "Found an item with missing data? You can now report item sources in the allagan reports system (General > Allagan Reports) and get them included inside the app in the following update!",
+    "Title": "Allagan reports",
+    "Reports": "Reports",
+    "Pending_changes": "Pending changes",
+    "No_pending_changes": "No pending changes",
+    "New_report": "New report",
+    "Submit_new_report": "Submit new report proposal",
+    "Source": "Source",
+    "Report_added": "Report proposal submitted",
+    "Instance_placeholder": "Instance name",
+    "Venture_placeholder": "Venture name",
+    "Monster_placeholder": "Monster name",
+    "Voyage_placeholder": "Voyage name",
+    "Voyage_type": "Voyage type",
+    "Reported_by": "Reported by",
+    "Approved_by": "Approved by",
+    "No_reports": "No reports",
+    "Proposal_accepted": "Report approved",
+    "Proposal_rejected": "Report rejected",
+    "Reject": "Reject",
+    "Accept": "Accept",
+    "Suggest_deletion": "Suggest deletion",
+    "Deletion_suggestion_submitted": "Deletion suggestion submitted",
+    "Report_deleted": "Report deleted",
+    "Suggest_modification": "Edit",
+    "Modification_suggestion_submitted": "Modification suggestion submitted",
+    "Modification_applied": "Modification applied",
+    "Submit_modification_suggestion": "Submit modification suggestion",
+    "Last_updated": "Last updated",
+    "Submitted": "Submitted",
+    "Spawn": "Spawn",
+    "Duration": "Duration",
+    "Predator": "Predator",
+    "Predator_explain": "Fish to catch before getting fisher's intuition or the fish for spearfishing",
+    "Unknown_hookset": "Unknown hookset",
+    "Gig_head": "Gig head",
+    "No_predators": "No predators",
+    "Loading_gubal_analysis": "Loading gubal analysis",
+    "Gubal_analysis_suggestion": "Suggestion based on data analysis",
+    "Cannot_report_for_this_spot": "You can't report details for this spot on this fish because it already exists",
+    "Please_suggest_edit_instead": "Please suggest an edit to the existing one instead",
+    "Add_data_sources": "Add data sources for this item",
+    "Not_applied_yet": "Not applied",
+    "Not_applied_yet_explain": "This source will be added to the list and database system during the next update",
+    "Pending_changes_count": "{{amount}} pending changes to review",
+    "Review_changes": "Review changes",
+    "Imported_from_GT_data": "Imported from Garlandtools",
+    "Status": "Status",
+    "Count": "# of reports",
+    "Applied_count": "# of applied reports",
+    "Fish_coverage": "Fishing coverage",
+    "Items_with_no_source": "Items with no data",
+    "Data_needs": "Items needing data",
+    "Open_reports": "Open reports page",
+    "Fishing": "Fishing",
+    "Others": "Other items",
+    "Ocean_fishing_time": "Ocean fishing time",
+    "Fate_placeholder": "Enter FATE name",
+    "Open_details": "No space for the details, open the page to approve or reject",
+    "Accept_many": "Accept selected reports ({{amount}})",
+    "Reject_many": "Reject selected reports ({{amount}})",
+    "Jump_to_item": "Jump to another item",
+    "Price": "Price",
+    "Product_id": "Product ID",
+    "Product_id_explain": "The id of the product, located in the store URL right after \"/product/\"",
+    "Open_item": "Open in Allagan Reports",
+    "Delete": "Delete",
+    "Voyage_rarity": "Rarity",
+    "Rarity_Common": "Common",
+    "Rarity_Voyage_exclusive": "Voyage exclusive",
+    "Rarity_Rare": "Rare",
+    "No_missing_fish_data": "No fish with missing data",
+    "Sources_filter": "Filter sources",
+    "Speed": "Speed",
+    "Shadow_size": "Shadow size",
+    "SPEEDS": {
+      "VERY_SLOW": "Very slow",
+      "SLOW": "Slow",
+      "AVERAGE": "Average",
+      "FAST": "Fast",
+      "FASTER": "Faster",
+      "VERY_FAST": "Very fast"
+    },
+    "SHADOWS": {
+      "SMALL": "Small",
+      "NORMAL": "Normal",
+      "LARGE": "Large"
+    },
+    "SOURCE": {
+      "DESYNTH": "DESYNTH",
+      "REDUCTION": "REDUCTION",
+      "GARDENING": "GARDENING",
+      "LOOT": "LOOT",
+      "VENTURE": "VENTURE",
+      "VOYAGE": "VOYAGE",
+      "DROP": "DROP",
+      "INSTANCE": "INSTANCE",
+      "FISHING": "FISHING",
+      "SPEARFISHING": "SPEARFISHING",
+      "FATE": "FATE",
+      "MOGSTATION": "MOGSTATION"
+    },
+    "STATUS": {
+      "PROPOSAL": "PROPOSAL",
+      "MODIFICATION": "MODIFICATION",
+      "DELETION": "DELETION",
+      "ACCEPTED": "ACCEPTED"
+    }
+  },
+  "OCEAN_FISHING": {
+    "ANY": "Any",
+    "SUNSET": "Sunset",
+    "DAY": "Day",
+    "NIGHT": "Night"
   }
 }

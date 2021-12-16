@@ -1,4 +1,5 @@
 {
+  "Mogstation": "Mogstation",
   "Quests": "任务",
   "Facebook_notice": "Facebook登录已不可用，您可以通过\"重置密码\"系统添加密码到您的帐户，也可以通过在 Discord 上询问Miu 。",
   "Pick_a_list": "选择清单",
@@ -14,7 +15,7 @@
   "See_on_map": "查看地图",
   "No_known_coordinates": "没有已知坐标",
   "Edit_amount": "编辑数量",
-  "List_fork_in_progress": "正在将清单复制到你的账户",
+  "List_fork_in_progress": "Copying the list to your account…",
   "Network_error_logged_out": "检测到网络错误，你已被注销。如果此问题一直存在，请与 Discord 服务器上的 Miu 联系。",
   "Hide_zone_duplicates": "隐藏重复地图 (来自多个地图的物品只显示一次)",
   "Patch_notes": "{{version}} 更新",
@@ -104,7 +105,7 @@
     "Patreon_supporters": "Patreon 支持者",
     "Contributors": "贡献者"
   },
-  "Patreon_login_success": "Patreon 登录成功！",
+  "Patreon_login_success": "Patreon login success!",
   "Hide_if_empty": "隐藏空栏",
   "No_favorites": "没有收藏",
   "Ephemeral_list": "完成后将被删除",
@@ -147,12 +148,15 @@
     "Copy_to_clipboard": "复制",
     "Language": "语言",
     "Opened_in_desktop": "此页面已在客户端中打开，你可以现在关闭本页了。",
+    "Opened_in_desktop_setting": "You can disable this behavior inside the Settings",
+    "Opened_in_desktop_button": "Or by clicking this button",
     "Open_in_desktop": "在客户端中打开",
     "Admin": "管理员",
     "Moderator": "管理员",
     "Minutes_duration": "{{amount}} 分",
     "Seconds_duration": "{{amount}} 秒",
     "None": "无",
+    "Any": "Any",
     "Top": "顶部",
     "Bottom": "底部",
     "Amount": "数目",
@@ -180,7 +184,15 @@
     "Back": "返回",
     "Support_us_remove_ads": "在patreon上支持我们以移除广告",
     "Support_us": "支持我们",
-    "Show_more": "显示更多"
+    "Show_more": "显示更多",
+    "Item": "Item",
+    "Venture": "Venture",
+    "Monster": "Monster",
+    "Airship": "Airship",
+    "Submarine": "Submarine",
+    "Voyage": "Voyage",
+    "Instance": "Instance",
+    "Fate": "Fate"
   },
   "ALARMS": {
     "Title": "闹钟",
@@ -201,7 +213,7 @@
     "Macro_copied": "宏已复制到剪贴板",
     "Open_overlay": "显示/隐藏悬浮窗",
     "Open_alarms_overlay": "显示/隐藏闹钟悬浮窗",
-    "More_available": "还有 {{amount}} 个…",
+    "More_available": "and {{amount}} more…",
     "Node_content": "采集点物品",
     "Toggle_collapse": "折叠/展开分组",
     "Add_alarms_to_group": "增加闹钟到本组",
@@ -210,11 +222,12 @@
     "Add_group_and_alarms": "将此组及其所有提醒添加到您的闹钟列表",
     "Delete_all": "删除所有闹钟",
     "Delete_alarm": "删除闹钟",
-    "Regenerating_alarms": "正在重新生成闹钟 ...",
+    "Regenerating_alarms": "Regenerating your alarms…",
     "Regenerate": "重新生成闹钟",
     "Group_outdated": "此分组已过期。请联系所有人在新版本中登录以进行更新。",
     "Remove_from_group": "从此分组中移除",
     "No_folder": "无文件夹",
+    "Click_to_show_all_alarms": "Click to show all alarms",
     "REALTIME": {
       "Reset_timers": "CD计时器",
       "WEEKLY_RESETS": "周常",
@@ -251,6 +264,7 @@
   "Item_name": "物品名称",
   "No_items_found": "没有找到相关物品",
   "No_instances_found": "没有找到相关副本",
+  "No_fishing_spot_found": "No fishing spots found",
   "No_quests_found": "没有找到相关任务",
   "No_npcs_found": "没有找到相关 NPC",
   "No_mobs_found": "没有找到相关怪物",
@@ -268,6 +282,7 @@
   "No": "否",
   "Crystals": "水晶",
   "Gathering": "采集中",
+  "Perception": "Perception",
   "Drops_or_GC": "副本/掉落/大国防联军",
   "Other": "其他",
   "Pre_crafts": "半成品",
@@ -351,7 +366,7 @@
   "Email_not_found": "没有找到该电子邮件地址",
   "Email_sent": "已发送一封电子邮件，内含重置您密码的方法。",
   "ALARM": {
-    "Spawned": "{{itemName}} 即将出现",
+    "Spawned": "{{itemName}} will spawn!",
     "See_on_map": "坐标",
     "Note": "备注"
   },
@@ -424,6 +439,7 @@
     "Disable_cross_world_prices": "仅使用当前服务器的市场价格",
     "Clear_search_history": "清除搜索记录",
     "Auto_mark_as_done_in_log": "在完成清单项时标记采集（制作）笔记",
+    "Make_quick_lists_offline": "Make quick lists offline by default",
     "Db_comments_position": "数据库评论位置",
     "Always_HQ_leves": "默认以提交HQ物品计算理符经验",
     "Always_all_deliveries": "在理符任务工具中默认选中“共可交付 3 次”",
@@ -457,6 +473,8 @@
     "Char_data_folder": "角色数据文件夹 （CHRXXXXXXX 所在位置）",
     "Maximum_vendor_price": "最大商店购买价格",
     "Maximum_vendor_price_explain": "单个物品可被 CAN_BE_BOUGHT 布局捕获的最大价格（0 = 无限制）",
+    "Maximum_total_vendor_price": "Maximum total vendor price",
+    "Maximum_total_vendor_price_explain": "Maximum price for an entire row (unit price * quantity) for it to be caught by the CAN_BE_BOUGHT layout filter (0 = no maximum)",
     "Rawsock_flag": "使用 RawSocket 抓包",
     "Rawsock_details": "不使用 npcap 的话，可以使用 RawSocket 抓包，可能对 VPN 的网络连接有所帮助。但用 RawSocket 抓包会更不稳定一些，而且你需要用管理员权限启动 TC。",
     "Favorite_features": "收藏功能",
@@ -477,6 +495,7 @@
     "Has_access_to_housing_vendor": "优先使用房屋专属商人",
     "Has_access_to_housing_vendor_explain": "在 “按 NPC 显示” 时优先使用房屋专属商人。在拥有房屋时非常有用。",
     "Hide_back_button": "在侧边栏隐藏返回按钮",
+    "Reload_auth_token": "Reload auth token",
     "COLORS": {
       "Background": "背景颜色",
       "Primary": "主体色",
@@ -545,21 +564,22 @@
     "Gearset_priority": "优先级",
     "Gearset_priority_explain": "用于决定物品可被多个职业制作（例如金属锭、金属块、飞空艇修理材料等）时选择配方的顺序。",
     "VERIFICATION": {
+      "Button": "Verify",
       "Title": "角色验证",
       "Guide": "若要认证您的账户，复制这个代码{{userId}}到Lodestone个人资料中，并点击下方的按键。更多信息在<a href=\"https://wiki.ffxivteamcraft.com/guides/verify-your-character\">wiki</a>。",
-      "Success": "角色已验证！你现在可以关闭该窗口。现在你可以从你的 Lodestone 资料中移除验证代码了。",
+      "Success": "Character verified! You can now close this popup. Feel free to remove the code from your profile, it isn't needed anymore.",
       "Error": "无法在你的资料中找到代码。请确认你已经粘贴并保存，然后等待约 30 秒后重试。",
       "Validate": "验证"
     }
   },
   "LISTS": {
     "Load_archived": "加载已归档的清单",
-    "Needs_verification": "请验证您的角色，以确认是否有权访问共享到部队的清单",
+    "Needs_verification": "Please verify your character to have access to the lists shared to your FC (https://wiki.ffxivteamcraft.com/guides/verify-your-character)",
     "Regenerate_all": "重新生成所有清单",
     "Regenerated_all": "您的清单已经是最新的了",
     "Merge_lists": "合并清单",
     "Merge_lists_warning": "此处未列出过长的清单，因为由于数据库限制，无法合并太大的清单。",
-    "Lists_merged": "清单合并成功！",
+    "Lists_merged": "Lists merged with success!",
     "Shared_lists": "与您共享的清单",
     "Add_selection": "添加选中物品到清单",
     "Reset_selection": "全不选",
@@ -567,7 +587,7 @@
     "Your_lists": "我的清单",
     "Outdated_tag": "已过期",
     "No_lists": "没有清单",
-    "Lists_search_placeholder": "搜索清单…",
+    "Lists_search_placeholder": "Search for a list…",
     "Add_to_a_list": "添加到清单",
     "Please_pick_recipe": "请为该物品选择配方",
     "Import_description": "选择你想制作这个物品的配方，然后选择一个清单。这些物品将被添加到该清单，然后你会被带到清单页。",
@@ -709,6 +729,8 @@
     "Autofill_notification": "完成通知",
     "Autofill_notification_title": "物品已完成",
     "Autofill_notification_body": "{{listName}} 清单中的 {{itemName}} 已制作完成",
+    "Autofill_crafting_gathering_title": "Crafting or gathering detected",
+    "Autofill_crafting_gathering_message": "Autofill is on slow mode until you are done crafting (stand up ingame) or gathering (close the UI) in order to prevent database issues with autofilling too fast.",
     "Fill_with_inventory": "使用物品栏信息填充（只会使用个人物品栏的内容）",
     "Filter_items_done": "忽略已完成的物品",
     "Inventory_synthesis": "物品栏聚合（查看每个物品栏中已有的物品）",
@@ -728,7 +750,7 @@
       "Import_layout": "导入布局",
       "Export_layout": "导出此布局",
       "Import_string": "导出布局",
-      "Import_string_copied": "已复制布局代码！",
+      "Import_string_copied": "Layout code copied!",
       "Layout_name": "布局名称",
       "Invalid_import": "无效的导入码",
       "Global_options": "通用选项",
@@ -745,6 +767,7 @@
       "Layouts": "布局",
       "Want_to_learn_more": "想了解更多关于布局和它们如何工作的信息？",
       "Open_wiki_page": "打开布局系统的wiki页面",
+      "Filter_using_level": "Use crafting and gathering level in corresponding filters",
       "ITEMS": {
         "COMMENTS": "注释",
         "COPY_NAME_NOT_FAVORITE": "非默认的复制模式",
@@ -784,6 +807,7 @@
     "HEAVENSWARD": "苍穹之禁城",
     "STORMBLOOD": "红莲之狂潮",
     "SHADOWBRINGERS": "暗影之逆焰",
+    "ENDWALKER": "Endwalker",
     "OUTDATED": "已过期",
     "GEAR": "装备",
     "CONSUMABLE": "消耗品",
@@ -810,10 +834,12 @@
     "WHM": "白魔",
     "SCH": "学者",
     "AST": "占星",
+    "SGE": "SGE",
     "MNK": "武僧",
     "DRG": "龙骑",
     "NIN": "忍者",
     "SAM": "武士",
+    "RPR": "RPR",
     "BRD": "诗人",
     "MCH": "机工",
     "DNC": "舞者",
@@ -837,7 +863,7 @@
     "Title": "宏转换器",
     "Macro_language": "源语言",
     "Macro_to_translate": "要转换的宏",
-    "Do_translate": "转换！",
+    "Do_translate": "Translate!",
     "Invalid_macro_or_language": "无效的宏或语言。"
   },
   "CUSTOM_LINKS": {
@@ -870,7 +896,7 @@
     "No_items": "没有找到相关采集点",
     "Gathering_name": "输入物品名称",
     "Ephemeral_node": "限时采集点，可以刷新",
-    "Intro": "采集地点用于快速搜索可采集物品，并查看其详情，并为节点设置采集闹钟。在上面的输入框中输入物品名字，它会找到你要找的物品！",
+    "Intro": "Gathering location allows you to easily search for a gatherable item and see details about it, where to find it and create an alarm for a given node. Just input a name in the field above and let it find what you're looking for!",
     "Hidden_item": "隐藏资源",
     "Fish_eyes": "通过鱼眼忽略天气以外的条件",
     "Add_alarm": "添加闹钟",
@@ -1011,7 +1037,7 @@
     "Current_control_bonus": "现有加成",
     "Macrolock": "包含“锁定宏指令（/macrolock）”",
     "Find_rotation": "共享手法搜索",
-    "Searching_for_rotation": "正在搜索共享手法...",
+    "Searching_for_rotation": "Searching for community rotations…",
     "No_matching_rotations": "没有找到符合您需求的共享手法",
     "Click_on_rotation": "点击一个手法来选择它",
     "Recipe_picker_placeholder": "输入您想要制作的配方",
@@ -1053,7 +1079,7 @@
       "Min_cp_filter_placeholder": "最小制作力",
       "Difficulty_filter_placeholder": "难度",
       "Quality_filter_placeholder": "品质",
-      "Intro": "输入筛选条件",
+      "Intro": "Input a recipe lvl to get started",
       "Result_tooltip": "使用模拟器运行本手法的结果和你的属性",
       "Fail": "失败",
       "Success": "成功：{{HQ}}% HQ",
@@ -1294,20 +1320,20 @@
     "Lists_created_counter": "FFXIV Teamcraft 上现有 {{amount}} 个清单",
     "Donation_button": "进行一次性捐赠",
     "Buy_merch": "购买 Teamcraft 周边",
-    "Features_header": "开始吧！",
+    "Features_header": "Get started!",
     "DESCRIPTION": {
-      "Lists": "查看所有配方、材料并与您的朋友分享，一切都从创建清单开始！只需要搜索并选中物品就可以开始搓搓搓了。",
+      "Lists": "Create lists to get informations about all materials, share them with your friends, everything starts here! Just search for an item, expand filters to get specific items, and start crafting things.",
       "Public_lists": "从共享社区复制现成的清单。共享社区里有玩家分享的各等级段理符、制作笔记、飞空艇、毕业套等所有你感兴趣的生产清单。",
       "Alarms": "闹钟使你不会错过限时/未知/传承采集点。分文件夹管理闹钟、导入到游戏——一切皆有可能。",
-      "Gathering_location": "寻找采集点信息，创建闹钟，获得即时位置、最近传送点、所需传承录，还有更多！",
-      "Rotations": "使用生产模拟器创建生产手法并即时测试，您还可以使用生产模拟器来检验您的理论手法！",
+      "Gathering_location": "Find informations about any gathering item, create an alarm, get instant coordinates, closest aetheryte, required book, and more!",
+      "Rotations": "Create crafting rotations, test them inside the simulator, or theorycraft rotations using the custom simulator!",
       "Levequests": "查找特定职业/等级的理符，查看报酬，并创建清单。",
-      "Macro_translation": "拿到一个制作宏但不是中文的？使用宏转换器可以将其转换为中文！"
+      "Macro_translation": "Got some macros but not in your language? Go to macro translator and translate it back to your language so it works in your FFXIV game language!"
     }
   },
   "UPDATE": {
-    "New_update_available": "发现新版本！ ",
-    "New_update_available_desktop": "有新的更新！点击此处下载并安装。",
+    "New_update_available": "A new update is available!",
+    "New_update_available_desktop": "A new update is available!\nClick here to download and install it.",
     "Web_instructions": "请刷新页面以使用最新版本。",
     "Downloading_update": "正在下载更新，完成后会提醒您进行安装",
     "Possible_update_issue": "下载过程中遇到问题，请点击此图标下载最新的安装包。"
@@ -1328,6 +1354,7 @@
     "Required_for_achievement": "成就所需",
     "Select_spot": "选择地点以查看其详情",
     "Hide_completed": "隐藏已完成的配方",
+    "Show_not_required": "Show items not required for achievement",
     "Hide_completed_items": "隐藏已完成的物品",
     "MIN_optimized_path": "为所有采矿工采集点优化的路径",
     "BTN_optimized_path": "为所有园艺工采集点优化的路径",
@@ -1348,7 +1375,7 @@
     }
   },
   "LOADING_SCREEN": {
-    "Loading_data": "正在载入物品、技能和其它信息"
+    "Loading_data": "Loading items, actions, and more!"
   },
   "CUSTOM_ITEMS": {
     "Title": "自定义物品",
@@ -1413,7 +1440,7 @@
       "Format": "格式",
       "Folder": "文件夹",
       "No_folder": "没有文件夹",
-      "Parsing_file": "正在解析文件内容……",
+      "Parsing_file": "Parsing file content…",
       "Saving_items": "正在保存 ({{done}}/{{todo}})"
     }
   },
@@ -1433,7 +1460,7 @@
     "Job": "职业",
     "Level": "分解技能",
     "Intro": "选择职业并输入分解品级，即可找到最适合您当前分解品级的物品",
-    "Loading_message": "正在加载……",
+    "Loading_message": "Loading…",
     "TAGS": {
       "Higher_chances": "成功率高",
       "Lower_exp": "经验少",
@@ -1524,7 +1551,9 @@
       "Required_control": "需要加工精度",
       "Mark_as_done_in_gathering_log": "在笔记中标为已完成",
       "X_Equipped": "已装备 {{amount}}：",
-      "Item_series": "套装详情"
+      "Item_series": "套装详情",
+      "Requires_fate_rank": "Requires FATE rank {{rank}}",
+      "Requires_gc_rank": "Requires Grand Company rank {{rank}}"
     },
     "FISH": {
       "Hour": "上钩时间",
@@ -1557,6 +1586,7 @@
       "Top_users": "排行榜",
       "Your_ranking": "你的排名",
       "Include_fisheyes_data": "包括使用鱼眼的数据",
+      "Not_enough_data_points": "Not enough data points to display this chart",
       "TUG": {
         "Light": "轻杆 (!)",
         "Medium": "中杆 (!!)",
@@ -1594,7 +1624,9 @@
       "Available_fishes": "可获得的鱼",
       "Fish_per_weather": "不同天气的上钩概率",
       "Fish_per_bait": "不同钓饵的上钩概率",
-      "Fish_per_tug": "不同咬饵的上钩概率"
+      "Fish_per_tug": "不同咬饵的上钩概率",
+      "Include_misses": "Include misses",
+      "Miss": "Miss"
     },
     "NODE": {
       "Items": "物品",
@@ -1795,7 +1827,7 @@
   },
   "CURRENCY_SPENDING": {
     "Title": "货币消费指南",
-    "Description": "货币快满了吗？选择货币种类、数量和服务器，这里将自动推荐最畅销的物品来换取金币！",
+    "Description": "Got too much of a currency? Select your currency, set an amount, a server and find which item is the best to buy to get gil from your currencies!",
     "Pick_currency": "选择一个币种",
     "You_can_buy": "您可以购买 {{amount}}",
     "Disabled": "货币消费指南已失效",
@@ -1806,7 +1838,7 @@
   },
   "FOOD_PICKER": {
     "Title": "食物选择器",
-    "Description": "想知道哪个食物有你需要的属性？找对地方了！",
+    "Description": "You want to know which food will give the stats you want? Look no further, you're where you need to be!",
     "Pick_stat": "选择一个属性"
   },
   "BLOG": {
@@ -1897,7 +1929,9 @@
     "Disable_pcap": "停用数据包捕获",
     "Install_npcap": "您未安装 Npcap",
     "Install_npcap_description": "为在默认的 Npcap 下使用 Teamcraft 的数据包捕获功能，您需要安装 Npcap。Teamcraft 可以帮你安装并在安装完成后自动重启本应用。",
-    "Install_npcap_button": "安装 Npcap 并重启 Teamcraft"
+    "Install_npcap_button": "安装 Npcap 并重启 Teamcraft",
+    "Not_as_anonymous": "Packet capture won't work properly as anonymous",
+    "Not_as_anonymous_description": "Please register by hovering the \"Anonymous\" label in the top-right corner and clicking \"Register\" or disable packet capture inside the settings."
   },
   "SUGGESTED_REGION": {
     "Banner_title": "建议将区域更改为 {{region}}",
@@ -1947,8 +1981,11 @@
     "Unhide_optimizer": "不再隐藏此优化器",
     "Remove_ignore_container": "不再忽略对此物品栏的提示",
     "Show_ignored": "显示被忽略的物品",
+    "Hide_empty": "Hide empty optimizers",
     "Show_hidden": "显示隐藏的优化器",
     "No_optimizations": "没有可用的优化",
+    "Optimization_copied": "Optimization copied to clipboard as JSON",
+    "Pause_tracking": "Pause inventory tracking",
     "CAN_BE_BOUGHT": {
       "Title": "可使用金币购买的物品",
       "Message": "此物品可从 NPC 处购买，且没有蛮族声望限制。",
@@ -2078,7 +2115,7 @@
       "Wrists": "腕部"
     },
     "COMPARISON": {
-      "Compare_popup_title": "比较 {{setName}} ...",
+      "Compare_popup_title": "Compare {{setName}} with…",
       "Error_title": "无法比较配装",
       "Error_description": "请确保您输入的配装存在，且与当前配装的职业主属性类型相同（即同类职业）",
       "Type": "配装类型",
@@ -2108,7 +2145,7 @@
       "Tag_tooltip": "此配装通过数据包捕获同步，会在再次执行同步时更新。",
       "Importing_gearset": "正在导入 {{name}} 的配装",
       "Imported_gearset": "已导入 {{name}} 的配装",
-      "Syncing_gearsets": "正在同步配装 ……"
+      "Syncing_gearsets": "Synchronizing gearsets…"
     }
   },
   "FOLDERS": {
@@ -2163,7 +2200,7 @@
     "DESYNTH": {
       "Job": "选择你想要提升等级的职业",
       "Level": "输入分解技能值（而非职业等级）",
-      "Search": "点击搜索即可"
+      "Search": "Click search, and it's done!"
     },
     "RESET_TIMERS": {
       "Toggle": "打开此开关可以为对应的计时器设置闹钟"
@@ -2205,7 +2242,7 @@
         "Welcome_add_column": "欢迎来到面板布局编辑器，您可以使用此按钮添加列 (最多5列)。",
         "Save": "在您编辑面板后不要忘记保存您的修改。",
         "Revert": "又或者，如果你不喜欢这么做，请在编辑之前用这个回到原来的布局。",
-        "Delete_column": "想要删除一列吗？这里！",
+        "Delete_column": "Want to remove a column? Here it is!",
         "Add_panel": "点击此处添加一个新面板。",
         "Reorder": "您可以使用拖放来移动任何您想要的面板。",
         "Data_type": "首先，请选择您想要使用的计量方式。",
@@ -2544,7 +2581,12 @@
     "Task_completed_notification_title": "{{name}} 完成了探险",
     "Task_completed_notification_content": "{{name}} 完成了探险委托 {{taskName}}",
     "Task_completion_alarm": "探险完成提醒",
-    "Reset_retainers": "重置雇员"
+    "Reset_retainers": "重置雇员",
+    "Check_prices": "Check selling prices against Marketboard (2h cooldown)",
+    "Cannot_fetch": "Price check is on 2h cooldown, last price check: {{date}}",
+    "X%_above": "Your price is {{diff}}% above the current lowest price",
+    "X%_below": "Your price is {{diff}}% below the current lowest price",
+    "Lowest_price": "Lowest price"
   },
   "RETAINER_VENTURES": {
     "Title": "雇员探险",
@@ -2576,7 +2618,7 @@
       "Profile_badge": "在你的 Teamcraft 个人资料上显示一个特殊的徽章 (${{price}})",
       "Custom_theme": "更强的自定义主题功能，可以输入自定义的颜色值 (${{price}})",
       "Pins_badge": "邮寄给你的限定的 Teamcraft 别针徽章 (${{price}}) (需要你在 Patreon 上填写收货地址)",
-      "Loading_screen_message": "在加载界面的 \"Brought to you by ...\" 载入信息里，添加你的名字、部队名字、通讯贝名字或者任何你想加的信息！(${{price}})"
+      "Loading_screen_message": "Add a new entry inside the \"Brought to you by…\" loading message, with your name, your FC name, LS name, whatever you want to add! (${{price}})"
     },
     "Select_retainer": "选择一名雇员"
   },
@@ -2639,7 +2681,7 @@
         "Abbreviation": "企业"
       },
       "INVINCIBLE_II": {
-        "Abbreviation": "无敌改"
+        "Abbreviation": "J"
       },
       "ODYSSEY": {
         "Abbreviation": "奥德赛"
@@ -2697,5 +2739,122 @@
   "GARDENING": {
     "Growth_time": "生长时间",
     "Cross_breeds": "杂交"
+  },
+  "ALLAGAN_REPORTS": {
+    "Feature_banner_title": "New feature: Allagan Reports",
+    "Feature_banner_description": "Found an item with missing data? You can now report item sources in the allagan reports system (General > Allagan Reports) and get them included inside the app in the following update!",
+    "Title": "Allagan reports",
+    "Reports": "Reports",
+    "Pending_changes": "Pending changes",
+    "No_pending_changes": "No pending changes",
+    "New_report": "New report",
+    "Submit_new_report": "Submit new report proposal",
+    "Source": "Source",
+    "Report_added": "Report proposal submitted",
+    "Instance_placeholder": "Instance name",
+    "Venture_placeholder": "Venture name",
+    "Monster_placeholder": "Monster name",
+    "Voyage_placeholder": "Voyage name",
+    "Voyage_type": "Voyage type",
+    "Reported_by": "Reported by",
+    "Approved_by": "Approved by",
+    "No_reports": "No reports",
+    "Proposal_accepted": "Report approved",
+    "Proposal_rejected": "Report rejected",
+    "Reject": "Reject",
+    "Accept": "Accept",
+    "Suggest_deletion": "Suggest deletion",
+    "Deletion_suggestion_submitted": "Deletion suggestion submitted",
+    "Report_deleted": "Report deleted",
+    "Suggest_modification": "Edit",
+    "Modification_suggestion_submitted": "Modification suggestion submitted",
+    "Modification_applied": "Modification applied",
+    "Submit_modification_suggestion": "Submit modification suggestion",
+    "Last_updated": "Last updated",
+    "Submitted": "Submitted",
+    "Spawn": "Spawn",
+    "Duration": "Duration",
+    "Predator": "Predator",
+    "Predator_explain": "Fish to catch before getting fisher's intuition or the fish for spearfishing",
+    "Unknown_hookset": "Unknown hookset",
+    "Gig_head": "Gig head",
+    "No_predators": "No predators",
+    "Loading_gubal_analysis": "Loading gubal analysis",
+    "Gubal_analysis_suggestion": "Suggestion based on data analysis",
+    "Cannot_report_for_this_spot": "You can't report details for this spot on this fish because it already exists",
+    "Please_suggest_edit_instead": "Please suggest an edit to the existing one instead",
+    "Add_data_sources": "Add data sources for this item",
+    "Not_applied_yet": "Not applied",
+    "Not_applied_yet_explain": "This source will be added to the list and database system during the next update",
+    "Pending_changes_count": "{{amount}} pending changes to review",
+    "Review_changes": "Review changes",
+    "Imported_from_GT_data": "Imported from Garlandtools",
+    "Status": "Status",
+    "Count": "# of reports",
+    "Applied_count": "# of applied reports",
+    "Fish_coverage": "Fishing coverage",
+    "Items_with_no_source": "Items with no data",
+    "Data_needs": "Items needing data",
+    "Open_reports": "Open reports page",
+    "Fishing": "Fishing",
+    "Others": "Other items",
+    "Ocean_fishing_time": "Ocean fishing time",
+    "Fate_placeholder": "Enter FATE name",
+    "Open_details": "No space for the details, open the page to approve or reject",
+    "Accept_many": "Accept selected reports ({{amount}})",
+    "Reject_many": "Reject selected reports ({{amount}})",
+    "Jump_to_item": "Jump to another item",
+    "Price": "Price",
+    "Product_id": "Product ID",
+    "Product_id_explain": "The id of the product, located in the store URL right after \"/product/\"",
+    "Open_item": "Open in Allagan Reports",
+    "Delete": "Delete",
+    "Voyage_rarity": "Rarity",
+    "Rarity_Common": "Common",
+    "Rarity_Voyage_exclusive": "Voyage exclusive",
+    "Rarity_Rare": "Rare",
+    "No_missing_fish_data": "No fish with missing data",
+    "Sources_filter": "Filter sources",
+    "Speed": "Speed",
+    "Shadow_size": "Shadow size",
+    "SPEEDS": {
+      "VERY_SLOW": "Very slow",
+      "SLOW": "Slow",
+      "AVERAGE": "Average",
+      "FAST": "Fast",
+      "FASTER": "Faster",
+      "VERY_FAST": "Very fast"
+    },
+    "SHADOWS": {
+      "SMALL": "Small",
+      "NORMAL": "Normal",
+      "LARGE": "Large"
+    },
+    "SOURCE": {
+      "DESYNTH": "DESYNTH",
+      "REDUCTION": "REDUCTION",
+      "GARDENING": "GARDENING",
+      "LOOT": "LOOT",
+      "VENTURE": "VENTURE",
+      "VOYAGE": "VOYAGE",
+      "DROP": "DROP",
+      "INSTANCE": "INSTANCE",
+      "FISHING": "FISHING",
+      "SPEARFISHING": "SPEARFISHING",
+      "FATE": "FATE",
+      "MOGSTATION": "MOGSTATION"
+    },
+    "STATUS": {
+      "PROPOSAL": "PROPOSAL",
+      "MODIFICATION": "MODIFICATION",
+      "DELETION": "DELETION",
+      "ACCEPTED": "ACCEPTED"
+    }
+  },
+  "OCEAN_FISHING": {
+    "ANY": "Any",
+    "SUNSET": "Sunset",
+    "DAY": "Day",
+    "NIGHT": "Night"
   }
 }

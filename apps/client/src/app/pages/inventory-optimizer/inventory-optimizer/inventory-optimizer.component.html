@@ -3,10 +3,14 @@
   <div fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
     <button nz-button nzDanger nz-popconfirm [nzPopconfirmTitle]="'Confirmation' | translate"
             (nzOnConfirm)="resetInventory()">{{'INVENTORY.Clean_all' | translate}}</button>
+    <nz-switch [ngModel]="pauseTracking$ | async" (ngModelChange)="pauseTracking$.next(true)"></nz-switch>
+    <div class="switch-label">{{'INVENTORY_OPTIMIZER.Pause_tracking' | translate}}</div>
     <nz-switch [(ngModel)]="showHidden" (ngModelChange)="reloader$.next(null)"></nz-switch>
     <div class="switch-label">{{'INVENTORY_OPTIMIZER.Show_hidden' | translate}}</div>
     <nz-switch [(ngModel)]="showIgnored" (ngModelChange)="reloader$.next(null)"></nz-switch>
     <div>{{'INVENTORY_OPTIMIZER.Show_ignored' | translate}}</div>
+    <nz-switch [(ngModel)]="hideEmpty"></nz-switch>
+    <div>{{'INVENTORY_OPTIMIZER.Hide_empty' | translate}}</div>
   </div>
 </div>
 
@@ -18,14 +22,21 @@
     <div fxLayout="column">
       <div *ngFor="let optimization of optimizations; trackBy: trackByTip">
         <nz-collapse>
-          <nz-collapse-panel *ngIf="showHidden || !optimization.hidden" [nzHeader]="header" #globalPanelRef>
+          <nz-collapse-panel *ngIf="(!hideEmpty || optimization.entries.length > 0) && (showHidden || !optimization.hidden)" [nzHeader]="header" #globalPanelRef>
             <ng-template #header>
               <div fxLayout="row" fxLayoutAlign="space-between center">
-                <div>{{'INVENTORY_OPTIMIZER.' + optimization.type + '.Title' | translate}} ({{optimization.totalLength}})</div>
-
+                <div fxLayout="row" fxLayoutAlign="flex-start center" fxLayoutGap="5px">
+                  <div>{{'INVENTORY_OPTIMIZER.' + optimization.type + '.Title' | translate}} ({{optimization.totalLength}})</div>
+                  <div>
+                    <button nz-button nzShape="circle" nzSize="small" [clipboard]="getOptimizationJSON" [clipboardFnArgs]="optimization"
+                            [clipboardSuccessMessage]="'INVENTORY_OPTIMIZER.Optimization_copied' | translate">
+                      <i nz-icon nzType="copy" theme="outline"></i>
+                    </button>
+                  </div>
+                </div>
                 <div [ngSwitch]="optimization.type">
                   <ng-container *ngSwitchCase="'HAS_TOO_FEW'">
-                    <nz-input-group nzSearch nzSize="small" [nzAddOnAfter]="suffixButton" [nzAddOnBefore]="nzAddOnBefore">
+                    <nz-input-group nzSearch nzSize="large" [nzAddOnAfter]="suffixButton" [nzAddOnBefore]="nzAddOnBefore">
                       <input type="number" nz-input min="1" [ngModel]="stackSizeThreshold" #stackSizeInput
                              (click)="$event.stopPropagation()"/>
                     </nz-input-group>
@@ -33,7 +44,6 @@
                       <button nz-button
                               (click)="$event.stopPropagation(); stackSizeThreshold = +stackSizeInput.value"
                               nzType="primary"
-                              nzSize="small"
                               nzSearch>{{'COMMON.Apply' | translate}}</button>
                     </ng-template>
                     <ng-template #nzAddOnBefore>
@@ -42,24 +52,24 @@
                   </ng-container>
                   <ng-container *ngSwitchCase="'CONSOLIDATE_STACKS'">
                     <span>{{'INVENTORY_OPTIMIZER.CONSOLIDATE_STACKS.Filter' | translate}}</span>
+                    &nbsp;
                     <nz-select nzAllowClear
                                nzSize="small"
                                (click)="$event.stopPropagation();"
                                [nzPlaceHolder]="'INVENTORY_OPTIMIZER.CONSOLIDATE_STACKS.Placeholder' | translate"
                                [(ngModel)]="selectedExpansion">
-                      <nz-option *ngFor="let e of getExpansions()" [nzValue]="e.exVersion" [nzLabel]="e.name | i18n"></nz-option>
+                      <nz-option *ngFor="let e of expansions$ | async" [nzValue]="e.exVersion" [nzLabel]="e | i18n"></nz-option>
                     </nz-select>
                   </ng-container>
                   <ng-container *ngSwitchCase="'UNWANTED_MATERIALS'">
-                    <nz-input-group nzSearch nzSize="small" [nzAddOnAfter]="suffixButton" [nzAddOnBefore]="nzAddOnBefore">
+                    <nz-input-group nzSearch nzSize="large" [nzAddOnAfter]="suffixButton" [nzAddOnBefore]="nzAddOnBefore">
                       <input type="number" nz-input min="1" [ngModel]="minRecipeIlvl" #recipeIlvlInput
-                             (click)="$event.stopPropagation()"/>
+                             (click)="$event.stopPropagation()" nzSize="large"/>
                     </nz-input-group>
                     <ng-template #suffixButton>
                       <button nz-button
                               (click)="$event.stopPropagation(); minRecipeIlvl = +recipeIlvlInput.value"
                               nzType="primary"
-                              nzSize="small"
                               nzSearch>{{'COMMON.Apply' | translate}}</button>
                     </ng-template>
                     <ng-template #nzAddOnBefore>
@@ -68,14 +78,13 @@
                   </ng-container>
                   <ng-container *ngSwitchCase="'CAN_BE_BOUGHT'">
                     <nz-input-group nzSearch nzSize="small" [nzAddOnAfter]="suffixButton" [nzAddOnBefore]="maxPriceBefore">
-                      <input type="number" nz-input min="1" [ngModel]="maximumVendorPrice" #maximumPriceInput
+                      <input type="number" nz-input min="1" nzSize="large" [ngModel]="maximumVendorPrice" #maximumPriceInput
                              (click)="$event.stopPropagation()"/>
                     </nz-input-group>
                     <ng-template #suffixButton>
                       <button nz-button
                               (click)="$event.stopPropagation(); maximumVendorPrice = +maximumPriceInput.value"
                               nzType="primary"
-                              nzSize="small"
                               nzSearch>{{'COMMON.Apply' | translate}}</button>
                     </ng-template>
                     <ng-template #maxPriceBefore>
@@ -134,8 +143,8 @@
                   </ng-template>
                   <ng-container *ngIf="panel.nzActive">
                     <nz-list [nzItemLayout]="'horizontal'">
-                      <app-lazy-scroll rowSize="73" [rowTemplate]="rowTemplate" [displayedRows]="6" [data]="container.items">
-                        <ng-template #rowTemplate let-entry>
+                      <div class="panel-content-scroll">
+                        <ng-container *ngFor="let entry of container.items; trackBy: trackByEntryRow">
                           <nz-list-item [nzActions]="(showIgnored && entry.ignored)?[removeIgnore]:[ignore]"
                                         *ngIf="showIgnored || !entry.ignored">
                             <ng-template #ignore>
@@ -162,7 +171,6 @@
                               <ng-template #avatar>
                                 <app-item-icon
                                   [hq]="entry.item.hq"
-                                  [icon]="entry.item.itemId | lazyIcon"
                                   [itemId]="entry.item.itemId"
                                   width="32"></app-item-icon>
                               </ng-template>
@@ -183,8 +191,8 @@
                               </ng-template>
                             </nz-list-item-meta>
                           </nz-list-item>
-                        </ng-template>
-                      </app-lazy-scroll>
+                        </ng-container>
+                      </div>
                     </nz-list>
                   </ng-container>
                 </nz-collapse-panel>

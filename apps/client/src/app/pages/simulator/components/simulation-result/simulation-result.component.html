@@ -19,11 +19,11 @@
             <i nzIconfont="icon-exchange" nz-icon></i>
           </button>
         </div>
-        <div>{{result.simulation.recipe.lvl}} {{result.simulation.recipe.stars | ingameStars}}</div>
+        <div>{{result.simulation.recipe.lvl}} {{result.simulation.recipe.stars | ingameStars}} (rlvl {{result.simulation.recipe.rlvl}})</div>
       </div>
     </div>
     <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
-      <div>{{'Level' | translate}} {{result.simulation.crafterStats.level}} {{result.simulation.crafterStats.jobId | jobName | i18n}}</div>
+      <div>{{'Level' | translate}} {{result.simulation.crafterStats.level}} {{result.simulation.crafterStats.jobId | i18nRow:'jobName' | i18n}}</div>
       <div fxLayout="column">
         <div>{{'SIMULATOR.CONFIGURATION.Craftsmanship' | translate}}:
           {{result.simulation.crafterStats.craftsmanship}}
@@ -152,8 +152,6 @@
     <div>|</div>
     <div [class.mobile-stats]="false | ifMobile:true:compact" [nzTooltipTitle]="'SIMULATOR.Current_control_bonus' | translate" nz-tooltip>
       {{'SIMULATOR.Current_control' | translate: { value: (result.simulation.crafterStats.getControl(result.simulation) | floor) } }}
-      ({{result.simulation.crafterStats._control}} +
-      <span>{{(result.simulation.crafterStats.getControl(result.simulation) | floor) - result.simulation.crafterStats._control}}</span>)
     </div>
   </div>
 </nz-card>

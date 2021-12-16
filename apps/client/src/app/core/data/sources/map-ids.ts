@@ -3036,7 +3036,7 @@ export const mapIds = [
     "zone": 2910,
     "name": "Bokairo Inn",
     "territory": 629,
-    "scale": 400,
+    "scale": 800,
     "weatherRate": 82
   },
   {
@@ -3065,8 +3065,8 @@ export const mapIds = [
   },
   {
     "id": 384,
-    "zone": 66,
-    "name": "Far East",
+    "zone": 3700,
+    "name": "The Source",
     "territory": 0,
     "scale": 100,
     "weatherRate": null
@@ -4265,16 +4265,16 @@ export const mapIds = [
   },
   {
     "id": 534,
-    "zone": 2949,
-    "name": "Norvrandt",
+    "zone": 0,
+    "name": null,
     "territory": 0,
     "scale": 100,
     "weatherRate": null
   },
   {
     "id": 535,
-    "zone": 2949,
-    "name": "Norvrandt",
+    "zone": 3701,
+    "name": "The First",
     "territory": 0,
     "scale": 100,
     "weatherRate": null
@@ -5401,38 +5401,638 @@ export const mapIds = [
   },
   {
     "id": 676,
-    "zone": 0,
-    "name": null,
-    "territory": 0,
-    "scale": 100,
-    "weatherRate": null
+    "zone": 3684,
+    "name": "The Dark Inside",
+    "territory": 992,
+    "scale": 400,
+    "weatherRate": 139
   },
   {
     "id": 677,
-    "zone": 0,
-    "name": null,
-    "territory": 0,
-    "scale": 100,
-    "weatherRate": null
+    "zone": 3685,
+    "name": "The Mothercrystal",
+    "territory": 995,
+    "scale": 400,
+    "weatherRate": 139
   },
   {
     "id": 678,
-    "zone": 0,
-    "name": null,
-    "territory": 0,
-    "scale": 100,
-    "weatherRate": null
+    "zone": 3686,
+    "name": "The Final Day",
+    "territory": 997,
+    "scale": 400,
+    "weatherRate": 116
   },
   {
     "id": 679,
-    "zone": 0,
-    "name": null,
+    "zone": 4139,
+    "name": "Empyreum",
+    "territory": 979,
+    "scale": 200,
+    "weatherRate": 142
+  },
+  {
+    "id": 680,
+    "zone": 4139,
+    "name": "Empyreum",
+    "territory": 979,
+    "scale": 200,
+    "weatherRate": 142
+  },
+  {
+    "id": 681,
+    "zone": 3694,
+    "name": "Ingleside Apartment Lobby",
+    "territory": 985,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 682,
+    "zone": 3689,
+    "name": "Private Cottage - Empyreum",
+    "territory": 980,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 683,
+    "zone": 3689,
+    "name": "Private Cottage - Empyreum",
+    "territory": 980,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 684,
+    "zone": 3690,
+    "name": "Private House - Empyreum",
+    "territory": 981,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 685,
+    "zone": 3690,
+    "name": "Private House - Empyreum",
+    "territory": 981,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 686,
+    "zone": 3690,
+    "name": "Private House - Empyreum",
+    "territory": 981,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 687,
+    "zone": 3691,
+    "name": "Private Mansion - Empyreum",
+    "territory": 982,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 688,
+    "zone": 3691,
+    "name": "Private Mansion - Empyreum",
+    "territory": 982,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 689,
+    "zone": 3691,
+    "name": "Private Mansion - Empyreum",
+    "territory": 982,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 690,
+    "zone": 3693,
+    "name": "Company Workshop - Empyreum",
+    "territory": 984,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 691,
+    "zone": 3692,
+    "name": "Private Chambers - Empyreum",
+    "territory": 983,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 692,
+    "zone": 3695,
+    "name": "Ingleside Apartment",
+    "territory": 999,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 693,
+    "zone": 3706,
+    "name": "Old Sharlayan",
+    "territory": 962,
+    "scale": 200,
+    "weatherRate": 137
+  },
+  {
+    "id": 694,
+    "zone": 3707,
+    "name": "Radz-at-Han",
+    "territory": 963,
+    "scale": 200,
+    "weatherRate": 138
+  },
+  {
+    "id": 695,
+    "zone": 3708,
+    "name": "Labyrinthos",
+    "territory": 956,
+    "scale": 100,
+    "weatherRate": 131
+  },
+  {
+    "id": 696,
+    "zone": 3709,
+    "name": "Thavnair",
+    "territory": 957,
+    "scale": 100,
+    "weatherRate": 132
+  },
+  {
+    "id": 697,
+    "zone": 3710,
+    "name": "Garlemald",
+    "territory": 958,
+    "scale": 100,
+    "weatherRate": 133
+  },
+  {
+    "id": 698,
+    "zone": 3711,
+    "name": "Mare Lamentorum",
+    "territory": 959,
+    "scale": 100,
+    "weatherRate": 135
+  },
+  {
+    "id": 699,
+    "zone": 3712,
+    "name": "Ultima Thule",
+    "territory": 960,
+    "scale": 100,
+    "weatherRate": 136
+  },
+  {
+    "id": 700,
+    "zone": 3713,
+    "name": "Elpis",
+    "territory": 961,
+    "scale": 100,
+    "weatherRate": 134
+  },
+  {
+    "id": 701,
+    "zone": 3736,
+    "name": "The Tower of Zot",
+    "territory": 952,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 702,
+    "zone": 3736,
+    "name": "The Tower of Zot",
+    "territory": 952,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 703,
+    "zone": 3736,
+    "name": "The Tower of Zot",
+    "territory": 952,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 704,
+    "zone": 3696,
+    "name": "The Phantoms' Feast",
+    "territory": 994,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 705,
+    "zone": 3696,
+    "name": "The Phantoms' Feast",
+    "territory": 994,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 706,
+    "zone": 3770,
+    "name": "Smileton",
+    "territory": 976,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 707,
+    "zone": 3770,
+    "name": "Smileton",
+    "territory": 976,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 708,
+    "zone": 3770,
+    "name": "Smileton",
+    "territory": 976,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 709,
+    "zone": 3769,
+    "name": "The Gates of Pandæmonium",
+    "territory": 1002,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 710,
+    "zone": 3759,
+    "name": "Ktisis Hyperboreia",
+    "territory": 974,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 711,
+    "zone": 3759,
+    "name": "Ktisis Hyperboreia",
+    "territory": 974,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 712,
+    "zone": 3759,
+    "name": "Ktisis Hyperboreia",
+    "territory": 974,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 713,
+    "zone": 3759,
+    "name": "Ktisis Hyperboreia",
+    "territory": 974,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 714,
+    "zone": 3759,
+    "name": "Ktisis Hyperboreia",
+    "territory": 974,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 715,
+    "zone": 3759,
+    "name": "Ktisis Hyperboreia",
+    "territory": 974,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 716,
+    "zone": 3783,
+    "name": "The Stigma Dreamscape",
+    "territory": 986,
+    "scale": 200,
+    "weatherRate": 140
+  },
+  {
+    "id": 717,
+    "zone": 3783,
+    "name": "The Stigma Dreamscape",
+    "territory": 986,
+    "scale": 200,
+    "weatherRate": 140
+  },
+  {
+    "id": 718,
+    "zone": 3783,
+    "name": "The Stigma Dreamscape",
+    "territory": 986,
+    "scale": 200,
+    "weatherRate": 140
+  },
+  {
+    "id": 719,
+    "zone": 4146,
+    "name": "The Aitiascope",
+    "territory": 978,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 720,
+    "zone": 4146,
+    "name": "The Aitiascope",
+    "territory": 978,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 721,
+    "zone": 4146,
+    "name": "The Aitiascope",
+    "territory": 978,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 722,
+    "zone": 3797,
+    "name": "The Fervid Limbo",
+    "territory": 1006,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 723,
+    "zone": 4118,
+    "name": "The Tower of Babil",
+    "territory": 969,
+    "scale": 200,
+    "weatherRate": 28
+  },
+  {
+    "id": 724,
+    "zone": 4118,
+    "name": "The Tower of Babil",
+    "territory": 969,
+    "scale": 200,
+    "weatherRate": 28
+  },
+  {
+    "id": 725,
+    "zone": 4118,
+    "name": "The Tower of Babil",
+    "territory": 969,
+    "scale": 200,
+    "weatherRate": 28
+  },
+  {
+    "id": 726,
+    "zone": 4118,
+    "name": "The Tower of Babil",
+    "territory": 969,
+    "scale": 200,
+    "weatherRate": 28
+  },
+  {
+    "id": 727,
+    "zone": 4118,
+    "name": "The Tower of Babil",
+    "territory": 969,
+    "scale": 200,
+    "weatherRate": 28
+  },
+  {
+    "id": 728,
+    "zone": 4118,
+    "name": "The Tower of Babil",
+    "territory": 969,
+    "scale": 200,
+    "weatherRate": 28
+  },
+  {
+    "id": 729,
+    "zone": 4111,
+    "name": "",
+    "territory": 1000,
+    "scale": 100,
+    "weatherRate": 0
+  },
+  {
+    "id": 730,
+    "zone": 3798,
+    "name": "",
+    "territory": 1004,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 731,
+    "zone": 4135,
+    "name": "",
+    "territory": 1008,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 732,
+    "zone": 3702,
+    "name": "The Northern Empty",
     "territory": 0,
     "scale": 100,
     "weatherRate": null
   },
   {
-    "id": 680,
+    "id": 733,
+    "zone": 3703,
+    "name": "Ilsabard",
+    "territory": 0,
+    "scale": 100,
+    "weatherRate": null
+  },
+  {
+    "id": 734,
+    "zone": 3704,
+    "name": "The Sea of Stars",
+    "territory": 0,
+    "scale": 100,
+    "weatherRate": null
+  },
+  {
+    "id": 735,
+    "zone": 3705,
+    "name": "The World Unsundered",
+    "territory": 0,
+    "scale": 100,
+    "weatherRate": null
+  },
+  {
+    "id": 736,
+    "zone": 4100,
+    "name": "The Dead Ends",
+    "territory": 973,
+    "scale": 200,
+    "weatherRate": 144
+  },
+  {
+    "id": 737,
+    "zone": 4100,
+    "name": "The Dead Ends",
+    "territory": 973,
+    "scale": 200,
+    "weatherRate": 144
+  },
+  {
+    "id": 738,
+    "zone": 4100,
+    "name": "The Dead Ends",
+    "territory": 973,
+    "scale": 200,
+    "weatherRate": 144
+  },
+  {
+    "id": 739,
+    "zone": 4015,
+    "name": "Vanaspati",
+    "territory": 970,
+    "scale": 200,
+    "weatherRate": 141
+  },
+  {
+    "id": 740,
+    "zone": 4015,
+    "name": "Vanaspati",
+    "territory": 970,
+    "scale": 200,
+    "weatherRate": 141
+  },
+  {
+    "id": 741,
+    "zone": 4022,
+    "name": "Lemures Headquarters",
+    "territory": 971,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 742,
+    "zone": 3817,
+    "name": "Main Hall",
+    "territory": 987,
+    "scale": 400,
+    "weatherRate": 137
+  },
+  {
+    "id": 743,
+    "zone": 3818,
+    "name": "Andron",
+    "territory": 990,
+    "scale": 400,
+    "weatherRate": 137
+  },
+  {
+    "id": 744,
+    "zone": 4023,
+    "name": "Strategy Room",
+    "territory": 1001,
+    "scale": 400,
+    "weatherRate": 0
+  },
+  {
+    "id": 745,
+    "zone": 3924,
+    "name": "Magna Glacies",
+    "territory": 1010,
+    "scale": 100,
+    "weatherRate": 0
+  },
+  {
+    "id": 746,
+    "zone": 4021,
+    "name": "Beyond the Stars",
+    "territory": 1026,
+    "scale": 100,
+    "weatherRate": 143
+  },
+  {
+    "id": 747,
+    "zone": 4024,
+    "name": "The Nethergate",
+    "territory": 1024,
+    "scale": 100,
+    "weatherRate": 0
+  },
+  {
+    "id": 748,
+    "zone": 3769,
+    "name": "The Gates of Pandæmonium",
+    "territory": 1025,
+    "scale": 100,
+    "weatherRate": 0
+  },
+  {
+    "id": 749,
+    "zone": 3926,
+    "name": "Propylaion",
+    "territory": 1031,
+    "scale": 100,
+    "weatherRate": 0
+  },
+  {
+    "id": 750,
+    "zone": 3710,
+    "name": "Garlemald",
+    "territory": 958,
+    "scale": 100,
+    "weatherRate": 133
+  },
+  {
+    "id": 751,
+    "zone": 3712,
+    "name": "Ultima Thule",
+    "territory": 960,
+    "scale": 100,
+    "weatherRate": 136
+  },
+  {
+    "id": 752,
+    "zone": 4154,
+    "name": "",
+    "territory": 1050,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 753,
+    "zone": 4154,
+    "name": "",
+    "territory": 1050,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 754,
+    "zone": 4154,
+    "name": "",
+    "territory": 1050,
+    "scale": 200,
+    "weatherRate": 0
+  },
+  {
+    "id": 755,
     "zone": 0,
     "name": null,
     "territory": 0,

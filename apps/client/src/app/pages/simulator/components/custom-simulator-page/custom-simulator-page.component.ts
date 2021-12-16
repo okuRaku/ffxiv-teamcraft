@@ -9,6 +9,7 @@ import { SeoService } from '../../../../core/seo/seo.service';
 import { SeoMetaConfig } from '../../../../core/seo/seo-meta-config';
 import { CraftingRotation } from '../../../../model/other/crafting-rotation';
 import { AbstractSimulationPage } from '../../abstract-simulation-page';
+import { EnvironmentService } from '../../../../core/environment.service';
 
 @Component({
   selector: 'app-custom-simulator-page',
@@ -17,14 +18,15 @@ import { AbstractSimulationPage } from '../../abstract-simulation-page';
 })
 export class CustomSimulatorPageComponent extends AbstractSimulationPage {
 
-  curMaxLevel = 80; //max player level; 80 for Shadowbringers
+  curMaxLevel = this.env.maxLevel;
 
   public recipeForm: FormGroup;
 
   public recipe$: Observable<Partial<Craft>>;
 
   constructor(private fb: FormBuilder, protected route: ActivatedRoute,
-              private rotationsFacade: RotationsFacade, protected seo: SeoService) {
+              private rotationsFacade: RotationsFacade, protected seo: SeoService,
+              private env: EnvironmentService) {
     super(route, seo);
     this.route.paramMap.pipe(
       map(params => params.get('rotationId'))
@@ -59,7 +61,7 @@ export class CustomSimulatorPageComponent extends AbstractSimulationPage {
     const recipeFromForm$ = this.recipeForm.valueChanges.pipe(
       startWith({
         rlvl: 481,
-        level: 80,
+        level: this.env.maxLevel,
         progress: 9181,
         quality: 64862,
         durability: 60,
@@ -101,6 +103,17 @@ export class CustomSimulatorPageComponent extends AbstractSimulationPage {
     );
   }
 
+  public adjust(prop: string, amount: number): void {
+    const oldValue = this.recipeForm.value[prop];
+    const newValue = this.recipeForm.value[prop] + amount;
+
+    this.recipeForm.patchValue({ [prop]: newValue });
+
+    if (this.recipeForm.controls[prop].invalid) {
+      this.recipeForm.patchValue({ [prop]: oldValue });
+    }
+  }
+
   protected getSeoMeta(): Observable<Partial<SeoMetaConfig>> {
     return combineLatest([this.rotationsFacade.selectedRotation$, this.recipe$]).pipe(
       map(([rotation, recipe]) => {
@@ -111,16 +124,5 @@ export class CustomSimulatorPageComponent extends AbstractSimulationPage {
         };
       })
     );
-  }
-
-  public adjust(prop: string, amount: number): void {
-    const oldValue = this.recipeForm.value[prop];
-    const newValue = this.recipeForm.value[prop] + amount;
-
-    this.recipeForm.patchValue({ [prop]: newValue });
-
-    if (this.recipeForm.controls[prop].invalid) {
-      this.recipeForm.patchValue({ [prop]: oldValue });
-    }
   }
 }

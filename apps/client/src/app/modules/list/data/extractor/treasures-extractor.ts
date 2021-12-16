@@ -1,13 +1,11 @@
 import { AbstractExtractor } from './abstract-extractor';
-import { GarlandToolsService } from '../../../../core/api/garland-tools.service';
 import { DataType } from '../data-type';
-import { Item } from '../../../../model/garland-tools/item';
-import { Treasure } from '../../model/treasure';
-import { ItemData } from '../../../../model/garland-tools/item-data';
+import { LazyDataFacade } from '../../../../lazy-data/+state/lazy-data.facade';
+import { Observable } from 'rxjs';
 
-export class TreasuresExtractor extends AbstractExtractor<Treasure[]> {
-  constructor(gt: GarlandToolsService) {
-    super(gt);
+export class TreasuresExtractor extends AbstractExtractor<number[]> {
+  constructor(private lazyData: LazyDataFacade) {
+    super();
   }
 
   getDataType(): DataType {
@@ -15,20 +13,10 @@ export class TreasuresExtractor extends AbstractExtractor<Treasure[]> {
   }
 
   isAsync(): boolean {
-    return false;
+    return true;
   }
 
-  protected canExtract(item: Item): boolean {
-    return item.treasure !== undefined;
-  }
-
-  protected doExtract(item: Item, itemData: ItemData): Treasure[] {
-    return item.treasure.map(t => {
-      const partial = itemData.getPartial(t.toString(), 'item');
-      return {
-        itemId: t,
-        icon: partial.obj.c
-      };
-    });
+  protected doExtract(itemId: number): Observable<number[]> {
+    return this.lazyData.getRow('lootSources', itemId);
   }
 }

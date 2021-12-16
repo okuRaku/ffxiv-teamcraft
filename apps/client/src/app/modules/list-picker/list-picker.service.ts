@@ -50,7 +50,7 @@ export class ListPickerService {
       );
   }
 
-  addToList(...items: ListRow[]): Observable<List> {
+  addToList(...items: Pick<ListRow, 'id' | 'recipeId' | 'amount'>[]): Observable<List> {
     // Making the observable optional, this way you can just call it and ignore it,
     // or add your own logic once it's done.
     const done$ = new Subject<List>();
@@ -83,12 +83,14 @@ export class ListPickerService {
         return this.progressService.showProgress(
           combineLatest([this.listsFacade.myLists$, this.listsFacade.listsWithWriteAccess$]).pipe(
             map(([myLists, listsICanWrite]) => [...myLists, ...listsICanWrite]),
-            map(lists => lists.find(l => l.createdAt.toMillis() === list.createdAt.toMillis())),
+            map(lists => lists.find(l => l.createdAt.seconds === list.createdAt.seconds)),
             filter(l => l !== undefined),
             first()
           ), 1, 'Saving_in_database');
       }),
       switchMap(list => {
+        done$.next(list);
+        done$.complete();
         return this.notificationService.success(
           this.translate.instant('Success'),
           this.translate.instant('Recipes_Added', { listname: list.name, itemcount: items.length }),
@@ -103,8 +105,6 @@ export class ListPickerService {
       })
     ).subscribe((list) => {
       this.router.navigate(['/list', list.$key]);
-      done$.next(list);
-      done$.complete();
     });
     return done$;
   }

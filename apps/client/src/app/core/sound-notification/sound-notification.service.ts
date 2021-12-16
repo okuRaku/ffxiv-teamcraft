@@ -22,6 +22,11 @@ export class SoundNotificationService {
     }
     audio.loop = false;
     audio.volume = notificationSettings.volume;
-    audio.play();
+    audio.play()
+      .then()
+      .catch((err) => {
+        console.error('Failed to play Audio');
+        console.error(err);
+      });
   }
 }

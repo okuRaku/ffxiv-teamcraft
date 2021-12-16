@@ -13433,7 +13433,7 @@
     },
     "description": {
       "en": "Created by a madman employing forbidden alchemy and fell magicks, the gorgimera is a bastardization that cannot be allowed to roam free, lest it spread its taint across the entire realm.",
-      "ja": "新鮮な獲物を求め、驚異の合成獣が現れた\n\nおこぼれに預かろうとする魔獣にも注意しつつ\n\n荒れ狂う巨獣、ゴーキマイラを倒せ",
+      "ja": "新鮮な獲物を求め、驚異の合成獣が現れた\n\nおこぼれにあずかろうとする魔獣にも注意しつつ\n\n荒れ狂う巨獣、ゴーキマイラを倒せ",
       "de": "Ein groteskes Monster ist auf der Suche nach neuer Beute: die Gorgimära. Pass auf das gefräßige Kleinvieh in seinem Gefolge auf und vernichte die grauenvolle Gorgimära!",
       "fr": "Créée par un fou au moyen de techniques alchimiques et magiques interdites, la gorgimère est une aberration qui ne doit pas être laissée en liberté si on ne veut pas qu'elle se déchaîne dans tout le pays."
     },
@@ -15766,7 +15766,7 @@
     },
     "description": {
       "en": "The absence of bibliothecaries in the Great Gubal Library since the Sharlayan's mass exodus back to their homeland has allowed all manner of vilekin─including the damselfly─to use the remaining tomes as nests. Exterminate the pests so that further damage to the library might be lessened.",
-      "ja": "幻想図書館の管理人が消え去ったことで\n\nダムゼムフライが異常に繁殖してしまった\n\n増えすぎたダムゼルフライを倒せ",
+      "ja": "幻想図書館の管理人が消え去ったことで\n\n<Sheet(BNpcName,3594,0)/>が異常に繁殖してしまった\n\n増えすぎた<Sheet(BNpcName,3594,0)/>を倒せ",
       "de": "Seit dem Auszug der Sharlayaner fehlt es an Bibliothekaren in der Großen Gubal-Bibliothek. Das hat allerlei Ungeziefer erlaubt, sich zwischen den Regalen breitzumachen. Dazu zählt die Kleinlibelle, die ihre Eier zwischen die Seiten der kostbaren Bücher legt!",
       "fr": "La Grande bibliothèque de Gubal n'a plus de bibliothécaires depuis l'exode qui a ramené les Sharlayanais chez eux. De ce fait, toutes sortes de créatures malveillantes, dont les demoiselles, ont niché dans les rayonnages. Exterminez ces nuisibles afin d'éviter de nouveaux dégâts sur ce temple du savoir."
     },
@@ -17000,7 +17000,7 @@
     "description": {
       "en": "Summoned eons ago and then forgotten, bergthurs are voidsent trapped in a realm not their own, determined to tear their way back to the void even if it means destroying this world in the process.",
       "ja": "古の時代に召喚された妖異の子孫が\n\nクルザス西部高地に根付き、脅威となっている\n\n山岳の氷鬼、ベルグスルスを倒せ",
-      "de": "Die Berg-Jötunn sind Nichtsgesandte, die vor Äonen beschworen und dann vergessen wurden. Um in ihre Heimat zurückzukehren, würden sie alles tun - selbst, wenn sie dafür diese Welt vernichten müssen.",
+      "de": "Die Berg-Jötnar sind Nichtsgesandte, die vor Äonen beschworen und dann vergessen wurden. Um in ihre Heimat zurückzukehren, würden sie alles tun - selbst, wenn sie dafür diese Welt vernichten müssen.",
       "fr": "Invoqués il y a des millénaires puis oubliés par la suite, les bergthurs sont des entités coincées dans un monde qui n'est pas le leur. Ils sont résolus à retourner dans le néant, même s'ils doivent détruire les environs pour y arriver."
     },
     "icon": "/i/060000/060501.png",
@@ -17866,7 +17866,7 @@
     },
     "description": {
       "en": "A young member of the Zundu tribe, kidnapped and forced to serve as a footrest for a Vundu elder, has escaped his captors and is trying to return home. The elder, displeased that his favorite footrest has flown the coop, has gathered a small army to search every cookhouse, birdhouse, and outhouse in order to reclaim what he rightfully abducted.",
-      "ja": "ブンド族に囚われて奴隷として働かされていた\n\nズンド族の若者が助けを求めている\n\nズンド族の脱走奴隷を護衛せよ",
+      "ja": "ブンド族に囚われて奴隷として働かされていた\n\nズンド族の若者が助けを求めている\n\n<Sheet(BNpcName,4003,0)/>を護衛せよ",
       "de": "Ein junger Zundo, den die Vundo entführt und zur Fußstütze für einen ihrer Stammesältesten degradiert hatten, konnte fliehen, doch seine Häscher sind ihm dicht auf den Fersen. Erspare dem Ärmsten weitere hornhautbedingte Abschürfungen an seinem Federkleid!",
       "fr": "Un jeune membre de la tribu des Zundu, enlevé pour servir de repose-pieds à un ancien Vundu, s'est échappé et essaie de rentrer chez lui. Mécontent de ce départ, son ravisseur a rassemblé un groupe de guerriers pour fouiller le moindre recoin à la recherche de ce qu'il avait bien le droit d'enlever..."
     },
@@ -17890,7 +17890,7 @@
     },
     "description": {
       "en": "The warrior who kindly agreed to escort the former footrest back to the Zundu village has turned out to be a gaelicat's-paw of the Vundu elder who kidnapped the young Zundu. It appears that boy will require further escort if he is ever to arrive home.",
-      "ja": "出迎えのバヌバヌ族は\n\n逃亡奴隷を追う、ブンド族の奴隷飼いであった\n\nふたたびズンド族の脱走奴隷を護衛せよ",
+      "ja": "出迎えのバヌバヌ族は\n\n逃亡奴隷を追う、ブンド族の奴隷飼いであった\n\nふたたび<Sheet(BNpcName,4003,0)/>を護衛せよ",
       "de": "Der Krieger, der freundlicherweise angeboten hatte, den Fußstützen-Zundo nach Hause zu eskortieren, hat sich als Handlanger des Vundo-Ältesten entpuppt. Der Junge benötigt deine Hilfe, wenn er jemals heil in die Arme seine Familie zurückkehren möchte.",
       "fr": "Le guerrier qui avait gentiment accepté d'escorter l'ex repose-pieds jusqu'au village Zundu s'est révélé être un allié de l'ancien séquestreur. S'il veut arriver chez lui, le jeune Vanu Vanu aura besoin d'une autre escorte."
     },
@@ -18710,7 +18710,7 @@
     "description": {
       "en": "When not used to tear enemies of the Empire limb from limb, adamantite claws are often employed at construction sites for digging holes, demolishing old buildings, and lifting objects. Here, they seem intent on tearing you limb from limb.",
       "ja": "魔大陸にて陣地構築作業を進める\n\n帝国軍第VI軍団の工作機械を破壊せよ\n\n魔導アダマンクローを倒せ",
-      "de": "Die VI. Legion versucht, mithilfe von Adamantium-Klauen Stützpunkte auf Azys Lla einzurichten. Die Garlear dürfen auf keinen Fall Fuß auf dem magischen Kontinent fassen.",
+      "de": "Die VI. Legion versucht, mithilfe von Adamantit-Klauen Stützpunkte auf Azys Lla einzurichten. Die Garlear dürfen auf keinen Fall Fuß auf dem magischen Kontinent fassen.",
       "fr": "Lorsqu'elles ne servent pas à démembrer les ennemis de l'Empire, les griffes d'adamantium sont souvent utilisées sur les chantiers pour creuser des trous, démolir de vieux bâtiments et porter des objets lourds. Dans le cas présent, toutefois, il s'agit bien de démembrer des humains... comme vous."
     },
     "icon": "/i/060000/060501.png",
@@ -21664,7 +21664,7 @@
       "en": "Native to the seamlessly never-ending skies above the Northern Empty, Diadem endymions are a rare sight in the Sea of Clouds. When they do appear, however, it is to the sound of screams─screams of hapless victims being carried off to feed the cloudkin's hungry hatchlings.",
       "ja": "北洋から飛来した怪鳥が\n\n空賊などを連れ去る事件が多発している\n\nディアデム・エンディミオンを倒せ",
       "de": "Die Diadem-Endymien sind ein seltener Anblick im Wolkenmeer. Ihr Erscheinen wird stets von den Schreien ihrer Beute begleitet - hilflose Opfer, die sie forttragen, um sie an ihren Nachwuchs zu verfüttern.",
-      "fr": "Les endymions du Diadème prennent un malin plaisir à détourner l'attention des pirates des cieux pour mieux les attirer dans leurs filets. Ils vont devoir comprendre que certaines coutumes des mers du nord d'où ils proviennent n'ont pas leur place dans l'archipel."
+      "fr": "Les endymions du Diadème prennent un malin plaisir à détourner l'attention des pirates des cieux pour mieux les attirer dans leurs filets. Ils vont devoir comprendre que certaines coutumes des mers du Nord d'où ils proviennent n'ont pas leur place dans l'archipel."
     },
     "icon": "/i/060000/060501.png",
     "level": 60,
@@ -24372,7 +24372,7 @@
       "fr": "Défi: la princesse aux longues dents"
     },
     "description": {
-      "en": "Nagori, Confederacy pirate, has sworn to exact revenge on the flying shark that swooped down and ate her younger brother while he was strapping his boots. This is easier said than done, for the culprit is none other Yahiro─feared princess of the razor-toothed wavekin.",
+      "en": "Nagori, Confederacy pirate, has sworn to exact revenge on the flying shark that swooped down and ate her younger brother while he was strapping his boots. This is easier said than done, for the culprit is none other than Yahiro─feared princess of the razor-toothed wavekin.",
       "ja": "女海賊ナゴリが弟の仇である\n\n人喰い鮫に挑もうとしている\n\n飛鮫の姫君、ヤヒロノワニを倒せ",
       "de": "Nagori, Harpuniererin der Konföderation, hat Rache an dem fliegenden Hai geschworen, der ihren kleinen Bruder gefressen hat. Keine leichte Aufgabe, denn bei dem Hai handelt es sich um Yahiro, die mächtigste Prinzessin ihrer Art.",
       "fr": "Nagori, respectée pirate de la Confédération, a juré de se venger du requin volant qui a dévoré son jeune frère. Cela semble plus facile à dire qu'à faire, puisque la créature en question n'est autre que Yahiro, la redoutée princesse de cette race de squales. Assistez-la dans son entreprise."
@@ -26120,7 +26120,7 @@
       "fr": "Défi: le comédien pourpre"
     },
     "description": {
-      "en": "From their birth, Doman children are told terrifying tales of Songsi, a crimson cloudkin that lures boys and girls from their homes by calling out in an eerily woman-like voice. Once their victims have strayed far enough from safety, the monster will swoop down and snatch up the children, then carry them back to its mountaintop nest where it will tear them limb from limb for its own fledglings.",
+      "en": "From their birth, Doman children are told terrifying tales of Songsi, a crimson cloudkin that lures boys and girls from their homes by calling out in an eerily womanlike voice. Once their victims have strayed far enough from safety, the monster will swoop down and snatch up the children, then carry them back to its mountaintop nest where it will tear them limb from limb for its own fledglings.",
       "ja": "人のような声色で鳴いて舞い踊り\n\n人を欺いて襲う、恐るべき鳥がいる\n\n紅色の役者、ショウシを倒せ",
       "de": "Kinder hören die grausigen Geschichten von Songsi schon in jungen Jahren. Der hinterhältige Vogel imitiert die Stimme einer Frau und lockt seine Opfer so aus den Häusern. Dann stürzt er sich auf sie und schleppt sie zu seinem Nest, wo er sie kleinhackt und an seine Jungen verfüttert.",
       "fr": "Un animal redoutable et sournois est apparu. Il virevolte dans les airs en imitant la voix humaine pour cacher aux gens sa vraie nature, puis attaque sans prévenir. Abattez Songsi."
@@ -33098,7 +33098,7 @@
       "fr": "Des iguanes assoiffés de sang!"
     },
     "description": {
-      "en": "The acrid desert conditions have led dryland iguanas to seek alternative means of relieving dehydration, namely, bathing in the blood of their unfortunate victims. Perhaps it is time that someone returned the favor.",
+      "en": "The arid desert conditions have led dryland iguanas to seek alternative means of relieving dehydration, namely, bathing in the blood of their unfortunate victims. Perhaps it is time that someone returned the favor.",
       "ja": "渇きを覚えたイグアナが\n\n獲物の生き血で自身を潤そうとしている\n\nドライランド・イグアナを倒せ",
       "de": "Die ausgedörrte Wüstenei Amh Araengs zwingt die Trockenland-Leguane andere Wege zu suchen, ihren Durst zu stillen. Das Blut ahnungsloser Opfer kommt ihnen da gerade recht. Jemand muss den Echsen Einhalt gebieten, bevor sie sich an dem einen oder anderen fahrenden Händler gütlich tun!",
       "fr": "Des iguanes sont apparus en grand nombre et cherchent à se nourrir du sang d'autres créatures pour se réhydrater. Éliminez-les avant qu'ils ne fassent trop de dégâts!"
@@ -37364,91 +37364,390 @@
   },
   "1743": {
     "name": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Incident Files: Seeds of Chaos",
+      "ja": "始末書ファイル：若芽たちの脱走",
+      "de": "Lagebericht: Keimlinge auf der Flucht",
+      "fr": "Rapport de dégâts: végétaux létaux"
     },
     "description": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "A horde of plant-based subjects has escaped from Troglophile's Deep and is giving the researchers no end of trouble. Exterminate the rampaging seedlings before any real damage is done.",
+      "ja": "洞穴生物繁殖区から大量の実験生物が\n\n脱走してしまい研究員が途方に暮れている\n\n害が出る前に、サマンサ・シードリングを倒せ",
+      "de": "Einige biologische Forschungsobjekte sind aus der Grotte der Troglophilen entwischt. Unterbinde die Flucht der Samantha-Keimlinge, ehe sie über ahnungslose Forscher herfallen können.",
+      "fr": "Des pousses samanthiennes se sont évadées en masse du laboratoire de reproduction des formes de vie cavernicoles, au grand dam des chercheurs qui ne savent plus où donner de la tête. Éliminez-les avant qu'elles ne mettent tout sens dessus dessous."
     },
-    "icon": "",
-    "level": 0,
-    "location": 0
+    "icon": "/i/060000/060501.png",
+    "level": 80,
+    "location": 8956795,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 33.55,
+      "y": 14.91,
+      "z": 1.65
+    }
   },
   "1744": {
     "name": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Incident Files: Steamed Vegetable",
+      "ja": "始末書ファイル：多湿なる親木",
+      "de": "Lagebericht: Der Keimling wächst nicht weit vom Stamm",
+      "fr": "Rapport de dégâts: la fleur du mal"
     },
     "description": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "The seedlings were unruly, but their progenitor is a legitimate menace. Someone needs to pull this overgrown weed, and soon.",
+      "ja": "脱走した若芽たちの親木が\n\n暴れまわり、施設の脅威と化している\n\n多湿なる親木、スティーミー・サマンサを倒せ",
+      "de": "Die Mutterpflanze der geflohenen Keimlinge sucht ihre Abkömmlinge und vernichtet alles, was ihr im Weg steht. Halte Samantha die Bedecktsamende auf.",
+      "fr": "La souche-mère des pousses évadées n'a pas apprécié la manière dont ont été traitées ses petites et menace désormais de détruire les locaux de recherche. Terrassez Samantha la Torride, dont le sang est aussi chaud que son haleine est putride."
     },
-    "icon": "",
-    "level": 0,
-    "location": 0
+    "icon": "/i/060000/060502.png",
+    "level": 81,
+    "location": 8956811,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 29.74,
+      "y": 25.12,
+      "z": 0.77
+    }
   },
   "1745": {
     "name": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Homecrawling",
+      "ja": "ホームカミング",
+      "de": "Die Heimkehr der Spinnen",
+      "fr": "Le mal du pays"
     },
     "description": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Spiders brought in from the Yafaem Saltmoor have broken free of their transport crates, and are now following an instinctual urge to return home. With great power comes great culpability, so it falls to you to subdue these arachnid escapees.",
+      "ja": "ヤフェーム湿地から移殖した毒蜘蛛が\n\n故郷を目指して脱走し始めた\n\nヤフェーム・スパイダーを倒せ",
+      "de": "Giftspinnen aus Yafaem versuchen, in ihre Heimat zu entkommen. Halte die Yafaem-Spinnen auf.",
+      "fr": "Des araignées de Yafaem transplantées depuis leur lande saline tentent une grande évasion pour rentrer chez elles. Il n'y aurait pas mort d'homme... si seulement elles ne crachaient pas leur venin meurtrier sur tous ceux qu'elles croisent."
     },
-    "icon": "",
-    "level": 0,
-    "location": 0
+    "icon": "/i/060000/060501.png",
+    "level": 80,
+    "location": 8977761,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 16.19,
+      "y": 6.69,
+      "z": 1.72
+    }
   },
   "1746": {
     "name": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "The Hills Are Alive",
+      "ja": "地底の緑の丘",
+      "de": "Knuddeliges Grünzeug",
+      "fr": "Drôles de frimousses"
     },
     "description": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "A batch of rare New World specimens posing as vegetation has ambushed a pair of botanists. Rescue the scholars from their own curiosity.",
+      "ja": "新大陸原産の珍しい生物が\n\n植物に擬態して職員を襲い始めた\n\nアンブッシュ・アガヴォイデスを倒せ",
+      "de": "Exemplare einer seltsamen Spezies aus der Neuen Welt sehen knuddelig aus, doch sie tarnen sich geschickt als Pflanzen und bedrohen die Mitarbeiter des Archeions. Zeige den Agavoides-Räubern Grenzen auf.",
+      "fr": "Les agavoïdes traîtres sont d'étranges créatures originaires du nouveau continent et adeptes du camouflage. Mais ne vous fiez pas à leurs adorables frimousses: leur spécialité consiste à se faire passer pour des plantes inoffensives avant de se jeter sur leurs proies..."
     },
-    "icon": "",
-    "level": 0,
-    "location": 0
+    "icon": "/i/060000/060501.png",
+    "level": 81,
+    "location": 8977762,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 28.63,
+      "y": 7.96,
+      "z": 1.81
+    }
   },
   "1747": {
     "name": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "Bite the Pellet",
+      "ja": "今を生きる",
+      "de": "Fressen statt gefressen werden",
+      "fr": "La révolution de la chaîne alimentaire"
     },
     "description": {
-      "en": "",
-      "ja": "",
-      "de": "",
-      "fr": ""
+      "en": "An innovative form of “living” feed has slipped away into the wilds and, by the-gods-only-know-what process, managed to multiply in number. Reduce that number to zero.",
+      "ja": "新機軸の飼料として開発された生餌が\n\n密かに脱走して増殖を繰り返していた\n\n処分するべく、バイオペレットを倒せ",
+      "de": "Als Lebendfutter gezüchtete Wesen haben den experimentellen Rahmen verlassen und vermehren sich unkontrolliert. Bringe die Bio-Pellets unter Kontrolle.",
+      "fr": "Des agrégats biologiques, développés pour apporter une réponse révolutionnaire aux besoins alimentaires des animaux carnivores, ont réussi à s'échapper et à se reproduire à grande échelle. Exterminez-les avant que les bêtes ne finissent dévorées par leur propre nourriture."
     },
-    "icon": "",
-    "level": 0,
-    "location": 0
+    "icon": "/i/060000/060501.png",
+    "level": 80,
+    "location": 8977764,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 23.27,
+      "y": 11.75,
+      "z": 0.66
+    }
   },
   "1748": {
     "name": {
+      "en": "Breakfast, Lunch, and Dinner",
+      "ja": "マウンテンチキンラン",
+      "de": "Bergkröten auf der Flucht",
+      "fr": "22, v'là les poulets!"
+    },
+    "description": {
+      "en": "Luncheon toads. Luncheon toads everywhere. Left unculled, these creatures will breed and spread far beyond their designated habitat. And no one needs to eat that much toad meat.",
+      "ja": "大量のマウンテンチキンが\n\n指定生息域の外へ大脱出を試みている\n\nエスケープド・マウンテンチキンを倒せ",
+      "de": "Eine Horde von riesigen Kröten hat das ihnen zugewiesene Gebiet verlassen und befindet sich auf der Flucht. Fange die entlaufenen Bergkröten ein.",
+      "fr": "Des poulets des montagnes tentent de sortir de leur zone d'habitat. Au vu du risque engendré par le moindre contact cutané avec ces créatures, mieux vaut les abattre par mesure de sécurité... et pour dissuader leurs congénères de les imiter."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 81,
+    "location": 8977765,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 30.13,
+      "y": 21.77,
+      "z": 0.64
+    }
+  },
+  "1749": {
+    "name": {
+      "en": "Let It Grow",
+      "ja": "雪国からの刺客「ニウァーリス」",
+      "de": "Eiskalte Attentäterin",
+      "fr": "Défi: l'abominable blob des neiges"
+    },
+    "description": {
+      "en": "A sample of snow brought back from the frozen north contained a tiny specimen of sentient algae, which has suddenly awoken from hibernation. The new environment appears to have accelerated its growth, in both size and hostile temperament, and measures must be taken to protect the nearby wildlife.",
+      "ja": "北州北部で採取された雪のサンプルに\n\n含まれていた藻が、急成長し暴れている\n\n雪国からの刺客、ニウァーリスを倒せ",
+      "de": "In einer Schneeprobe aus dem hohen Norden steckte ein Samen, der plötzlich zu einem mächtigen Wesen heranwuchs. Halte Nivalis auf.",
+      "fr": "Une algue contenue dans un échantillon de neige prélevé dans les terres du Nord a subi une mutation inattendue à son arrivée. Cette créature, surnommée “Nivalis la terreur des glaces” par les chercheurs, est maintenant devenue incontrôlable."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 80,
+    "location": 8977767,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 31.62,
+      "y": 8.82,
+      "z": 1.61
+    }
+  },
+  "1750": {
+    "name": {
+      "en": "Acid in Flight, Shepherd's Fright",
+      "ja": "羊飼いの暮らし",
+      "de": "Schaumkraut bleibt Schaumkraut",
+      "fr": "Toxique dans les prés"
+    },
+    "description": {
+      "en": "The pristine wool of a flock of merinos is being threatened by acid-spraying snapweeds. Scythe down these botanical trespassers, and preserve the shepherd's fluffy harvest.",
+      "ja": "消化液を撒き散らすスナップウィードが\n\n放牧中のメリノの羊毛を溶かそうとしている\n\nフロシング・スナップウィードを倒せ",
+      "de": "Schnappkräuter greifen die Merinos an und bespucken sie mit einem Verdauungssekret, dass die flauschige Wolle zerfrisst. Beschütze die flauschigen Merinos vor den schäumenden Schnappkräutern.",
+      "fr": "Les sucs digestifs ultra-acides projetés par les balsamines écumeuses risquent de dissoudre la toison des mérinos qui paissent dans les pâturages."
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 81,
+    "location": 8977768,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 14.44,
+      "y": 9.38,
+      "z": 1.08
+    }
+  },
+  "1751": {
+    "name": {
+      "en": "Incident Files: Elemental Attraction",
+      "ja": "始末書ファイル：誘引された結晶獣",
+      "de": "Lagebericht: Kristalline Gefahr",
+      "fr": "Rapport de dégâts: cristal recherche élément désespérément"
+    },
+    "description": {
+      "en": "The energies of an elemental reactor appear to have caught the attention of a batch of experimental arcane creations. With disaster in the offing, the time has come to bring an end to this study in living crystals.",
+      "ja": "実験魔法生物が属性の力を求め\n\n属性増殖炉の周辺に集まり始めた\n\n猛るリビングクリスタルを倒せ",
+      "de": "Lebendige Kristalle, die für magische Experimente verwendet wurden, versammeln sich am Elementbrüter, um daraus elementare Energie abzusaugen. Setze ihrem kristallinen Leben ein Ende, ehe sie eine Katastrophe verursachen.",
+      "fr": "Des créatures cristallines expérimentales se réunissent autour de l'un des réacteurs élémentaires à surgénération, irrémédiablement attirées par l'éther qui s'en dégage. Arrêtez-les avant que la situation ne dégénère."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8956818,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 23.64,
+      "y": 31.84,
+      "z": -0.27
+    }
+  },
+  "1752": {
+    "name": {
+      "en": "Incident Files: Ice of the Tiger",
+      "ja": "始末書ファイル：変異した結晶獣",
+      "de": "Lagebericht: Mutierter Kristall",
+      "fr": "Rapport de dégâts: cryomutation"
+    },
+    "description": {
+      "en": "A different batch of experimental creatures has succeeded in absorbing energy from a nearby reactor. Now charged with elemental ice, the entities have inexplicably evolved to resemble large feline predators. Break these crystalline cats before they go on the hunt.",
+      "ja": "氷属性のエーテルを吸収した\n\n実験魔法生物が、より動物敵に変異を遂げた\n\nこれ以上、力を付ける前にクリュスタロスを倒せ",
+      "de": "Ein lebendiger Kristall hat eine große Menge eiselementare Energie aufgesogen und ist dadurch zu einem noch stärkeren Wesen mutiert. Verhindere, dass der Kristallos noch stärker wird.",
+      "fr": "Après avoir absorbé de grandes quantités d'énergie éthérée de glace, les créatures cristallines ont adopté une apparence plus féline. Terrassez-les avant qu'elles ne gagnent davantage en puissance."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8956826,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 18.11,
+      "y": 38.44,
+      "z": -0.22
+    }
+  },
+  "1753": {
+    "name": {
+      "en": "Residual Complications",
+      "ja": "なんとなく、クラスター",
+      "de": "Gestalt gewordener Äther",
+      "fr": "Danger radiation!"
+    },
+    "description": {
+      "en": "Aetheric residue from an elemental reactor has crystallized into solid entities of mindless violence. Needless to say, their presence makes for a hostile working environment.",
+      "ja": "属性増殖炉から放出されたエーテルが\n\n結晶化して暴走を始めた\n\n荒ぶるクラスター・ドルヴァを倒せ",
+      "de": "Aus dem Elementbrüter entwichener Äther hat sich zu Kristallwesen verfestigt, die nun die Gegend unsicher machen. Setze den Äther der Kristall-Dhruva wieder frei.",
+      "fr": "L'éther qui irradie des réacteurs élémentaires à surgénération s'est cristallisé, donnant naissance à des dhruvas de cristal complètement hors de contrôle."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 88,
+    "location": 8977769,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 6.3,
+      "y": 31.83,
+      "z": -0.23
+    }
+  },
+  "1754": {
+    "name": {
+      "en": "Moisture Farming",
+      "ja": "天然由来保湿成分",
+      "de": "Natürliches Feuchtigkeitsmittel",
+      "fr": "Il faut souffrir pour avoir une belle peau"
+    },
+    "description": {
+      "en": "A researcher with smooth and supple skin is casting an appraising eye over the nearby soma. It would seem that today's keyword for sample collection is “moisture.”",
+      "ja": "ソーマの発生地にて美肌の研究員が\n\n保湿液生成用の素材を求めている\n\n「ソーマの欠片」を集めろ",
+      "de": "Die hübsche Forscherin braucht ein besonderes Material für eine Hautsalbe. Hilf ihr bei der Beschaffung der benötigten Soma-Splitter.",
+      "fr": "Une spécialiste de la dermatologie a besoin d'éclats de soma pour préparer la lotion hydratante parfaite."
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 88,
+    "location": 8977770,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 22.93,
+      "y": 35.68,
+      "z": -0.26
+    }
+  },
+  "1755": {
+    "name": {
+      "en": "Wasted XIV",
+      "ja": "ウェイステッドXIV",
+      "de": "Gallertartige Umweltverschmutzer",
+      "fr": "Pollution gélatineuse"
+    },
+    "description": {
+      "en": "Wastewater with a high concentration of aetheric energy should never be allowed to flow near an elemental reactor. There are several gelatinous reasons why, and all of them unwelcome.",
+      "ja": "エーテル濃度の高い廃棄水が\n\n属性増殖炉の影響で異常活性化した\n\n湧き出したエーテリック・ゼラチンを倒せ",
+      "de": "Aus ätherreichem Abwasser des Elementbrüters sind schleimige Wesen entstanden, die nun die Umwelt verpesten. Entsorge die Äthergelatinen.",
+      "fr": "Quand la forte concentration en éther des eaux usées rencontre les radiations des réacteurs élémentaires à surgénération, cela ne fait pas bon ménage... Nettoyez donc cette zone des gélatines éthérées qui la polluent."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 88,
+    "location": 8977771,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 9.26,
+      "y": 35.77,
+      "z": -0.2
+    }
+  },
+  "1756": {
+    "name": {
+      "en": "Empty the Nest",
+      "ja": "ザ・ネスト",
+      "de": "Äther-Nesthocker",
+      "fr": "L'attaque des doblyns irradiés"
+    },
+    "description": {
+      "en": "A group of ore-based life-forms have established a nest too close to the reactor for comfort. As a simple “please leave” is unlikely to be effective, the colony must be eradicated.",
+      "ja": "属性増殖炉付近に\n\n鉱虫たちが巣を作ってしまった\n\nエーテリック・ドブランを倒せ",
+      "de": "In der der Nähe des Elementbrüters haben sich Schädlinge eingenistet. Vertreibe die Äther-Dobalosse aus ihrem Nest.",
+      "fr": "Des doblyns ont fait leur nid près d'un réacteur élémentaire à surgénération, et le résultat ne vaut rien de bon pour la sécurité des chercheurs qui travaillent dans cette zone."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 88,
+    "location": 8977772,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 24.1,
+      "y": 23.09,
+      "z": -0.25
+    }
+  },
+  "1757": {
+    "name": {
+      "en": "The Frailty of Life",
+      "ja": "欲深き白木「フラエリッサ」",
+      "de": "Nimmersatte Fraelissa",
+      "fr": "Défi: Fraelissa l'insatiable"
+    },
+    "description": {
+      "en": "A berkanan grown to gigantic proportions is depriving the surrounding flora of sufficient nutrients. Reduce it to kindling for the greater good.",
+      "ja": "巨大化したベルカナが養分を独占し\n\n樹木の生育に悪影響を与えている\n\n欲深き白木、フラエリッサを倒せ",
+      "de": "Ein außergewöhnlich groß geratener Berkanan beansprucht zu viele Nährstoffe für sich allein und behindert damit den Wachstum der umstehenden Baumwesen und Pflanzen. Bringe die nimmersatte Fraelissa zu Fall.",
+      "fr": "La flore du Labyrinthos souffre de la présence d'un berkanan géant qui accapare tous les éléments nutritifs dont elle a besoin pour sa croissance."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 88,
+    "location": 8977773,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 11.77,
+      "y": 19.94,
+      "z": -0.26
+    }
+  },
+  "1758": {
+    "name": {
+      "en": "Sheaves on the Wind",
+      "ja": "風の十四方位",
+      "de": "Vom Sturm verweht",
+      "fr": "Aux quatre vents"
+    },
+    "description": {
+      "en": "As this vexed researcher discovered, it is wise to keep a strong grip on one's stack of confidential documents when walking near tempestuous storm anilas...",
+      "ja": "ストーム・アニラが強風を吹き荒らし\n\n研究員が持っていた書類が散らばってしまった\n\n速やかに「最重要機密書類」を回収せよ",
+      "de": "Sturm-Anilas haben wichtige Geheimdokumente eines Forschers in alle Himmelsrichtungen verteilt. Kannst du die wichtigen Unterlagen retten?",
+      "fr": "Les anilas des tempêtes soulèvent des bourrasques si violentes qu'elles ont éparpillé tous les documents que transportait un chercheur. Aidez-le à les ramasser avant que le vent ne les emporte encore plus loin."
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 88,
+    "location": 8977774,
+    "position": {
+      "map": 695,
+      "zoneid": 3708,
+      "x": 8.25,
+      "y": 24.01,
+      "z": -0.31
+    }
+  },
+  "1759": {
+    "name": {
       "en": "",
       "ja": "",
       "de": "",
@@ -37461,10 +37760,2174 @@
       "fr": ""
     },
     "icon": "",
-    "level": 0,
+    "level": 1,
     "location": 0
   },
-  "1749": {
+  "1760": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1761": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1762": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1763": {
+    "name": {
+      "en": "Devout Pilgrims vs. Daivadipa",
+      "ja": "ムリガ信仰：偽りの神",
+      "de": "Im Dienste der Mrga: Blasphemie",
+      "fr": "Le culte des Mrga: le faux dieu"
+    },
+    "description": {
+      "en": "Hearing the prayers of pilgrims, a deity has descended─albeit a false one from the Tower of Zot. This pretender to the name of Daivadipa must be consigned to the aether whence it came.",
+      "ja": "ゾットの塔で作られた偽りの神が\n\n巡礼者たちの祈りに引かれて現れた\n\n模造ムリガ神、ダイヴァディーパを倒せ",
+      "de": "Die inbrünstigen Gebete der Pilger hatten einen unerwarteten Effekt: Statt ihrer angebeteten Mrga erschien ihnen eine todbringende Blasphemität aus dem Turm von Zot! Stelle dich dem tödlichen Waffenarsenal des falschen Gottes Daivadipa! ",
+      "fr": "Une fausse divinité, créée à la tour de Zott, a été attirée dans les parages par les prières des pèlerins. Abattez Daivadipa."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 90,
+    "location": 8876668,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 9.32,
+      "y": 37.73,
+      "z": 0.08
+    }
+  },
+  "1764": {
+    "name": {
+      "en": "Full Petal Alchemist: Perilous Pickings",
+      "ja": "香りの錬金術師：危険な花摘み",
+      "de": "Der Duft der Alchemie: Gefahr im Blumenbeet",
+      "fr": "L'alchimiste des senteurs: une cueillette dangereuse"
+    },
+    "description": {
+      "en": "The alchemist Sajabaht requires specimens of a rare plant known as the vihara blossom for her latest experiment─and in great quantities, at that. Brave the hostile environs to procure what she seeks.",
+      "ja": "錬金術師サジャバートが\n\n香りの研究に必要な素材を求めている\n\n「ヴィハーラの花」を集めろ",
+      "de": "Die Alchemistin Sajabaht benötigt die Blüten der Vihara-Blüte, um ihre Forschung für ein beruhigendes Parfüm voranzutreiben.",
+      "fr": "Sajabaht a besoin de matériaux pour ses recherches, trouvez-lui des fleurs de vihara pour l'aider."
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 80,
+    "location": 8957501,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 21.49,
+      "y": 11.07,
+      "z": 0.85
+    }
+  },
+  "1765": {
+    "name": {
+      "en": "When Gaja Go Gaga",
+      "ja": "象は静かに座っていない",
+      "de": "Die Gaja sind Gaga!",
+      "fr": "Obstacles éléphantesques"
+    },
+    "description": {
+      "en": "A herd of rampaging gaja are causing trouble for merchants seeking to haul their goods up and down the highroad. Dispatch the creatures so that trade may flourish once more.",
+      "ja": "荒ぶるガジャたちが\n\n道ゆく行商人の障害となっている\n\nラースフル・ガジャを倒せ",
+      "de": "Eine Herde wildgewordener Gaja bedroht fahrende Händler und andere Reisende. Schlage die grimmen Gaja in die Flucht, bevor noch jemand zu Brei gestampft wird!",
+      "fr": "Les gaja ont pris la mauvaise habitude de bloquer les routes, empêchant les marchands de passer. Débarrassez-les des gaja colériques."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 80,
+    "location": 8957272,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 17.84,
+      "y": 27.66,
+      "z": 0.23
+    }
+  },
+  "1766": {
+    "name": {
+      "en": "I Am the Valras",
+      "ja": "アイ・アム・ザ・ヴァルラス",
+      "de": "Ich bin ein Vaalaras!",
+      "fr": "Code morse"
+    },
+    "description": {
+      "en": "A huddle of vicious valras have assembled on the Akyaali coast, causing no end of consternation to would-be beachgoers. Fell the massive creatures and try not to get caught with your knickers down in the process.",
+      "ja": "アキャーリの海岸に\n\n獰猛な海獣が押し寄せた\n\nシャープトゥース・ヴァルラスを倒せ",
+      "de": "An der Küste Akyaalis sind schwabbelige Ungetüme aus den dunklen Fluten emporgestiegen. Ihre riesigen Hauer wirken grotesk und die kleinen Augen blicken zwar dümmlich drein, aber funkeln umso boshafter! Treibe die Spitzzahn-Vaalaras zurück ins Meer!",
+      "fr": "Une nuée de vaalaras dents-de-sabre a envahi la plage d'Akyaali. Abattez-les et rendez à ce lieu sa tranquillité!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 81,
+    "location": 8957273,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 14.65,
+      "y": 31.31,
+      "z": 0.01
+    }
+  },
+  "1767": {
+    "name": {
+      "en": "Shiver and Shock",
+      "ja": "悪寒と痺れ",
+      "de": "Zitterpartie",
+      "fr": "Frissons et tremblements"
+    },
+    "description": {
+      "en": "Two species of giant snail hailing from the Far East were released into the wild and have been reproducing at a frightening speed. Dispatch the creatures and restore the ecosystem to its natural order.",
+      "ja": "東方原産の巨大カタツムリが\n\n投棄された結果、異常繁殖している\n\nシビレ・ユメミとフブキ・ユメミを倒せ",
+      "de": "Die Ausmerzung der riesenhaften Schnecken von den östlichen Feldern hatte einen unerwarteten wie unangenehmen Nebeneffekt: Die Tiere sind plötzlich mutiert und nun gefährlicher denn je! Vernichte die Zitter-Yumemi und Fröstel-Yumemi!",
+      "fr": "Des escargots géants venus d'Orient ont proliféré après avoir été relâchés dans la nature. Terrassez les yumemi du givre et des neiges."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 80,
+    "location": 8957274,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 20.25,
+      "y": 38.4,
+      "z": 0.04
+    }
+  },
+  "1768": {
+    "name": {
+      "en": "Of Claws and Gall",
+      "ja": "ギガントガル防衛戦線",
+      "de": "Gift und Galle",
+      "fr": "Bataillon de défense fiel-de-géant"
+    },
+    "description": {
+      "en": "The Giantsgall Grounds are being assailed by a pack of ravening ink claws that migrated from Vanaspati. Let them know they are less than welcome here.",
+      "ja": "樹海に棲息するインククロウが\n\nギガントガル採石場に押し寄せてきた\n\nヴァナスパティ・インククロウを倒せ",
+      "de": "Eine Gruppe Tintenstachel, die normalerweise im Dschungel von Vanaspati hausen, hat sich am Gallenerz-Feld auf die Jagd nach Appetithappen gemacht. Hilf den Steinmetzen dort und vertreibe die Vanaspati-Tintenstachel!",
+      "fr": "Les scorpions pinces d'encre, endémiques de Vanaspati, ont envahi les mines de fiel-de-géant. Éradiquez-les et ramenez la paix."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 81,
+    "location": 8957275,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 16.68,
+      "y": 9.01,
+      "z": 0.74
+    }
+  },
+  "1769": {
+    "name": {
+      "en": "The Accursed Kanabhuti",
+      "ja": "呪われし悪鬼「カーナブーティ」",
+      "de": "Kanabhuti, der Fluch des Dschungels",
+      "fr": "Défi: Kanabhuti la malédiction de la jungle"
+    },
+    "description": {
+      "en": "A particularly large pisaca known for terrorizing the area has been transformed into an even more eldritch horror. Take up arms and end Kanabhuti's reign of terror.",
+      "ja": "周辺住民の脅威となっている\n\nピシャーチャの長が姿を現した\n\n呪われし悪鬼、カーナブーティを倒せ",
+      "de": "Der Anführer einer Bande Pisaca bedroht die Bewohner der umliegenden Siedlungen. Jetzt hat er mal wieder seine häßliche Frazte gezeigt. Das ist die Gelegenheit, seinem Treiben ein Ende zu setzen!",
+      "fr": "Le chef d'une bande de pishacha menace depuis quelque temps les habitants des villages environnants. Maintenant qu'il montre une fois de plus son visage hideux, c'est l'occasion pour vous de mettre un terme à ses activités!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 80,
+    "location": 8957276,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 17.92,
+      "y": 19.7,
+      "z": 0.63
+    }
+  },
+  "1770": {
+    "name": {
+      "en": "The Little Nanka That Could",
+      "ja": "少年と海",
+      "de": "Der kleine Junge und das Meer",
+      "fr": "Le jeune homme et la mer"
+    },
+    "description": {
+      "en": "The gentle-hearted son of a fisherman hatched and raised a tiny nanka, which the boy would now see returned to the wild. Defend the wee creature as it bravely makes for the ocean.",
+      "ja": "漁師の息子が卵から育てた\n\n小さなナンカを海へ帰すようだ\n\nナンカを守り、シュトラムルグを倒せ",
+      "de": "Ein kleiner Fischersjunge hat einem Nanka geholfen, aus dem Ei zu schlüpfen. Nun will er seinen neuen Freund zum Meer bringen. Unterwegs wartet aber eine Schar Sotormurg, die gierig nach Opfern Ausschau halten. Beschütze das Nano-Nanka und rupf den Sotormurg die Federn!",
+      "fr": "Un fils de pêcheur a aidé un œuf de nanka à éclore et veut maintenant emmener son nouvel ami à la mer. Cependant, sur le chemin les attend un troupeau de suturmurgs, à l'affût de victimes. Protégez le nanka et arrachez quelques plumes aux suturmurgs au passage!"
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 81,
+    "location": 8957277,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 8.24,
+      "y": 15.41,
+      "z": 0.01
+    }
+  },
+  "1771": {
+    "name": {
+      "en": "Full Petal Alchemist: Risky Return",
+      "ja": "香りの錬金術師：危険な帰路",
+      "de": "Der Duft der Alchemie: Gefahrvoller Heimweg",
+      "fr": "L'alchimiste des senteurs: un retour dangereux"
+    },
+    "description": {
+      "en": "On the way home from picking flowers, the alchemist Sajabaht was accosted by fiends lured by the sweet smell of the blossoms. Fend off the vicious rasayana so that the woman might return home in peace.",
+      "ja": "帰路についた調香のサジャバートが\n\n花の香りに誘われた魔物に足止めされている\n\n行く手を阻むラサーヤナを倒せ",
+      "de": "Auf ihrem Weg nach Hause wird die Alchemistin Sajabaht von gemeingefährlichen Rasayana angegriffen, die offenbar vom Duft der Vihara-Blüten angezogen wurden. Hilf der Alchemistin und vertreibe die Rasayana!",
+      "fr": "Sur le chemin du retour, Sajabaht est attaquée par des rasayana qui semblent avoir été attirés par le parfum des fleurs de vihara. Aidez la parfumeuse et débarrassez-vous des monstres!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 80,
+    "location": 8957550,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 14.11,
+      "y": 17.04,
+      "z": 0.59
+    }
+  },
+  "1772": {
+    "name": {
+      "en": "Devout Pilgrims vs. the Jungle Lizards",
+      "ja": "ムリガ信仰：迷える巡礼者",
+      "de": "Im Dienste der Mrga: Pilger in Not",
+      "fr": "Le culte des Mrga: pélerin perdu"
+    },
+    "description": {
+      "en": "Separated from his fellows, a pilgrim has run afoul of hungry jungle lizards. Though the man's faith is strong, so too are the lizard's snapping jaws, and a helping hand would not go astray.",
+      "ja": "巡礼者が魔物の群れに襲われている\n\n篤信のラッシュヴァズを守りつつ\n\nジャングル・リザードを倒せ",
+      "de": "Ein Pilger wurde auf seiner Reise von gefräßigen Monstern umzingelt. Beschütze den frommen Rashvaaz und verarbeite die  Dschungelechsen zu Dschungel-Curry!",
+      "fr": "Encerclé par des bêtes voraces, Rashvaaz le pieux est en danger! Venez à bout de ces lézards des jungles et aidez le pèlerin à se sortir de cette mauvaise passe!"
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 85,
+    "location": 8957665,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 34.34,
+      "y": 27.48,
+      "z": 0.47
+    }
+  },
+  "1773": {
+    "name": {
+      "en": "Peek-a-Bhujamga",
+      "ja": "毒蛇を踏む",
+      "de": "Giftiges Spiel",
+      "fr": "Jeu empoisonné"
+    },
+    "description": {
+      "en": "It's all fun and games until someone wanders into poisonous bhujamga territory, as a group of children accidentally did while playing in the jungle. The vicious reptiles must be put down lest the little ones come to harm.",
+      "ja": "遊びに夢中になった子どもたちが\n\n毒蛇の繁殖地に迷い込んでしまった\n\nポイゾナス・ブンジャンガを倒せ",
+      "de": "Eine kleine Gruppe Kinder ist beim sorglosen Spiel dem Territorium extrem giftiger Schlangen zu nahe gekommen. Vertreibe die Toxischen Bhujamga, bevor sie die hilflosen Kinder verspeisen!",
+      "fr": "Un petit groupe d'enfants s'est approché trop près d'un territoire habité par des serpents extrêmement dangeureux. Chassez les bhujanga venimeux avant qu'ils ne dévorent les pauvres innocents!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8957278,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 27.84,
+      "y": 10.64,
+      "z": 0.04
+    }
+  },
+  "1774": {
+    "name": {
+      "en": "Stalkers in the Shroud",
+      "ja": "衆園の人食いトラ",
+      "de": "Hinter dem Schleier lauert der Tod",
+      "fr": "Tigres mangeurs d'hommes"
+    },
+    "description": {
+      "en": "Guhasaya with a taste for man-flesh have been sighted near a settlement. The brazen creatures must have the fear of men struck back into them.",
+      "ja": "人を獲物とすることを覚えた\n\n人食いトラの群れが里に近づいている\n\nキラー・グハーシャヤを倒せ",
+      "de": "Aus den dunklen Schatten des Schleiers der Sangha ist eine Herde tödlicher Guhasaya getreten, die das Dorf in der Nähe bedrohen. Treibe die Killer-Guhasaya zurück in ihren Wald, bevor sie anfangen, die Dorfbewohner zu reißen.",
+      "fr": "Un troupeau de guhasaya ayant pris goût à la chair humaine rôde près du village. Débarrassez les habitants de ces guhasaya tueurs!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8957279,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 30.81,
+      "y": 19.43,
+      "z": 0.08
+    }
+  },
+  "1775": {
+    "name": {
+      "en": "Swipe Eft",
+      "ja": "クシールローダ川の奇跡",
+      "de": "Das Wunder vom Ksiroda",
+      "fr": "Miracle dans la Ksiroda"
+    },
+    "description": {
+      "en": "A recent explosion in the Vanaspati eft population has seen a swarm of the creatures migrating downriver, where they are not welcome. Their numbers must be thinned out.",
+      "ja": "島北部の樹海から川を下って\n\nエフトの群れが移住を開始した\n\nヴァナスパティ・エフトを倒せ",
+      "de": "Ein gefährliche Gruppe Molche ist vom Norden den Ksiroda flussabwärts gewandert. Vertreibe die Vanaspati-Molche, bevor jemand zu Schaden kommt!",
+      "fr": "Un groupe de dangereux tritons a migré en aval de la Ksiroda depuis le nord. Éradiquez les tritons de Vanaspati avant que quelqu'un ne soit blessé!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8957280,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 30.24,
+      "y": 25.65,
+      "z": 0.04
+    }
+  },
+  "1776": {
+    "name": {
+      "en": "Mesmerizing Moths",
+      "ja": "彷徨える蒼い蝶",
+      "de": "Wenn das Abendessen davonfliegt",
+      "fr": "Papillons vagabonds"
+    },
+    "description": {
+      "en": "A swarm of illumoths bred for their enchanted scales has escaped captivity. They must be put down before they can bewitch the locals─or be used as an excuse for indiscreet behavior.",
+      "ja": "鱗粉採取用に錬金術師が飼育していた\n\n幻惑蝶が逃げ出し、飛び回っている\n\n人々を惑わす前にイルシモスを倒せ",
+      "de": "Die Alchemisten von Radz-at-Han züchten seit jeher Motten, die am Ende auf dem Speiseplan gewisser Herrschaften landen. Jetzt ist ein kleiner Schwarm aus seinem Gehege ausgebrochen und muss gestoppt werden, bevor er zur Plage wird. Mach die Illumotten unschädlich!",
+      "fr": "Un essaim de papillons de nuit, que les alchimistes de Radz-at-Han élèvent pour leurs écailles, s'est échappé. Il faut les arrêter avant qu'ils ne deviennent un fléau. Mettez les illumites hors d'état de nuire!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8957281,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 26.49,
+      "y": 14.66,
+      "z": 0.09
+    }
+  },
+  "1777": {
+    "name": {
+      "en": "Return of the Tyrant",
+      "ja": "暴虐の猿王「ヴァーリン」",
+      "de": "Valin der Tyrann",
+      "fr": "Défi: Valyn le tyran"
+    },
+    "description": {
+      "en": "Valin, the ill-tempered baboon king said to have been banished by Saint Agama, has returned to continue its rampage. The tyrant must be deposed once more if peace is to reign in the jungle.",
+      "ja": "かつて聖仙アガマによって調伏されたと\n\n伝えられる伝説の存在が姿を現した\n\n暴虐の猿王、ヴァーリンを倒せ",
+      "de": "Ein legendärer Silberrücken, der einst vom Agama-Tempel verflucht wurde, ist aufgetaucht und auf der Suche nach Opfern. Mach den tyrannischen Affenkönig unschädlich, bevor er sein blutiges Werk vollführen kann!",
+      "fr": "Valyn, un singe légendaire autrefois vaincu par Agama, est de retour et a soif de victimes. Abattez l'épouvantable roi des singes avant qu'il ne puisse accomplir son œuvre sanglante!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 85,
+    "location": 8957282,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 24.85,
+      "y": 19.99,
+      "z": 0.19
+    }
+  },
+  "1778": {
+    "name": {
+      "en": "Monkeys on Your Back",
+      "ja": "猿の軍団",
+      "de": "Geifernde Affenbande",
+      "fr": "L'armée des singes"
+    },
+    "description": {
+      "en": "A maiden out gathering herbs has attracted the attention of the worst sort of hanuman langurs─salivating ones. The mischief-makers must be driven off if the maiden is to obtain what she needs to treat her wounded father.",
+      "ja": "負傷した父のため少女が薬草を求めている\n\n彼女が安全に採集できるように\n\nサリベイディング・ラングールを倒せ",
+      "de": "Eine junge Dame, die für ihren erkrankten Vater Heilkräuter sammelt, wird von einer wildgewordenen Affenbande geärgert. Hilf der Kräutersammlerin und vertreibe die Geifernden Languren!",
+      "fr": "Une jeune femme qui collectait des herbes médicinales pour son père malade est en train de se faire importuner par une bande de singes sauvages. Protégez-la en chassant les langur baveux!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8957283,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 24.86,
+      "y": 27.09,
+      "z": 0.08
+    }
+  },
+  "1779": {
+    "name": {
+      "en": "Devout Pilgrims vs. the Apalala",
+      "ja": "ムリガ信仰：祈りの時",
+      "de": "Im Dienste der Mrga: Stoßgebet",
+      "fr": "Le culte des Mrga: l'heure de la prière"
+    },
+    "description": {
+      "en": "A band of pilgrims cannot reach their destination on account of deadly apalala having moved in. Fervently do they pray for the way to be cleared─and a good old-fashioned culling should do the trick.",
+      "ja": "ムリガの神に祈ろうとする巡礼者が\n\n魔物に阻まれて立ち往生している\n\n行く手を阻むアパラーラを倒せ",
+      "de": "Die Pilger, die auf dem Weg waren, die Mrga mit ihren Gebeten anzurufen, sind erneut von wilden Bestien gestoppt worden. Räum den Weg frei, bevor sie von den Apalala zerfleischt werden!",
+      "fr": "Les pèlerins qui étaient en route pour prier les divinités mrga ont de nouveau été arrêtés par des bêtes sauvages. Dégagez la voie avant qu'ils ne soient blessés par les apalala!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 85,
+    "location": 8957637,
+    "position": {
+      "map": 696,
+      "zoneid": 3709,
+      "x": 23.01,
+      "y": 23.29,
+      "z": 0.12
+    }
+  },
+  "1780": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1781": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1782": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1783": {
+    "name": {
+      "en": "Artificial Malevolence: 15 Minutes to Comply",
+      "ja": "魔導技師の帰郷：ファースト・ステップ",
+      "de": "Reinwaschung eines Ingenieurs: Gefangen in der Todesmaschine",
+      "fr": "Retour au pays: premier faux pas"
+    },
+    "description": {
+      "en": "Ebrelnaux of the Ironworks has clambered aboard an imperial warmachina, only for it to spring to life with him inside. The chance of rescuing him is to bring the machine to a crashing halt.",
+      "ja": "亡命帝国人技師エブレルノが\n\n調査中の魔導兵器が暴走してしまった\n\n特殊試作機、デスマンマシーンを倒せ",
+      "de": "Ebrelnaux von den Metallwerken hat eine Kriegsmaschine bestiegen, und diese ist plötzlich zu Leben erwacht! Die einzige Rettung für ihn ist, das Gefährt des Todes mit Gewalt aufzuhalten.",
+      "fr": "Alors qu'Ebrelnaux, un ingénieur garlemaldais revenu d'exil, était monté à bord d'une arme magitek pour inspecter ses composants, celle-ci s'est soudain mise en mouvement. Mettez cette machine massacrante hors d'état de nuire!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 82,
+    "location": 8964439,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 17.4,
+      "y": 23.25,
+      "z": 0.05
+    }
+  },
+  "1784": {
+    "name": {
+      "en": "Artificial Malevolence: The Drone Army",
+      "ja": "魔導技師の帰郷：フォール・イン・トラップ",
+      "de": "Reinwaschung eines Ingenieurs: Nieder mit den Maschinen",
+      "fr": "Retour au pays: chausse-trappe"
+    },
+    "description": {
+      "en": "Ebrelnaux once defected from the Empire, and he now returns to his former home as a member of Garlond Ironworks. His investigation into Garlemald's latest magitek weaponry has taken a dangerous turn, so it falls to you to save him from the technology he once helped create.",
+      "ja": "エブレルノたちが研究所跡地を\n\n捜索していると魔導兵器部隊が現れた\n\nエブレルノとケルトロナ少甲士を護れ",
+      "de": "Ebrelnaux hat als Magitek-Ingenieur unwissentlich geholfen, die autonomen Magitek-Maschinen mitzuentwickeln. Nun kehrt er als Mitglied der Metallwerke zurück, um die Schrecken zu zerstören, die er schuf. Beschütze Ebrelnaux und Keltlona!",
+      "fr": "Ebrelnaux et Keltlona ont été attaqués par un groupe d'armes autonomes alors qu'ils fouillaient les vestiges de l'ancien laboratoire magitek. Protégez-les!"
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 82,
+    "location": 8964448,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 26.12,
+      "y": 19.25,
+      "z": 0.1
+    }
+  },
+  "1785": {
+    "name": {
+      "en": "Trespassers Will Be Eaten",
+      "ja": "エブラーナ戦記",
+      "de": "Gleich vergess ich mich",
+      "fr": "Les envahisseurs"
+    },
+    "description": {
+      "en": "The search for sustenance has brought a wandering herd of ovibos into close contact with the survivors of Garlemald, who, in addition to wanting to defend their territory, also have designs on the meat of these beefy brutes.",
+      "ja": "氷原の野獣が進撃を開始した\n\n猛り狂って生息域を拡大せんとする\n\n「フォゴットン・オウヴィボス」を倒せ",
+      "de": "Die Kreaturen der eisigen Ebene greifen an. Besiege die vergessenen Ovibosse, die vollkommen wild geworden versuchen, ihr Revier zu vergrößern!",
+      "fr": "Une horde de monstres venus des étendues glacées cherche à étendre leur territoire. Débarrassez-vous de ces ovibos oubliés!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 82,
+    "location": 8953327,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 12.83,
+      "y": 27.22,
+      "z": 0.19
+    }
+  },
+  "1786": {
+    "name": {
+      "en": "A Snowball's Chance",
+      "ja": "寒冷前線異常あり",
+      "de": "Brennstoffsicherung",
+      "fr": "Chaud et froid"
+    },
+    "description": {
+      "en": "Despite appearing to be comprised largely of snow, the bizarre snegovik requires warmth much like any other creature. The ceruleum pipelines, for whatever reason, give off a certain amount of heat, which attracts snegoviki. There is concern, however, that allowing them to huddle around the pipes will raise the temperature to dangerous levels, so they must therefore be driven off to prevent a potential explosion.",
+      "ja": "熱源を求める魔物が押し寄せてきた\n\n燃料パイプラインの安全を護るため\n\n「スニェガヴィーク」を倒せ",
+      "de": "Auf der Suche nach einer Wärmequelle dringen Ungeheuer weiter vor. Besiege die Snegovik, um die Brennstoffversorgung zu sichern!",
+      "fr": "Des snegoviki, des créatures habituées à des températures très basses mais visiblement en quête d'un peu de chaleur, se sont dangereusement rapprochés du céruleoduc. Abattez-les avant qu'ils ne provoquent une catastrophe!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 82,
+    "location": 8953331,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 28.18,
+      "y": 31.64,
+      "z": -0.2
+    }
+  },
+  "1787": {
+    "name": {
+      "en": "Not Yeti",
+      "ja": "類猿人アルマスティ",
+      "de": "Die Alma-Affenmänner",
+      "fr": "Un faux air de yéti"
+    },
+    "description": {
+      "en": "Like its cousin the yeti, the almasty is vicious, opportunistic, and built like a brick shitehouse. To top it all off, they smell like an abattoir on a hot day, which may prove something of a distraction as you set about slaughtering them en masse.",
+      "ja": "罪なき避難民を襲撃した\n\n獰猛な猿人たちが目撃された\n\n「ウェイリング・アルマスティ」を倒せ",
+      "de": "Unschuldige Flüchtlinge werden von wilden Affenmännern angegriffen. Nimm dir die heulenden Almas vor!",
+      "fr": "Des almasty hurleurs, sortes de gros yétis agressifs, s'en sont pris à des civils innocents. Abattez-les de toute urgence!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 82,
+    "location": 8953341,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 30.58,
+      "y": 27.65,
+      "z": -0.2
+    }
+  },
+  "1788": {
+    "name": {
+      "en": "Nettle Gear Solid",
+      "ja": "氷の罠",
+      "de": "Eine eisige Falle",
+      "fr": "Piège de glace"
+    },
+    "description": {
+      "en": "With all the recent goings-on in Garlemald, the sudden appearance of poisonous icetraps resulted in little more than a raised eyebrow. Nevertheless, someone needs to keep the fiends at bay, and you are as good a candidate as any.",
+      "ja": "汚染された土壌によって\n\n有毒化した魔物が大繁殖している\n\n「トキシック・アイストラップ」を倒せ",
+      "de": "Verseuchter Boden bringt toxische Ungeheuer hervor. Rupfe die giftige Eisfalle!",
+      "fr": "Avec la pollution croissante des sols sont apparues des créatures distillant un poison mortel, les piège-glaces. Débarrassez l'endroit de cette menace!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 82,
+    "location": 8953295,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 24.41,
+      "y": 20.99,
+      "z": 0.01
+    }
+  },
+  "1789": {
+    "name": {
+      "en": "Roses Are Red, Violence Is Due",
+      "ja": "圧殺の薔薇「ヘリオガバルス」",
+      "de": "Der rosige Tod Heliogabalus",
+      "fr": "Défi:  Héliogabale, rose de sang"
+    },
+    "description": {
+      "en": "The barren ice fields of northern Ilsabard are home to a surprising assortment of hostile flora, and none are more ferocious than the roselike Heliogabalus. This botanical behemoth is capable of devouring anything it can fit in one of its multitude of maws, and given its immense size, that encompasses just about every creature on the continent.",
+      "ja": "獲物に伸し掛かって捕食する\n\n大物オーバーグロウン・ローズが現れた\n\n圧殺の薔薇「ヘリオガバルス」を倒せ",
+      "de": "Ein ebenso riesiges wie hungriges Rosengewächs ist erschienen, um Beute zu schlagen. Zeig dem rosigen Tod Heliogabalus, wer die spitzesten Dornen hat!",
+      "fr": "Héliogabale, une sorte de rosier aussi gigantesque qu'agressif, s'est mis en quête de proies à même de satisfaire son appétit. Abattez-le avant qu'il ne commette un massacre!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 82,
+    "location": 8953349,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 24.44,
+      "y": 27.43,
+      "z": -0.13
+    }
+  },
+  "1790": {
+    "name": {
+      "en": "Amazing Crates",
+      "ja": "霜の巨人たち",
+      "de": "Riesen im Nebel",
+      "fr": "Ils en font des caisses"
+    },
+    "description": {
+      "en": "Survivors of the civil war have excavated several days' worth of valuable provisions from the rubble of the capital. Unfortunately, they did not have the foresight to store the supplies beyond the reach of inquisitive beasts such as the jotnar, and it will take more than a bit of shouting and aggressive hand-waving to deter them.",
+      "ja": "ヨトゥンの群れが食料を狙っている\n\n難民たちが掻き集めた生活物資を守り\n\n迫りくる「スカブラス・ヨトゥン」を倒せ",
+      "de": "Eine Jötnar-Meute sucht nach Nahrung. Beschütze die Lebensmittel und besiege die schuppigen Jötnar!",
+      "fr": "Des jötnar sanguinaires cherchent à s'emparer des vivres que les habitants des environs gardent dans de grosses caisses. Vainquez les monstres!"
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 82,
+    "location": 8953358,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 16.45,
+      "y": 26.14,
+      "z": 0.07
+    }
+  },
+  "1791": {
+    "name": {
+      "en": "Artificial Malevolence: Unmanned Aerial Villains",
+      "ja": "魔導技師の帰郷：ビフォー・コンタクト",
+      "de": "Reinwaschung eines Ingenieurs: Auto-Gabriels",
+      "fr": "Retour au pays: l'ange malveillant"
+    },
+    "description": {
+      "en": "The magitek that Ebrelnaux once helped create has taken on a life of its own. He intends to analyze the latest Garlean automated weaponry, but in order for him to carry out his investigation, you must first render these machines inoperative.",
+      "ja": "エブレルノの技術を用いた無人型魔導兵器が\n\n魔導工廠で製造されていたことが判明した\n\nオートマチック・ガブリエルを倒せ",
+      "de": "Vollautomatische Tötungsmaschinen, die auf Entwürfen von Ebrelnaux basieren, wurden gefunden. Vernichte die Auto-Gabriels!",
+      "fr": "Il apparaît que les armes magitek sans pilotes dont la technologie a été conçue par Ebrelnaux sont produites dans l'usine de munitions magitek. Détruisez les Gabriel automatiques apparus pour éliminer les intrus que vous êtes!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8964468,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 11.42,
+      "y": 11.24,
+      "z": 0.14
+    }
+  },
+  "1792": {
+    "name": {
+      "en": "Artificial Malevolence: Mighty Metatron",
+      "ja": "魔導技師の帰郷：メタトロン・ベース",
+      "de": "Reinwaschung eines Ingenieurs: Metatron",
+      "fr": "Retour au pays: Metatron "
+    },
+    "description": {
+      "en": "The gargantuan winged warmachina Metatron has descended upon the ruins of Garlemald with but one purpose: annihilation. And yet, there is hope, for at its core lies the answer to defeating the mechanical army and freeing the city from its reign of terror.",
+      "ja": "無人型魔導兵器の司令機が現れた\n\n自律制御コアユニットを回収するため\n\nメタトロンを倒せ",
+      "de": "Eine Steuereinheit für vollautomatische Kampfmaschinen ist aufgetaucht! Vernichte Metatron!",
+      "fr": "La “reine” des armes magitek est apparue. Abattez-la pour vous emparer de son unité de contrôle!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 83,
+    "location": 8964468
+  },
+  "1793": {
+    "name": {
+      "en": "Rocker, Roller, Out-of-controller",
+      "ja": "メタモルポーセース",
+      "de": "Rotulas auf Abwegen",
+      "fr": "Mauvaise conversion"
+    },
+    "description": {
+      "en": "Squadrons of magitek monstrosities once patrolled the streets of Garlemald to scare the citizenry into driving safely. Now, with no one to oversee them, these roaders now charge about the city attempting to mow down anyone foolish enough to cross their path.",
+      "ja": "新首都交通システムとなる予定だった\n\n魔導兵器が暴走マシンと化してしまった\n\n「レックレス・マグナローダー」を倒せ",
+      "de": "Als Verkehrsmittel geplante Magitek-Maschinen haben sich aufgrund einer Fehlfunktion selbstständig gemacht. Halte die Rotulas auf Irrfahrt auf!",
+      "fr": "Les machines qui devaient servir à réguler le trafic de la capitale se sont muées en armes destructrices échappant à tout contrôle. Éliminez-les!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8953384,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 19.25,
+      "y": 10.86,
+      "z": 0.1
+    }
+  },
+  "1794": {
+    "name": {
+      "en": "Stray Dog Strut",
+      "ja": "カニス、吠えないのか？",
+      "de": "Hunde, die bellen, beißen auch",
+      "fr": "Pour qui aboies-tu?"
+    },
+    "description": {
+      "en": "Deprived of their masters, these slavering hounds roam the ruined capital in search of fresh meat, and they are anything but fussy.",
+      "ja": "主を喪った軍用犬たちが\n\n人々の脅威となろうとしている\n\n「ストレイ・カニス」を倒せ",
+      "de": "Militärisch abgerichtete Hunde terrorisieren die Gegend. Zeig den streundenden Canis, wie man Platz macht.",
+      "fr": "Des chiens-soldats dont les maîtres sont morts se sont mis à attaquer tous ceux qu'ils croisent. Abattez-les pour protéger le peu de riverains qu'il reste!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8953390,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 14.57,
+      "y": 16.29,
+      "z": 0.1
+    }
+  },
+  "1795": {
+    "name": {
+      "en": "Exterminate, Exterminate",
+      "ja": "彷徨える軍隊",
+      "de": "Das Morden ist des Wand'rers Lust",
+      "fr": "Machines folles"
+    },
+    "description": {
+      "en": "This horde of automated magitek weaponry was already a menace when under the command of its creators, and now that the machines' programming has been overwritten by some unknown malefactor, it no longer distinguishes between friend and foe. For the sake of your allies and Garlean survivors alike, you must eliminate this threat with all due haste.",
+      "ja": "無人兵器のシステムが書き換えられ\n\n自動殺戮兵器となって再起動した\n\n彷徨える魔導兵器群を倒せ",
+      "de": "Eine automatische Kampfmaschine hat ihre Programmierung und die ihrer baugleichen Gefährten geändert und Mordlust entwickelt. Vernichte die wandernden Todesmaschinen!",
+      "fr": "Le programme d'une horde d'armes sans pilotes a été modifié. Ces dernières se sont remises en marche, et ne cherchent plus désormais qu'à massacrer tout ce qui passe à leur portée. Débarrassez-vous en!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8953405,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 14.89,
+      "y": 12.45,
+      "z": 0.1
+    }
+  },
+  "1796": {
+    "name": {
+      "en": "A Bit of a Problem",
+      "ja": "内乱記",
+      "de": "Folgen des Krieges",
+      "fr": "Rémanence guerrière"
+    },
+    "description": {
+      "en": "Levitating, autonomous drones known simply as “bits” were deployed in great numbers during the Garlean civil war. Since the end of the hostilities, some enterprising miscreant has modified their targeting parameters, and they now mercilessly stalk any living thing that dares enter the imperial capital.",
+      "ja": "内戦時に攻撃目標が改竄された\n\n首都防衛機構が、無差別攻撃を行っている\n\n「オーバーライド・ビット」を倒せ",
+      "de": "Während des Bürgerkriegs wurden Kampfmaschinen manipuliert, die jetzt jeden ohne Vorbehalt töten. Vernichte die überbrückten Drohnen!",
+      "fr": "Quelqu'un a modifié le programme de drones qui défendaient la capitale durant la guerre civile, si bien que ceux-ci s'en prennent désormais à tous ceux qui croisent leur chemin. Détruisez-les!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8953458,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 28.34,
+      "y": 14.31,
+      "z": 0.1
+    }
+  },
+  "1797": {
+    "name": {
+      "en": "The Man with the Golden Son",
+      "ja": "黄金の鉄巨人「セネカ」",
+      "de": "Der goldene Riese Seneca",
+      "fr": "Défi: Seneca le géant doré"
+    },
+    "description": {
+      "en": "The much-lauded magitek engineer Seneca poured his heart and soul into the creation of this gargantuan, bipedal warrior. He even went so far as to name it after himself, as a father might a son, in the hope it would carry on his legacy long after his passing.",
+      "ja": "筆頭機工師セネカが自ら開発した\n\n二足歩行兵器が帝都を徘徊している\n\n黄金の鉄巨人「セネカ」を倒せ",
+      "de": "Eine von dem führenden Magitek-Ingenieur Seneca entwickelte bipedale Kampfmaschine marschiert ungehindert durch die Kaiserstadt. Füge dem goldenen Riesen Seneca ein paar Beulen zu!",
+      "fr": "Une arme bipède géante créée par Seneca, l'illustre ingénieur qui lui a d'ailleurs donné son nom, sème la terreur dans la capitale. Éliminez-la!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 83,
+    "location": 8953410,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 21.2,
+      "y": 8.02,
+      "z": 0.1
+    }
+  },
+  "1798": {
+    "name": {
+      "en": "Parts Unknown",
+      "ja": "回収は一刻を争う！",
+      "de": "Hilfe bei der Reparatur",
+      "fr": "La récup', ça occupe "
+    },
+    "description": {
+      "en": "Throughout the ruined capital, small pockets of survivors salvage what they can to help stave off the cold. One such engineer has ventured outside in search of parts required to restore power to his friends' temporary home, but with masterless magitek on the loose, he is in desperate need of your help.",
+      "ja": "難民の魔導技師が青燐機関を\n\n修復するための部品を求めている\n\n「青燐機関の部品」を集めろ",
+      "de": "Die Vertriebenen benötigen Bauteile, um eine Erdseim-Maschine zu reparieren. Hilf ihnen dabei, die Bauteile zu erbeuten!",
+      "fr": "Un ingénieur magitek cherche des composants pour réparer un moteur à céruleum. Rapportez-lui en!"
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 83,
+    "location": 8953420,
+    "position": {
+      "map": 697,
+      "zoneid": 3710,
+      "x": 20.84,
+      "y": 15.15,
+      "z": 0.1
+    }
+  },
+  "1799": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1800": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1801": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1802": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1803": {
+    "name": {
+      "en": "Lepus Lamentorum: Dynamite Disaster",
+      "ja": "嘆きの白兎：ばくばく大爆発",
+      "de": "Langohren des Mondes: Explosive Eindringlinge",
+      "fr": "Panique lapinesque: explosifs invasifs"
+    },
+    "description": {
+      "en": "Warringway warns of approaching danger: a pack of drifting dynamite has infiltrated the haven. He asks for your help in defusing the situation before those bombs blow the burrow to bits.",
+      "ja": "ウォリングウェイが\n\nダイナマイトの侵入を発見した\n\nドリフティング・ダイナマイトを倒せ",
+      "de": "Eine Horde Dynamits hat sich Zutritt nach drinnen verschafft. Hilf Warringway, die Eindringlinge zu beseitigen!",
+      "fr": "Aidez Warringway à repousser une invasion de dynamites à la dérive!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 84,
+    "location": 8981370,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 29.24,
+      "y": 12.98,
+      "z": -1.68
+    }
+  },
+  "1804": {
+    "name": {
+      "en": "Lepus Lamentorum: Cleaner Catastrophe",
+      "ja": "嘆きの白兎：だめだめ大暴走",
+      "de": "Langohren des Mondes: Reiniger-Rabatz",
+      "fr": "Panique lapinesque: nettoyeurs tueurs"
+    },
+    "description": {
+      "en": "Fallingway tempted fate by haphazardly modifying some boosted cleaners, and he now finds himself paying the price in the form of deadly contraptions running amok.",
+      "ja": "フォリングウェイが違法改造した\n\nクリーナーが大暴走している\n\nブーステッド・クリーナーを倒せ",
+      "de": "Fallingway hat etwas zu lange an den Reinigern herumgeschraubt. Sie sind völlig außer Kontrolle! Besiege die randalierenden Reiniger!",
+      "fr": "Fallingway a reconfiguré des unités de nettoyage sans autorisation, et ces dernières sont devenues incontrôlables. Détruisez-les avant qu'elles ne fassent de victime!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 84,
+    "location": 8981380,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 13.94,
+      "y": 8.94,
+      "z": -1.69
+    }
+  },
+  "1805": {
+    "name": {
+      "en": "Lepus Lamentorum: Crazy Contraption",
+      "ja": "嘆きの白兎：むきむき大処分",
+      "de": "Langohren des Mondes: Reif für die Tonne",
+      "fr": "Panique lapinesque: apiacée cuirassée"
+    },
+    "description": {
+      "en": "In a surprise to no Loporrit who knows him, Fallingway is betrayed by his “greatest creation” and now enlists your aid in silencing the malfunctioning miscreant.",
+      "ja": "フォリングウェイの最高傑作が\n\n案の定、暴走してしまったようだ\n\nスーパーキャロットを倒せ",
+      "de": "Die neueste Kreation von Fallingway ist dem gleichen Schicksal erlegen wie die meisten anderen und sorgt nun für Chaos. Besiege die Superkarotte!",
+      "fr": "Fallingway a mis en marche sa plus grande création et, sans surprise, elle est devenue incontrôlable. À vous désormais de réduire Super-Carotte en purée!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 84,
+    "location": 8981410,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 11.41,
+      "y": 6.83,
+      "z": -1.68
+    }
+  },
+  "1806": {
+    "name": {
+      "en": "Mantids on the Moon",
+      "ja": "極地からの怪物",
+      "de": "Sicheln aus dem Zwielicht",
+      "fr": "La chose surgit des ténèbres"
+    },
+    "description": {
+      "en": "Though the moon is rather lacking in native fauna, what little that resides there is in danger of being annihilated by a swarm of rampaging trimmers. Their serrated appendages and powerful mandibles more than make up for their unintimidating name.",
+      "ja": "月の極地方面から\n\n大量のトリマーが押し寄せてきた\n\nデッドリー・トリマーを倒せ",
+      "de": "Immer mehr Todesschlitzer wandern auf der Suche nach Beute aus der Polarregion des Mondes nach Mare Lamentorum ein. Verhindere, dass ihre Anzahl überhandnimmt!",
+      "fr": "Une colonie de sécateurs, qui avait fait son nid au pôle de la lune, monte à l'assaut du reste de l'astre. Repoussez ces envahisseurs insectoïdes!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8954545,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 18.12,
+      "y": 32.15,
+      "z": 0.68
+    }
+  },
+  "1807": {
+    "name": {
+      "en": "One Giant Weep",
+      "ja": "お涙ちょうだい",
+      "de": "Keine Freude für die Fungi",
+      "fr": "Pas de compassion pour les champignons"
+    },
+    "description": {
+      "en": "A group of curious lunar life-forms have begun their migration. Loath though you are to put down such pitiful creatures, their spread must be stopped.",
+      "ja": "月面性進化菌類が遷移を始めた\n\n可哀相だが無節操な増殖を防ぐために\n\nウォウフル・ウィーパーを倒せ",
+      "de": "Ursprünglich auf dem Mond heimische Fungi haben sich zu Ungetümen weiterentwickelt und rasant vermehrt. Jemand muss dem Schluchzer-Pilzbefall Einhalt gebieten!",
+      "fr": "Une nouvelle espèce de champignons lunaires traverse une phase naturelle de recolonisation. Les lois de la lutte territoriale sont parfois cruelles, mais vous devez les exterminer afin de prévenir leur prolifération incontrôlée."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8954539,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 24.58,
+      "y": 35.03,
+      "z": 1.01
+    }
+  },
+  "1808": {
+    "name": {
+      "en": "Cactus What You Preach",
+      "ja": "星は出ているか？",
+      "de": "Lunatender-Liebe",
+      "fr": "Il y a trop de pampas qui s'aiment"
+    },
+    "description": {
+      "en": "The current stellar alignment signals that the flowering lunatenders' reproduction season is nigh. Should a population explosion occur, the moon runs the risk of being transformed into anything but a barren wasteland, which─for reasons beyond the comprehension of mere mortals─simply will not do.",
+      "ja": "星の配置が繁殖期の訪れを告げている\n\nこれ以上、繁茂させないためにも\n\nフラワリング・ルナテンダーを倒せ",
+      "de": "Wenn die Sterne eine bestimmte Position erreichen, beginnt die Paargungszeit der Lunatender. Doch für eine weitere Legion dieser blauen Gesellen ist kein Platz auf dem Mond. Unterbrich ihr Fortpflanzungsritual!",
+      "fr": "La position des étoiles annonce la venue de la saison des amours pour les pampas séléniens. Hélas, si vous ne coupez pas court aux festivités afin d'endiguer leur reproduction, ces créatures auront tôt fait de recouvrir chaque ilm de l'astre lunaire..."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8954546,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 6.79,
+      "y": 34.05,
+      "z": 1.37
+    }
+  },
+  "1809": {
+    "name": {
+      "en": "Droids Gone Wild",
+      "ja": "ドロイドの大暴走",
+      "de": "Angriff der Droiden",
+      "fr": "L'attaque des droïdes"
+    },
+    "description": {
+      "en": "Perhaps in response to changes on the lunar plane, the walking weapons of Allag have reawakened. It now falls to you to send them back to sleep.",
+      "ja": "月面の変化を感じ取り\n\nアラグの兵器が一斉に再起動した\n\n危険なリブーテッド・ドロイドを倒せ",
+      "de": "Die Veränderungen auf der Mondoberfläche haben einen Neustart der Droiden aus dem allagischen Raumschiffwrack ausgelöst. Vernichte sie, ehe sie die Umgebung des Wracks verlassen.",
+      "fr": "Quand les capteurs du Heimdall ont perçu un changement dans leur environnement, ils ont réagi en exécutant le programme de redémarrage d'urgence des droïdes. Expliquez fermement à ces boîtes de conserve que leur présence n'est pas nécessaire."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8954541,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 32.97,
+      "y": 27.6,
+      "z": 1.36
+    }
+  },
+  "1810": {
+    "name": {
+      "en": "The Stones of Silence",
+      "ja": "静かなる巨岩「トランキリティアイト」",
+      "de": "Weißer Gigant",
+      "fr": "Défi: le géant de la lune"
+    },
+    "description": {
+      "en": "If monstrous rocks roll in from another lunar mare and no one is around to hear them, do they make a sound? Something to ponder while you take them down.",
+      "ja": "異なる月の海から\n\n静かなる巨岩がやってきた\n\nトランキリティアイトを倒せ",
+      "de": "Ein behäbiger Armalcolit namens Tranquillityite hat seinen Mondfleck verlassen und ist hier aufgetaucht. Bevor es zu Revierkämpfen mit Artgenossen kommt, muss er vertrieben werden.",
+      "fr": "Une gigantesque créature minérale, originaire d'une autre mer lunaire, s'est déplacée jusqu'à Mare Lamentorum en se fondant dans le sol. Ce monolithe est de tempérament placide, mais son apparition s'accompagne de secousses sismiques ravageuses..."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 83,
+    "location": 8954543,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 10.6,
+      "y": 31.48,
+      "z": 1.3
+    }
+  },
+  "1811": {
+    "name": {
+      "en": "The Strolling Stones",
+      "ja": "月の裏側",
+      "de": "Besuch von der dunklen Seite",
+      "fr": "La face cachée de la lune"
+    },
+    "description": {
+      "en": "Sentient─and incredibly violent─regoliths have wandered over from the far side of the moon, and are attempting to make Mare Lamentorum their new home. For the sake of its current inhabitants, it is best to send these craggy creatures back whence they came.",
+      "ja": "月の裏側から移動してきた\n\nレゴリスの群れが定着しようとしている\n\nファーサイド・レゴリスを倒せ",
+      "de": "Eine Horde Regolithen von der Rückseite des Mondes versucht, sich im hellen Mare Lamentorum einzunisten. Besiege die Eindringlinge und schicke sie zurück in die Dunkelheit!",
+      "fr": "Une colonie de régolithes venue de la face cachée de la lune déferle sur Mare Lamentorum avec l'intention ferme de s'y installer. Renvoyez-les dans l'ombre, là où est leur place."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 83,
+    "location": 8959470,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 27.36,
+      "y": 31.36,
+      "z": 0.79
+    }
+  },
+  "1812": {
+    "name": {
+      "en": "Tech Support Cull",
+      "ja": "フーリガン",
+      "de": "Unverlässlicher Support",
+      "fr": "Un accident chez les assistants"
+    },
+    "description": {
+      "en": "A failed maintenance procedure has sent a slew of supporter robots into overdrive. These haywire bots must be stopped before they destroy the burrow.",
+      "ja": "メンテナンスが失敗したらしい\n\nサポーターが暴走状態で暴れている\n\nデフェクティブ・サポーターを倒せ",
+      "de": "Die Wartung einiger Support-Roboter endete in einer einheitsübergreifenden Rebellion der Maschinen. Nimm die defekten Exemplare auseinander, ehe sie Schaden anrichten.",
+      "fr": "À la suite d'un malencontreux accident au cours de leur dernier examen de routine, les unités d'assistance se sont emballées. Arrêtez-les avant qu'elles ne causent trop de dégâts."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 84,
+    "location": 8959496,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 10.53,
+      "y": 20.98,
+      "z": 1.4
+    }
+  },
+  "1813": {
+    "name": {
+      "en": "Hunger Strikes",
+      "ja": "大海を隔てるがごとく",
+      "de": "Harsches Mondhabitat",
+      "fr": "Sur les deux rives d'un océan"
+    },
+    "description": {
+      "en": "It's suppertime for the daphnia in Mare Lamentorum, and they're making a beeline for Bestways Burrow. Prevent a Loporrit lunch by slaying the beasts.",
+      "ja": "腹をすかせたダフニアが\n\nベストウェイ・バローに接近してきた\n\nハングリー・ダフニアを倒せ",
+      "de": "Auf der Suche nach Nahrung hat sich eine Gruppe ausgehungerter Daphnias zu dicht an Bestways Rast herangewagt. Um seine Bewohner zu schützen, müssen die Daphnias erlegt werden.",
+      "fr": "Les daphnies ont le ventre vide, ce qui les rend plus irritables qu'à l'accoutumée. Empêchez-les de s'approcher du halot de Bestway en quête de nourriture."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 84,
+    "location": 8954547,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 23.26,
+      "y": 22.05,
+      "z": 0.68
+    }
+  },
+  "1814": {
+    "name": {
+      "en": "Scrapping the Scrapers",
+      "ja": "保証対象外",
+      "de": "Garantiezeitraum abgelaufen",
+      "fr": "Produits plus sous garantie"
+    },
+    "description": {
+      "en": "In a last-ditch attempt to avoid the scrap heap, a squad of defective scrapers have begun wreaking havoc on the burrow and must be stopped.",
+      "ja": "処分予定の不良品たちが\n\n集団脱走して暴れている\n\nデフェクティブ・スクレーパーを倒せ",
+      "de": "Normalerweise lassen sich defekte Schaber problemlos entsorgen, aber diese hier haben einen Aufstand angezettelt, ehe man sie abschalten konnte. Mach sie reif für die Schrottpresse!",
+      "fr": "Des unités de recyclage non conformes aux normes de production ont été rassemblées en vue d'être détruites, mais elles en ont profité pour organiser une mutinerie. Envoyez-les au recyclage, histoire de boucler la boucle."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 84,
+    "location": 8954554,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 10.26,
+      "y": 13.5,
+      "z": -1.68
+    }
+  },
+  "1815": {
+    "name": {
+      "en": "Taking Care of the Caretakers",
+      "ja": "クラッシュ",
+      "de": "Wertlose Wärter",
+      "fr": "Des infirmiers infernaux"
+    },
+    "description": {
+      "en": "Whoever designed the mechanical caretakers was not terribly cautious, and their carelessness in turn spawned a slew of defective models that must be scrapped.",
+      "ja": "製造担当の不注意によって\n\n不良品ケアテイカーが大量生産された\n\nデフェクティブ・ケアテイカーを倒せ",
+      "de": "Ein Loporrit, der anonym bleiben möchte, hat versehentlich die Massenproduktion eines funktionsuntüchtigen Wärter-Modells angeworfen. Beseitige sie, bevor die Leitung Wind davon bekommt.",
+      "fr": "À cause d'une négligence commise par le responsable de la chaîne de production, un grand nombre d'unités de soin défectueuses ont été assemblées. Leur défaut? Une définition fortement erronée du mot “soin”..."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 84,
+    "location": 8954560,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 35.37,
+      "y": 8.61,
+      "z": -1.68
+    }
+  },
+  "1816": {
+    "name": {
+      "en": "Head Empty, Only Thoughts",
+      "ja": "虚ろなる思考者「セレブレイター」",
+      "de": "Der Plan des Schmarotzers",
+      "fr": "Défi: le penseur parasite"
+    },
+    "description": {
+      "en": "A hulking fungus roams the lunar plane in search of a nutrient-rich bed. It is your duty to confront this thinker and make it rethink its search.",
+      "ja": "栄養分の多い動く苗床を求めて\n\n大型シンカーが考えを巡らせている\n\n虚ろなる思考者、セレブレイターを倒せ",
+      "de": "Als seinem Wirt der Lebenssaft ausgegangen ist, hat sich dieser übergroße Denker auf die Jagd nach neuen Opfern begeben. Mache ihm den Garaus, wenn du dir den Anblick fungiüberwucherter Loporrit ersparen willst.",
+      "fr": "Un penseur colossal contemple l'idée de se trouver un hôte, de préférence vivant, mobile, et riche en nutriments. Interrompez ses réflexions morbides, ou préparez-vous à lui servir de terreau."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 84,
+    "location": 8954576,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 15.2,
+      "y": 25.15,
+      "z": 0.85
+    }
+  },
+  "1817": {
+    "name": {
+      "en": "What a Thrill",
+      "ja": "スリリングな人生を",
+      "de": "Sauer macht süchtig",
+      "fr": "Addiction aux frissons"
+    },
+    "description": {
+      "en": "Thrillingway has asked for assistance in collecting slime left behind by acidic mousse. Surely there isn't any ulterior motive behind his request...right?",
+      "ja": "微妙に不純な動機を抱いている\n\nスリリングウェイの求めに応じて\n\n「ムースの粘液」を集めろ",
+      "de": "Thrillingway scheint Vorlieben von fragwürdigem Geschmack zu haben, aber eine Bitte ist eine Bitte. Sammle Mousse-Schleim für seine ultrasaure Kurbehandlung.",
+      "fr": "Thrillingway semble s'adonner à un passe-temps d'un goût douteux, mais une requête est une requête. Aidez-le à récolter du mucus de mousse pour sa cure thermale ultra-acide."
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 84,
+    "location": 8954593,
+    "position": {
+      "map": 698,
+      "zoneid": 3711,
+      "x": 19.24,
+      "y": 22.59,
+      "z": 0.64
+    }
+  },
+  "1818": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1819": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1820": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1821": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1822": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1823": {
+    "name": {
+      "en": "Grand Designs: Aigokeros",
+      "ja": "創造計画：<Sheet(BNpcName,11073,0)/>観察",
+      "de": "Beobachtung: <SheetDe(BNpcName,5,11073,1,1,1)/>",
+      "fr": "Observation: aigokeros"
+    },
+    "description": {
+      "en": "Meletos the Inscrutable seeks the aid of one who might put down some aigokerotes. All in the name of science, of course.",
+      "ja": "新たなる創造生物のイデアを生み出すため\n\n<Sheet(BNpcName,11072,0)/>が、既存生物の観察を計画している\n\n求めに応じて、<Sheet(BNpcName,11073,0)/>を倒せ",
+      "de": "Ein neues Konzept von <SheetDe(BNpcName,5,11072,1,3,1)/> muss getestet werden. Unterziehe <SheetDe(BNpcName,2,11073,1,4,1)/> einer Kampfprobe!",
+      "fr": "Mélétos cherche des idées pour une nouvelle création. Combattez des aigokeros afin qu'il puisse s'en inspirer."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 86,
+    "location": 8982238,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 8.3,
+      "y": 28.58,
+      "z": -0.4
+    }
+  },
+  "1824": {
+    "name": {
+      "en": "Grand Designs: Io",
+      "ja": "創造計画：イーオー観察",
+      "de": "Beobachtung: Io",
+      "fr": "Observation: io"
+    },
+    "description": {
+      "en": "Seeking inspiration for future concepts, Meletos the Inscrutable wishes to observe how one might wipe an Io off the face of this star. All in the name of science, of course.",
+      "ja": "新たなる創造生物のイデアを生み出すため\n\n<Sheet(BNpcName,11072,0)/>が、創造生物の観察を計画している\n\n求めに応じて、<Sheet(BNpcName,11074,0)/>を倒せ",
+      "de": "Ein neues Konzept von <SheetDe(BNpcName,5,11072,1,3,1)/> muss getestet werden. Unterziehe <SheetDe(BNpcName,2,11074,1,4,1)/> einer Kampfprobe!",
+      "fr": "Mélétos continue de chercher des idées pour une nouvelle création. Combattez une copie de l'io afin qu'il puisse s'en inspirer."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 86,
+    "location": 8982242,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 8.3,
+      "y": 28.58,
+      "z": -0.4
+    }
+  },
+  "1825": {
+    "name": {
+      "en": "Ophion-mania",
+      "ja": "人蛇大戦",
+      "de": "Gefährdetes Gleichgewicht",
+      "fr": "Serpents envahissants"
+    },
+    "description": {
+      "en": "An inadvertent profusion of invasive ophions is proving deleterious to the environment. The time has come to put things right─for the sake of the star, naturally.",
+      "ja": "想定外の異常繁殖によって\n\nオピオンが周辺環境の脅威となっている\n\n増えすぎたスポーニング・オピオンを倒せ",
+      "de": "Sich rapide vermehrende Ophions bringen das ökologische Gleichgewicht in Gefahr. Dezimiere die übermäßig sprießenden Ophions!",
+      "fr": "Une multiplication inattendue d'ophions menace l'écosystème local. Éliminez ces créatures indésirables!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 86,
+    "location": 8953015,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 28.42,
+      "y": 29.19,
+      "z": -0.11
+    }
+  },
+  "1826": {
+    "name": {
+      "en": "The Rustling of Murderous Leaves",
+      "ja": "三本の浮遊樹「アルセイス」",
+      "de": "Die schwebenden Bäume",
+      "fr": "Défi: arbres trompeurs"
+    },
+    "description": {
+      "en": "A monstrous variety of yggdreant has set upon a researcher who meant only to observe them. Bring your woodcutter's axe to bear and get to hacking.",
+      "ja": "樹木に化けていたイグドリア種の浮遊樹が\n\n観察者に襲いかかろうとする事件が発生した\n\n三本の浮遊樹、アルセイスを倒せ",
+      "de": "Drei zu Bäumen veränderte Igdryas sind aggressiv geworden und attackieren den Beobachter. Lege die Holzaxt an und beseitige die Aleisis!",
+      "fr": "Trois spécimens d'une variété d'yggdriades appelée alséide ont tendu une embuscade à un observateur en se faisant passer pour des arbres. Éliminez-les!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 86,
+    "location": 8953028,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 19.75,
+      "y": 29.85,
+      "z": -0.31
+    }
+  },
+  "1827": {
+    "name": {
+      "en": "Butterfly Kisses of Death ",
+      "ja": "人間の血にまだ触れない",
+      "de": "Schmetterlinge schmettern",
+      "fr": "Succion interdite"
+    },
+    "description": {
+      "en": "A murder of phanopsyches have descended, and they've a taste for flesh. Now, it's either kill or be killed─and you would rather be doing the killing, like as not.",
+      "ja": "生物の体液をすすることを覚えた\n\n恐ろしき怪蝶の群れが飛来してきた\n\nファントム・ファノプシュケを倒せ",
+      "de": "Monströse Schmetterlinge sind unerwartet auf den Geschmack gekommen. Den Geschmack von Blut. Zerschmettere die Phantom-Phanopsychen!",
+      "fr": "Des phanopsychées fantômes sont venues jusqu'ici pour sucer le sang d'autres créatures. Éliminez-les!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 86,
+    "location": 8953036,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 5.3,
+      "y": 32.99,
+      "z": -0.39
+    }
+  },
+  "1828": {
+    "name": {
+      "en": "You Hurt My Researcher, Prepare to Die",
+      "ja": "リトリビューション",
+      "de": "Eine Lektion fürs Leben",
+      "fr": "Punition sévère"
+    },
+    "description": {
+      "en": "A group of hippocerfs are on the lam following a grisly attack on a researcher. You, with your unimpeachable sense of justice, will no doubt find these beasts and make them pay.",
+      "ja": "観察者を襲った末に逃亡した\n\n悪しきヒッポセルフの群れを発見した\n\n懲罰としてボーニー・ヒッポセルフを倒せ",
+      "de": "Niemand überfällt ungestraft friedliche Beobachter und entkommt! Erteile den knochigen Hippocerfen eine Lektion fürs Leben - und Sterben!",
+      "fr": "Des hippocerfs enragés se sont enfuis après avoir attaqué un observateur. Éliminez-les!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 86,
+    "location": 8953091,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 10.4,
+      "y": 35.85,
+      "z": -0.42
+    }
+  },
+  "1829": {
+    "name": {
+      "en": "Drawing the Thunderstroke",
+      "ja": "嘶こう、感電するほどの喜びを！",
+      "de": "Himmeldonnerwetter!",
+      "fr": "Excitation électrisante"
+    },
+    "description": {
+      "en": "A herd of keraunoi is attempting to bring thunderclouds to Elpis's sky, threatening to destabilize the weather. Defeat the thunderhead keraunoi and ensure there are no untoward meteorological distortions.",
+      "ja": "ケラウノスの群れが雷雲を呼ぼうとしている\n\nエルピスの天候を不安定にしないため\n\nサンダーヘッド・ケラウノスを倒せ",
+      "de": "Eine Keraunos-Herde versucht, Gewitterwolken zu beschwören. Beseitige die Donnerkopf-Keraunosse, bevor sie das ausgeklügelte Wettersystem von Elpis durcheinander bringen!",
+      "fr": "Des kéraunos survoltés menacent de créer un violent orage. Éliminez-les pour préserver l'équilibre climatique d'Elpis."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 86,
+    "location": 8953092,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 21.54,
+      "y": 21.72,
+      "z": -0.02
+    }
+  },
+  "1830": {
+    "name": {
+      "en": "Nature's Staunch Protector",
+      "ja": "死の鳥",
+      "de": "Fliegende Fressfeinde",
+      "fr": "Impitoyables serres"
+    },
+    "description": {
+      "en": "The first generation monocerotes appear as naught but tasty morsels to the predators of Elpis, specifically the harpuiai. Fortunately, these new creations have you on their side.",
+      "ja": "新種の創造生物が捕食者に狙われている\n\nニューブラッド・モノセロスを守りつつ\n\nハングリー・ハルピュイアを倒せ",
+      "de": "Neu entworfene Proto-Monozerosse werden von hungrigen Harpuien heimgesucht. Beschütze die neuen Leben vor ihren fliegenden Fressfeinden!",
+      "fr": "Des monocéros expérimentaux sont la proie de harpyia affamées. Protégez-les de ces dangereuses prédatrices!"
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 86,
+    "location": 8953094,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 30.66,
+      "y": 25.36,
+      "z": -0.11
+    }
+  },
+  "1831": {
+    "name": {
+      "en": "Grand Designs: Unknown Execution",
+      "ja": "創造計画：斬新すぎたイデア",
+      "de": "Entsorgung: Das bekannte Unbekannte",
+      "fr": "Expérimentation: concept inconnu"
+    },
+    "description": {
+      "en": "Meletos the Inscrutable has hit upon a rather exciting new concept, one which he hopes to test by pitting it against any available champions. Any takers?",
+      "ja": "<Sheet(BNpcName,11072,0)/>が、新たに考案したイデアにより、\n\n試験的に創造生物を生み出した\n\n斬新すぎる<Sheet(BNpcName,11075,0)/>を倒せ",
+      "de": "<SheetDe(BNpcName,5,11072,1,1,1)/> hat neues Leben geschaffen, das als gescheitert bewertet und entsorgt werden muss. Vernichte <SheetDe(BNpcName,2,11075,1,4,1)/>!",
+      "fr": "Mélétos a pensé à un nouveau concept qui a visiblement mal tourné. Affrontez les étranges prototypes pour tester leurs capacités."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 87,
+    "location": 8982247,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 9.55,
+      "y": 23.83,
+      "z": 1.43
+    }
+  },
+  "1832": {
+    "name": {
+      "en": "Grand Designs: The Newest of New",
+      "ja": "創造計画：真なる新作、クリュプス",
+      "de": "Entsorgung: Ur-Kyklops",
+      "fr": "Expérimentation: le bon concept"
+    },
+    "description": {
+      "en": "Meletos the Inscrutable is at it again, only this time a great deal calmer. He seeks one who might test his latest and greatest creation: the primordial kyklops.",
+      "ja": "<Sheet(BNpcName,11072,0)/>が、気を落ち着けて\n\nふたたび新作の創造生物を生み出した\n\n試験のため、<Sheet(BNpcName,11076,0)/>を倒せ",
+      "de": "<SheetDe(BNpcName,5,11072,1,1,1)/> hat wieder neues Leben geschaffen, das wieder als gescheitert bewertet und wieder entsorgt werden muss. Vernichte <SheetDe(BNpcName,2,11076,1,4,1)/>!",
+      "fr": "Mélétos a enfin réussi à matérialiser son concept sous sa véritable forme. Affrontez le prototype de Kyklops pour tester son potentiel."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 87,
+    "location": 8982249,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 9.55,
+      "y": 23.83,
+      "z": 1.43
+    }
+  },
+  "1833": {
+    "name": {
+      "en": "Bad Breath in Paradise",
+      "ja": "楽園の泉",
+      "de": "Adel verpflichtet - eigentlich",
+      "fr": "Source paradisiaque"
+    },
+    "description": {
+      "en": "The clean, serene spring, which many a creature relies upon for fresh water, has been befouled by morbol marchionesses who have claimed it as their own. You won't stand for that, now will you?",
+      "ja": "様々な生物の水飲み場である泉が\n\nモルボルによって独占されようとしている\n\nマーショネス・モルボルを倒せ",
+      "de": "Einige Morbol-Weibchen nehmen eine Wasserstelle für sich in Anspruch, die eigentlich alle Lebewesen versorgen soll. Entthrone die eingebildeten Aristokratinnen!",
+      "fr": "Des morboles marquises envahissent la source d'eau où s'abreuvent les autres créatures. Éliminez-les!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 87,
+    "location": 8953095,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 30.93,
+      "y": 13.33,
+      "z": 1.49
+    }
+  },
+  "1834": {
+    "name": {
+      "en": "King of the Hill",
+      "ja": "敗れざる者たち",
+      "de": "Ruhet in Frieden",
+      "fr": "Cornus têtus"
+    },
+    "description": {
+      "en": "Two territorial creatures─the delirious melanioi and the Elpis minotaurs─have begun something of a turf war. Only violence can end this struggle for dominance.",
+      "ja": "激しい縄張り争いを演じている\n\n創造生物たちを、力によって落ち着かせろ\n\nデリリアス・メラニオンとエルピスタウロスを倒せ",
+      "de": "Heftige Revierkämpfe sind ausgebrochen. Bring etwas Ruhe in die stürmische Beziehung zwischen delirischen Melanions und Elpis-Tauren!",
+      "fr": "Des mélanions furieux et des elpistauros s'affrontent dans une violente lutte territoriale. Calmez-les par la force!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 87,
+    "location": 8953096,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 8.58,
+      "y": 19.74,
+      "z": 1.41
+    }
+  },
+  "1835": {
+    "name": {
+      "en": "Why Did It Have to Be Medusae?",
+      "ja": "何かが空をやってくる",
+      "de": "Alles hat seinen Platz",
+      "fr": "Visiteuses dangereuses"
+    },
+    "description": {
+      "en": "In some far-flung corner of Elpis, medusae have proliferated to a degree far beyond anyone's estimations. Now, this den of vipers descends upon the land and must be dealt with.",
+      "ja": "指定された区域を離れて\n\n繁茂したメデューサが漂ってきた\n\nラッシュ・メデューサを倒せ",
+      "de": "Prächtig wuchernde Medusen haben den ihnen zugewiesenen Bereich verlassen. Stutze die üppigen Medusen!",
+      "fr": "Des médusa baladeuses ont quitté leur secteur et se reproduisent dangereusement vite dans les environs. Elles doivent être éliminées!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 87,
+    "location": 8953097,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 13.9,
+      "y": 16.97,
+      "z": 1.37
+    }
+  },
+  "1836": {
+    "name": {
+      "en": "There's a Snake in My Water Supply!",
+      "ja": "名のある毒",
+      "de": "Bitte nicht trinken",
+      "fr": "Serpents pollueurs"
+    },
+    "description": {
+      "en": "Venomous pythons are in danger of polluting the area's water source with their foul toxins. Thus, until these serpents are dealt with, refrain from drinking the water.",
+      "ja": "猛毒を有する大蛇によって\n\n水源が汚染されようとしている\n\nポイゾナス・ピュトンを倒せ",
+      "de": "Giftige Riesenschlangen haben eine Wasserstelle mit ihren toxischen Absonderungen verseucht. Vernichte die Giftpythons!",
+      "fr": "Des pythons venimeux menacent d'empoisonner une source d'eau. Éliminez-les!"
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 87,
+    "location": 8953098,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 35.45,
+      "y": 17.61,
+      "z": 1.39
+    }
+  },
+  "1837": {
+    "name": {
+      "en": "Eurydike: All Bark, No Bite",
+      "ja": "食言の大樹「エウリュディケ」",
+      "de": "Schlechten Appetit!",
+      "fr": "Défi: transgression fatale"
+    },
+    "description": {
+      "en": "A rampaging eurydike, dissatisfied with the meager meals it has been provided, has broken free of its enclosure and now requires pruning─deadly pruning.",
+      "ja": "与えられた食料では満足できず\n\n規定を破り、獲物を狙う移動性植物がいる\n\n食言の大樹、エウリュディケを倒せ",
+      "de": "Da sie mit ihrer Verpflegung nicht zufrieden ist, geht die auf einem botanischen Konzept basierende Eurydike auf Beutefang. Mach, dass ihr der Appetit vergeht!",
+      "fr": "Une plante carnivore ambulante surnommée Eurydice a enfreint le règlement alimentaire en allant chasser ses propres en-cas. Punissez-la!"
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 87,
+    "location": 8953099,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 27.91,
+      "y": 5.48,
+      "z": 1.39
+    }
+  },
+  "1838": {
+    "name": {
+      "en": "So Sorry, Sokles",
+      "ja": "ソクレスへの弁明",
+      "de": "Sokles' Zorn",
+      "fr": "Copies trouées"
+    },
+    "description": {
+      "en": "A researcher claims that a pack of incorrigible ophiotauros pickers has made off with their documentation, and now begs the help of one willing to reclaim that which was stolen.",
+      "ja": "いたずら者のオピオタウロス・ピッカーに\n\n観察記録を奪われ、観察者が困っている\n\n「奪われた観察記録」を集めろ",
+      "de": "Gemeine Ophiotauros-Pflücker haben dem Beobachter wichtige Notizbücher geraubt, die für Sokles bestimmt waren. Bringe sie wieder zurück!",
+      "fr": "Récupérez les feuilles d'observation que les ophiotauros taquins ont volées et rendez-les à l'observateur."
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 87,
+    "location": 8953100,
+    "position": {
+      "map": 700,
+      "zoneid": 3713,
+      "x": 26.95,
+      "y": 14.71,
+      "z": 1.37
+    }
+  },
+  "1839": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1840": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1841": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1842": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 1,
+    "location": 0
+  },
+  "1843": {
+    "name": {
+      "en": "Omicron Recall: Comms Expansion",
+      "ja": "<Sheet(BNpcName,10400,0)/>のメモリーより：通信機拡張",
+      "de": "Aus dem Speicher von <SheetDe(BNpcName,5,10400,1,1,1)/>: Aufrüstung des Kommunikators",
+      "fr": "Mémoire vive: mise à niveau"
+    },
+    "description": {
+      "en": "Omicron N-6205 seeks to recover data from an earlier model known as Chi. Establishing a connection, however, will require the collection─or creation─of copious scrap material with which to augment its transceiver.",
+      "ja": "オミクロン<Sheet(BNpcName,11143,0)/>は、かつて製造された\n\n侵略兵器「<Sheet(BNpcName,10400,0)/>」からメモリーを回収しようとしている\n\n通信機拡張に必要なパーツ集めに協力せよ",
+      "de": "Omikron <SheetDe(BNpcName,5,11143,1,1,1)/> will die Datenbank der alten Angriffswaffe <SheetDe(BNpcName,5,10400,1,1,1)/> wiederherstellen, muss dafür aber zunächst seinen Kommunikator aufrüsten, um mit ihr Kontakt aufnehmen zu können. Sammle die seltenen Bauteile für den Kommunikator.",
+      "fr": "L'Omicron N-6205 cherche à récupérer la banque de données d'une ancienne arme d'invasion nommée Khi, mais il lui faut améliorer son communicateur afin de prendre contact avec elle. Récupérez les composants rares qui lui serviront à le fabriquer."
+    },
+    "icon": "/i/060000/060503.png",
+    "level": 89,
+    "location": 8995240,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 29.38,
+      "y": 25.81,
+      "z": 4.37
+    }
+  },
+  "1844": {
+    "name": {
+      "en": "Omicron Recall: Secure Connection",
+      "ja": "<Sheet(BNpcName,10400,0)/>のメモリーより：<Sheet(BNpcName,11143,0)/>防衛",
+      "de": "Aus dem Speicher von <SheetDe(BNpcName,5,10400,1,1,1)/>: Gefahrenabwehr",
+      "fr": "Mémoire vive: pare-feu"
+    },
+    "description": {
+      "en": "Transceiver successfully augmented, N-6205 now moves to establish a connection with the Chi unit. It requires time, however─time uninterrupted by the overflow units operating on a contradictory protocol.",
+      "ja": "オミクロン<Sheet(BNpcName,11143,0)/>は、かつて製造された\n\n侵略兵器「<Sheet(BNpcName,10400,0)/>」からメモリーを回収しようとしている\n\n通信を行う<Sheet(BNpcName,11143,0)/>を防衛せよ",
+      "de": "Omikron <SheetDe(BNpcName,5,11143,1,1,1)/>  versucht, die Datenbank der alten Angriffswaffe <SheetDe(BNpcName,5,10400,1,1,1)/> wiederherzustellen. Beschütze <SheetDe(BNpcName,5,11143,1,1,1)/>, bis die Operation abgeschlossen ist.",
+      "fr": "L'Omicron N-6205 cherche à récupérer la banque de données d'une ancienne arme d'invasion nommée Khi. Protégez-le des unités corrompues pendant qu'il tente d'ouvrir un canal de communication avec elle."
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 89,
+    "location": 8995245,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 33.25,
+      "y": 26.83,
+      "z": 4.38
+    }
+  },
+  "1845": {
+    "name": {
+      "en": "Sound and Fury",
+      "ja": "竜星の挽歌",
+      "de": "Eine Spirale der Gewalt",
+      "fr": "Élégie à l'étoile du dragon"
+    },
+    "description": {
+      "en": "Sorrow begets anger. Anger begets violence. Even amongst brothers does this cycle of loss perpetuate itself, unto the end of time...or such time as a more powerful foe arrives to end their suffering once and for all.",
+      "ja": "正気を失い争い合う竜たちがいる\n\n絶望の連鎖を断ち切るために\n\n戦い続けるカラペスドラゴンとブロビニャクを倒せ",
+      "de": "Einige Drachen haben den Verstand verloren und gehen aufeinander los. Bringe die verzweifelten Brobinyaks und Panzerdrachen zur Räson, um eine weitere Eskalation zu verhindern.",
+      "fr": "Deux espèces de dragons, dont la raison s'est noyée dans le désespoir, s'affrontent dans un combat sans fin. Brisez le cercle vicieux de la guerre en abrégeant leur souffrance."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 89,
+    "location": 8957522,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 10.09,
+      "y": 23.3,
+      "z": 0.7
+    }
+  },
+  "1846": {
+    "name": {
+      "en": "(No) Wind beneath Our Wings",
+      "ja": "風よ、竜に届いているか",
+      "de": "Vom Winde verlassen",
+      "fr": "Ô vent, as-tu trouvé les dragons?"
+    },
+    "description": {
+      "en": "Without the wind to guide them, the younger wyverns and their symbiotic kin have lost their way─existentially speaking─and live for naught but the fleeting rush of violence. The only solution is, naturally, more violence.",
+      "ja": "風を見失った若き竜と\n\nそれに寄生する竜虫の群れを発見した\n\n暴れまわるワイバーンとドラゴンフライを倒せ",
+      "de": "Eine Horde Wyvern und die Stellar-Libellen in ihrer Begleitung sind verzweifelt, weil sie den Wind nicht mehr unter ihren Flügeln spüren. Halte sie davon ab, in ihrer Verzweiflung größere Schäden anzurichten.",
+      "fr": "De jeunes dragons erraient à la recherche d'un vent insaisissable. Malheureusement, ils ont croisé en route un essaim de parasites qui leur a fait perdre la raison. Abattez les wyvernes et les draguêpes pour mettre fin à leur folie."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 89,
+    "location": 8957520,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 16.86,
+      "y": 28.39,
+      "z": 0.78
+    }
+  },
+  "1847": {
+    "name": {
+      "en": "Wings of Glory",
+      "ja": "栄光の翼「アル・アイン」",
+      "de": "Ahl Eins vergangener Ruhm",
+      "fr": "Défi: les ailes de la gloire"
+    },
+    "description": {
+      "en": "Though past his prime now, Ahl Ein nevertheless wishes to relive those glory days through combat with a skilled opponent. He and his kin have long awaited a worthy challenger capable of bringing his memories to life.",
+      "ja": "かつての誇りを取り戻すため\n\n強者との決闘を望む老竜がいる\n\nその想いを受け、アル・アインを倒せ",
+      "de": "Ein alter Drache sucht die Herausforderung gegen einen starken Gegner, um seinen vergangenen Ruhm wiederherzustellen. Erweise Ahl Ein die Ehre, nach der er sich sehnt.",
+      "fr": "Un vieux dragon en quête de sa gloire d'antan cherche quiconque voudra bien le défier.\n\nVainquez Ahl Ein et ravivez ainsi les braises de son instinct combatif."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 89,
+    "location": 8957500,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 11.99,
+      "y": 35.31,
+      "z": 0.77
+    }
+  },
+  "1848": {
+    "name": {
+      "en": "Only Just Begun",
+      "ja": "永遠の終わり",
+      "de": "Das Ende der Ewigkeit",
+      "fr": "La fin de l'éternité"
+    },
+    "description": {
+      "en": "Though their elder kin would not see them live to experience suffering, the few dragonets that remain unmarred by mechanical malevolence take a rather different view on their own premature demise, and beg assistance in staving it off.",
+      "ja": "絶望に堕ちた竜たちが\n\n幼竜を殺し、自ら種を終わらせようとしている\n\nミク・ネールたちを守り、レッサードラゴンを倒せ",
+      "de": "In ihrer Verzweiflung versuchen niedere Drachen, ihre eigene Art auszulöschen. Beschütze Myhk Nehr und seine Brüder vor ihren verzweifelten Artgenossen.",
+      "fr": "Des dragons adultes rongés par l'amertume tentent d'accélérer la fin de leur espèce en éliminant leurs derniers rejetons. Protégez les frères et sœurs de Myhk Nehr."
+    },
+    "icon": "/i/060000/060504.png",
+    "level": 89,
+    "location": 8957528,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 8.72,
+      "y": 18.91,
+      "z": 0.7
+    }
+  },
+  "1849": {
+    "name": {
+      "en": "Far from the Madding Horde",
+      "ja": "復讐の翼「サン・オスク」",
+      "de": "Than Oskhs Rache",
+      "fr": "Défi: les ailes de la vengeance"
+    },
+    "description": {
+      "en": "Though Than Oskh may not be the most tragic figure cast to bitter winds in the wake of war against the machines, he is one of the most fearsome. If his senses cannot be restored, he must be stopped─ere he guides his horde to crush what few signs of life yet linger in their forsaken home.",
+      "ja": "機械文明との戦いで我を忘れた竜が\n\n群れを率いて、すべてを破壊しようとしている\n\n復讐の翼、サン・オスクを倒せ",
+      "de": "Than Oskh hat im Kampf gegen die Maschinen seine Seele verloren und führt nun seine Diener auf einen erbarmungslosen Rachefeldzug. Bringe Than Oskh zur Strecke.",
+      "fr": "La guerre contre la civilisation mécanique des Omicrons a poussé le grand Than Oskh dans une rage destructrice. Abattez le pauvre dragon avant qu'il ne rase tout sur son passage."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 89,
+    "location": 8957518,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 20.63,
+      "y": 35.45,
+      "z": 0.6
+    }
+  },
+  "1850": {
+    "name": {
+      "en": "Dead Inside",
+      "ja": "メランコリーの妙薬",
+      "de": "Kinder der Traurigkeit",
+      "fr": "Le remède à la mélancolie"
+    },
+    "description": {
+      "en": "Overcome by melancholy at the thought of how little justice exists in the universe, a collective of Ea has elected to part ways with conscience entirely, and now drifts uncaringly from misdeed to misdeed. Where right and wrong hold no meaning, however, carrot and stick will do...",
+      "ja": "憂鬱の底に沈んで自我を喪ったイーアが\n\n生ある者すべてに無差別攻撃を行っている\n\nメランコリック・イーアを倒せ",
+      "de": "Melancholische Ea sind abgrundtiefer Trauer verfallen und greifen wahllos alle Lebewesen an, die noch einen Funken Freude im Herzen tragen. Setze ihrer melancholischen Existenz ein Ende.",
+      "fr": "Des Éas ont sombré si profondément dans la mélancolie qu'ils ont perdu leur conscience. Ils ne sont plus que des esprits dénués de raison qui errent et attaquent tous les êtres vivants qu'ils croisent. Abattez-les afin que leur essence s'évapore entièrement."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 89,
+    "location": 8957541,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 17.28,
+      "y": 11.05,
+      "z": 2.76
+    }
+  },
+  "1851": {
+    "name": {
+      "en": "Beacons of Lost Hope",
+      "ja": "変化の風",
+      "de": "Verlorene Existenzen",
+      "fr": "Les vents du changement"
+    },
+    "description": {
+      "en": "Luminions who failed to regain their corporeal forms and have subsequently come to regret their choices now roam Ultima Thule, and must be prevented from finding─or creating─company for their misery.",
+      "ja": "再受肉に失敗した精神体が\n\n他者にも不幸を強いようと飛び回っている\n\nワンダリング・ルミニオンを倒せ",
+      "de": "Geister, denen der Einzug in einen neuen Körper verwehrt geblieben ist, stürzen sich hasserfüllt auf alle Lebewesen. Bereite dem Spuk der streunenden Luminions ein Ende.",
+      "fr": "L'expérience d'êtres spirituels désireux de retrouver une enveloppe corporelle a échoué. Les voilà maintenant qui errent sous une apparence difforme et cherchent à emporter d'autres dans l'abîme de leur malheur. Apportez le repos aux luminions errants."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 89,
+    "location": 8957554,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 30.59,
+      "y": 7.6,
+      "z": 2.82
+    }
+  },
+  "1852": {
+    "name": {
+      "en": "Fallen from Grace",
+      "ja": "輝くもの天より堕ち",
+      "de": "Vom Himmel gefallene Lichter",
+      "fr": "L'éclat choit du ciel"
+    },
+    "description": {
+      "en": "Several consciousnesses that have tried and failed to regain a suitable corporeal form are showing remarkable persistence in becoming their best selves─regardless of whose self is currently ensconced in their flesh of choice.",
+      "ja": "再受肉に失敗した精神体たちが\n\n肉体を捨てようと襲いかかってきた\n\n身を守るため、フォールン・ルミニオンを倒せ",
+      "de": "Geister, denen der Einzug in einen neuen Körper verwehrt geblieben ist, wollen in ihrem Hass alle Körper aus Fleisch und Blut vernichten. Bereite dem Spuk der gefallenen Luminions ein Ende.",
+      "fr": "Des êtres spirituels ont essayé de réintégrer une enveloppe physique, mais sans grand succès. Désormais convaincus du fardeau que représente un corps, ils cherchent à extirper tous les autres du leur, par la force s'il le faut. Défendez-vous face aux luminions déchus."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 89,
+    "location": 8957559,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 20.39,
+      "y": 7.85,
+      "z": 2.72
+    }
+  },
+  "1853": {
+    "name": {
+      "en": "Staring into the Void",
+      "ja": "虚空の眼",
+      "de": "Leere Blicke",
+      "fr": "Les yeux dans le ciel"
+    },
+    "description": {
+      "en": "Fiends of unknown origin and sinister nature have arrived upon this plane, calling darkness down upon all who have the misfortune to meet their eyes─those soulless, hollow eyes...",
+      "ja": "正体不明にして由来不明の存在が\n\n虚ろな瞳に映る者すべてを攻撃している\n\nダークアイ・アザーワンを倒せ",
+      "de": "Niemand weiß, woher sie kamen und warum sie existieren. Klar ist nur, dass sie jeden angreifen, der die leeren Blicke ihrer dunklen Augen erwidert. Vernichte die dunkeläugigen Anderen.",
+      "fr": "Personne ne sait ce qu'ils sont ou d'où ils viennent. Les autres se jettent sur tous ceux qu'ils voient, et vous êtes <If(PlayerParameter(4))>la dernière<Else/>le dernier</If> à avoir eu le malheur de croiser leur regard globuleux. Éliminez les autres sombrœil."
+    },
+    "icon": "/i/060000/060501.png",
+    "level": 89,
+    "location": 8957563,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 27.8,
+      "y": 14.96,
+      "z": 2.99
+    }
+  },
+  "1854": {
+    "name": {
+      "en": "Nevermore",
+      "ja": "黒き絶望「ポォ」",
+      "de": "Ausgeburt finsterer Verzweiflung",
+      "fr": "Défi: l'étoile du soir"
+    },
+    "description": {
+      "en": "From some shadowed corner of the universe hails Poe, an elegant creature that has lured many a victim into the lightless cask of their undoing. Like all great horrors, it is best put to rest before it can be fully understood.",
+      "ja": "宇宙の闇を漂いながら\n\n絶望と死を振りまく存在が現れた\n\n黒き絶望「ポォ」を倒せ",
+      "de": "Poe ist durch und durch erfüllt von der Schwärze des Alls und verbreitet nichts als Tod und Verzweiflung. Er muss aufgehalten werden.",
+      "fr": "Une entité semant derrière elle mort et désespoir dérive à travers le vide interstellaire. Terrassez Poe."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 89,
+    "location": 8957565,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 32.32,
+      "y": 11.54,
+      "z": 2.92
+    }
+  },
+  "1855": {
+    "name": {
+      "en": "Omicron Recall: Killing Order",
+      "ja": "<Sheet(BNpcName,10400,0)/>のメモリーより：侵略兵器の破壊",
+      "de": "Aus dem Speicher von <SheetDe(BNpcName,5,10400,1,1,1)/>: Zerstörung",
+      "fr": "Mémoire vive: arrêter le processus"
+    },
+    "description": {
+      "en": "Unit N-6205 has successfully established a connection with Chi─which has arrived with offensive protocols fully primed. It would seem that the only way to retrieve its data is to defeat it in combat.",
+      "ja": "オミクロン<Sheet(BNpcName,11143,0)/>からの通信を受信し\n\n戦闘プロトコル起動状態の侵略兵器が飛来した\n\nメモリーを回収するため、<Sheet(BNpcName,10400,0)/>を倒せ",
+      "de": "Omikron <SheetDe(BNpcName,5,11143,1,1,1)/> hat Kontakt zu der alten Angriffswaffe <SheetDe(BNpcName,5,10400,1,1,1)/> hergestellt, die daraufhin in den Angriffsmodus geschaltet hat. Zerstöre <SheetDe(BNpcName,5,10400,1,1,1)/>, damit der Zugriff auf ihre Datenbank erfolgen kann.",
+      "fr": "L'Omicron N-6205 est parvenu à prendre contact avec l'unité d'invasion Khi. Cette dernière a toutefois refusé de gentiment remettre ses banques de données. Éteignez-la pour les lui retirer en toute sécurité."
+    },
+    "icon": "/i/060000/060502.png",
+    "level": 90,
+    "location": 8865314,
+    "position": {
+      "map": 699,
+      "zoneid": 3712,
+      "x": 34.51,
+      "y": 21.5,
+      "z": 3.4
+    }
+  },
+  "1856": {
     "name": {
       "en": "",
       "ja": "",
@@ -37481,7 +39944,738 @@
     "level": 0,
     "location": 0
   },
-  "1750": {
+  "1857": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1858": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1859": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1860": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1861": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1862": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1863": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1864": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1865": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1866": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1867": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1868": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1869": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1870": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1871": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1872": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1873": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1874": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1875": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1876": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1877": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1878": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1879": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1880": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1881": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1882": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1883": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1884": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1885": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1886": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1887": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1888": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1889": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1890": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1891": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1892": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1893": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1894": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1895": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1896": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1897": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1898": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1899": {
+    "name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "description": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    },
+    "icon": "",
+    "level": 0,
+    "location": 0
+  },
+  "1900": {
     "name": {
       "en": "",
       "ja": "",

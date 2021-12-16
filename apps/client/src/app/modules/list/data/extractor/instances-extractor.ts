@@ -1,37 +1,27 @@
 import { AbstractExtractor } from './abstract-extractor';
 import { ItemData } from '../../../../model/garland-tools/item-data';
 import { DataType } from '../data-type';
-import { Instance } from '../../model/instance';
 import { Item } from '../../../../model/garland-tools/item';
 import { GarlandToolsService } from '../../../../core/api/garland-tools.service';
+import { LazyDataFacade } from '../../../../lazy-data/+state/lazy-data.facade';
+import { Observable } from 'rxjs';
 
-export class InstancesExtractor extends AbstractExtractor<Instance[]> {
+export class InstancesExtractor extends AbstractExtractor<number[]> {
 
-  constructor(gt: GarlandToolsService) {
-    super(gt);
+  constructor(private lazyData: LazyDataFacade) {
+    super();
   }
 
   isAsync(): boolean {
-    return false;
+    return true;
   }
 
   getDataType(): DataType {
     return DataType.INSTANCES;
   }
 
-  protected canExtract(item: Item): boolean {
-    return item.instances !== undefined;
-  }
-
-  protected doExtract(item: Item, itemData: ItemData): Instance[] {
-    const instances: Instance[] = [];
-    item.instances.forEach(instanceId => {
-      const instance = itemData.getInstance(instanceId);
-      if (instance !== undefined) {
-        instances.push(instance);
-      }
-    });
-    return instances;
+  protected doExtract(itemId: number): Observable<number[]> {
+    return this.lazyData.getRow('instanceSources', itemId);
   }
 
 }

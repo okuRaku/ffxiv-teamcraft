@@ -1,5 +1,3 @@
-import { I18nName } from '../common/i18n-name';
-
 export interface Levequest {
   id: number;
   level: number;
@@ -12,7 +10,6 @@ export interface Levequest {
   amount: number;
   // Quantity of item required for completion
   itemQuantity: number;
-  name: I18nName;
   repeats: number;
   deliveryPlaceId: number;
   startPlaceId: number;

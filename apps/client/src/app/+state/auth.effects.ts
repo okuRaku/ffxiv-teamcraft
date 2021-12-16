@@ -1,20 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, Effect, ofType } from '@ngrx/effects';
 import { AuthState } from './auth.reducer';
-import {
-  catchError,
-  debounceTime,
-  distinctUntilChanged,
-  distinctUntilKeyChanged,
-  exhaustMap,
-  filter,
-  map,
-  mergeMap,
-  switchMap,
-  switchMapTo,
-  tap,
-  withLatestFrom
-} from 'rxjs/operators';
+import { catchError, debounceTime, distinctUntilChanged, exhaustMap, filter, map, mergeMap, switchMap, switchMapTo, tap, withLatestFrom } from 'rxjs/operators';
 import { EMPTY, from, of } from 'rxjs';
 import { UserService } from '../core/database/user.service';
 import {
@@ -25,7 +12,8 @@ import {
   CommissionProfileLoaded,
   LinkingCharacter,
   LoggedInAsAnonymous,
-  LoginAsAnonymous, LogTrackingLoaded,
+  LoginAsAnonymous,
+  LogTrackingLoaded,
   MarkAsDoneInLog,
   NoLinkedCharacter,
   RegisterUser,
@@ -42,7 +30,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { XivapiService } from '@xivapi/angular-client';
 import { LoadAlarms } from '../core/alarms/+state/alarms.actions';
 import { User, UserCredential } from '@firebase/auth-types';
-import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { AuthFacade } from './auth.facade';
 import { PatreonService } from '../core/patreon/patreon.service';
 import { diff } from 'deep-diff';
@@ -51,7 +39,6 @@ import { debounceBufferTime } from '../core/rxjs/debounce-buffer-time';
 import { CommissionProfile } from '../model/user/commission-profile';
 import { CommissionProfileService } from '../core/database/commission-profile.service';
 import { SettingsService } from '../modules/settings/settings.service';
-import firebase from 'firebase';
 
 @Injectable()
 export class AuthEffects {
@@ -122,22 +109,6 @@ export class AuthEffects {
     }),
     map(user => new UserFetched(user)),
     debounceTime(250)
-  );
-
-  private nickNameWarningShown = false;
-
-  @Effect({ dispatch: false })
-  showNicknameWarning$ = this.actions$.pipe(
-    ofType<UserFetched>(AuthActionTypes.UserFetched),
-    debounceTime(10000),
-    tap((action: UserFetched) => {
-      const user = action.user;
-      if (!this.nickNameWarningShown && user !== null && (user.patron || user.admin) && user.nickname === undefined) {
-        this.notificationService.warning(this.translate.instant('COMMON.Warning'), this.translate.instant('SETTINGS.No_nickname_warning'));
-        this.nickNameWarningShown = true;
-      }
-    }),
-    switchMapTo(EMPTY)
   );
 
   @Effect()
@@ -270,7 +241,7 @@ export class AuthEffects {
   fetchLogTracking$ = createEffect(() =>
     this.actions$.pipe(
       ofType<UserFetched>(AuthActionTypes.UserFetched),
-      distinctUntilChanged((a,b) => a.user.defaultLodestoneId === b.user.defaultLodestoneId),
+      distinctUntilChanged((a, b) => a.user.defaultLodestoneId === b.user.defaultLodestoneId),
       switchMap(action => {
         return this.logTrackingService.get(`${action.user.$key}:${action.user.defaultLodestoneId?.toString()}`).pipe(
           catchError((_) => {
@@ -283,6 +254,22 @@ export class AuthEffects {
       }),
       map(logTracking => new LogTrackingLoaded(logTracking))
     ));
+
+  private nickNameWarningShown = false;
+
+  @Effect({ dispatch: false })
+  showNicknameWarning$ = this.actions$.pipe(
+    ofType<UserFetched>(AuthActionTypes.UserFetched),
+    debounceTime(10000),
+    tap((action: UserFetched) => {
+      const user = action.user;
+      if (!this.nickNameWarningShown && user !== null && (user.patron || user.admin) && user.nickname === undefined) {
+        this.notificationService.warning(this.translate.instant('COMMON.Warning'), this.translate.instant('SETTINGS.No_nickname_warning'));
+        this.nickNameWarningShown = true;
+      }
+    }),
+    switchMapTo(EMPTY)
+  );
 
   constructor(private actions$: Actions, private af: AngularFireAuth, private userService: UserService,
               private store: Store<{ auth: AuthState }>, private dialog: NzModalService,

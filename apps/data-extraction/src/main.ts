@@ -8,7 +8,6 @@ import { LogsExtractor } from './extractors/logs.extractor';
 import { FishParameterExtractor } from './extractors/fish-parameter.extractor';
 import { WeatherRateExtractor } from './extractors/weather-rate.extractor';
 import { WeathersExtractor } from './extractors/weathers.extractor';
-import { AetherstreamExtractor } from './extractors/aetherstream.extractor';
 import { I18nExtractor } from './i18n.extractor';
 import { MapsExtractor } from './extractors/maps.extractor';
 import { QuestsExtractor } from './extractors/quests.extractor';
@@ -53,6 +52,14 @@ import { AirshipPartsExtractor } from './extractors/airship-parts.extractor';
 import { AirshipRanksExtractor } from './extractors/airship-ranks.extractor';
 import { TreasuresExtractor } from './extractors/treasures.extractor';
 import { SeedsExtractor } from './extractors/seeds.extractor';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
+import { AllaganReportsExtractor } from './extractors/allagan-reports.extractor';
+import { NodesExtractor } from './extractors/nodes.extractor';
+import { ShopsExtractor } from './extractors/shops.extractor';
+import { green } from 'colors';
+
+const argv = yargs(hideBin(process.argv)).argv;
 
 // We have to do it like that because the lib seems to dynamically import its prompts,
 // which creates shitty typings
@@ -60,16 +67,22 @@ const { MultiSelect } = require('enquirer');
 
 const extractors: AbstractExtractor[] = [
   new I18nExtractor('BNpcName', 'mobs'),
+  new I18nExtractor('Title', 'titles'),
   new I18nExtractor('PlaceName', 'places'),
   new I18nExtractor('Status', 'statuses', { Icon: 'icon' }),
   new I18nExtractor('ItemSeries', 'item-series', { 'GameContentLinks.Item.ItemSeries': 'items' }),
-  new I18nExtractor('Achievement', 'achievements', { Icon: 'icon' }),
+  new I18nExtractor('Achievement', 'achievements', { Icon: 'icon', ItemTargetID: 'itemReward' }),
   new I18nExtractor('CollectablesShopItemGroup', 'collectables-shop-item-group'),
   new I18nExtractor('HWDGathereInspectTerm', 'hwd-phases'),
   new I18nExtractor('Race', 'races'),
-  new I18nExtractor('SpecialShop', 'shops'),
+  new I18nExtractor('SpecialShop', 'special-shop-names'),
+  new I18nExtractor('GilShop', 'gil-shop-names'),
+  new I18nExtractor('TopicSelect', 'topic-select-names'),
+  new I18nExtractor('GrandCompany', 'gc-names'),
   new I18nExtractor('AirshipExplorationPoint', 'airship-voyages', { ID: 'id' }, 'NameShort_', true),
   new I18nExtractor('SubmarineExploration', 'submarine-voyages', { ID: 'id' }, 'Destination_'),
+  new ShopsExtractor(),
+  new NodesExtractor(),
   new SeedsExtractor(),
   new WorldsExtractor(),
   new TerritoriesExtractor(),
@@ -107,7 +120,6 @@ const extractors: AbstractExtractor[] = [
   new MapsExtractor(),
   new MapIdsExtractor(),
   new FishParameterExtractor(),
-  new AetherstreamExtractor(),
   new WeathersExtractor(),
   new WeatherRateExtractor(),
   new PatchContentExtractor(),
@@ -119,11 +131,17 @@ const extractors: AbstractExtractor[] = [
   new TreasuresExtractor(),
   new MappyExtractor(),
   new LgbExtractor(),
-  new GubalExtractor()
+  new GubalExtractor(),
+  new AllaganReportsExtractor()
 ];
 
 if (process.env.XIVAPI_KEY) {
   console.log('Fast mode enabled');
+}
+
+
+if (process.env.DEV_MODE) {
+  console.log(green(`DEV MODE ENABLED, CACHE WILL BE USED`));
 }
 
 const operationsSelection = new MultiSelect({
@@ -137,10 +155,20 @@ const operationsSelection = new MultiSelect({
   ]
 });
 
-operationsSelection.run().then((selection: string[]) => {
-  const selectedExtractors = extractors.filter(e => {
-    return selection.includes('everything') || selection.includes(e.getName());
+if (argv['only']) {
+  const only = argv['only'].split(',');
+  startExtractors(extractors.filter(e => {
+    return only.includes(e.getName());
+  }));
+} else {
+  operationsSelection.run().then((selection: string[]) => {
+    startExtractors(extractors.filter(e => {
+      return selection.includes('everything') || selection.includes(e.getName());
+    }));
   });
+}
+
+function startExtractors(selectedExtractors: AbstractExtractor[]): void {
 
   const progress = new SingleBar({
     format: ' {bar} | {label} | {requests} requests done | {value}/{total}',
@@ -170,4 +198,5 @@ operationsSelection.run().then((selection: string[]) => {
       process.exit(0);
     }
   });
-});
+
+}

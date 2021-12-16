@@ -6,10 +6,10 @@ import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalRef } from 'ng-zorro-antd/modal';
 import { filter, first, map, skip, switchMap, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
-import { concat, Observable } from 'rxjs';
-import { WorkshopDisplay } from '../../../model/other/workshop-display';
+import { concat } from 'rxjs';
 import { WorkshopsFacade } from '../../../modules/workshop/+state/workshops.facade';
 import { AbstractListsSelectionPopup } from '../abstract-lists-selection-popup';
+import { ListController } from '../../../modules/list/list-controller';
 
 @Component({
   selector: 'app-merge-lists-popup',
@@ -22,6 +22,8 @@ export class MergeListsPopupComponent extends AbstractListsSelectionPopup {
   merging = false;
 
   deleteAfter = false;
+
+  ListController = ListController;
 
   constructor(listsFacade: ListsFacade, private progressService: ProgressPopupService,
               private modalRef: NzModalRef, private message: NzMessageService,
@@ -45,13 +47,13 @@ export class MergeListsPopupComponent extends AbstractListsSelectionPopup {
           );
         }),
         map(([lists, resultList]: [List[], List]) => {
-          lists.forEach(list => resultList.merge(list));
+          lists.forEach(list => ListController.merge(resultList, list));
           return resultList;
         }),
         tap(resultList => this.listsFacade.addList(resultList)),
         switchMap((list) => {
           return this.progressService.showProgress(this.listsFacade.myLists$.pipe(
-            map(lists => lists.find(l => l.createdAt.toMillis() === list.createdAt.toMillis() && l.$key !== undefined)),
+            map(lists => lists.find(l => l.createdAt.seconds === list.createdAt.seconds && l.$key !== undefined)),
             filter(l => l !== undefined),
             first()
           ), 1, 'Saving_in_database');

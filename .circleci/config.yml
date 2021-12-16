@@ -58,20 +58,9 @@ jobs:
           command: yarn run codecov
 
 
-  e2e:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: ~/
-      - run:
-          name: Testing
-          command: yarn run e2e:ci
-
-
   build:
-    working_directory: ~/ffxiv-teamcraft
-    docker:
-      - image: supamiu/circleci-node-wine
+    <<: *defaults
+    resource_class: large
     steps:
       - attach_workspace:
           at: ~/
@@ -91,6 +80,28 @@ jobs:
             - .cache/*
 
 
+  deploy-hosting:
+    working_directory: ~/ffxiv-teamcraft
+    docker:
+      - image: google/cloud-sdk
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          name: Authorize GCloud Command Line Tool
+          command: |
+            echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
+      - add_ssh_keys:
+          fingerprints:
+            - "96:02:36:2b:33:81:70:ce:37:3d:f8:9b:e5:ac:65:30"
+      - run:
+          name: Deploying cdn to OVH server
+          command: bash tools/cdn/deploy.sh
+      - run:
+          name: Updating Cloud Run
+          command: gcloud builds submit --tag gcr.io/ffxivteamcraft/ssr && gcloud beta run deploy tc-ssr --image gcr.io/ffxivteamcraft/ssr --region europe-west1 --allow-unauthenticated
+
+
   deploy-firebase-hosting:
     <<: *defaults
     steps:
@@ -99,6 +110,7 @@ jobs:
       - run:
           name: Deploying web
           command: ./node_modules/.bin/firebase deploy -P default --only hosting --token "$FIREBASE_TOKEN"
+
 
   release-desktop:
     executor: win/default
@@ -132,19 +144,6 @@ jobs:
           command: ./node_modules/.bin/firebase deploy -P beta --only hosting --token "$FIREBASE_TOKEN"
 
 
-  deploy-cdn:
-    <<: *defaults
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "96:02:36:2b:33:81:70:ce:37:3d:f8:9b:e5:ac:65:30"
-      - attach_workspace:
-          at: ~/
-      - run:
-          name: Deploying cdn to OVH server
-          command: bash tools/cdn/deploy.sh
-
-
 workflows:
   version: 2
   flow:
@@ -159,7 +158,7 @@ workflows:
       - build:
           requires:
             - lint
-      - deploy-cdn:
+      - deploy-hosting:
           requires:
             - build
           filters:
@@ -167,7 +166,7 @@ workflows:
               only: master
       - deploy-firebase-hosting:
           requires:
-            - deploy-cdn
+            - deploy-hosting
           filters:
             branches:
               only: master

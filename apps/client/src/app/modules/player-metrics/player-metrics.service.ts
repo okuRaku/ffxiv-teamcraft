@@ -9,9 +9,9 @@ import { MetricType } from './model/metric-type';
 import { AuthFacade } from '../../+state/auth.facade';
 import { ProbeSource } from './model/probe-source';
 import { LogTracking } from '../../model/user/log-tracking';
-import { environment } from 'apps/client/src/environments/environment';
 import { devMock } from './dev-mock';
 import { endOfDay, startOfDay } from 'date-fns';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -43,7 +43,7 @@ export class PlayerMetricsService {
               private settings: SettingsService, private authFacade: AuthFacade) {
     setInterval(() => {
       this.saveLogs();
-    }, 60000);
+    }, 10000);
     this.ipc.on('metrics:loaded', (e, files: string[]) => {
       const logs = [].concat.apply([], files.map(data => {
         return this.parseLogRows(data);

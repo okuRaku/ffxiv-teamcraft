@@ -28,10 +28,10 @@ import { AuthModule } from './core/auth/auth.module';
 import { AlarmsSidebarModule } from './modules/alarms-sidebar/alarms-sidebar.module';
 import { AlarmsModule } from './core/alarms/alarms.module';
 import { ListModule } from './modules/list/list.module';
-import { AngularFireModule } from '@angular/fire';
-import { AngularFireDatabaseModule } from '@angular/fire/database';
-import { AngularFireAuthModule } from '@angular/fire/auth';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { XivapiClientModule } from '@xivapi/angular-client';
 import { NgxDnDModule } from '@swimlane/ngx-dnd';
 import { TranslationsLoaderFactory } from './translations-loader';
@@ -59,6 +59,7 @@ import {
   LoginOutline,
   MessageOutline,
   NotificationOutline,
+  PlayCircleOutline,
   PlusOutline,
   ProfileOutline,
   ReloadOutline,
@@ -96,7 +97,7 @@ import hr from '@angular/common/locales/hr';
 import ko from '@angular/common/locales/ko';
 import { InventoryModule } from './modules/inventory/inventory.module';
 import { EorzeaModule } from './modules/eorzea/eorzea.module';
-import { AngularFireFunctionsModule } from '@angular/fire/functions';
+import { AngularFireFunctionsModule } from '@angular/fire/compat/functions';
 import { GraphQLModule } from './graphql.module';
 import { ApolloInterceptor } from './apollo-interceptor';
 import { QuickSearchModule } from './modules/quick-search/quick-search.module';
@@ -111,13 +112,17 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzAvatarModule } from 'ng-zorro-antd/avatar';
 import { NzSpinModule } from 'ng-zorro-antd/spin';
 import { NzAlertModule } from 'ng-zorro-antd/alert';
-import { AngularFireMessagingModule } from '@angular/fire/messaging';
+import { AngularFireMessagingModule } from '@angular/fire/compat/messaging';
 import { NavigationSidebarModule } from './modules/navigation-sidebar/navigation-sidebar.module';
 import { APP_INITIALIZERS } from './app-initializers';
 import { FreeCompanyWorkshopsModule } from './modules/free-company-workshops/free-company-workshops.module';
 import { AdsModule } from './modules/ads/ads.module';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { NzNoAnimationModule } from 'ng-zorro-antd/core/no-animation';
+import * as AllaganReportsGQLProviders from './pages/allagan-reports/allagan-reports.gql';
+import { LazyDataModule } from './lazy-data/lazy-data.module';
+import { initialState as listsInitialState, listsReducer } from './modules/list/+state/lists.reducer';
+import { ListsEffects } from './modules/list/+state/lists.effects';
 
 const icons: IconDefinition[] = [
   SettingOutline,
@@ -150,7 +155,8 @@ const icons: IconDefinition[] = [
   FileTextOutline,
   AppstoreOutline,
   HourglassOutline,
-  HomeOutline
+  HomeOutline,
+  PlayCircleOutline
 ];
 
 registerLocaleData(en);
@@ -187,7 +193,8 @@ const nzConfig: NzConfig = {
     { provide: NZ_ICONS, useValue: icons },
     { provide: HTTP_INTERCEPTORS, useClass: UniversalInterceptor, multi: true },
     { provide: HTTP_INTERCEPTORS, useClass: ApolloInterceptor, multi: true },
-    ...APP_INITIALIZERS
+    ...APP_INITIALIZERS,
+    ...Object.values(AllaganReportsGQLProviders)
   ],
   imports: [
     FlexLayoutModule,
@@ -284,6 +291,10 @@ const nzConfig: NzConfig = {
     EffectsModule.forRoot([]),
     StoreModule.forFeature('auth', authReducer, { initialState: authInitialState }),
     EffectsModule.forFeature([AuthEffects]),
+
+    StoreModule.forFeature('lists', listsReducer, { initialState: listsInitialState }),
+    EffectsModule.forFeature([ListsEffects]),
+
     GraphQLModule,
 
     PlayerMetricsModule,
@@ -295,7 +306,8 @@ const nzConfig: NzConfig = {
     NavigationSidebarModule,
     AdsModule,
     NgxGoogleAnalyticsModule.forRoot('G-RNVD9NJW4N'),
-    NgxGoogleAnalyticsRouterModule
+    NgxGoogleAnalyticsRouterModule,
+    LazyDataModule
   ],
   bootstrap: [AppComponent]
 })

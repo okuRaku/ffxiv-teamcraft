@@ -1,7 +1,7 @@
 <app-loading-screen *ngIf="!dataLoaded; else appLayout"></app-loading-screen>
 <ng-template #appLayout>
   <nz-layout *ngIf="!(hasDesktop$ | async); else desktopOpenedMessage" [class.no-panel-borders]="settings.noPanelBorders"
-             class="app-container">
+             class="app-container" [class.blur]="desktopLoading$ | async">
     <nz-layout *ngIf="!overlay">
       <nz-header class="header">
         <a class="logo" routerLink="/" fxLayout="row" fxLayoutAlign="center center" [innerHTML]="titleBreakpoints | widthBreakpoints"></a>
@@ -51,6 +51,15 @@
           <app-ad *ngIf="showAd$ | async" [placementId]="adsPlacementBreakpoints | widthBreakpoints"></app-ad>
         </div>
         <ul [nzMode]="'horizontal'" [nzTheme]="'dark'" class="right-menu" nz-menu>
+          <ng-container *ngIf="user$ | async as user">
+            <li *ngIf="(user.admin || user.allaganChecker) | ifMobile: false" nz-menu-item class="ant-menu-item allagan-reports">
+              <nz-badge [nzCount]="allaganReportsQueueCount$ | async">
+                <a routerLink="/allagan-reports" class="allagan-link">
+                  {{'ALLAGAN_REPORTS.Title' | translate}}
+                </a>
+              </nz-badge>
+            </li>
+          </ng-container>
           <ng-container *ngIf="pinnedList$ | async as pinnedList">
             <li *ngIf="pinnedList !== 'none'"
                 class="ant-menu-item"
@@ -111,7 +120,7 @@
           </li>
           <li [class.accent]="!(loggedIn$ | async)" class="user-menu" nz-submenu nzMenuClassName="user-menu-content">
             <span title class="user-menu-title">
-              <nz-spin *ngIf="loading$ | async; else authDetails"></nz-spin>
+              <nz-spin class="user-loading" *ngIf="loading$ | async; else authDetails"></nz-spin>
               <ng-template #authDetails>
                 <span *ngIf="!(loggedIn$ | async); else userLoggedIn">
                   <nz-avatar [nzText]="'A'">
@@ -122,13 +131,16 @@
               <ng-template #userLoggedIn>
                 <div *ngIf="character$ | async as character; else emptyCharacter"
                      tutorialStep="TUTORIAL.APP.Profile" tutorialStepIndex="999" tutorialStepAlign="bottom">
-                  <app-user-avatar *ngIf="character.ID > 0; else krAvatar" [flex]="false" [ignoreVerification]="true"
-                                   [userId]="userId$ | async"
-                                   [width]="32"></app-user-avatar>
-                  <ng-template #krAvatar>
-                    <nz-avatar [nzText]="character.Name[0]"></nz-avatar>
-                  </ng-template>
-                  {{character.Name | ifMobile:''}}
+                  <nz-spin class="user-loading" *ngIf="character.loading"></nz-spin>
+                  <ng-container *ngIf="!character.loading">
+                    <app-user-avatar *ngIf="character.ID > 0; else krAvatar" [flex]="false" [ignoreVerification]="true"
+                                     [userId]="userId$ | async"
+                                     [width]="32"></app-user-avatar>
+                    <ng-template #krAvatar>
+                      <nz-avatar [nzText]="character.Name[0]"></nz-avatar>
+                    </ng-template>
+                      {{character.Name | ifMobile:''}}
+                  </ng-container>
                 </div>
               </ng-template>
               <ng-template #emptyCharacter>
@@ -263,6 +275,17 @@
         </div>
       </nz-sider>
       <nz-content>
+        <div class="slider" *ngIf="loadingLazyData$ | async">
+          <div class="line"></div>
+          <div class="subline inc"></div>
+          <div class="subline dec"></div>
+        </div>
+        <nz-alert nzBanner nzType="info"
+                  [nzMessage]="'ALLAGAN_REPORTS.Feature_banner_title' | translate"
+                  [nzDescription]="'ALLAGAN_REPORTS.Feature_banner_description' | translate"
+                  nzCloseable
+                  *ngIf="showNewFeatureBanner" (nzOnClose)="hideFeatureBanner()">
+        </nz-alert>
         <div [class.overlay]="overlay" [class.with-clock]="settings.getOverlayClockDisplay(ipc.overlayUri)" class="page-container">
           <nz-alert *ngIf="(newVersionAvailable$ | async) && !platformService.isDesktop()" [nzMessage]="message" class="new-version-alert"
                     nzBanner
@@ -273,7 +296,7 @@
               {{'UPDATE.Web_instructions' | translate}}
             </ng-template>
           </nz-alert>
-          <nz-alert *ngIf="ipc.machinaToggle && (pcapOutDated$ | async)"
+          <nz-alert *ngIf="ipc.machinaToggle && (pcapOutDated$ | async) && !overlay"
                     [nzMessage]="'PACKET_CAPTURE.Outdated' | translate"
                     [nzDescription]="'PACKET_CAPTURE.Outdated_description' | translate"
                     class="new-version-alert"
@@ -281,6 +304,12 @@
                     nzShowIcon
                     nzCloseable
                     nzType="warning">
+          </nz-alert>
+          <nz-alert *ngIf="ipc.machinaToggle && !(loggedIn$ | async)"
+                    [nzMessage]="'PACKET_CAPTURE.Not_as_anonymous' | translate"
+                    [nzDescription]="'PACKET_CAPTURE.Not_as_anonymous_description' | translate"
+                    class="new-version-alert"
+                    nzBanner nzShowIcon nzType="error">
           </nz-alert>
           <nz-alert (nzOnClose)="settings.hideRegionBanner = true" *ngIf="!settings.hideRegionBanner && suggestedRegion"
                     [nzCloseText]="'Close' | translate"
@@ -385,6 +414,8 @@
     <div class="opened-in-desktop" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="20px">
       <img alt="FFXIV Teamcraft" src="./assets/logo.png">
       <div class="desktop-message">{{'COMMON.Opened_in_desktop' | translate}}</div>
+      <div class="desktop-message-description">{{'COMMON.Opened_in_desktop_setting' | translate}}</div>
+      <div class="desktop-message-button"><button nz-button (click)="disableAutoOpen()">{{'COMMON.Opened_in_desktop_button' | translate}}</button></div>
     </div>
   </ng-template>
 </ng-template>
